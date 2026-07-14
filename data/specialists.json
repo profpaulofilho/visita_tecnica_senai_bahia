@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ESP001",
+    "nome": "Paulo Filho",
+    "slug": "paulo-filho",
+    "avatar": "assets/avatars/paulo-filho.jpeg",
+    "cor": "#0B6EFD",
+    "visitas": []
+  },
+  {
+    "id": "ESP002",
+    "nome": "Felipe dos Anjos",
+    "slug": "felipe-dos-anjos",
+    "avatar": "assets/avatars/felipe-dos-anjos.jpg",
+    "cor": "#6F42C1",
+    "visitas": []
+  },
+  {
+    "id": "ESP003",
+    "nome": "Joilma Chaves",
+    "slug": "joilma-chaves",
+    "avatar": "assets/avatars/joilma-chaves.jpg",
+    "cor": "#D63384",
+    "visitas": []
+  },
+  {
+    "id": "ESP004",
+    "nome": "Verônica",
+    "slug": "veronica",
+    "avatar": "assets/avatars/veronica.jpg",
+    "cor": "#198754",
+    "visitas": []
+  },
+  {
+    "id": "ESP005",
+    "nome": "Lígia",
+    "slug": "ligia",
+    "avatar": "assets/avatars/ligia.jpg",
+    "cor": "#FD7E14",
+    "visitas": []
+  },
+  {
+    "id": "ESP006",
+    "nome": "Juliana Neri",
+    "slug": "juliana-neri",
+    "avatar": "assets/avatars/juliana-neri.jpg",
+    "cor": "#20C997",
+    "visitas": []
+  },
+  {
+    "id": "ESP007",
+    "nome": "Marcos Paulo",
+    "slug": "marcos-paulo",
+    "avatar": "assets/avatars/marcos-paulo.jpg",
+    "cor": "#DC3545",
+    "visitas": []
+  }
+]
