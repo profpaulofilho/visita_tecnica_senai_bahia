@@ -1,0 +1,218 @@
+<!-- Relatorio SENAI TI - Renomeie para .html e abra no navegador -->
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="UTF-8">
+<title>Relatório SENAI — Dendezeiros</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#010d1a;color:#b8ddf5;padding:32px}
+.page{max-width:1000px;margin:0 auto}
+.hdr{display:flex;align-items:center;gap:18px;padding:22px 28px;
+  background:#041e36;border:1px solid #0c3d66;border-radius:14px;margin-bottom:30px}
+.hdr-text h1{color:#00c8f5;font-size:18px;letter-spacing:3px;margin-bottom:4px}
+.hdr-text p{font-size:12px;color:#486f8c}.ts{font-size:12px;color:#486f8c;margin-left:auto;text-align:right}
+h2{color:#006fe6;font-size:11px;letter-spacing:3px;margin:28px 0 14px;text-transform:uppercase;border-bottom:1px solid #0c3d66;padding-bottom:8px}
+table{width:100%;border-collapse:collapse;margin-bottom:20px}
+td,th{padding:10px 14px;text-align:left;border-bottom:1px solid rgba(12,61,102,.4);font-size:13px}
+th{color:#00c8f5;font-size:10px;letter-spacing:1px;text-transform:uppercase;background:rgba(0,200,245,.06)}
+.v{color:#fff;font-weight:500}.va{color:#00c8f5}.vg{color:#00f5a0}.vw{color:#ff7240}.vr{color:#ff3060}
+.b{padding:3px 10px;border-radius:99px;font-size:11px;display:inline-block}
+.bok{background:rgba(0,245,160,.1);color:#00f5a0;border:1px solid #00f5a0}
+.bno{background:rgba(255,114,64,.1);color:#ff7240;border:1px solid #ff7240}
+.ber{background:rgba(255,48,96,.1);color:#ff3060;border:1px solid #ff3060}
+.lab-blk{background:#041e36;border:1px solid #0c3d66;border-radius:10px;padding:18px 22px;margin-bottom:16px}
+.lab-t{font-size:10px;color:#006fe6;letter-spacing:2px;margin-bottom:12px;text-transform:uppercase}
+.dest{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin-bottom:24px}
+.dest-item{background:#041e36;border:1px solid #0c3d66;border-radius:10px;padding:16px;text-align:center}
+.dest-label{font-size:10px;color:#486f8c;letter-spacing:2px;text-transform:uppercase;margin-bottom:8px}
+.dest-val{font-size:16px;font-weight:700;word-break:break-all}
+.grp-hdr td{color:#486f8c;font-size:10px;text-transform:uppercase;background:rgba(0,0,0,.4)}
+footer{text-align:center;padding:24px;color:#486f8c;font-size:12px;margin-top:36px;border-top:1px solid #0c3d66}
+footer span{color:#00c8f5}
+@media print{
+  @page{margin:15mm}
+  *{background:#fff!important;color:#1a1a1a!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .hdr{background:#f0f4ff!important;border:2px solid #336!important}
+  h2{color:#003!important;border-bottom:2px solid #336!important}
+  td,th{border-bottom:1px solid #bbb!important;color:#111!important}
+  th{background:#dde!important;color:#003!important}
+  .v{color:#111!important;font-weight:600}.va{color:#003399!important}.vg{color:#006600!important}
+  .lab-blk,.dest-item{background:#f0f4ff!important;border:1.5px solid #336!important}
+  .bok{background:#d4f5d4!important;color:#065!important;border-color:#065!important}
+  .bno{background:#ffe8d8!important;color:#830!important;border-color:#830!important}
+  .ber{background:#ffd8d8!important;color:#800!important;border-color:#800!important}
+  footer{color:#555!important}footer span{color:#003!important}
+}
+</style></head><body><div class="page">
+<div class="hdr">
+  <img src="data:image/jpeg;base64,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" alt="SENAI" style="height:48px;object-fit:contain;background:#fff;border-radius:6px;padding:4px 10px;">
+  <div class="hdr-text"><h1>RELATÓRIO DE DIAGNÓSTICO DE LABORATÓRIO TI</h1>
+  <p>Visita Técnica — Levantamento de Infraestrutura · Dendezeiros</p></div>
+  <div class="ts">Gerado em:<br>25/03/2026 14:38:29</div>
+</div>
+<h2>📋 Dados da Visita</h2>
+<table><tr><th>Campo</th><th>Informação</th></tr>
+<tr><td>Especialista</td><td class="v va">Paulo da Silva Filho</td></tr>
+<tr><td>Unidade SENAI</td><td class="v">Dendezeiros</td></tr>
+<tr><td>Data</td><td class="v">quarta-feira, 25 de março de 2026</td></tr>
+<tr><td>Acompanhante</td><td class="v">Bruno NTI</td></tr>
+</table>
+<h2>🌐 Identificação na Rede</h2>
+<div class="dest">
+  <div class="dest-item"><div class="dest-label">Hostname</div><div class="dest-val va">C302-LABC10-029</div></div>
+  <div class="dest-item"><div class="dest-label">Endereço IP</div><div class="dest-val vg">172.26.113.35</div></div>
+  <div class="dest-item"><div class="dest-label">Domínio</div><div class="dest-val">senaiba.com.br</div></div>
+</div>
+<table><tr><th>Item</th><th>Informação</th></tr>
+<tr><td>Tipo de Conexão</td><td class="v va">Ethernet</td></tr>
+<tr><td>Velocidade</td><td class="v vg">100 Mbps</td></tr>
+<tr><td>MAC</td><td class="v">88-AE-DD-3A-E7-71</td></tr>
+<tr><td>Gateway</td><td class="v">172.26.112.1</td></tr>
+<tr><td>DNS</td><td class="v">172.26.110.10 / 8.8.8.8 / 8.8.4.4 / 10.200.0.2</td></tr>
+<tr><td>Internet</td><td class="v vg">✓ Conectado</td></tr>
+</table>
+<h2>🖥️ Laboratório</h2>
+<div class="lab-blk">
+  <div class="lab-t">◈ C10</div>
+  <table>
+    <tr><td style="width:220px">Computadores</td><td class="v vg">49</td></tr>
+    <tr><td>Código/Patrimônio</td><td class="v">000</td></tr>
+    <tr><td>Observações</td><td class="v">—</td></tr>
+  </table>
+</div>
+<h2>⚙️ Hardware</h2>
+<table><tr><th>Componente</th><th>Informação</th></tr>
+<tr><td>Processador</td><td class="v va">13th Gen Intel(R) Core(TM) i5-13500T</td></tr>
+<tr><td>Família</td><td class="v">INTEL</td></tr>
+<tr><td>Núcleos Físicos / Lógicos</td><td class="v">14 / 20</td></tr>
+<tr><td>Frequência</td><td class="v">1600 MHz / 1600 MHz máx</td></tr>
+<tr><td>RAM Total / Tipo</td><td class="v vg">15.75 GB — DDR (cód 3200) 0 MHz</td></tr>
+<tr><td>Disco (C:\)</td><td class="v"><b>HDD</b> · 237.63 GB total · 18.37 GB livre</td></tr><tr><td>Disco (D:\)</td><td class="v"><b>HDD</b> · 230.9 GB total · 193.26 GB livre</td></tr><tr><td>Disco (E:\)</td><td class="v"><b>HDD</b> · 0.03 GB total · N/D GB livre</td></tr>
+</table>
+<h2>💿 Sistema Operacional</h2>
+<table><tr><th>Item</th><th>Informação</th></tr>
+<tr><td>Sistema</td><td class="v va">Windows 10 Enterprise (Build 26200, v25H2)</td></tr>
+<tr><td>Arquitetura</td><td class="v vg">64 bits</td></tr>
+<tr><td>Data de Instalação</td><td class="v">18/12/2024</td></tr>
+<tr><td>Último Boot</td><td class="v">25/03/2026 14:34:26</td></tr>
+</table>
+<h2>📦 Apps DS</h2>
+<table><tr><th>Aplicativo</th><th>Grupo</th><th>Prioridade</th><th>Versão</th><th>Status</th></tr>
+<tr><td class="v">Visual Studio Code</td><td style="color:#486f8c">IDE/Editor</td>
+<td style="color:#ff3060">ESSENCIAL</td>
+<td style="font-size:11px">—</td>
+<td><span class="b ber">○ Não encontrado</span></td></tr><tr><td class="v">IntelliJ IDEA</td><td style="color:#486f8c">IDE/Editor</td>
+<td style="color:#ff7240">RECOMENDADO</td>
+<td style="font-size:11px">—</td>
+<td><span class="b bno">○ Não encontrado</span></td></tr><tr><td class="v">Eclipse IDE</td><td style="color:#486f8c">IDE/Editor</td>
+<td style="color:#ff7240">RECOMENDADO</td>
+<td style="font-size:11px">—</td>
+<td><span class="b bno">○ Não encontrado</span></td></tr><tr><td class="v">PyCharm</td><td style="color:#486f8c">IDE/Editor</td>
+<td style="color:#ff7240">RECOMENDADO</td>
+<td style="font-size:11px">—</td>
+<td><span class="b bno">○ Não encontrado</span></td></tr><tr><td class="v">NetBeans</td><td style="color:#486f8c">IDE/Editor</td>
+<td style="color:#486f8c">OPCIONAL</td>
+<td style="font-size:11px">—</td>
+<td><span class="b bno">○ Não encontrado</span></td></tr><tr><td class="v">Sublime Text</td><td style="color:#486f8c">IDE/Editor</td>
+<td style="color:#486f8c">OPCIONAL</td>
+<td style="font-size:11px">—</td>
+<td><span class="b bno">○ Não encontrado</span></td></tr><tr><td class="v">Notepad++</td><td style="color:#486f8c">IDE/Editor</td>
+<td style="color:#486f8c">OPCIONAL</td>
+<td style="font-size:11px">—</td>
+<td><span class="b bno">○ Não encontrado</span></td></tr><tr><td class="v">Python</td><td style="color:#486f8c">Linguagem/Runtime</td>
+<td style="color:#ff3060">ESSENCIAL</td>
+<td style="font-size:11px">3.12.6150.0</td>
+<td><span class="b bok">✓ Instalado</span></td></tr><tr><td class="v">Java JDK</td><td style="color:#486f8c">Linguagem/Runtime</td>
+<td style="color:#ff3060">ESSENCIAL</td>
+<td style="font-size:11px">—</td>
+<td><span class="b ber">○ Não encontrado</span></td></tr><tr><td class="v">Node.js</td><td style="color:#486f8c">Linguagem/Runtime</td>
+<td style="color:#ff3060">ESSENCIAL</td>
+<td style="font-size:11px">—</td>
+<td><span class="b ber">○ Não encontrado</span></td></tr><tr><td class="v">PHP</td><td style="color:#486f8c">Linguagem/Runtime</td>
+<td style="color:#ff7240">RECOMENDADO</td>
+<td style="font-size:11px">—</td>
+<td><span class="b bno">○ Não encontrado</span></td></tr><tr><td class="v">.NET Framework</td><td style="color:#486f8c">Linguagem/Runtime</td>
+<td style="color:#ff7240">RECOMENDADO</td>
+<td style="font-size:11px">—</td>
+<td><span class="b bno">○ Não encontrado</span></td></tr><tr><td class="v">Ruby</td><td style="color:#486f8c">Linguagem/Runtime</td>
+<td style="color:#486f8c">OPCIONAL</td>
+<td style="font-size:11px">—</td>
+<td><span class="b bno">○ Não encontrado</span></td></tr><tr><td class="v">Go</td><td style="color:#486f8c">Linguagem/Runtime</td>
+<td style="color:#486f8c">OPCIONAL</td>
+<td style="font-size:11px">—</td>
+<td><span class="b bno">○ Não encontrado</span></td></tr><tr><td class="v">Git</td><td style="color:#486f8c">Controle de Versão</td>
+<td style="color:#ff3060">ESSENCIAL</td>
+<td style="font-size:11px">—</td>
+<td><span class="b ber">○ Não encontrado</span></td></tr><tr><td class="v">GitHub Desktop</td><td style="color:#486f8c">Controle de Versão</td>
+<td style="color:#486f8c">OPCIONAL</td>
+<td style="font-size:11px">—</td>
+<td><span class="b bno">○ Não encontrado</span></td></tr><tr><td class="v">Sourcetree</td><td style="color:#486f8c">Controle de Versão</td>
+<td style="color:#486f8c">OPCIONAL</td>
+<td style="font-size:11px">—</td>
+<td><span class="b bno">○ Não encontrado</span></td></tr><tr><td class="v">MySQL</td><td style="color:#486f8c">Banco de Dados</td>
+<td style="color:#ff3060">ESSENCIAL</td>
+<td style="font-size:11px">—</td>
+<td><span class="b ber">○ Não encontrado</span></td></tr><tr><td class="v">MySQL Workbench</td><td style="color:#486f8c">Banco de Dados</td>
+<td style="color:#ff7240">RECOMENDADO</td>
+<td style="font-size:11px">—</td>
+<td><span class="b bno">○ Não encontrado</span></td></tr><tr><td class="v">PostgreSQL</td><td style="color:#486f8c">Banco de Dados</td>
+<td style="color:#ff7240">RECOMENDADO</td>
+<td style="font-size:11px">—</td>
+<td><span class="b bno">○ Não encontrado</span></td></tr><tr><td class="v">MongoDB</td><td style="color:#486f8c">Banco de Dados</td>
+<td style="color:#ff7240">RECOMENDADO</td>
+<td style="font-size:11px">1.44.4</td>
+<td><span class="b bok">✓ Instalado</span></td></tr><tr><td class="v">DBeaver</td><td style="color:#486f8c">Banco de Dados</td>
+<td style="color:#ff7240">RECOMENDADO</td>
+<td style="font-size:11px">—</td>
+<td><span class="b bno">○ Não encontrado</span></td></tr><tr><td class="v">SQL Server</td><td style="color:#486f8c">Banco de Dados</td>
+<td style="color:#486f8c">OPCIONAL</td>
+<td style="font-size:11px">—</td>
+<td><span class="b bno">○ Não encontrado</span></td></tr><tr><td class="v">XAMPP</td><td style="color:#486f8c">Ambiente Web</td>
+<td style="color:#ff7240">RECOMENDADO</td>
+<td style="font-size:11px">—</td>
+<td><span class="b bno">○ Não encontrado</span></td></tr><tr><td class="v">Postman</td><td style="color:#486f8c">API/Testes</td>
+<td style="color:#ff7240">RECOMENDADO</td>
+<td style="font-size:11px">—</td>
+<td><span class="b bno">○ Não encontrado</span></td></tr><tr><td class="v">Insomnia</td><td style="color:#486f8c">API/Testes</td>
+<td style="color:#486f8c">OPCIONAL</td>
+<td style="font-size:11px">—</td>
+<td><span class="b bno">○ Não encontrado</span></td></tr><tr><td class="v">Docker</td><td style="color:#486f8c">DevOps</td>
+<td style="color:#ff7240">RECOMENDADO</td>
+<td style="font-size:11px">—</td>
+<td><span class="b bno">○ Não encontrado</span></td></tr><tr><td class="v">Android Studio</td><td style="color:#486f8c">Mobile</td>
+<td style="color:#ff7240">RECOMENDADO</td>
+<td style="font-size:11px">—</td>
+<td><span class="b bno">○ Não encontrado</span></td></tr><tr><td class="v">Google Chrome</td><td style="color:#486f8c">Navegador</td>
+<td style="color:#ff7240">RECOMENDADO</td>
+<td style="font-size:11px">—</td>
+<td><span class="b bno">○ Não encontrado</span></td></tr><tr><td class="v">Mozilla Firefox</td><td style="color:#486f8c">Navegador</td>
+<td style="color:#ff7240">RECOMENDADO</td>
+<td style="font-size:11px">—</td>
+<td><span class="b bno">○ Não encontrado</span></td></tr><tr><td class="v">Microsoft Office</td><td style="color:#486f8c">Produtividade</td>
+<td style="color:#486f8c">OPCIONAL</td>
+<td style="font-size:11px">—</td>
+<td><span class="b bno">○ Não encontrado</span></td></tr><tr><td class="v">LibreOffice</td><td style="color:#486f8c">Produtividade</td>
+<td style="color:#486f8c">OPCIONAL</td>
+<td style="font-size:11px">—</td>
+<td><span class="b bno">○ Não encontrado</span></td></tr><tr><td class="v">Figma</td><td style="color:#486f8c">Design/UX</td>
+<td style="color:#486f8c">OPCIONAL</td>
+<td style="font-size:11px">116.18.6</td>
+<td><span class="b bok">✓ Instalado</span></td></tr>
+</table>
+<h2>📋 Todos os Apps (7)</h2>
+<table><tr><th>Nome</th><th>Versão</th><th>Publicador</th><th>Data</th></tr>
+<tr><td class="v">7-Zip 24.09 (x64)</td><td style="font-size:11px;color:#00c8f5">24.09</td><td style="font-size:11px;color:#486f8c">Igor Pavlov</td><td style="font-size:11px">N/D</td></tr><tr><td class="v">Arduino IDE 2.3.3</td><td style="font-size:11px;color:#00c8f5">2.3.3</td><td style="font-size:11px;color:#486f8c">Arduino SA</td><td style="font-size:11px">N/D</td></tr><tr><td class="v">Figma</td><td style="font-size:11px;color:#00c8f5">116.18.6</td><td style="font-size:11px;color:#486f8c">Figma, Inc.</td><td style="font-size:11px">19/09/2024</td></tr><tr><td class="v">Figma Agent</td><td style="font-size:11px;color:#00c8f5">126.1.2</td><td style="font-size:11px;color:#486f8c">Figma, Inc.</td><td style="font-size:11px">N/D</td></tr><tr><td class="v">MongoDB Compass</td><td style="font-size:11px;color:#00c8f5">1.44.4</td><td style="font-size:11px;color:#486f8c">MongoDB Inc</td><td style="font-size:11px">20/09/2024</td></tr><tr><td class="v">Python 3.12.6 (64-bit)</td><td style="font-size:11px;color:#00c8f5">3.12.6150.0</td><td style="font-size:11px;color:#486f8c">Python Software Foundation</td><td style="font-size:11px">N/D</td></tr><tr><td class="v">Visual Studio Community 2022</td><td style="font-size:11px;color:#00c8f5">17.11.4</td><td style="font-size:11px;color:#486f8c">Microsoft Corporation</td><td style="font-size:11px">20/09/2024</td></tr>
+</table>
+<h2>✅ Compatibilidade</h2>
+<table><tr><th>Critério</th><th>Detalhe</th><th>Status</th></tr>
+<tr><td class="v">Windows 10/11</td><td style="font-size:11px;color:#486f8c">Windows 10 Enterprise (Build 26200, v25H2)</td>
+<td><span class="b bok">✓ OK</span></td></tr><tr><td class="v">Arquitetura 64 bits</td><td style="font-size:11px;color:#486f8c">64 bits</td>
+<td><span class="b bok">✓ OK</span></td></tr><tr><td class="v">CPU 4+ núcleos físicos</td><td style="font-size:11px;color:#486f8c">14 núcleos</td>
+<td><span class="b bok">✓ OK</span></td></tr><tr><td class="v">CPU 2.0 GHz+</td><td style="font-size:11px;color:#486f8c">1600.0 MHz</td>
+<td><span class="b bno">⚠ Verificar</span></td></tr><tr><td class="v">RAM 8 GB+</td><td style="font-size:11px;color:#486f8c">15.8 GB</td>
+<td><span class="b bok">✓ OK</span></td></tr><tr><td class="v">RAM 16 GB (Android Studio)</td><td style="font-size:11px;color:#486f8c">15.8 GB</td>
+<td><span class="b bno">⚠ Verificar</span></td></tr><tr><td class="v">Espaço livre 20 GB+</td><td style="font-size:11px;color:#486f8c">18.4 GB livres</td>
+<td><span class="b bno">⚠ Verificar</span></td></tr><tr><td class="v">SSD/NVMe</td><td style="font-size:11px;color:#486f8c">HDD</td>
+<td><span class="b bno">⚠ Verificar</span></td></tr>
+</table>
+<footer>Relatório gerado em 25/03/2026 14:38:29 • Desenvolvido por <span>Paulo da Silva Filho</span> — Especialista de TI · <span>SENAI Bahia</span></footer>
+</div></body></html>
