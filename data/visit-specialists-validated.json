@@ -1,0 +1,157 @@
+{
+  "VIS001": {
+    "cidade": "Salvador",
+    "unidade": "SENAI Dendezeiros",
+    "especialistas_confirmados": [
+      "ESP006",
+      "ESP004",
+      "ESP001",
+      "ESP007"
+    ],
+    "fonte": "Relatórios + validações manuais do responsável pelo projeto"
+  },
+  "VIS002": {
+    "cidade": "Lauro de Freitas",
+    "unidade": "SENAI Lauro de Freitas",
+    "especialistas_confirmados": [
+      "ESP001",
+      "ESP007"
+    ],
+    "fonte": "Relatórios + validações manuais do responsável pelo projeto"
+  },
+  "VIS003": {
+    "cidade": "Candeias",
+    "unidade": "SENAI Candeias",
+    "especialistas_confirmados": [
+      "ESP006",
+      "ESP003"
+    ],
+    "fonte": "Relatórios + validações manuais do responsável pelo projeto"
+  },
+  "VIS004": {
+    "cidade": "Camaçari",
+    "unidade": "SENAI Camaçari",
+    "especialistas_confirmados": [
+      "ESP004",
+      "ESP001",
+      "ESP007"
+    ],
+    "fonte": "Relatórios + validações manuais do responsável pelo projeto"
+  },
+  "VIS005": {
+    "cidade": "Teixeira de Freitas",
+    "unidade": "SENAI Teixeira de Freitas",
+    "especialistas_confirmados": [
+      "ESP005"
+    ],
+    "fonte": "Relatórios + validações manuais do responsável pelo projeto"
+  },
+  "VIS006": {
+    "cidade": "Eunápolis",
+    "unidade": "SENAI Eunápolis",
+    "especialistas_confirmados": [],
+    "fonte": "Relatórios + validações manuais do responsável pelo projeto"
+  },
+  "VIS007": {
+    "cidade": "Ilhéus",
+    "unidade": "SENAI Ilhéus",
+    "especialistas_confirmados": [
+      "ESP003",
+      "ESP006"
+    ],
+    "fonte": "Relatórios + validações manuais do responsável pelo projeto"
+  },
+  "VIS008": {
+    "cidade": "Vitória da Conquista",
+    "unidade": "SENAI Vitória da Conquista",
+    "especialistas_confirmados": [
+      "ESP007",
+      "ESP005"
+    ],
+    "fonte": "Relatórios + validações manuais do responsável pelo projeto"
+  },
+  "VIS009": {
+    "cidade": "Serrinha",
+    "unidade": "SENAI Serrinha",
+    "especialistas_confirmados": [
+      "ESP007",
+      "ESP003"
+    ],
+    "fonte": "Relatórios + validações manuais do responsável pelo projeto"
+  },
+  "VIS010": {
+    "cidade": "Barreiras",
+    "unidade": "SENAI Barreiras",
+    "especialistas_confirmados": [
+      "ESP005",
+      "ESP003"
+    ],
+    "fonte": "Relatórios + validações manuais do responsável pelo projeto"
+  },
+  "VIS011": {
+    "cidade": "Luís Eduardo Magalhães",
+    "unidade": "SENAI Luís Eduardo Magalhães",
+    "especialistas_confirmados": [
+      "ESP005",
+      "ESP003"
+    ],
+    "fonte": "Relatórios + validações manuais do responsável pelo projeto"
+  },
+  "VIS012": {
+    "cidade": "Alagoinhas",
+    "unidade": "SENAI Alagoinhas",
+    "especialistas_confirmados": [],
+    "fonte": "Relatórios + validações manuais do responsável pelo projeto"
+  },
+  "VIS013": {
+    "cidade": "Feira de Santana",
+    "unidade": "SENAI Feira de Santana",
+    "especialistas_confirmados": [
+      "ESP004",
+      "ESP007",
+      "ESP003"
+    ],
+    "fonte": "Relatórios + validações manuais do responsável pelo projeto"
+  },
+  "VIS014": {
+    "cidade": "Santo Antônio de Jesus",
+    "unidade": "SENAI Santo Antônio de Jesus",
+    "especialistas_confirmados": [],
+    "fonte": "Relatórios + validações manuais do responsável pelo projeto"
+  },
+  "VIS015": {
+    "cidade": "Ourolândia",
+    "unidade": "SENAI Ourolândia",
+    "especialistas_confirmados": [
+      "ESP003",
+      "ESP006"
+    ],
+    "fonte": "Relatórios + validações manuais do responsável pelo projeto"
+  },
+  "VIS016": {
+    "cidade": "Jacobina",
+    "unidade": "SENAI Jacobina",
+    "especialistas_confirmados": [],
+    "fonte": "Relatórios + validações manuais do responsável pelo projeto"
+  },
+  "VIS017": {
+    "cidade": "Senhor do Bonfim",
+    "unidade": "SENAI Senhor do Bonfim",
+    "especialistas_confirmados": [],
+    "fonte": "Relatórios + validações manuais do responsável pelo projeto"
+  },
+  "VIS018": {
+    "cidade": "Juazeiro",
+    "unidade": "SENAI Juazeiro",
+    "especialistas_confirmados": [],
+    "fonte": "Relatórios + validações manuais do responsável pelo projeto"
+  },
+  "VIS019": {
+    "cidade": "Jequié",
+    "unidade": "SENAI Jequié",
+    "especialistas_confirmados": [
+      "ESP005"
+    ],
+    "fonte": "Relatórios + validações manuais do responsável pelo projeto"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "versao": "1.0.1",
+  "versao": "1.0.3",
   "data": "2026-07-14",
   "regras": [
     "Paulo Filho sem visitas presenciais e sem quilometragem entre 12/04/2026 e 16/05/2026.",
@@ -8,9 +8,9 @@
     "Distâncias recalculadas após exclusão do período de férias."
   ],
   "correcoes": [
-    "Paulo Filho removido de Vitória da Conquista.",
-    "Qualquer registro futuro de Itabuna não atribuirá Paulo Filho automaticamente.",
-    "Atividades automatizadas/remotas não entram em quilometragem.",
-    "Jequié usa a mesma cor visual das demais unidades."
+    "Visitas anteriores de Marcos Paulo preservadas.",
+    "Dendezeiros, Lauro de Freitas e Camaçari adicionadas às visitas já existentes de Marcos Paulo.",
+    "Paulo Filho mantido apenas em Dendezeiros, Lauro de Freitas e Camaçari.",
+    "Trilhas, contadores e quilometragens recalculados sem apagar vínculos anteriores."
   ]
 }

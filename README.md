@@ -58,3 +58,11 @@ A quilometragem exibida é uma estimativa geodésica entre as unidades confirmad
 - Nenhuma atividade automatizada/remota entra em visita presencial ou quilometragem.
 - Não há unidade Itabuna na base atual; qualquer futura entrada não será vinculada automaticamente a Paulo Filho.
 - Jequié mantém a observação de visita fora da programação original, mas usa o mesmo marcador azul das demais unidades.
+
+
+## Release 1.0.3
+Correção da lógica de Marcos Paulo:
+- todas as visitas já registradas foram preservadas;
+- Dendezeiros, Lauro de Freitas e Camaçari foram adicionadas às visitas anteriores;
+- nenhuma associação anterior foi removida;
+- trilha, contador e quilometragem foram recalculados.

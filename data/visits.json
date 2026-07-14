@@ -27,7 +27,8 @@
     "especialistas": [
       "ESP006",
       "ESP004",
-      "ESP001"
+      "ESP001",
+      "ESP007"
     ],
     "observacao": "Data realizada adotada conforme relatórios. Programação original: 23/02/2026.",
     "data_programada_inicio": null,
@@ -1533,16 +1534,6 @@
         "origem": "Campo PARTICIPANTES do relatório"
       },
       {
-        "id": "ESP001",
-        "nome": "Paulo Filho",
-        "avatar": "assets/avatars/paulo-filho.jpeg",
-        "areas": [
-          "Tecnologia da Informação",
-          "Redes de Computadores"
-        ],
-        "origem": "Vínculo validado por área de atuação em TI"
-      },
-      {
         "id": "P-taina",
         "nome": "Tainá",
         "avatar": null,
@@ -1590,6 +1581,27 @@
           "Construção Civil"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
+      },
+      {
+        "id": "ESP001",
+        "nome": "Paulo Filho",
+        "avatar": "assets/avatars/paulo-filho.jpeg",
+        "areas": [
+          "Tecnologia da Informação",
+          "Redes de Computadores",
+          "Desenvolvimento de Sistemas / Informática"
+        ],
+        "origem": "Validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP007",
+        "nome": "Marcos Paulo",
+        "avatar": "assets/avatars/marcos-paulo.jpg",
+        "areas": [
+          "Eletromecânica",
+          "Refrigeração"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
       }
     ],
     "acompanhantes": [
@@ -1638,7 +1650,8 @@
       "Desenvolvimento de Sistemas / Informática"
     ],
     "especialistas": [
-      "ESP001"
+      "ESP001",
+      "ESP007"
     ],
     "observacao": "",
     "data_programada_inicio": "2026-02-24",
@@ -2891,16 +2904,6 @@
         "origem": "Campo PARTICIPANTES do relatório"
       },
       {
-        "id": "ESP001",
-        "nome": "Paulo Filho",
-        "avatar": "assets/avatars/paulo-filho.jpeg",
-        "areas": [
-          "Tecnologia da Informação",
-          "Redes de Computadores"
-        ],
-        "origem": "Vínculo validado por área de atuação em TI"
-      },
-      {
         "id": "P-iran",
         "nome": "Iran",
         "avatar": null,
@@ -2940,6 +2943,27 @@
           "Automação"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
+      },
+      {
+        "id": "ESP001",
+        "nome": "Paulo Filho",
+        "avatar": "assets/avatars/paulo-filho.jpeg",
+        "areas": [
+          "Tecnologia da Informação",
+          "Redes de Computadores",
+          "Desenvolvimento de Sistemas / Informática"
+        ],
+        "origem": "Validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP007",
+        "nome": "Marcos Paulo",
+        "avatar": "assets/avatars/marcos-paulo.jpg",
+        "areas": [
+          "Eletromecânica",
+          "Refrigeração"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
       }
     ],
     "acompanhantes": [
@@ -3190,8 +3214,9 @@
       "Automação"
     ],
     "especialistas": [
+      "ESP004",
       "ESP001",
-      "ESP004"
+      "ESP007"
     ],
     "observacao": "",
     "data_programada_inicio": "2026-02-26",
@@ -3888,15 +3913,6 @@
         "origem": "Campo PARTICIPANTES do relatório"
       },
       {
-        "id": "ESP001",
-        "nome": "Paulo Filho",
-        "avatar": "assets/avatars/paulo-filho.jpeg",
-        "areas": [
-          "Tecnologia da Informação"
-        ],
-        "origem": "Vínculo validado por área de atuação em TI"
-      },
-      {
         "id": "ESP004",
         "nome": "Verônica",
         "avatar": "assets/avatars/veronica.jpg",
@@ -3943,6 +3959,24 @@
           "Automação"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
+      },
+      {
+        "id": "ESP001",
+        "nome": "Paulo Filho",
+        "avatar": "assets/avatars/paulo-filho.jpeg",
+        "areas": [
+          "Tecnologia da Informação"
+        ],
+        "origem": "Validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP007",
+        "nome": "Marcos Paulo",
+        "avatar": "assets/avatars/marcos-paulo.jpg",
+        "areas": [
+          "Eletromecânica"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
       }
     ],
     "acompanhantes": [
@@ -5764,8 +5798,7 @@
     ],
     "especialistas": [
       "ESP003",
-      "ESP006",
-      "ESP001"
+      "ESP006"
     ],
     "observacao": "",
     "data_programada_inicio": "2026-03-16",
@@ -7305,16 +7338,6 @@
           "Refrigeração / Segurança"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
-      },
-      {
-        "id": "ESP001",
-        "nome": "Paulo Filho",
-        "avatar": "assets/avatars/paulo-filho.jpeg",
-        "areas": [
-          "Ds",
-          "Tecnologia da Informação"
-        ],
-        "origem": "Vínculo validado por área de atuação em TI"
       },
       {
         "id": "P-reinaldoluiznti",
