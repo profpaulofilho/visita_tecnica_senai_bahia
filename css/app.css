@@ -273,7 +273,16 @@ header{display:flex;align-items:center;justify-content:space-between;padding:13p
 .selected-pending{margin-top:8px;font-size:10px;line-height:1.4;color:var(--muted)}
 .selected-unit-empty{margin-top:7px;font-size:11px;color:var(--muted)}
 .popup-detail-button{width:100%;margin-top:10px;padding:9px;border:0;border-radius:9px;background:var(--brand);color:#fff;font-weight:900}
-.specialist-text-only img{display:none!important}
 .specialist-text-badge{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;flex:0 0 auto;background:var(--panel2);border:1px solid var(--line);color:var(--brand);font-weight:900;font-size:11px}
 
 .distance-note{font-size:10px!important;color:var(--muted)!important;margin-top:4px!important}
+
+.vacation-note{
+  margin-top:6px!important;
+  padding:8px 9px;
+  border-radius:9px;
+  background:color-mix(in srgb,var(--accent) 12%,transparent);
+  border:1px solid color-mix(in srgb,var(--accent) 35%,var(--line));
+  color:var(--text)!important;
+  font-size:10px!important;
+}

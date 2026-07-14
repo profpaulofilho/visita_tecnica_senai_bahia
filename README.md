@@ -44,3 +44,10 @@ Apenas vínculos confirmados aparecem. Especialistas sem participação document
 
 ## Quilometragem
 A quilometragem exibida é uma estimativa geodésica entre as unidades confirmadas de cada especialista, em ordem cronológica. Não corresponde à rota rodoviária e não inclui saída, retorno ou deslocamentos locais.
+
+
+## Release 1.0
+- Paulo Filho: período de férias de 12/04/2026 a 16/05/2026 excluído de visitas presenciais, trilha e quilometragem.
+- Registros do período aparecem apenas como atividade automatizada/remota quando existirem nos documentos.
+- Fotos dos especialistas ficam sempre visíveis na barra lateral.
+- No mapa, os avatares aparecem apenas depois que uma unidade é selecionada.

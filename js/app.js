@@ -149,9 +149,12 @@ function renderStats(){
 }
 function renderSpecialists(){
   $('#specialists').innerHTML=state.specialists.map(s=>`
-    <button class="specialist specialist-text-only" data-id="${s.id}">
-      <span class="specialist-text-badge">${escapeHtml(s.nome.split(/\s+/).map(x=>x[0]).slice(0,2).join('').toUpperCase())}</span>
-      <span><b>${escapeHtml(s.nome)}</b><small>${fmtKm(s.quilometragem?.km_estimados)} · ${s.quilometragem?.visitas_confirmadas||0} visita(s)</small></span>
+    <button class="specialist" data-id="${s.id}">
+      <img src="${escapeHtml(s.avatar)}" alt="${escapeHtml(s.nome)}">
+      <span>
+        <b>${escapeHtml(s.nome)}</b>
+        <small>${fmtKm(s.quilometragem?.km_estimados)} · ${s.quilometragem?.visitas_confirmadas||0} visita(s)</small>
+      </span>
     </button>`).join('');
   document.querySelectorAll('.specialist').forEach(b=>b.onclick=()=>selectSpecialist(b.dataset.id));
 }
@@ -162,9 +165,12 @@ function selectSpecialist(id){
   if(state.route){map.removeLayer(state.route);state.route=null}
   const route=state.visits.filter(v=>(v.especialistas||[]).includes(id)).sort((a,b)=>a.inicio.localeCompare(b.inicio));
   if(route.length>1){state.route=L.polyline(route.map(v=>[v.lat,v.lng]),{color:s.cor,weight:5,opacity:.85}).addTo(map);map.fitBounds(state.route.getBounds(),{padding:[35,35]})}
+  const vacationNote=s.regra_ferias
+    ? ` · férias de 12/04/2026 a 16/05/2026 excluídas da quilometragem`
+    : '';
   $('#routeStatus').textContent=route.length
-    ? `${s.nome}: ${route.length} visita(s) confirmada(s) · ${fmtKm(s.quilometragem?.km_estimados)} estimados entre unidades.`
-    : `${s.nome}: a base ainda não confirma nominalmente a participação por visita.`;
+    ? `${s.nome}: ${route.length} visita(s) confirmada(s) · ${fmtKm(s.quilometragem?.km_estimados)} estimados entre unidades${vacationNote}.`
+    : `${s.nome}: a base ainda não confirma nominalmente a participação por visita${vacationNote}.`;
 }
 function renderVisitSpecialists(v){
   const container=$('#detailSpecialistAvatars');
@@ -200,7 +206,7 @@ function showSpecialistInVisit(v,personId){
     <p>Registro obtido no campo <b>PARTICIPANTES</b> do relatório da unidade.</p>
     <p><b>Áreas vinculadas:</b> ${(p.areas||[]).length}</p>
     ${distance?`<p><b>Distância estimada:</b> ${fmtKm(distance.km_estimados)} entre ${distance.visitas_confirmadas} visita(s) confirmada(s).</p>
-    <p class="distance-note">Cálculo geodésico entre unidades; não representa a rota por estrada.</p>`:''}</div>`;
+    <p class="distance-note">Cálculo geodésico entre unidades; não representa a rota por estrada.</p>${catalog?.regra_ferias?`<p class="vacation-note"><b>Férias:</b> 12/04/2026 a 16/05/2026. Registros do período não contam como visita presencial nem quilometragem.</p>`:''}`:''}</div>`;
 
   const areas=(p.areas||[]).filter(a=>(v.resultados_por_area||{})[a]);
   const select=$('#specialistAreaSelect');

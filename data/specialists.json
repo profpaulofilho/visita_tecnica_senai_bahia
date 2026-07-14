@@ -46,6 +46,11 @@
           "km_estimados": 328.9
         }
       ]
+    },
+    "regra_ferias": {
+      "inicio": "2026-04-12",
+      "fim": "2026-05-16",
+      "efeito": "Sem visitas presenciais, trilha ou quilometragem no período."
     }
   },
   {
