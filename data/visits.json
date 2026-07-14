@@ -7361,8 +7361,7 @@
     ],
     "especialistas": [
       "ESP007",
-      "ESP005",
-      "ESP001"
+      "ESP005"
     ],
     "observacao": "",
     "data_programada_inicio": "2026-04-07",
@@ -7386,7 +7385,7 @@
     "oportunidades": "Disponíveis nos relatórios técnicos vinculados.",
     "recomendacoes": "Consultar os diagnósticos de TI e a planilha multidisciplinar.",
     "status_dados": "Dados técnicos extraídos dos relatórios Excel e resumo executivo da apresentação.",
-    "especialistas_status": "Avatares exibidos somente após selecionar a unidade",
+    "especialistas_status": "Paulo Filho não participou presencialmente desta visita. Os registros de TI associados ao período foram executados de forma automatizada/remota.",
     "resultados_por_area": {
       "Segurança do Trabalho": {
         "status": "Extraído do relatório Excel",
@@ -8577,15 +8576,6 @@
           "Área de Práticas"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
-      },
-      {
-        "id": "ESP001",
-        "nome": "Paulo Filho",
-        "avatar": "assets/avatars/paulo-filho.jpeg",
-        "areas": [
-          "Tecnologia da Informação"
-        ],
-        "origem": "Vínculo validado por área de atuação em TI"
       },
       {
         "id": "P-alexandre",
@@ -16167,6 +16157,9 @@
     ],
     "fontes_dados": [
       "Relatório visita - Especialistas SENAI BA_UN Jequié.xlsx"
-    ]
+    ],
+    "cor_marcador": "padrao",
+    "status_visual": "Realizada",
+    "observacao_status": "Visita identificada nos relatórios e não localizada na programação original. O marcador foi padronizado com as demais unidades."
   }
 ]

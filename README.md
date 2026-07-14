@@ -51,3 +51,10 @@ A quilometragem exibida é uma estimativa geodésica entre as unidades confirmad
 - Registros do período aparecem apenas como atividade automatizada/remota quando existirem nos documentos.
 - Fotos dos especialistas ficam sempre visíveis na barra lateral.
 - No mapa, os avatares aparecem apenas depois que uma unidade é selecionada.
+
+
+## Release 1.0.1
+- Paulo Filho removido da visita de Vitória da Conquista.
+- Nenhuma atividade automatizada/remota entra em visita presencial ou quilometragem.
+- Não há unidade Itabuna na base atual; qualquer futura entrada não será vinculada automaticamente a Paulo Filho.
+- Jequié mantém a observação de visita fora da programação original, mas usa o mesmo marcador azul das demais unidades.

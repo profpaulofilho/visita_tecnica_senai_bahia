@@ -2,10 +2,10 @@
   {
     "id": "ESP001",
     "especialista": "Paulo Filho",
-    "km_estimados": 807.5,
-    "visitas_confirmadas": 5,
-    "metodo": "Distância geodésica entre unidades confirmadas em ordem cronológica",
-    "observacao": "Não inclui rota rodoviária, origem residencial, retorno ou deslocamentos locais.",
+    "km_estimados": 478.7,
+    "visitas_confirmadas": 4,
+    "metodo": "Distância geodésica entre unidades presenciais confirmadas em ordem cronológica",
+    "observacao": "Não inclui atividades automatizadas/remotas, rota rodoviária, origem residencial, retorno ou deslocamentos locais.",
     "trechos": [
       {
         "origem": "Lauro de Freitas",
@@ -27,13 +27,6 @@
         "data_origem": "2026-03-17",
         "data_destino": "2026-03-25",
         "km_estimados": 211.0
-      },
-      {
-        "origem": "Salvador",
-        "destino": "Vitória da Conquista",
-        "data_origem": "2026-03-25",
-        "data_destino": "2026-04-06",
-        "km_estimados": 328.9
       }
     ]
   },
@@ -42,8 +35,8 @@
     "especialista": "Felipe dos Anjos",
     "km_estimados": 0.0,
     "visitas_confirmadas": 0,
-    "metodo": "Distância geodésica entre unidades confirmadas em ordem cronológica",
-    "observacao": "Não inclui rota rodoviária, origem residencial, retorno ou deslocamentos locais.",
+    "metodo": "Distância geodésica entre unidades presenciais confirmadas em ordem cronológica",
+    "observacao": "Não inclui atividades automatizadas/remotas, rota rodoviária, origem residencial, retorno ou deslocamentos locais.",
     "trechos": []
   },
   {
@@ -51,8 +44,8 @@
     "especialista": "Joilma Chaves",
     "km_estimados": 2343.5,
     "visitas_confirmadas": 7,
-    "metodo": "Distância geodésica entre unidades confirmadas em ordem cronológica",
-    "observacao": "Não inclui rota rodoviária, origem residencial, retorno ou deslocamentos locais.",
+    "metodo": "Distância geodésica entre unidades presenciais confirmadas em ordem cronológica",
+    "observacao": "Não inclui atividades automatizadas/remotas, rota rodoviária, origem residencial, retorno ou deslocamentos locais.",
     "trechos": [
       {
         "origem": "Candeias",
@@ -103,8 +96,8 @@
     "especialista": "Verônica",
     "km_estimados": 129.3,
     "visitas_confirmadas": 3,
-    "metodo": "Distância geodésica entre unidades confirmadas em ordem cronológica",
-    "observacao": "Não inclui rota rodoviária, origem residencial, retorno ou deslocamentos locais.",
+    "metodo": "Distância geodésica entre unidades presenciais confirmadas em ordem cronológica",
+    "observacao": "Não inclui atividades automatizadas/remotas, rota rodoviária, origem residencial, retorno ou deslocamentos locais.",
     "trechos": [
       {
         "origem": "Camaçari",
@@ -127,8 +120,8 @@
     "especialista": "Lígia",
     "km_estimados": 1109.9,
     "visitas_confirmadas": 5,
-    "metodo": "Distância geodésica entre unidades confirmadas em ordem cronológica",
-    "observacao": "Não inclui rota rodoviária, origem residencial, retorno ou deslocamentos locais.",
+    "metodo": "Distância geodésica entre unidades presenciais confirmadas em ordem cronológica",
+    "observacao": "Não inclui atividades automatizadas/remotas, rota rodoviária, origem residencial, retorno ou deslocamentos locais.",
     "trechos": [
       {
         "origem": "Teixeira de Freitas",
@@ -165,8 +158,8 @@
     "especialista": "Juliana Neri",
     "km_estimados": 811.6,
     "visitas_confirmadas": 4,
-    "metodo": "Distância geodésica entre unidades confirmadas em ordem cronológica",
-    "observacao": "Não inclui rota rodoviária, origem residencial, retorno ou deslocamentos locais.",
+    "metodo": "Distância geodésica entre unidades presenciais confirmadas em ordem cronológica",
+    "observacao": "Não inclui atividades automatizadas/remotas, rota rodoviária, origem residencial, retorno ou deslocamentos locais.",
     "trechos": [
       {
         "origem": "Candeias",
@@ -196,8 +189,8 @@
     "especialista": "Marcos Paulo",
     "km_estimados": 474.5,
     "visitas_confirmadas": 3,
-    "metodo": "Distância geodésica entre unidades confirmadas em ordem cronológica",
-    "observacao": "Não inclui rota rodoviária, origem residencial, retorno ou deslocamentos locais.",
+    "metodo": "Distância geodésica entre unidades presenciais confirmadas em ordem cronológica",
+    "observacao": "Não inclui atividades automatizadas/remotas, rota rodoviária, origem residencial, retorno ou deslocamentos locais.",
     "trechos": [
       {
         "origem": "Vitória da Conquista",

@@ -103,7 +103,7 @@ function markerHtml(v,color){
 function renderMarkers(){
   state.markers.forEach(m=>map.removeLayer(m));state.markers.clear();
   state.filtered.forEach(v=>{
-    const color=v.status.includes('não')?'#ff7a00':'#0066b3';
+    const color=v.cor_marcador==='alerta'?'#ff7a00':'#0066b3';
     const icon=L.divIcon({
       className:'specialist-unit-icon',
       html:markerHtml(v,color),
