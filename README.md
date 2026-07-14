@@ -1,18 +1,16 @@
-# Mapa de Visitas Técnicas SENAI Bahia — 2026
+# Visitas Técnicas SENAI Bahia — 2026
 
-Protótipo estático compatível com GitHub Pages e Vercel.
+Versão corrigida do dashboard estático para GitHub Pages e Vercel.
 
-## Executar localmente
-Use um servidor HTTP simples:
+## Melhorias desta versão
+- contraste corrigido no tema escuro;
+- painel detalhado das visitas;
+- datas programadas e realizadas;
+- documentos de origem identificados;
+- contorno vetorial da Bahia pela API oficial de Malhas do IBGE;
+- base interna de segurança caso os JSON não carreguem;
+- busca por cidade, unidade, área e nome de relatório.
 
-```bash
-python -m http.server 8000
-```
-
-Abra `http://localhost:8000`.
-
-## Observações
-- Os avatares foram cadastrados, mas as visitas ainda não foram associadas aos especialistas sem confirmação documental.
-- As coordenadas são centróides municipais preliminares.
-- O mapa usa OpenStreetMap via Leaflet.
-- As imagens de mapas com marcas d'água enviadas pelo usuário não foram incluídas no produto.
+## Publicação
+Substitua o conteúdo do repositório pelos arquivos deste pacote e faça commit na branch `main`.
+A Vercel fará o novo deploy automaticamente.

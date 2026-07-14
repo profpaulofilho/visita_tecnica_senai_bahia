@@ -1,58 +1,67 @@
 <!doctype html>
 <html lang="pt-BR" data-theme="light">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Visitas Técnicas SENAI Bahia — 2026</title>
-  <link rel="preconnect" href="https://unpkg.com">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-  <link rel="stylesheet" href="css/app.css">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Dashboard de visitas técnicas do SENAI Bahia em 2026">
+<title>Visitas Técnicas SENAI Bahia — 2026</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="css/app.css">
 </head>
 <body>
 <div class="app">
 <header>
   <div class="brand"><div class="brandmark">S</div><div><h1>Visitas Técnicas SENAI Bahia</h1><p>Mapa interativo e linha do tempo · 2026</p></div></div>
-  <div class="header-actions"><button class="iconbtn" id="themeBtn" aria-label="Alternar tema">◐ Tema</button></div>
+  <button class="iconbtn" id="themeBtn" aria-label="Alternar tema">◐ Tema</button>
 </header>
 <main class="layout">
-  <aside class="sidebar">
-    <input class="search" id="search" placeholder="Buscar unidade, cidade ou observação">
-    <div class="filters">
-      <select id="cityFilter"><option value="">Todas as cidades</option></select>
-      <select id="regionFilter"><option value="">Todas as regiões</option></select>
-      <select id="monthFilter"><option value="">Todos os meses</option><option value="02">Fevereiro</option><option value="03">Março</option><option value="04">Abril</option><option value="05">Maio</option><option value="06">Junho</option></select>
-    </div>
-    <div class="stats">
-      <div class="stat"><b id="totalVisits">0</b><span>visitas</span></div>
-      <div class="stat"><b id="totalCities">0</b><span>cidades</span></div>
-      <div class="stat"><b id="totalUnits">0</b><span>unidades</span></div>
-      <div class="stat"><b id="totalSpecialists">0</b><span>especialistas</span></div>
-    </div>
-    <div class="section-title">Especialistas</div>
-    <div id="specialists" class="specialist-list"></div>
-    <p id="routeStatus" style="font-size:12px;color:var(--muted)">Selecione um especialista para visualizar sua trilha.</p>
-    <div class="section-title">Linha do tempo</div>
-    <div id="timeline" class="timeline"></div>
-  </aside>
-  <section class="map-wrap">
-    <div id="map"></div>
-    <div class="map-note">Coordenadas municipais preliminares · OpenStreetMap</div>
-  </section>
-  <aside class="details">
-    <button class="iconbtn" id="closeDetails" style="float:right">Fechar</button>
-    <div id="emptyDetail" class="empty" style="margin-top:55px">Clique em uma visita para abrir os detalhes.</div>
-    <div id="detailCard" class="detail-card">
-      <span id="detailBadge" class="badge"></span>
-      <h2 id="detailTitle"></h2>
-      <p id="detailCity" style="color:var(--muted)"></p>
-      <div class="meta">
-        <div><small>Período</small><b id="detailDate"></b></div>
-        <div><small>Áreas técnicas</small><span id="detailAreas"></span></div>
-        <div><small>Observações</small><span id="detailObs"></span></div>
-      </div>
-    </div>
-  </aside>
-</main>
-</div>
+<aside class="sidebar">
+  <div id="dataAlert" class="data-alert">Os arquivos JSON não carregaram. A base interna de segurança foi ativada.</div>
+  <input class="search" id="search" placeholder="Buscar unidade, cidade, área ou relatório">
+  <div class="filters">
+    <select id="cityFilter"><option value="">Todas as cidades</option></select>
+    <select id="regionFilter"><option value="">Todas as regiões</option></select>
+    <select id="monthFilter"><option value="">Todos os meses</option><option value="02">Fevereiro</option><option value="03">Março</option><option value="04">Abril</option><option value="05">Maio</option><option value="06">Junho</option></select>
+  </div>
+  <div class="stats">
+    <div class="stat"><b id="totalVisits">0</b><span>visitas</span></div>
+    <div class="stat"><b id="totalCities">0</b><span>cidades</span></div>
+    <div class="stat"><b id="totalUnits">0</b><span>unidades</span></div>
+    <div class="stat"><b id="totalSpecialists">0</b><span>especialistas</span></div>
+  </div>
+  <div class="section-title">Especialistas</div><div id="specialists" class="specialist-list"></div>
+  <p id="routeStatus" class="route-status">Selecione um especialista para visualizar sua trilha.</p>
+  <div class="section-title">Linha do tempo</div><div id="timeline" class="timeline"></div>
+</aside>
+<section class="map-wrap">
+  <div class="map-title">Estado da Bahia · visitas técnicas 2026</div>
+  <div id="map"></div>
+  <div class="map-note">Contorno oficial via API de Malhas do IBGE · base OpenStreetMap</div>
+</section>
+<aside class="details">
+  <button class="iconbtn" id="closeDetails" style="float:right">Fechar</button>
+  <div id="emptyDetail" class="empty" style="margin-top:55px">Clique em um ponto ou item da linha do tempo para visualizar a visita.</div>
+  <div id="detailCard" class="detail-card">
+    <div class="detail-header"><span id="detailBadge" class="badge"></span><h2 id="detailTitle"></h2><p id="detailCity" class="detail-sub"></p></div>
+    <section class="detail-section"><h3>Datas</h3><div class="meta">
+      <div><small>Visita realizada</small><b id="detailRealizada"></b></div>
+      <div><small>Período programado</small><b id="detailProgramada"></b></div>
+    </div></section>
+    <section id="detailKpisSection" class="detail-section"><h3>Indicadores do relatório</h3><div id="detailKpis" class="kpis"></div></section>
+    <section class="detail-section"><h3>Resumo</h3><div id="detailResumo" class="info-box"></div></section>
+    <section class="detail-section"><h3>Áreas técnicas</h3><div id="detailAreas" class="info-box"></div></section>
+    <section class="detail-section"><h3>Boas práticas</h3><div id="detailBoas" class="info-box"></div></section>
+    <section class="detail-section"><h3>Oportunidades de melhoria</h3><div id="detailOportunidades" class="info-box"></div></section>
+    <section class="detail-section"><h3>Recomendações</h3><div id="detailRecomendacoes" class="info-box"></div></section>
+    <section class="detail-section"><h3>Observações</h3><div id="detailObs" class="info-box"></div></section>
+    <section class="detail-section"><h3>Qualidade e especialistas</h3><div class="meta">
+      <div><small>Status dos dados</small><span id="detailDataStatus"></span></div>
+      <div><small>Participação nominal</small><span id="detailSpecialists"></span></div>
+    </div></section>
+    <section class="detail-section"><h3>Documentos identificados</h3><div id="detailDocs" class="doc-list"></div></section>
+  </div>
+</aside>
+</main></div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="data/fallback-data.js"></script>
 <script src="js/app.js"></script>
 </body></html>
