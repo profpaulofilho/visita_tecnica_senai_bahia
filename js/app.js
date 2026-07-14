@@ -57,13 +57,66 @@ function applyFilters(){
   });
   renderMarkers();renderTimeline();renderStats();
 }
+function specialistMarkup(v){
+  const linked=(v.especialistas||[])
+    .map(id=>state.specialists.find(s=>s.id===id))
+    .filter(Boolean);
+
+  if(!linked.length){
+    return `<span class="unit-hover-label">Especialistas</span>
+      <div class="marker-pending">
+        <span class="marker-pending-icon">?</span>
+        <span>Participação nominal ainda não confirmada para esta visita.</span>
+      </div>`;
+  }
+
+  const visible=linked.slice(0,5);
+  const remaining=linked.length-visible.length;
+  const avatars=visible.map(s=>`
+    <img class="marker-avatar"
+      src="${escapeHtml(s.avatar)}"
+      alt="${escapeHtml(s.nome)}"
+      title="${escapeHtml(s.nome)}">`).join('');
+
+  return `<span class="unit-hover-label">${linked.length===1?'Especialista':'Especialistas'} da visita</span>
+    <div class="marker-avatar-stack">
+      ${avatars}
+      ${remaining>0?`<span class="marker-avatar-more">+${remaining}</span>`:''}
+    </div>`;
+}
+
+function markerHtml(v,color){
+  const initials=v.cidade.split(/\s+/).filter(Boolean).slice(0,2).map(x=>x[0]).join('').toUpperCase();
+  return `<div class="unit-hover-marker">
+    <div class="unit-dot" style="background:${color}">${escapeHtml(initials)}</div>
+    <div class="unit-hover-card">
+      <span class="unit-hover-title">${escapeHtml(v.unidade)}</span>
+      <span class="unit-hover-city">${escapeHtml(v.cidade)} · ${period(v.inicio,v.fim)}</span>
+      ${specialistMarkup(v)}
+    </div>
+  </div>`;
+}
+
 function renderMarkers(){
   state.markers.forEach(m=>map.removeLayer(m));state.markers.clear();
   state.filtered.forEach(v=>{
     const color=v.status.includes('não')?'#ff7a00':'#0066b3';
-    const icon=L.divIcon({className:'',html:`<div style="width:31px;height:31px;border-radius:50%;background:${color};border:4px solid white;box-shadow:0 4px 14px #0006"></div>`,iconSize:[31,31],iconAnchor:[15,15]});
-    const m=L.marker([v.lat,v.lng],{icon}).addTo(map);
+    const icon=L.divIcon({
+      className:'specialist-unit-icon',
+      html:markerHtml(v,color),
+      iconSize:[34,34],
+      iconAnchor:[17,17]
+    });
+    const m=L.marker([v.lat,v.lng],{icon,riseOnHover:true,riseOffset:1200}).addTo(map);
     m.bindPopup(`<div class="popup-title">${escapeHtml(v.unidade)}</div><div class="popup-muted">${escapeHtml(v.cidade)} · ${period(v.inicio,v.fim)}</div><div class="popup-muted">${(v.relatorios||[]).length} documento(s) identificado(s)</div>`);
+    m.on('mouseover',function(){
+      const el=this.getElement()?.querySelector('.unit-hover-marker');
+      el?.classList.add('is-hovered');
+    });
+    m.on('mouseout',function(){
+      const el=this.getElement()?.querySelector('.unit-hover-marker');
+      el?.classList.remove('is-hovered');
+    });
     m.on('click',()=>showDetails(v));state.markers.set(v.id,m);
   });
 }

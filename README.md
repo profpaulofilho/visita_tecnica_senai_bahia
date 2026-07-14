@@ -14,3 +14,10 @@ Versão corrigida do dashboard estático para GitHub Pages e Vercel.
 ## Publicação
 Substitua o conteúdo do repositório pelos arquivos deste pacote e faça commit na branch `main`.
 A Vercel fará o novo deploy automaticamente.
+
+
+## Marcadores de especialistas
+- Ao mover o mouse sobre uma unidade, o marcador se expande.
+- O cartão mostra unidade, cidade, período e os avatares dos especialistas vinculados.
+- Visitas sem vínculo nominal exibem um aviso de confirmação pendente, evitando atribuições incorretas.
+- Para vincular um especialista, inclua seu ID no campo `especialistas` da visita em `data/visits.json`.
