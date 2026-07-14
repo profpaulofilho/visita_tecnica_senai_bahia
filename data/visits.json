@@ -28,7 +28,57 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Validado para o mapa",
-    "especialistas_status": "Aguardando confirmação nominal por visita"
+    "especialistas_status": "Aguardando confirmação nominal por visita",
+    "resultados_por_area": {
+      "Tecnologia da Informação": {
+        "status": "Aguardando consolidação textual",
+        "resumo": "A área de Tecnologia da Informação está registrada na visita, mas seus apontamentos ainda precisam ser extraídos e consolidados do relatório original.",
+        "indicadores": [],
+        "boas_praticas": "Conteúdo disponível no relatório original; consolidação pendente.",
+        "oportunidades": "Conteúdo disponível no relatório original; consolidação pendente.",
+        "recomendacoes": "Abrir o documento vinculado à visita para consultar os registros completos."
+      },
+      "Automação": {
+        "status": "Aguardando consolidação textual",
+        "resumo": "A área de Automação está registrada na visita, mas seus apontamentos ainda precisam ser extraídos e consolidados do relatório original.",
+        "indicadores": [],
+        "boas_praticas": "Conteúdo disponível no relatório original; consolidação pendente.",
+        "oportunidades": "Conteúdo disponível no relatório original; consolidação pendente.",
+        "recomendacoes": "Abrir o documento vinculado à visita para consultar os registros completos."
+      },
+      "Eletrotécnica": {
+        "status": "Aguardando consolidação textual",
+        "resumo": "A área de Eletrotécnica está registrada na visita, mas seus apontamentos ainda precisam ser extraídos e consolidados do relatório original.",
+        "indicadores": [],
+        "boas_praticas": "Conteúdo disponível no relatório original; consolidação pendente.",
+        "oportunidades": "Conteúdo disponível no relatório original; consolidação pendente.",
+        "recomendacoes": "Abrir o documento vinculado à visita para consultar os registros completos."
+      },
+      "Eletromecânica": {
+        "status": "Aguardando consolidação textual",
+        "resumo": "A área de Eletromecânica está registrada na visita, mas seus apontamentos ainda precisam ser extraídos e consolidados do relatório original.",
+        "indicadores": [],
+        "boas_praticas": "Conteúdo disponível no relatório original; consolidação pendente.",
+        "oportunidades": "Conteúdo disponível no relatório original; consolidação pendente.",
+        "recomendacoes": "Abrir o documento vinculado à visita para consultar os registros completos."
+      },
+      "Segurança do Trabalho": {
+        "status": "Aguardando consolidação textual",
+        "resumo": "A área de Segurança do Trabalho está registrada na visita, mas seus apontamentos ainda precisam ser extraídos e consolidados do relatório original.",
+        "indicadores": [],
+        "boas_praticas": "Conteúdo disponível no relatório original; consolidação pendente.",
+        "oportunidades": "Conteúdo disponível no relatório original; consolidação pendente.",
+        "recomendacoes": "Abrir o documento vinculado à visita para consultar os registros completos."
+      },
+      "Logística": {
+        "status": "Aguardando consolidação textual",
+        "resumo": "A área de Logística está registrada na visita, mas seus apontamentos ainda precisam ser extraídos e consolidados do relatório original.",
+        "indicadores": [],
+        "boas_praticas": "Conteúdo disponível no relatório original; consolidação pendente.",
+        "oportunidades": "Conteúdo disponível no relatório original; consolidação pendente.",
+        "recomendacoes": "Abrir o documento vinculado à visita para consultar os registros completos."
+      }
+    }
   },
   {
     "id": "VIS002",
@@ -57,7 +107,8 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Validado para o mapa",
-    "especialistas_status": "Aguardando confirmação nominal por visita"
+    "especialistas_status": "Aguardando confirmação nominal por visita",
+    "resultados_por_area": {}
   },
   {
     "id": "VIS003",
@@ -86,7 +137,8 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Validado para o mapa",
-    "especialistas_status": "Aguardando confirmação nominal por visita"
+    "especialistas_status": "Aguardando confirmação nominal por visita",
+    "resultados_por_area": {}
   },
   {
     "id": "VIS004",
@@ -115,7 +167,8 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Validado para o mapa",
-    "especialistas_status": "Aguardando confirmação nominal por visita"
+    "especialistas_status": "Aguardando confirmação nominal por visita",
+    "resultados_por_area": {}
   },
   {
     "id": "VIS005",
@@ -144,7 +197,8 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Validado para o mapa",
-    "especialistas_status": "Aguardando confirmação nominal por visita"
+    "especialistas_status": "Aguardando confirmação nominal por visita",
+    "resultados_por_area": {}
   },
   {
     "id": "VIS006",
@@ -173,7 +227,8 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Validado para o mapa",
-    "especialistas_status": "Aguardando confirmação nominal por visita"
+    "especialistas_status": "Aguardando confirmação nominal por visita",
+    "resultados_por_area": {}
   },
   {
     "id": "VIS007",
@@ -202,7 +257,8 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Validado para o mapa",
-    "especialistas_status": "Aguardando confirmação nominal por visita"
+    "especialistas_status": "Aguardando confirmação nominal por visita",
+    "resultados_por_area": {}
   },
   {
     "id": "VIS008",
@@ -214,7 +270,9 @@
     "status": "Realizada",
     "lat": -14.8619,
     "lng": -40.8448,
-    "areas": [],
+    "areas": [
+      "Tecnologia da Informação"
+    ],
     "especialistas": [],
     "observacao": "",
     "data_programada_inicio": "2026-04-07",
@@ -238,7 +296,26 @@
     "oportunidades": "Disponíveis nos relatórios técnicos vinculados.",
     "recomendacoes": "Consultar os diagnósticos de TI e a planilha multidisciplinar.",
     "status_dados": "Validado para o mapa",
-    "especialistas_status": "Aguardando confirmação nominal por visita"
+    "especialistas_status": "Aguardando confirmação nominal por visita",
+    "resultados_por_area": {
+      "Tecnologia da Informação": {
+        "status": "Consolidado parcialmente",
+        "resumo": "Foram identificados 3 diagnósticos detalhados de ambientes de TI na unidade.",
+        "indicadores": [
+          {
+            "rotulo": "Diagnósticos de TI",
+            "valor": 3
+          },
+          {
+            "rotulo": "Computadores informados",
+            "valor": 76
+          }
+        ],
+        "boas_praticas": "As boas práticas estão registradas nos diagnósticos técnicos vinculados.",
+        "oportunidades": "As oportunidades de melhoria estão registradas por ambiente nos relatórios.",
+        "recomendacoes": "Consultar os diagnósticos individualizados e a planilha multidisciplinar da visita."
+      }
+    }
   },
   {
     "id": "VIS009",
@@ -267,7 +344,8 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Validado para o mapa",
-    "especialistas_status": "Aguardando confirmação nominal por visita"
+    "especialistas_status": "Aguardando confirmação nominal por visita",
+    "resultados_por_area": {}
   },
   {
     "id": "VIS010",
@@ -296,7 +374,8 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Validado para o mapa",
-    "especialistas_status": "Aguardando confirmação nominal por visita"
+    "especialistas_status": "Aguardando confirmação nominal por visita",
+    "resultados_por_area": {}
   },
   {
     "id": "VIS011",
@@ -325,7 +404,8 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Validado para o mapa",
-    "especialistas_status": "Aguardando confirmação nominal por visita"
+    "especialistas_status": "Aguardando confirmação nominal por visita",
+    "resultados_por_area": {}
   },
   {
     "id": "VIS012",
@@ -354,7 +434,8 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Validado para o mapa",
-    "especialistas_status": "Aguardando confirmação nominal por visita"
+    "especialistas_status": "Aguardando confirmação nominal por visita",
+    "resultados_por_area": {}
   },
   {
     "id": "VIS013",
@@ -383,7 +464,8 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Validado para o mapa",
-    "especialistas_status": "Aguardando confirmação nominal por visita"
+    "especialistas_status": "Aguardando confirmação nominal por visita",
+    "resultados_por_area": {}
   },
   {
     "id": "VIS014",
@@ -414,7 +496,17 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Validado para o mapa",
-    "especialistas_status": "Aguardando confirmação nominal por visita"
+    "especialistas_status": "Aguardando confirmação nominal por visita",
+    "resultados_por_area": {
+      "Eletrotécnica": {
+        "status": "Aguardando consolidação textual",
+        "resumo": "A área de Eletrotécnica está registrada na visita, mas seus apontamentos ainda precisam ser extraídos e consolidados do relatório original.",
+        "indicadores": [],
+        "boas_praticas": "Conteúdo disponível no relatório original; consolidação pendente.",
+        "oportunidades": "Conteúdo disponível no relatório original; consolidação pendente.",
+        "recomendacoes": "Abrir o documento vinculado à visita para consultar os registros completos."
+      }
+    }
   },
   {
     "id": "VIS015",
@@ -443,7 +535,8 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Validado para o mapa",
-    "especialistas_status": "Aguardando confirmação nominal por visita"
+    "especialistas_status": "Aguardando confirmação nominal por visita",
+    "resultados_por_area": {}
   },
   {
     "id": "VIS016",
@@ -472,7 +565,8 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Validado para o mapa",
-    "especialistas_status": "Aguardando confirmação nominal por visita"
+    "especialistas_status": "Aguardando confirmação nominal por visita",
+    "resultados_por_area": {}
   },
   {
     "id": "VIS017",
@@ -501,7 +595,8 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Validado para o mapa",
-    "especialistas_status": "Aguardando confirmação nominal por visita"
+    "especialistas_status": "Aguardando confirmação nominal por visita",
+    "resultados_por_area": {}
   },
   {
     "id": "VIS018",
@@ -530,7 +625,8 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Validado para o mapa",
-    "especialistas_status": "Aguardando confirmação nominal por visita"
+    "especialistas_status": "Aguardando confirmação nominal por visita",
+    "resultados_por_area": {}
   },
   {
     "id": "VIS019",
@@ -559,6 +655,7 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Visita identificada fora da programação",
-    "especialistas_status": "Aguardando confirmação nominal por visita"
+    "especialistas_status": "Aguardando confirmação nominal por visita",
+    "resultados_por_area": {}
   }
 ]

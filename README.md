@@ -21,3 +21,13 @@ A Vercel fará o novo deploy automaticamente.
 - O cartão mostra unidade, cidade, período e os avatares dos especialistas vinculados.
 - Visitas sem vínculo nominal exibem um aviso de confirmação pendente, evitando atribuições incorretas.
 - Para vincular um especialista, inclua seu ID no campo `especialistas` da visita em `data/visits.json`.
+
+
+## Fluxo de interação por especialista
+1. Clique na cidade ou unidade.
+2. O painel lateral apresenta os avatares dos especialistas vinculados.
+3. Clique no avatar para abrir o perfil e as áreas de atuação confirmadas.
+4. Selecione uma área no dropdown.
+5. O painel mostra o resultado consolidado daquela área na visita.
+
+Apenas vínculos confirmados aparecem. Especialistas sem participação documental validada permanecem sinalizados como pendentes.

@@ -4,6 +4,9 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Dashboard de visitas técnicas do SENAI Bahia em 2026">
 <title>Visitas Técnicas SENAI Bahia — 2026</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="shortcut icon" href="assets/favicon.ico">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <link rel="stylesheet" href="css/app.css">
 </head>
@@ -47,8 +50,26 @@
       <div><small>Período programado</small><b id="detailProgramada"></b></div>
     </div></section>
     <section id="detailKpisSection" class="detail-section"><h3>Indicadores do relatório</h3><div id="detailKpis" class="kpis"></div></section>
-    <section class="detail-section"><h3>Resumo</h3><div id="detailResumo" class="info-box"></div></section>
-    <section class="detail-section"><h3>Áreas técnicas</h3><div id="detailAreas" class="info-box"></div></section>
+    <section class="detail-section"><h3>Especialistas da visita</h3><div id="detailSpecialistAvatars" class="detail-specialist-grid"></div></section>
+    <section id="specialistProfileSection" class="detail-section" style="display:none">
+      <h3>Especialista selecionado</h3>
+      <div id="specialistProfile" class="specialist-profile"></div>
+      <label class="field-label" for="specialistAreaSelect">Área de atuação nesta visita</label>
+      <select id="specialistAreaSelect" class="detail-select"></select>
+    </section>
+    <section class="detail-section"><h3>Resumo da visita</h3><div id="detailResumo" class="info-box"></div></section>
+    <section class="detail-section"><h3>Áreas técnicas registradas</h3><div id="detailAreas" class="info-box"></div></section>
+    <section id="areaResultSection" class="detail-section" style="display:none">
+      <h3>Resultado consolidado da área</h3>
+      <div id="areaResultStatus" class="badge"></div>
+      <div id="areaResultSummary" class="info-box" style="margin-top:8px"></div>
+      <div id="areaResultKpis" class="kpis" style="margin-top:8px"></div>
+      <div class="result-grid">
+        <div><small>Boas práticas</small><p id="areaResultGood"></p></div>
+        <div><small>Oportunidades</small><p id="areaResultOpportunities"></p></div>
+        <div><small>Recomendações</small><p id="areaResultRecommendations"></p></div>
+      </div>
+    </section>
     <section class="detail-section"><h3>Boas práticas</h3><div id="detailBoas" class="info-box"></div></section>
     <section class="detail-section"><h3>Oportunidades de melhoria</h3><div id="detailOportunidades" class="info-box"></div></section>
     <section class="detail-section"><h3>Recomendações</h3><div id="detailRecomendacoes" class="info-box"></div></section>

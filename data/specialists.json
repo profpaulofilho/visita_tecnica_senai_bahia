@@ -5,7 +5,12 @@
     "slug": "paulo-filho",
     "avatar": "assets/avatars/paulo-filho.jpeg",
     "cor": "#0B6EFD",
-    "visitas": []
+    "visitas": [],
+    "areas_atuacao": [
+      "Tecnologia da Informação"
+    ],
+    "areas_status": "Confirmada nos diagnósticos técnicos analisados",
+    "resumo_profissional": "Especialista vinculado a diagnósticos técnicos de ambientes e laboratórios de Tecnologia da Informação."
   },
   {
     "id": "ESP002",
@@ -13,7 +18,10 @@
     "slug": "felipe-dos-anjos",
     "avatar": "assets/avatars/felipe-dos-anjos.jpg",
     "cor": "#6F42C1",
-    "visitas": []
+    "visitas": [],
+    "areas_atuacao": [],
+    "areas_status": "Aguardando confirmação documental",
+    "resumo_profissional": "Cadastro de especialista disponível; áreas de atuação ainda não confirmadas na base documental."
   },
   {
     "id": "ESP003",
@@ -21,7 +29,10 @@
     "slug": "joilma-chaves",
     "avatar": "assets/avatars/joilma-chaves.jpg",
     "cor": "#D63384",
-    "visitas": []
+    "visitas": [],
+    "areas_atuacao": [],
+    "areas_status": "Aguardando confirmação documental",
+    "resumo_profissional": "Cadastro de especialista disponível; áreas de atuação ainda não confirmadas na base documental."
   },
   {
     "id": "ESP004",
@@ -29,7 +40,10 @@
     "slug": "veronica",
     "avatar": "assets/avatars/veronica.jpg",
     "cor": "#198754",
-    "visitas": []
+    "visitas": [],
+    "areas_atuacao": [],
+    "areas_status": "Aguardando confirmação documental",
+    "resumo_profissional": "Cadastro de especialista disponível; áreas de atuação ainda não confirmadas na base documental."
   },
   {
     "id": "ESP005",
@@ -37,7 +51,10 @@
     "slug": "ligia",
     "avatar": "assets/avatars/ligia.jpg",
     "cor": "#FD7E14",
-    "visitas": []
+    "visitas": [],
+    "areas_atuacao": [],
+    "areas_status": "Aguardando confirmação documental",
+    "resumo_profissional": "Cadastro de especialista disponível; áreas de atuação ainda não confirmadas na base documental."
   },
   {
     "id": "ESP006",
@@ -45,7 +62,10 @@
     "slug": "juliana-neri",
     "avatar": "assets/avatars/juliana-neri.jpg",
     "cor": "#20C997",
-    "visitas": []
+    "visitas": [],
+    "areas_atuacao": [],
+    "areas_status": "Aguardando confirmação documental",
+    "resumo_profissional": "Cadastro de especialista disponível; áreas de atuação ainda não confirmadas na base documental."
   },
   {
     "id": "ESP007",
@@ -53,6 +73,9 @@
     "slug": "marcos-paulo",
     "avatar": "assets/avatars/marcos-paulo.jpg",
     "cor": "#DC3545",
-    "visitas": []
+    "visitas": [],
+    "areas_atuacao": [],
+    "areas_status": "Aguardando confirmação documental",
+    "resumo_profissional": "Cadastro de especialista disponível; áreas de atuação ainda não confirmadas na base documental."
   }
 ]

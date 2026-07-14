@@ -1,5 +1,5 @@
 
-const state={visits:[],specialists:[],filtered:[],markers:new Map(),route:null,selectedSpecialist:null,bahiaLayer:null};
+const state={visits:[],specialists:[],filtered:[],markers:new Map(),route:null,selectedSpecialist:null,bahiaLayer:null,currentVisit:null,currentDetailSpecialist:null};
 let map;
 const $=s=>document.querySelector(s);
 const fmt=d=>d?new Intl.DateTimeFormat('pt-BR',{day:'2-digit',month:'short',year:'numeric',timeZone:'UTC'}).format(new Date(d+'T12:00:00Z')):'Não informado';
@@ -147,7 +147,67 @@ function selectSpecialist(id){
   if(route.length>1){state.route=L.polyline(route.map(v=>[v.lat,v.lng]),{color:s.cor,weight:5,opacity:.85}).addTo(map);map.fitBounds(state.route.getBounds(),{padding:[35,35]})}
   $('#routeStatus').textContent=route.length?`${route.length} visita(s) confirmada(s) para ${s.nome}.`:`${s.nome}: a base ainda não confirma nominalmente a participação por visita.`;
 }
+function renderVisitSpecialists(v){
+  const container=$('#detailSpecialistAvatars');
+  const linked=(v.especialistas||[]).map(id=>state.specialists.find(s=>s.id===id)).filter(Boolean);
+  if(!linked.length){
+    container.innerHTML='<div class="detail-no-specialist">A participação nominal dos especialistas ainda não foi confirmada para esta visita.</div>';
+    $('#specialistProfileSection').style.display='none';
+    $('#areaResultSection').style.display='none';
+    return;
+  }
+  container.innerHTML=linked.map(s=>`<button class="detail-specialist-btn" data-id="${s.id}">
+    <img src="${escapeHtml(s.avatar)}" alt="${escapeHtml(s.nome)}">
+    <span><b>${escapeHtml(s.nome)}</b><small>${(s.areas_atuacao||[]).length} área(s) confirmada(s)</small></span>
+  </button>`).join('');
+  container.querySelectorAll('.detail-specialist-btn').forEach(btn=>{
+    btn.onclick=()=>showSpecialistInVisit(v,btn.dataset.id);
+  });
+}
+
+function showSpecialistInVisit(v,specialistId){
+  const s=state.specialists.find(x=>x.id===specialistId);
+  if(!s)return;
+  state.currentDetailSpecialist=specialistId;
+  document.querySelectorAll('.detail-specialist-btn').forEach(x=>x.classList.toggle('active',x.dataset.id===specialistId));
+  $('#specialistProfileSection').style.display='block';
+  $('#specialistProfile').innerHTML=`<img src="${escapeHtml(s.avatar)}" alt="${escapeHtml(s.nome)}">
+    <div><h4>${escapeHtml(s.nome)}</h4>
+    <p>${escapeHtml(s.resumo_profissional||'')}</p>
+    <p><b>Status:</b> ${escapeHtml(s.areas_status||'Em validação')}</p></div>`;
+
+  const visitAreas=Object.keys(v.resultados_por_area||{});
+  const specialistAreas=(s.areas_atuacao||[]).filter(a=>visitAreas.includes(a));
+  const select=$('#specialistAreaSelect');
+
+  if(!specialistAreas.length){
+    select.innerHTML='<option value="">Nenhuma área confirmada para este especialista nesta visita</option>';
+    select.disabled=true;
+    $('#areaResultSection').style.display='none';
+    return;
+  }
+
+  select.disabled=false;
+  select.innerHTML='<option value="">Selecione uma área</option>'+specialistAreas.map(a=>`<option value="${escapeHtml(a)}">${escapeHtml(a)}</option>`).join('');
+  select.onchange=()=>renderAreaResult(v,select.value);
+  $('#areaResultSection').style.display='none';
+}
+
+function renderAreaResult(v,area){
+  if(!area){$('#areaResultSection').style.display='none';return}
+  const result=(v.resultados_por_area||{})[area];
+  if(!result){$('#areaResultSection').style.display='none';return}
+  $('#areaResultSection').style.display='block';
+  $('#areaResultStatus').textContent=result.status||'Em consolidação';
+  $('#areaResultSummary').textContent=result.resumo||'Sem resumo consolidado.';
+  $('#areaResultKpis').innerHTML=(result.indicadores||[]).map(k=>`<div class="mini-kpi"><b>${escapeHtml(k.valor)}</b><small>${escapeHtml(k.rotulo)}</small></div>`).join('');
+  $('#areaResultGood').textContent=result.boas_praticas||'Não consolidado.';
+  $('#areaResultOpportunities').textContent=result.oportunidades||'Não consolidado.';
+  $('#areaResultRecommendations').textContent=result.recomendacoes||'Não consolidado.';
+}
+
 function showDetails(v){
+  state.currentVisit=v;
   const panel=$('.details');panel.classList.add('open');$('#emptyDetail').style.display='none';$('#detailCard').classList.add('show');
   $('#detailTitle').textContent=v.unidade;$('#detailBadge').textContent=v.status;$('#detailCity').textContent=`${v.cidade} · ${v.regiao}`;
   $('#detailRealizada').textContent=period(v.inicio,v.fim);
@@ -165,5 +225,8 @@ function showDetails(v){
   const indicators=Object.entries(v.indicadores||{});
   $('#detailKpis').innerHTML=indicators.length?indicators.map(([k,val])=>`<div class="mini-kpi"><b>${val}</b><small>${escapeHtml(k.replaceAll('_',' '))}</small></div>`).join(''):'';
   $('#detailKpisSection').style.display=indicators.length?'block':'none';
+  $('#specialistProfileSection').style.display='none';
+  $('#areaResultSection').style.display='none';
+  renderVisitSpecialists(v);
 }
 boot();
