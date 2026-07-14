@@ -40,3 +40,7 @@ Apenas vínculos confirmados aparecem. Especialistas sem participação document
 - O clique em um avatar abre o especialista dentro da ficha da visita.
 - Paulo Filho só é associado a áreas de TI, Desenvolvimento de Sistemas, Redes de Computadores e Informática para Internet.
 - Registros contendo apenas “Paulo” em outras áreas permanecem sem avatar como identificação pendente.
+
+
+## Quilometragem
+A quilometragem exibida é uma estimativa geodésica entre as unidades confirmadas de cada especialista, em ordem cronológica. Não corresponde à rota rodoviária e não inclui saída, retorno ou deslocamentos locais.

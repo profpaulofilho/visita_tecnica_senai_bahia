@@ -1,0 +1,218 @@
+[
+  {
+    "id": "ESP001",
+    "especialista": "Paulo Filho",
+    "km_estimados": 807.5,
+    "visitas_confirmadas": 5,
+    "metodo": "Distância geodésica entre unidades confirmadas em ordem cronológica",
+    "observacao": "Não inclui rota rodoviária, origem residencial, retorno ou deslocamentos locais.",
+    "trechos": [
+      {
+        "origem": "Lauro de Freitas",
+        "destino": "Camaçari",
+        "data_origem": "2026-02-24",
+        "data_destino": "2026-02-26",
+        "km_estimados": 21.9
+      },
+      {
+        "origem": "Camaçari",
+        "destino": "Ilhéus",
+        "data_origem": "2026-02-26",
+        "data_destino": "2026-03-17",
+        "km_estimados": 245.8
+      },
+      {
+        "origem": "Ilhéus",
+        "destino": "Salvador",
+        "data_origem": "2026-03-17",
+        "data_destino": "2026-03-25",
+        "km_estimados": 211.0
+      },
+      {
+        "origem": "Salvador",
+        "destino": "Vitória da Conquista",
+        "data_origem": "2026-03-25",
+        "data_destino": "2026-04-06",
+        "km_estimados": 328.9
+      }
+    ]
+  },
+  {
+    "id": "ESP002",
+    "especialista": "Felipe dos Anjos",
+    "km_estimados": 0.0,
+    "visitas_confirmadas": 0,
+    "metodo": "Distância geodésica entre unidades confirmadas em ordem cronológica",
+    "observacao": "Não inclui rota rodoviária, origem residencial, retorno ou deslocamentos locais.",
+    "trechos": []
+  },
+  {
+    "id": "ESP003",
+    "especialista": "Joilma Chaves",
+    "km_estimados": 2343.5,
+    "visitas_confirmadas": 7,
+    "metodo": "Distância geodésica entre unidades confirmadas em ordem cronológica",
+    "observacao": "Não inclui rota rodoviária, origem residencial, retorno ou deslocamentos locais.",
+    "trechos": [
+      {
+        "origem": "Candeias",
+        "destino": "Ilhéus",
+        "data_origem": "2026-02-25",
+        "data_destino": "2026-03-17",
+        "km_estimados": 242.0
+      },
+      {
+        "origem": "Ilhéus",
+        "destino": "Serrinha",
+        "data_origem": "2026-03-17",
+        "data_destino": "2026-04-28",
+        "km_estimados": 348.0
+      },
+      {
+        "origem": "Serrinha",
+        "destino": "Barreiras",
+        "data_origem": "2026-04-28",
+        "data_destino": "2026-05-13",
+        "km_estimados": 653.2
+      },
+      {
+        "origem": "Barreiras",
+        "destino": "Luís Eduardo Magalhães",
+        "data_origem": "2026-05-13",
+        "data_destino": "2026-05-14",
+        "km_estimados": 86.8
+      },
+      {
+        "origem": "Luís Eduardo Magalhães",
+        "destino": "Feira de Santana",
+        "data_origem": "2026-05-14",
+        "data_destino": "2026-05-21",
+        "km_estimados": 741.5
+      },
+      {
+        "origem": "Feira de Santana",
+        "destino": "Ourolândia",
+        "data_origem": "2026-05-21",
+        "data_destino": "2026-06-09",
+        "km_estimados": 271.9
+      }
+    ]
+  },
+  {
+    "id": "ESP004",
+    "especialista": "Verônica",
+    "km_estimados": 129.3,
+    "visitas_confirmadas": 3,
+    "metodo": "Distância geodésica entre unidades confirmadas em ordem cronológica",
+    "observacao": "Não inclui rota rodoviária, origem residencial, retorno ou deslocamentos locais.",
+    "trechos": [
+      {
+        "origem": "Camaçari",
+        "destino": "Salvador",
+        "data_origem": "2026-02-26",
+        "data_destino": "2026-03-25",
+        "km_estimados": 36.0
+      },
+      {
+        "origem": "Salvador",
+        "destino": "Feira de Santana",
+        "data_origem": "2026-03-25",
+        "data_destino": "2026-05-21",
+        "km_estimados": 93.3
+      }
+    ]
+  },
+  {
+    "id": "ESP005",
+    "especialista": "Lígia",
+    "km_estimados": 1109.9,
+    "visitas_confirmadas": 5,
+    "metodo": "Distância geodésica entre unidades confirmadas em ordem cronológica",
+    "observacao": "Não inclui rota rodoviária, origem residencial, retorno ou deslocamentos locais.",
+    "trechos": [
+      {
+        "origem": "Teixeira de Freitas",
+        "destino": "Vitória da Conquista",
+        "data_origem": "2026-03-03",
+        "data_destino": "2026-04-06",
+        "km_estimados": 320.2
+      },
+      {
+        "origem": "Vitória da Conquista",
+        "destino": "Jequié",
+        "data_origem": "2026-04-06",
+        "data_destino": "2026-04-07",
+        "km_estimados": 138.5
+      },
+      {
+        "origem": "Jequié",
+        "destino": "Barreiras",
+        "data_origem": "2026-04-07",
+        "data_destino": "2026-05-13",
+        "km_estimados": 564.3
+      },
+      {
+        "origem": "Barreiras",
+        "destino": "Luís Eduardo Magalhães",
+        "data_origem": "2026-05-13",
+        "data_destino": "2026-05-14",
+        "km_estimados": 86.8
+      }
+    ]
+  },
+  {
+    "id": "ESP006",
+    "especialista": "Juliana Neri",
+    "km_estimados": 811.6,
+    "visitas_confirmadas": 4,
+    "metodo": "Distância geodésica entre unidades confirmadas em ordem cronológica",
+    "observacao": "Não inclui rota rodoviária, origem residencial, retorno ou deslocamentos locais.",
+    "trechos": [
+      {
+        "origem": "Candeias",
+        "destino": "Ilhéus",
+        "data_origem": "2026-02-25",
+        "data_destino": "2026-03-17",
+        "km_estimados": 242.0
+      },
+      {
+        "origem": "Ilhéus",
+        "destino": "Salvador",
+        "data_origem": "2026-03-17",
+        "data_destino": "2026-03-25",
+        "km_estimados": 211.0
+      },
+      {
+        "origem": "Salvador",
+        "destino": "Ourolândia",
+        "data_origem": "2026-03-25",
+        "data_destino": "2026-06-09",
+        "km_estimados": 358.5
+      }
+    ]
+  },
+  {
+    "id": "ESP007",
+    "especialista": "Marcos Paulo",
+    "km_estimados": 474.5,
+    "visitas_confirmadas": 3,
+    "metodo": "Distância geodésica entre unidades confirmadas em ordem cronológica",
+    "observacao": "Não inclui rota rodoviária, origem residencial, retorno ou deslocamentos locais.",
+    "trechos": [
+      {
+        "origem": "Vitória da Conquista",
+        "destino": "Serrinha",
+        "data_origem": "2026-04-06",
+        "data_destino": "2026-04-28",
+        "km_estimados": 407.4
+      },
+      {
+        "origem": "Serrinha",
+        "destino": "Feira de Santana",
+        "data_origem": "2026-04-28",
+        "data_destino": "2026-05-21",
+        "km_estimados": 67.1
+      }
+    ]
+  }
+]

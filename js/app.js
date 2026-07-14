@@ -5,6 +5,7 @@ const $=s=>document.querySelector(s);
 const fmt=d=>d?new Intl.DateTimeFormat('pt-BR',{day:'2-digit',month:'short',year:'numeric',timeZone:'UTC'}).format(new Date(d+'T12:00:00Z')):'Não informado';
 const period=(a,b)=>a===b?fmt(a):`${fmt(a)} a ${fmt(b)}`;
 const uniq=a=>[...new Set(a.filter(Boolean))].sort((a,b)=>a.localeCompare(b,'pt-BR'));
+const fmtKm=n=>new Intl.NumberFormat('pt-BR',{maximumFractionDigits:1}).format(Number(n||0))+' km';
 const escapeHtml=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
 
 async function loadData(){
@@ -150,7 +151,7 @@ function renderSpecialists(){
   $('#specialists').innerHTML=state.specialists.map(s=>`
     <button class="specialist specialist-text-only" data-id="${s.id}">
       <span class="specialist-text-badge">${escapeHtml(s.nome.split(/\s+/).map(x=>x[0]).slice(0,2).join('').toUpperCase())}</span>
-      <span><b>${escapeHtml(s.nome)}</b><small>foto exibida após selecionar uma unidade</small></span>
+      <span><b>${escapeHtml(s.nome)}</b><small>${fmtKm(s.quilometragem?.km_estimados)} · ${s.quilometragem?.visitas_confirmadas||0} visita(s)</small></span>
     </button>`).join('');
   document.querySelectorAll('.specialist').forEach(b=>b.onclick=()=>selectSpecialist(b.dataset.id));
 }
@@ -161,7 +162,9 @@ function selectSpecialist(id){
   if(state.route){map.removeLayer(state.route);state.route=null}
   const route=state.visits.filter(v=>(v.especialistas||[]).includes(id)).sort((a,b)=>a.inicio.localeCompare(b.inicio));
   if(route.length>1){state.route=L.polyline(route.map(v=>[v.lat,v.lng]),{color:s.cor,weight:5,opacity:.85}).addTo(map);map.fitBounds(state.route.getBounds(),{padding:[35,35]})}
-  $('#routeStatus').textContent=route.length?`${route.length} visita(s) confirmada(s) para ${s.nome}.`:`${s.nome}: a base ainda não confirma nominalmente a participação por visita.`;
+  $('#routeStatus').textContent=route.length
+    ? `${s.nome}: ${route.length} visita(s) confirmada(s) · ${fmtKm(s.quilometragem?.km_estimados)} estimados entre unidades.`
+    : `${s.nome}: a base ainda não confirma nominalmente a participação por visita.`;
 }
 function renderVisitSpecialists(v){
   const container=$('#detailSpecialistAvatars');
@@ -191,9 +194,13 @@ function showSpecialistInVisit(v,personId){
   const visual=p.avatar
     ? `<img src="${escapeHtml(p.avatar)}" alt="${escapeHtml(p.nome)}">`
     : `<span class="profile-initial">${escapeHtml(p.nome.split(/\s+/).slice(0,2).map(x=>x[0]).join('').toUpperCase())}</span>`;
+  const catalog=state.specialists.find(s=>s.id===p.id);
+  const distance=catalog?.quilometragem;
   $('#specialistProfile').innerHTML=`${visual}<div><h4>${escapeHtml(p.nome)}</h4>
     <p>Registro obtido no campo <b>PARTICIPANTES</b> do relatório da unidade.</p>
-    <p><b>Áreas vinculadas:</b> ${(p.areas||[]).length}</p></div>`;
+    <p><b>Áreas vinculadas:</b> ${(p.areas||[]).length}</p>
+    ${distance?`<p><b>Distância estimada:</b> ${fmtKm(distance.km_estimados)} entre ${distance.visitas_confirmadas} visita(s) confirmada(s).</p>
+    <p class="distance-note">Cálculo geodésico entre unidades; não representa a rota por estrada.</p>`:''}</div>`;
 
   const areas=(p.areas||[]).filter(a=>(v.resultados_por_area||{})[a]);
   const select=$('#specialistAreaSelect');
