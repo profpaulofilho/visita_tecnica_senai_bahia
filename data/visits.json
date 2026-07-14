@@ -27,8 +27,7 @@
     "especialistas": [
       "ESP006",
       "ESP004",
-      "ESP001",
-      "ESP004"
+      "ESP001"
     ],
     "observacao": "Data realizada adotada conforme relatórios. Programação original: 23/02/2026.",
     "data_programada_inicio": null,
@@ -40,7 +39,7 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Dados técnicos extraídos do relatório Excel, diagnósticos HTML e apresentação executiva.",
-    "especialistas_status": "Extraído do campo PARTICIPANTES; acompanhamento extraído da coluna ACOMPANHADO POR.",
+    "especialistas_status": "Avatares exibidos somente após selecionar a unidade",
     "resultados_por_area": {
       "Eletromecânica": {
         "status": "Extraído do relatório Excel",
@@ -1491,7 +1490,8 @@
         "avatar": "assets/avatars/veronica.jpg",
         "areas": [
           "Segurança do Trabalho",
-          "Segurança do Trabalho / EMI"
+          "Segurança do Trabalho / EMI",
+          "Construção Civil"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
       },
@@ -1540,7 +1540,7 @@
           "Tecnologia da Informação",
           "Redes de Computadores"
         ],
-        "origem": "Campo PARTICIPANTES do relatório"
+        "origem": "Vínculo validado por área de atuação em TI"
       },
       {
         "id": "P-taina",
@@ -1579,15 +1579,6 @@
         "areas": [
           "Tecnologia da Informação",
           "Redes de Computadores"
-        ],
-        "origem": "Campo PARTICIPANTES do relatório"
-      },
-      {
-        "id": "ESP004",
-        "nome": "Verônica",
-        "avatar": "assets/avatars/veronica.jpg",
-        "areas": [
-          "Construção Civil"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
       },
@@ -1664,7 +1655,7 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Dados técnicos extraídos dos relatórios Excel e resumo executivo da apresentação.",
-    "especialistas_status": "Extraído do campo PARTICIPANTES; acompanhamento extraído da coluna ACOMPANHADO POR.",
+    "especialistas_status": "Avatares exibidos somente após selecionar a unidade",
     "resultados_por_area": {
       "Segurança do Trabalho / EMI": {
         "status": "Extraído do relatório Excel",
@@ -2907,7 +2898,7 @@
           "Tecnologia da Informação",
           "Redes de Computadores"
         ],
-        "origem": "Campo PARTICIPANTES do relatório"
+        "origem": "Vínculo validado por área de atuação em TI"
       },
       {
         "id": "P-iran",
@@ -2981,8 +2972,6 @@
     ],
     "especialistas": [
       "ESP006",
-      "ESP001",
-      "ESP006",
       "ESP003"
     ],
     "observacao": "",
@@ -3000,7 +2989,7 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Dados técnicos extraídos dos relatórios Excel e resumo executivo da apresentação.",
-    "especialistas_status": "Extraído do campo PARTICIPANTES; acompanhamento extraído da coluna ACOMPANHADO POR.",
+    "especialistas_status": "Avatares exibidos somente após selecionar a unidade",
     "resultados_por_area": {
       "Eletrotécnica": {
         "status": "Extraído do relatório Excel",
@@ -3155,24 +3144,14 @@
         "origem": "Campo PARTICIPANTES do relatório"
       },
       {
-        "id": "ESP001",
-        "nome": "Paulo Filho",
-        "avatar": "assets/avatars/paulo-filho.jpeg",
+        "id": "P-paulo-identificacao-pendente",
+        "nome": "Paulo — identificação a confirmar",
+        "avatar": null,
         "areas": [
           "Eletrotécnica",
           "Eletrotécnica e Automação"
         ],
-        "origem": "Campo PARTICIPANTES do relatório"
-      },
-      {
-        "id": "ESP006",
-        "nome": "Juliana Neri",
-        "avatar": "assets/avatars/juliana-neri.jpg",
-        "areas": [
-          "Eletrotécnica",
-          "Eletrotécnica e Automação"
-        ],
-        "origem": "Campo PARTICIPANTES do relatório"
+        "origem": "Nome ambíguo no relatório; não associado a avatar"
       },
       {
         "id": "ESP003",
@@ -3229,7 +3208,7 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Dados técnicos extraídos dos relatórios Excel e resumo executivo da apresentação.",
-    "especialistas_status": "Extraído do campo PARTICIPANTES; acompanhamento extraído da coluna ACOMPANHADO POR.",
+    "especialistas_status": "Avatares exibidos somente após selecionar a unidade",
     "resultados_por_area": {
       "Segurança do Trabalho": {
         "status": "Extraído do relatório Excel",
@@ -3915,7 +3894,7 @@
         "areas": [
           "Tecnologia da Informação"
         ],
-        "origem": "Campo PARTICIPANTES do relatório"
+        "origem": "Vínculo validado por área de atuação em TI"
       },
       {
         "id": "ESP004",
@@ -4004,8 +3983,7 @@
       "Desenvolvimento de Sistemas / Informática"
     ],
     "especialistas": [
-      "ESP005",
-      "ESP001"
+      "ESP005"
     ],
     "observacao": "",
     "data_programada_inicio": "2026-03-02",
@@ -4022,7 +4000,7 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Dados técnicos extraídos dos relatórios Excel e resumo executivo da apresentação.",
-    "especialistas_status": "Extraído do campo PARTICIPANTES; acompanhamento extraído da coluna ACOMPANHADO POR.",
+    "especialistas_status": "Avatares exibidos somente após selecionar a unidade",
     "resultados_por_area": {
       "Segurança do Trabalho": {
         "status": "Extraído do relatório Excel",
@@ -5054,14 +5032,14 @@
         "origem": "Campo PARTICIPANTES do relatório"
       },
       {
-        "id": "ESP001",
-        "nome": "Paulo Filho",
-        "avatar": "assets/avatars/paulo-filho.jpeg",
+        "id": "P-paulo-identificacao-pendente",
+        "nome": "Paulo — identificação a confirmar",
+        "avatar": null,
         "areas": [
           "Segurança do Trabalho",
           "Galpão"
         ],
-        "origem": "Campo PARTICIPANTES do relatório"
+        "origem": "Nome ambíguo no relatório; não associado a avatar"
       },
       {
         "id": "P-diogo",
@@ -5137,7 +5115,7 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Dados técnicos extraídos dos relatórios Excel e resumo executivo da apresentação.",
-    "especialistas_status": "Extraído do campo PARTICIPANTES; acompanhamento extraído da coluna ACOMPANHADO POR.",
+    "especialistas_status": "Avatares exibidos somente após selecionar a unidade",
     "resultados_por_area": {
       "Área Geral de Mecânica": {
         "status": "Extraído do relatório Excel",
@@ -5804,7 +5782,7 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Dados técnicos extraídos dos relatórios Excel e resumo executivo da apresentação.",
-    "especialistas_status": "Extraído do campo PARTICIPANTES; acompanhamento extraído da coluna ACOMPANHADO POR.",
+    "especialistas_status": "Avatares exibidos somente após selecionar a unidade",
     "resultados_por_area": {
       "Segurança do Trabalho": {
         "status": "Extraído do relatório Excel",
@@ -7336,7 +7314,7 @@
           "Ds",
           "Tecnologia da Informação"
         ],
-        "origem": "Campo PARTICIPANTES do relatório"
+        "origem": "Vínculo validado por área de atuação em TI"
       },
       {
         "id": "P-reinaldoluiznti",
@@ -7382,7 +7360,6 @@
       "Desenvolvimento de Sistemas / Informática"
     ],
     "especialistas": [
-      "ESP001",
       "ESP007",
       "ESP005",
       "ESP001"
@@ -7409,7 +7386,7 @@
     "oportunidades": "Disponíveis nos relatórios técnicos vinculados.",
     "recomendacoes": "Consultar os diagnósticos de TI e a planilha multidisciplinar.",
     "status_dados": "Dados técnicos extraídos dos relatórios Excel e resumo executivo da apresentação.",
-    "especialistas_status": "Extraído do campo PARTICIPANTES; acompanhamento extraído da coluna ACOMPANHADO POR.",
+    "especialistas_status": "Avatares exibidos somente após selecionar a unidade",
     "resultados_por_area": {
       "Segurança do Trabalho": {
         "status": "Extraído do relatório Excel",
@@ -8558,15 +8535,15 @@
     },
     "visitantes": [
       {
-        "id": "ESP001",
-        "nome": "Paulo Filho",
-        "avatar": "assets/avatars/paulo-filho.jpeg",
+        "id": "P-paulo-identificacao-pendente",
+        "nome": "Paulo — identificação a confirmar",
+        "avatar": null,
         "areas": [
           "Segurança do Trabalho",
           "Segurança do Trabalho / EMI",
           "Área de Práticas"
         ],
-        "origem": "Campo PARTICIPANTES do relatório"
+        "origem": "Nome ambíguo no relatório; não associado a avatar"
       },
       {
         "id": "P-tulio",
@@ -8608,7 +8585,7 @@
         "areas": [
           "Tecnologia da Informação"
         ],
-        "origem": "Campo PARTICIPANTES do relatório"
+        "origem": "Vínculo validado por área de atuação em TI"
       },
       {
         "id": "P-alexandre",
@@ -8664,7 +8641,7 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Dados técnicos extraídos dos relatórios Excel e resumo executivo da apresentação.",
-    "especialistas_status": "Extraído do campo PARTICIPANTES; acompanhamento extraído da coluna ACOMPANHADO POR.",
+    "especialistas_status": "Avatares exibidos somente após selecionar a unidade",
     "resultados_por_area": {
       "Segurança do Trabalho": {
         "status": "Extraído do relatório Excel",
@@ -9293,7 +9270,7 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Dados técnicos extraídos dos relatórios Excel e resumo executivo da apresentação.",
-    "especialistas_status": "Extraído do campo PARTICIPANTES; acompanhamento extraído da coluna ACOMPANHADO POR.",
+    "especialistas_status": "Avatares exibidos somente após selecionar a unidade",
     "resultados_por_area": {
       "Segurança do Trabalho": {
         "status": "Extraído do relatório Excel",
@@ -10262,7 +10239,7 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Dados técnicos extraídos dos relatórios Excel e resumo executivo da apresentação.",
-    "especialistas_status": "Extraído do campo PARTICIPANTES; acompanhamento extraído da coluna ACOMPANHADO POR.",
+    "especialistas_status": "Avatares exibidos somente após selecionar a unidade",
     "resultados_por_area": {
       "Segurança do Trabalho": {
         "status": "Extraído do relatório Excel",
@@ -11116,7 +11093,7 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Dados técnicos extraídos dos relatórios Excel e resumo executivo da apresentação.",
-    "especialistas_status": "Extraído do campo PARTICIPANTES; acompanhamento extraído da coluna ACOMPANHADO POR.",
+    "especialistas_status": "Avatares exibidos somente após selecionar a unidade",
     "resultados_por_area": {
       "Segurança do Trabalho": {
         "status": "Extraído do relatório Excel",
@@ -12413,7 +12390,7 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Dados técnicos extraídos dos relatórios Excel e resumo executivo da apresentação.",
-    "especialistas_status": "Extraído do campo PARTICIPANTES; acompanhamento extraído da coluna ACOMPANHADO POR.",
+    "especialistas_status": "Avatares exibidos somente após selecionar a unidade",
     "resultados_por_area": {
       "Segurança do Trabalho": {
         "status": "Extraído do relatório Excel",
@@ -13721,7 +13698,7 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Dados técnicos extraídos dos relatórios Excel e resumo executivo da apresentação.",
-    "especialistas_status": "Extraído do campo PARTICIPANTES; acompanhamento extraído da coluna ACOMPANHADO POR.",
+    "especialistas_status": "Avatares exibidos somente após selecionar a unidade",
     "resultados_por_area": {
       "Eletrotécnica": {
         "status": "Extraído do relatório Excel",
@@ -13854,7 +13831,6 @@
     ],
     "especialistas": [
       "ESP003",
-      "ESP001",
       "ESP006"
     ],
     "observacao": "",
@@ -13872,7 +13848,7 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Dados técnicos extraídos dos relatórios Excel e resumo executivo da apresentação.",
-    "especialistas_status": "Extraído do campo PARTICIPANTES; acompanhamento extraído da coluna ACOMPANHADO POR.",
+    "especialistas_status": "Avatares exibidos somente após selecionar a unidade",
     "resultados_por_area": {
       "Eletromecânica": {
         "status": "Extraído do relatório Excel",
@@ -14156,15 +14132,15 @@
         "origem": "Campo PARTICIPANTES do relatório"
       },
       {
-        "id": "ESP001",
-        "nome": "Paulo Filho",
-        "avatar": "assets/avatars/paulo-filho.jpeg",
+        "id": "P-paulo-identificacao-pendente",
+        "nome": "Paulo — identificação a confirmar",
+        "avatar": null,
         "areas": [
           "Eletromecânica",
           "Galpão de práticas",
           "Galpão de práticas/ Centro Casa dos Ventos"
         ],
-        "origem": "Campo PARTICIPANTES do relatório"
+        "origem": "Nome ambíguo no relatório; não associado a avatar"
       },
       {
         "id": "ESP006",
@@ -14220,7 +14196,7 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Dados técnicos extraídos dos relatórios Excel e resumo executivo da apresentação.",
-    "especialistas_status": "Extraído do campo PARTICIPANTES; acompanhamento extraído da coluna ACOMPANHADO POR.",
+    "especialistas_status": "Avatares exibidos somente após selecionar a unidade",
     "resultados_por_area": {
       "Eletromecânica": {
         "status": "Extraído do relatório Excel",
@@ -14661,7 +14637,7 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Dados técnicos extraídos dos relatórios Excel e resumo executivo da apresentação.",
-    "especialistas_status": "Extraído do campo PARTICIPANTES; acompanhamento extraído da coluna ACOMPANHADO POR.",
+    "especialistas_status": "Avatares exibidos somente após selecionar a unidade",
     "resultados_por_area": {
       "Eletrotécnica": {
         "status": "Extraído do relatório Excel",
@@ -15109,7 +15085,7 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Dados técnicos extraídos dos relatórios Excel e resumo executivo da apresentação.",
-    "especialistas_status": "Extraído do campo PARTICIPANTES; acompanhamento extraído da coluna ACOMPANHADO POR.",
+    "especialistas_status": "Avatares exibidos somente após selecionar a unidade",
     "resultados_por_area": {
       "Segurança do Trabalho": {
         "status": "Extraído do relatório Excel",
@@ -15662,7 +15638,6 @@
       "Logística"
     ],
     "especialistas": [
-      "ESP001",
       "ESP005"
     ],
     "observacao": "Visita identificada nos relatórios, mas não localizada na programação original.",
@@ -15680,7 +15655,7 @@
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "recomendacoes": "Consultar o relatório técnico vinculado à visita.",
     "status_dados": "Dados técnicos extraídos dos relatórios Excel e resumo executivo da apresentação.",
-    "especialistas_status": "Extraído do campo PARTICIPANTES; acompanhamento extraído da coluna ACOMPANHADO POR.",
+    "especialistas_status": "Avatares exibidos somente após selecionar a unidade",
     "resultados_por_area": {
       "Alimentos": {
         "status": "Extraído do relatório Excel",
@@ -16162,16 +16137,16 @@
         "origem": "Campo PARTICIPANTES do relatório"
       },
       {
-        "id": "ESP001",
-        "nome": "Paulo Filho",
-        "avatar": "assets/avatars/paulo-filho.jpeg",
+        "id": "P-paulo-identificacao-pendente",
+        "nome": "Paulo — identificação a confirmar",
+        "avatar": null,
         "areas": [
           "Eletrotécnica",
           "Segurança do Trabalho",
           "Segurança do Trabalho / EMI",
           "Logística"
         ],
-        "origem": "Campo PARTICIPANTES do relatório"
+        "origem": "Nome ambíguo no relatório; não associado a avatar"
       },
       {
         "id": "ESP005",

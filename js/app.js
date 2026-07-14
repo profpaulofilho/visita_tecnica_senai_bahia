@@ -57,36 +57,44 @@ function applyFilters(){
   });
   renderMarkers();renderTimeline();renderStats();
 }
-function specialistMarkup(v){
+function selectedUnitPeopleMarkup(v){
   const people=v.visitantes||[];
   if(!people.length){
-    return `<span class="unit-hover-label">Quem visitou</span>
-      <div class="marker-pending"><span class="marker-pending-icon">?</span><span>Não informado no relatório válido.</span></div>`;
+    return `<div class="selected-unit-empty">Nenhum participante informado nas abas válidas.</div>`;
   }
-  const visible=people.slice(0,6);
-  const remaining=people.length-visible.length;
-  const avatars=visible.map(p=>{
-    if(p.avatar) return `<img class="marker-avatar" src="${escapeHtml(p.avatar)}" alt="${escapeHtml(p.nome)}" title="${escapeHtml(p.nome)}">`;
-    const ini=p.nome.split(/\s+/).slice(0,2).map(x=>x[0]).join('').toUpperCase();
-    return `<span class="marker-avatar marker-initial" title="${escapeHtml(p.nome)}">${escapeHtml(ini)}</span>`;
-  }).join('');
-  return `<span class="unit-hover-label">Quem visitou · ${people.length}</span>
-    <div class="marker-avatar-stack">${avatars}${remaining>0?`<span class="marker-avatar-more">+${remaining}</span>`:''}</div>`;
+  const confirmed=people.filter(p=>p.avatar);
+  const pending=people.filter(p=>!p.avatar);
+  const confirmedHtml=confirmed.length
+    ? `<div class="selected-avatar-list">${confirmed.map(p=>`
+        <button class="selected-avatar-person" type="button" data-person-id="${escapeHtml(p.id)}" title="${escapeHtml(p.nome)}">
+          <img src="${escapeHtml(p.avatar)}" alt="${escapeHtml(p.nome)}">
+          <span>${escapeHtml(p.nome)}</span>
+        </button>`).join('')}</div>`
+    : `<div class="selected-unit-empty">Nenhum avatar confirmado para esta visita.</div>`;
+  const pendingHtml=pending.length
+    ? `<div class="selected-pending"><b>Outros participantes:</b> ${pending.map(p=>escapeHtml(p.nome)).join(', ')}</div>`
+    : '';
+  return `<div class="selected-unit-label">Especialistas confirmados</div>${confirmedHtml}${pendingHtml}`;
+}
+
+function selectedPopupHtml(v){
+  return `<div class="selected-unit-popup">
+    <div class="popup-title">${escapeHtml(v.unidade)}</div>
+    <div class="popup-muted">${escapeHtml(v.cidade)} · ${period(v.inicio,v.fim)}</div>
+    <div class="popup-muted">${(v.areas||[]).length} área(s) técnica(s)</div>
+    ${selectedUnitPeopleMarkup(v)}
+    <button type="button" class="popup-detail-button" data-visit-id="${escapeHtml(v.id)}">Abrir ficha técnica</button>
+  </div>`;
 }
 
 function markerHtml(v,color){
   const initials=v.cidade.split(/\s+/).filter(Boolean).slice(0,2).map(x=>x[0]).join('').toUpperCase();
-  const featured=(v.visitantes||[]).find(p=>p.avatar);
-  const dot=featured
-    ? `<div class="unit-dot avatar-dot" style="border-color:${color}"><img src="${escapeHtml(featured.avatar)}" alt="${escapeHtml(featured.nome)}"></div>`
-    : `<div class="unit-dot" style="background:${color}">${escapeHtml(initials)}</div>`;
   return `<div class="unit-hover-marker">
-    ${dot}
-    <div class="unit-hover-card">
+    <div class="unit-dot" style="background:${color}">${escapeHtml(initials)}</div>
+    <div class="unit-hover-card compact-unit-card">
       <span class="unit-hover-title">${escapeHtml(v.unidade)}</span>
       <span class="unit-hover-city">${escapeHtml(v.cidade)} · ${period(v.inicio,v.fim)}</span>
-      ${specialistMarkup(v)}
-      <span class="unit-hover-city" style="margin-top:7px">${(v.areas||[]).length} área(s) · ${(v.acompanhantes||[]).length} acompanhante(s)</span>
+      <span class="unit-hover-city">${(v.areas||[]).length} área(s) · clique para ver participantes</span>
     </div>
   </div>`;
 }
@@ -95,17 +103,34 @@ function renderMarkers(){
   state.markers.forEach(m=>map.removeLayer(m));state.markers.clear();
   state.filtered.forEach(v=>{
     const color=v.status.includes('não')?'#ff7a00':'#0066b3';
-    const icon=L.divIcon({className:'specialist-unit-icon',html:markerHtml(v,color),iconSize:[38,38],iconAnchor:[19,19]});
+    const icon=L.divIcon({
+      className:'specialist-unit-icon',
+      html:markerHtml(v,color),
+      iconSize:[38,38],
+      iconAnchor:[19,19]
+    });
     const m=L.marker([v.lat,v.lng],{icon,riseOnHover:true,riseOffset:1200}).addTo(map);
-    m.bindPopup(`<div class="popup-title">${escapeHtml(v.unidade)}</div>
-      <div class="popup-muted">${escapeHtml(v.cidade)} · ${period(v.inicio,v.fim)}</div>
-      <div class="popup-muted">${(v.visitantes||[]).length} visitante(s) · ${(v.areas||[]).length} área(s)</div>`);
-    m.on('mouseover',function(){this.getElement()?.querySelector('.unit-hover-marker')?.classList.add('is-hovered')});
-    m.on('mouseout',function(){this.getElement()?.querySelector('.unit-hover-marker')?.classList.remove('is-hovered')});
-    m.on('click',()=>{map.setView([v.lat,v.lng],9,{animate:true});showDetails(v)});
+    m.bindPopup(()=>selectedPopupHtml(v),{maxWidth:390,minWidth:280});
+    m.on('click',()=>{
+      map.setView([v.lat,v.lng],9,{animate:true});
+      m.openPopup();
+      showDetails(v);
+      setTimeout(()=>{
+        document.querySelectorAll('.selected-avatar-person').forEach(btn=>{
+          btn.onclick=()=>{
+            showDetails(v);
+            showSpecialistInVisit(v,btn.dataset.personId);
+          };
+        });
+        document.querySelectorAll('.popup-detail-button').forEach(btn=>{
+          btn.onclick=()=>showDetails(v);
+        });
+      },0);
+    });
     state.markers.set(v.id,m);
   });
 }
+
 function renderTimeline(){
   const list=[...state.filtered].sort((a,b)=>a.inicio.localeCompare(b.inicio));
   $('#timeline').innerHTML=list.map(v=>`<button class="timeline-item" data-id="${v.id}"><b>${escapeHtml(v.cidade)}</b><small>${period(v.inicio,v.fim)} · ${escapeHtml(v.unidade)}</small></button>`).join('')||'<div class="empty">Nenhuma visita encontrada.</div>';
@@ -122,9 +147,14 @@ function renderStats(){
   $('#totalSpecialists').textContent=state.specialists.length;
 }
 function renderSpecialists(){
-  $('#specialists').innerHTML=state.specialists.map(s=>`<button class="specialist" data-id="${s.id}"><img src="${s.avatar}" alt="Avatar de ${escapeHtml(s.nome)}"><span><b>${escapeHtml(s.nome)}</b><small>trilha aguardando vínculo confirmado</small></span></button>`).join('');
+  $('#specialists').innerHTML=state.specialists.map(s=>`
+    <button class="specialist specialist-text-only" data-id="${s.id}">
+      <span class="specialist-text-badge">${escapeHtml(s.nome.split(/\s+/).map(x=>x[0]).slice(0,2).join('').toUpperCase())}</span>
+      <span><b>${escapeHtml(s.nome)}</b><small>foto exibida após selecionar uma unidade</small></span>
+    </button>`).join('');
   document.querySelectorAll('.specialist').forEach(b=>b.onclick=()=>selectSpecialist(b.dataset.id));
 }
+
 function selectSpecialist(id){
   document.querySelectorAll('.specialist').forEach(x=>x.classList.toggle('active',x.dataset.id===id));
   const s=state.specialists.find(x=>x.id===id);state.selectedSpecialist=id;
