@@ -58,41 +58,35 @@ function applyFilters(){
   renderMarkers();renderTimeline();renderStats();
 }
 function specialistMarkup(v){
-  const linked=(v.especialistas||[])
-    .map(id=>state.specialists.find(s=>s.id===id))
-    .filter(Boolean);
-
-  if(!linked.length){
-    return `<span class="unit-hover-label">Especialistas</span>
-      <div class="marker-pending">
-        <span class="marker-pending-icon">?</span>
-        <span>Participação nominal ainda não confirmada para esta visita.</span>
-      </div>`;
+  const people=v.visitantes||[];
+  if(!people.length){
+    return `<span class="unit-hover-label">Quem visitou</span>
+      <div class="marker-pending"><span class="marker-pending-icon">?</span><span>Não informado no relatório válido.</span></div>`;
   }
-
-  const visible=linked.slice(0,5);
-  const remaining=linked.length-visible.length;
-  const avatars=visible.map(s=>`
-    <img class="marker-avatar"
-      src="${escapeHtml(s.avatar)}"
-      alt="${escapeHtml(s.nome)}"
-      title="${escapeHtml(s.nome)}">`).join('');
-
-  return `<span class="unit-hover-label">${linked.length===1?'Especialista':'Especialistas'} da visita</span>
-    <div class="marker-avatar-stack">
-      ${avatars}
-      ${remaining>0?`<span class="marker-avatar-more">+${remaining}</span>`:''}
-    </div>`;
+  const visible=people.slice(0,6);
+  const remaining=people.length-visible.length;
+  const avatars=visible.map(p=>{
+    if(p.avatar) return `<img class="marker-avatar" src="${escapeHtml(p.avatar)}" alt="${escapeHtml(p.nome)}" title="${escapeHtml(p.nome)}">`;
+    const ini=p.nome.split(/\s+/).slice(0,2).map(x=>x[0]).join('').toUpperCase();
+    return `<span class="marker-avatar marker-initial" title="${escapeHtml(p.nome)}">${escapeHtml(ini)}</span>`;
+  }).join('');
+  return `<span class="unit-hover-label">Quem visitou · ${people.length}</span>
+    <div class="marker-avatar-stack">${avatars}${remaining>0?`<span class="marker-avatar-more">+${remaining}</span>`:''}</div>`;
 }
 
 function markerHtml(v,color){
   const initials=v.cidade.split(/\s+/).filter(Boolean).slice(0,2).map(x=>x[0]).join('').toUpperCase();
+  const featured=(v.visitantes||[]).find(p=>p.avatar);
+  const dot=featured
+    ? `<div class="unit-dot avatar-dot" style="border-color:${color}"><img src="${escapeHtml(featured.avatar)}" alt="${escapeHtml(featured.nome)}"></div>`
+    : `<div class="unit-dot" style="background:${color}">${escapeHtml(initials)}</div>`;
   return `<div class="unit-hover-marker">
-    <div class="unit-dot" style="background:${color}">${escapeHtml(initials)}</div>
+    ${dot}
     <div class="unit-hover-card">
       <span class="unit-hover-title">${escapeHtml(v.unidade)}</span>
       <span class="unit-hover-city">${escapeHtml(v.cidade)} · ${period(v.inicio,v.fim)}</span>
       ${specialistMarkup(v)}
+      <span class="unit-hover-city" style="margin-top:7px">${(v.areas||[]).length} área(s) · ${(v.acompanhantes||[]).length} acompanhante(s)</span>
     </div>
   </div>`;
 }
@@ -101,23 +95,15 @@ function renderMarkers(){
   state.markers.forEach(m=>map.removeLayer(m));state.markers.clear();
   state.filtered.forEach(v=>{
     const color=v.status.includes('não')?'#ff7a00':'#0066b3';
-    const icon=L.divIcon({
-      className:'specialist-unit-icon',
-      html:markerHtml(v,color),
-      iconSize:[34,34],
-      iconAnchor:[17,17]
-    });
+    const icon=L.divIcon({className:'specialist-unit-icon',html:markerHtml(v,color),iconSize:[38,38],iconAnchor:[19,19]});
     const m=L.marker([v.lat,v.lng],{icon,riseOnHover:true,riseOffset:1200}).addTo(map);
-    m.bindPopup(`<div class="popup-title">${escapeHtml(v.unidade)}</div><div class="popup-muted">${escapeHtml(v.cidade)} · ${period(v.inicio,v.fim)}</div><div class="popup-muted">${(v.relatorios||[]).length} documento(s) identificado(s)</div>`);
-    m.on('mouseover',function(){
-      const el=this.getElement()?.querySelector('.unit-hover-marker');
-      el?.classList.add('is-hovered');
-    });
-    m.on('mouseout',function(){
-      const el=this.getElement()?.querySelector('.unit-hover-marker');
-      el?.classList.remove('is-hovered');
-    });
-    m.on('click',()=>showDetails(v));state.markers.set(v.id,m);
+    m.bindPopup(`<div class="popup-title">${escapeHtml(v.unidade)}</div>
+      <div class="popup-muted">${escapeHtml(v.cidade)} · ${period(v.inicio,v.fim)}</div>
+      <div class="popup-muted">${(v.visitantes||[]).length} visitante(s) · ${(v.areas||[]).length} área(s)</div>`);
+    m.on('mouseover',function(){this.getElement()?.querySelector('.unit-hover-marker')?.classList.add('is-hovered')});
+    m.on('mouseout',function(){this.getElement()?.querySelector('.unit-hover-marker')?.classList.remove('is-hovered')});
+    m.on('click',()=>{map.setView([v.lat,v.lng],9,{animate:true});showDetails(v)});
+    state.markers.set(v.id,m);
   });
 }
 function renderTimeline(){
@@ -149,61 +135,75 @@ function selectSpecialist(id){
 }
 function renderVisitSpecialists(v){
   const container=$('#detailSpecialistAvatars');
-  const linked=(v.especialistas||[]).map(id=>state.specialists.find(s=>s.id===id)).filter(Boolean);
-  if(!linked.length){
-    container.innerHTML='<div class="detail-no-specialist">A participação nominal dos especialistas ainda não foi confirmada para esta visita.</div>';
+  const people=v.visitantes||[];
+  if(!people.length){
+    container.innerHTML='<div class="detail-no-specialist">Nenhum participante foi informado nas abas válidas deste relatório.</div>';
     $('#specialistProfileSection').style.display='none';
     $('#areaResultSection').style.display='none';
     return;
   }
-  container.innerHTML=linked.map(s=>`<button class="detail-specialist-btn" data-id="${s.id}">
-    <img src="${escapeHtml(s.avatar)}" alt="${escapeHtml(s.nome)}">
-    <span><b>${escapeHtml(s.nome)}</b><small>${(s.areas_atuacao||[]).length} área(s) confirmada(s)</small></span>
-  </button>`).join('');
-  container.querySelectorAll('.detail-specialist-btn').forEach(btn=>{
-    btn.onclick=()=>showSpecialistInVisit(v,btn.dataset.id);
-  });
+  container.innerHTML=people.map(p=>{
+    const visual=p.avatar
+      ? `<img src="${escapeHtml(p.avatar)}" alt="${escapeHtml(p.nome)}">`
+      : `<span class="person-initial">${escapeHtml(p.nome.split(/\s+/).slice(0,2).map(x=>x[0]).join('').toUpperCase())}</span>`;
+    return `<button class="detail-specialist-btn" data-id="${escapeHtml(p.id)}">${visual}
+      <span><b>${escapeHtml(p.nome)}</b><small>${(p.areas||[]).length} área(s) registrada(s)</small></span></button>`;
+  }).join('');
+  container.querySelectorAll('.detail-specialist-btn').forEach(btn=>btn.onclick=()=>showSpecialistInVisit(v,btn.dataset.id));
 }
 
-function showSpecialistInVisit(v,specialistId){
-  const s=state.specialists.find(x=>x.id===specialistId);
-  if(!s)return;
-  state.currentDetailSpecialist=specialistId;
-  document.querySelectorAll('.detail-specialist-btn').forEach(x=>x.classList.toggle('active',x.dataset.id===specialistId));
+function showSpecialistInVisit(v,personId){
+  const p=(v.visitantes||[]).find(x=>x.id===personId);
+  if(!p)return;
+  state.currentDetailSpecialist=personId;
+  document.querySelectorAll('.detail-specialist-btn').forEach(x=>x.classList.toggle('active',x.dataset.id===personId));
   $('#specialistProfileSection').style.display='block';
-  $('#specialistProfile').innerHTML=`<img src="${escapeHtml(s.avatar)}" alt="${escapeHtml(s.nome)}">
-    <div><h4>${escapeHtml(s.nome)}</h4>
-    <p>${escapeHtml(s.resumo_profissional||'')}</p>
-    <p><b>Status:</b> ${escapeHtml(s.areas_status||'Em validação')}</p></div>`;
+  const visual=p.avatar
+    ? `<img src="${escapeHtml(p.avatar)}" alt="${escapeHtml(p.nome)}">`
+    : `<span class="profile-initial">${escapeHtml(p.nome.split(/\s+/).slice(0,2).map(x=>x[0]).join('').toUpperCase())}</span>`;
+  $('#specialistProfile').innerHTML=`${visual}<div><h4>${escapeHtml(p.nome)}</h4>
+    <p>Registro obtido no campo <b>PARTICIPANTES</b> do relatório da unidade.</p>
+    <p><b>Áreas vinculadas:</b> ${(p.areas||[]).length}</p></div>`;
 
-  const visitAreas=Object.keys(v.resultados_por_area||{});
-  const specialistAreas=(s.areas_atuacao||[]).filter(a=>visitAreas.includes(a));
+  const areas=(p.areas||[]).filter(a=>(v.resultados_por_area||{})[a]);
   const select=$('#specialistAreaSelect');
-
-  if(!specialistAreas.length){
-    select.innerHTML='<option value="">Nenhuma área confirmada para este especialista nesta visita</option>';
-    select.disabled=true;
-    $('#areaResultSection').style.display='none';
-    return;
+  if(!areas.length){
+    select.innerHTML='<option value="">Nenhuma área vinculada</option>';select.disabled=true;
+    $('#areaResultSection').style.display='none';return;
   }
-
   select.disabled=false;
-  select.innerHTML='<option value="">Selecione uma área</option>'+specialistAreas.map(a=>`<option value="${escapeHtml(a)}">${escapeHtml(a)}</option>`).join('');
+  select.innerHTML='<option value="">Selecione uma área</option>'+areas.map(a=>`<option value="${escapeHtml(a)}">${escapeHtml(a)}</option>`).join('');
   select.onchange=()=>renderAreaResult(v,select.value);
   $('#areaResultSection').style.display='none';
 }
 
 function renderAreaResult(v,area){
   if(!area){$('#areaResultSection').style.display='none';return}
-  const result=(v.resultados_por_area||{})[area];
-  if(!result){$('#areaResultSection').style.display='none';return}
+  const r=(v.resultados_por_area||{})[area];
+  if(!r){$('#areaResultSection').style.display='none';return}
+  const list=(arr,empty='Não registrado no relatório.')=>(arr&&arr.length)
+    ? `<ul class="result-list">${arr.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul>`
+    : `<span class="muted-result">${empty}</span>`;
   $('#areaResultSection').style.display='block';
-  $('#areaResultStatus').textContent=result.status||'Em consolidação';
-  $('#areaResultSummary').textContent=result.resumo||'Sem resumo consolidado.';
-  $('#areaResultKpis').innerHTML=(result.indicadores||[]).map(k=>`<div class="mini-kpi"><b>${escapeHtml(k.valor)}</b><small>${escapeHtml(k.rotulo)}</small></div>`).join('');
-  $('#areaResultGood').textContent=result.boas_praticas||'Não consolidado.';
-  $('#areaResultOpportunities').textContent=result.oportunidades||'Não consolidado.';
-  $('#areaResultRecommendations').textContent=result.recomendacoes||'Não consolidado.';
+  $('#areaResultStatus').textContent=r.status||'Extraído do relatório';
+  $('#areaResultSummary').textContent=r.resumo||'Sem resumo.';
+  $('#areaResultKpis').innerHTML=(r.indicadores||[]).map(k=>`<div class="mini-kpi"><b>${escapeHtml(k.valor)}</b><small>${escapeHtml(k.rotulo)}</small></div>`).join('');
+  $('#areaResultPoints').innerHTML=list(r.principais_pontos);
+  $('#areaResultGood').innerHTML=list(r.boas_praticas);
+  $('#areaResultOpportunities').innerHTML=list(r.oportunidades);
+  $('#areaResultObservations').innerHTML=list(r.observacoes);
+  $('#areaResultResponsible').innerHTML=list(r.responsaveis);
+  $('#areaResultDeadlines').innerHTML=list(r.prazos);
+  $('#areaResultItems').innerHTML=(r.itens||[]).length
+    ? (r.itens||[]).map((it,i)=>`<details class="technical-item"><summary>Item ${i+1}${it.descricao?' · '+escapeHtml(it.descricao):''}</summary>
+      ${it.observado?`<p><b>Observado:</b> ${escapeHtml(it.observado)}</p>`:''}
+      ${it.boa_pratica?`<p><b>Boa prática:</b> ${escapeHtml(it.boa_pratica)}</p>`:''}
+      ${it.oportunidade?`<p><b>Oportunidade:</b> ${escapeHtml(it.oportunidade)}</p>`:''}
+      ${it.acompanhado_por?`<p><b>Acompanhado por:</b> ${escapeHtml(it.acompanhado_por)}</p>`:''}
+      ${it.responsavel?`<p><b>Responsável:</b> ${escapeHtml(it.responsavel)}</p>`:''}
+      ${it.prazo?`<p><b>Prazo:</b> ${escapeHtml(it.prazo)}</p>`:''}
+    </details>`).join('')
+    : '<span class="muted-result">Nenhum item detalhado.</span>';
 }
 
 function showDetails(v){
@@ -212,21 +212,16 @@ function showDetails(v){
   $('#detailTitle').textContent=v.unidade;$('#detailBadge').textContent=v.status;$('#detailCity').textContent=`${v.cidade} · ${v.regiao}`;
   $('#detailRealizada').textContent=period(v.inicio,v.fim);
   $('#detailProgramada').textContent=v.data_programada_inicio?period(v.data_programada_inicio,v.data_programada_fim):'Não localizada na programação';
-  $('#detailAreas').textContent=(v.areas||[]).length?v.areas.join(', '):'Áreas registradas no relatório; consolidação detalhada em andamento';
+  $('#detailAreas').textContent=(v.areas||[]).join(', ')||'Nenhuma área válida extraída.';
   $('#detailResumo').textContent=v.resumo||'Sem resumo.';
-  $('#detailObs').textContent=v.observacao||'Sem observação adicional.';
-  $('#detailBoas').textContent=v.boas_praticas||'Não consolidado.';
-  $('#detailOportunidades').textContent=v.oportunidades||'Não consolidado.';
-  $('#detailRecomendacoes').textContent=v.recomendacoes||'Não consolidado.';
+  $('#detailAccompanied').innerHTML=(v.acompanhantes||[]).length
+    ? `<ul class="people-list">${v.acompanhantes.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul>`
+    : '<span class="muted-result">Não informado na coluna ACOMPANHADO POR.</span>';
   $('#detailDataStatus').textContent=v.status_dados||'Em validação';
   $('#detailSpecialists').textContent=v.especialistas_status||'Em validação';
-  const docs=v.relatorios||[];
-  $('#detailDocs').innerHTML=docs.length?docs.map(d=>`<div class="doc"><b>${escapeHtml(d.tipo)}</b><small>${escapeHtml(d.arquivo)}</small></div>`).join(''):'<div class="empty">Nenhum documento vinculado.</div>';
-  const indicators=Object.entries(v.indicadores||{});
-  $('#detailKpis').innerHTML=indicators.length?indicators.map(([k,val])=>`<div class="mini-kpi"><b>${val}</b><small>${escapeHtml(k.replaceAll('_',' '))}</small></div>`).join(''):'';
-  $('#detailKpisSection').style.display=indicators.length?'block':'none';
-  $('#specialistProfileSection').style.display='none';
-  $('#areaResultSection').style.display='none';
+  const docs=(v.fontes_dados||[]).map(x=>({tipo:'Fonte analisada',arquivo:x}));
+  $('#detailDocs').innerHTML=docs.length?docs.map(d=>`<div class="doc"><b>${escapeHtml(d.tipo)}</b><small>${escapeHtml(d.arquivo)}</small></div>`).join(''):'<div class="empty">Nenhuma fonte vinculada.</div>';
+  $('#specialistProfileSection').style.display='none';$('#areaResultSection').style.display='none';
   renderVisitSpecialists(v);
 }
 boot();

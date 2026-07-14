@@ -1,0 +1,16 @@
+{
+  "fonte_excel": 19,
+  "fonte_apresentacao": "Relatório de Visitas Técnicas às Unidades dos Centros de Formação Profissional (CFPs) do SENAI Bahia.pptx",
+  "visitas": 19,
+  "areas_consolidadas": 153,
+  "participantes_registrados": 113,
+  "acompanhantes_registrados": 93,
+  "regras": [
+    "Todo ano 2025 foi normalizado para 2026, conforme orientação do responsável.",
+    "Quem visitou foi extraído do campo PARTICIPANTES de cada aba válida.",
+    "Quem acompanhou foi extraído da coluna ACOMPANHADO POR.",
+    "Abas cuja unidade interna diverge da pasta foram excluídas da visita correspondente.",
+    "VCA foi normalizado para Vitória da Conquista.",
+    "Avatares foram associados somente por correspondência nominal."
+  ]
+}

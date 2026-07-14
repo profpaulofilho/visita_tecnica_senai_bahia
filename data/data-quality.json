@@ -1,0 +1,58 @@
+[
+  {
+    "cidade": "Jequié",
+    "aba": "Tecnologia da Informação",
+    "problema": "Unidade interna divergente",
+    "valor": "Vitória da Conquista",
+    "acao": "Aba excluída da visita"
+  },
+  {
+    "cidade": "Santo Antônio de Jesus",
+    "aba": "SEG. TRAB",
+    "problema": "Unidade interna divergente",
+    "valor": "FEIRA DE SANTANA",
+    "acao": "Aba excluída da visita"
+  },
+  {
+    "cidade": "Santo Antônio de Jesus",
+    "aba": "Logística",
+    "problema": "Unidade interna divergente",
+    "valor": "FEIRA DE SANTANA",
+    "acao": "Aba excluída da visita"
+  },
+  {
+    "cidade": "Santo Antônio de Jesus",
+    "aba": "Construção Civil",
+    "problema": "Unidade interna divergente",
+    "valor": "FEIRA DE SANTANA",
+    "acao": "Aba excluída da visita"
+  },
+  {
+    "cidade": "Santo Antônio de Jesus",
+    "aba": "Eletromecânica",
+    "problema": "Unidade interna divergente",
+    "valor": "FEIRA DE SANTANA",
+    "acao": "Aba excluída da visita"
+  },
+  {
+    "cidade": "Santo Antônio de Jesus",
+    "aba": "Química_Alimentos",
+    "problema": "Unidade interna divergente",
+    "valor": "FEIRA DE SANTANA",
+    "acao": "Aba excluída da visita"
+  },
+  {
+    "cidade": "Santo Antônio de Jesus",
+    "aba": "Tecnologia da Informação",
+    "problema": "Unidade interna divergente",
+    "valor": "FEIRA DE SANTANA",
+    "acao": "Aba excluída da visita"
+  },
+  {
+    "cidade": "Serrinha",
+    "aba": "Edificações",
+    "problema": "Unidade interna divergente",
+    "valor": "FEIRA DE SANTANA",
+    "acao": "Aba excluída da visita"
+  }
+]

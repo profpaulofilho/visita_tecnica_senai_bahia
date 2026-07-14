@@ -49,12 +49,12 @@
       <div><small>Visita realizada</small><b id="detailRealizada"></b></div>
       <div><small>Período programado</small><b id="detailProgramada"></b></div>
     </div></section>
-    <section id="detailKpisSection" class="detail-section"><h3>Indicadores do relatório</h3><div id="detailKpis" class="kpis"></div></section>
-    <section class="detail-section"><h3>Especialistas da visita</h3><div id="detailSpecialistAvatars" class="detail-specialist-grid"></div></section>
+    <section class="detail-section"><h3>Quem visitou</h3><div id="detailSpecialistAvatars" class="detail-specialist-grid"></div></section>
+    <section class="detail-section"><h3>Quem acompanhou</h3><div id="detailAccompanied" class="info-box"></div></section>
     <section id="specialistProfileSection" class="detail-section" style="display:none">
-      <h3>Especialista selecionado</h3>
+      <h3>Participante selecionado</h3>
       <div id="specialistProfile" class="specialist-profile"></div>
-      <label class="field-label" for="specialistAreaSelect">Área de atuação nesta visita</label>
+      <label class="field-label" for="specialistAreaSelect">Área desta visita</label>
       <select id="specialistAreaSelect" class="detail-select"></select>
     </section>
     <section class="detail-section"><h3>Resumo da visita</h3><div id="detailResumo" class="info-box"></div></section>
@@ -65,15 +65,15 @@
       <div id="areaResultSummary" class="info-box" style="margin-top:8px"></div>
       <div id="areaResultKpis" class="kpis" style="margin-top:8px"></div>
       <div class="result-grid">
-        <div><small>Boas práticas</small><p id="areaResultGood"></p></div>
-        <div><small>Oportunidades</small><p id="areaResultOpportunities"></p></div>
-        <div><small>Recomendações</small><p id="areaResultRecommendations"></p></div>
+        <div><small>Principais pontos observados</small><div id="areaResultPoints"></div></div>
+        <div><small>Boas práticas</small><div id="areaResultGood"></div></div>
+        <div><small>Oportunidades de melhoria</small><div id="areaResultOpportunities"></div></div>
+        <div><small>Observações gerais</small><div id="areaResultObservations"></div></div>
+        <div><small>Responsáveis</small><div id="areaResultResponsible"></div></div>
+        <div><small>Prazos</small><div id="areaResultDeadlines"></div></div>
       </div>
+      <div class="detail-section"><h3>Itens técnicos do relatório</h3><div id="areaResultItems"></div></div>
     </section>
-    <section class="detail-section"><h3>Boas práticas</h3><div id="detailBoas" class="info-box"></div></section>
-    <section class="detail-section"><h3>Oportunidades de melhoria</h3><div id="detailOportunidades" class="info-box"></div></section>
-    <section class="detail-section"><h3>Recomendações</h3><div id="detailRecomendacoes" class="info-box"></div></section>
-    <section class="detail-section"><h3>Observações</h3><div id="detailObs" class="info-box"></div></section>
     <section class="detail-section"><h3>Qualidade e especialistas</h3><div class="meta">
       <div><small>Status dos dados</small><span id="detailDataStatus"></span></div>
       <div><small>Participação nominal</small><span id="detailSpecialists"></span></div>
