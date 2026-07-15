@@ -84,7 +84,6 @@ function selectedPopupHtml(v){
     <div class="popup-muted">${escapeHtml(v.cidade)} · ${period(v.inicio,v.fim)}</div>
     <div class="popup-muted">${(v.areas||[]).length} área(s) técnica(s)</div>
     ${selectedUnitPeopleMarkup(v)}
-    <button type="button" class="popup-detail-button" data-visit-id="${escapeHtml(v.id)}">Abrir ficha técnica</button>
   </div>`;
 }
 
@@ -122,9 +121,6 @@ function renderMarkers(){
             showDetails(v);
             showSpecialistInVisit(v,btn.dataset.personId);
           };
-        });
-        document.querySelectorAll('.popup-detail-button').forEach(btn=>{
-          btn.onclick=()=>showDetails(v);
         });
       },0);
     });
@@ -231,40 +227,12 @@ function renderAreaResult(v,area){
   $('#areaResultStatus').textContent=r.status||'Extraído do relatório';
   $('#areaResultSummary').textContent=r.resumo||'Sem resumo.';
   $('#areaResultKpis').innerHTML=(r.indicadores||[]).map(k=>`<div class="mini-kpi"><b>${escapeHtml(k.valor)}</b><small>${escapeHtml(k.rotulo)}</small></div>`).join('');
-  $('#areaResultPoints').innerHTML=list(r.principais_pontos);
   $('#areaResultGood').innerHTML=list(r.boas_praticas);
   $('#areaResultOpportunities').innerHTML=list(r.oportunidades);
+  $('#areaResultRecommendations').innerHTML=list(r.recomendacoes);
   $('#areaResultObservations').innerHTML=list(r.observacoes);
-  $('#areaResultResponsible').innerHTML=list(r.responsaveis);
-  $('#areaResultDeadlines').innerHTML=list(r.prazos);
-  $('#areaResultItems').innerHTML=(r.itens||[]).length
-    ? (r.itens||[]).map((it,i)=>`<details class="technical-item"><summary>Item ${i+1}${it.descricao?' · '+escapeHtml(it.descricao):''}</summary>
-      ${it.observado?`<p><b>Observado:</b> ${escapeHtml(it.observado)}</p>`:''}
-      ${it.boa_pratica?`<p><b>Boa prática:</b> ${escapeHtml(it.boa_pratica)}</p>`:''}
-      ${it.oportunidade?`<p><b>Oportunidade:</b> ${escapeHtml(it.oportunidade)}</p>`:''}
-      ${it.acompanhado_por?`<p><b>Acompanhado por:</b> ${escapeHtml(it.acompanhado_por)}</p>`:''}
-      ${it.responsavel?`<p><b>Responsável:</b> ${escapeHtml(it.responsavel)}</p>`:''}
-      ${it.prazo?`<p><b>Prazo:</b> ${escapeHtml(it.prazo)}</p>`:''}
-    </details>`).join('')
-    : '<span class="muted-result">Nenhum item detalhado.</span>';
 }
 
-function aggregateAreaField(v,field){
-  const seen=new Set();const out=[];
-  Object.entries(v.resultados_por_area||{}).forEach(([area,d])=>{
-    (d[field]||[]).forEach(txt=>{
-      const key=area+'|'+txt;
-      if(txt && !seen.has(key)){seen.add(key);out.push({area,txt});}
-    });
-  });
-  return out;
-}
-function renderAggregatedList(containerId,items,emptyMsg){
-  const el=$(containerId);
-  el.innerHTML=items.length
-    ? `<ul class="result-list">${items.map(i=>`<li><b>${escapeHtml(i.area)}:</b> ${escapeHtml(i.txt)}</li>`).join('')}</ul>`
-    : `<span class="muted-result">${emptyMsg}</span>`;
-}
 function showDetails(v){
   state.currentVisit=v;
   const panel=$('.details');panel.classList.add('open');$('#emptyDetail').style.display='none';$('#detailCard').classList.add('show');
@@ -276,14 +244,6 @@ function showDetails(v){
   $('#detailAccompanied').innerHTML=(v.acompanhantes||[]).length
     ? `<ul class="people-list">${v.acompanhantes.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul>`
     : '<span class="muted-result">Não informado na coluna ACOMPANHADO POR.</span>';
-  renderAggregatedList('#detailBoas',aggregateAreaField(v,'boas_praticas'),'Nenhuma boa prática consolidada nos relatórios desta unidade.');
-  renderAggregatedList('#detailOportunidades',aggregateAreaField(v,'oportunidades'),'Nenhuma oportunidade de melhoria consolidada nos relatórios desta unidade.');
-  renderAggregatedList('#detailRecomendacoes',aggregateAreaField(v,'recomendacoes'),'Nenhuma recomendação consolidada nos relatórios desta unidade.');
-  renderAggregatedList('#detailObs',aggregateAreaField(v,'observacoes'),'Nenhuma observação geral consolidada nos relatórios desta unidade.');
-  $('#detailDataStatus').textContent=v.status_dados||'Em validação';
-  $('#detailSpecialists').textContent=v.especialistas_status||'Em validação';
-  const docs=(v.fontes_dados||[]).map(x=>({tipo:'Fonte analisada',arquivo:x}));
-  $('#detailDocs').innerHTML=docs.length?docs.map(d=>`<div class="doc"><b>${escapeHtml(d.tipo)}</b><small>${escapeHtml(d.arquivo)}</small></div>`).join(''):'<div class="empty">Nenhuma fonte vinculada.</div>';
   $('#specialistProfileSection').style.display='none';$('#areaResultSection').style.display='none';
   renderVisitSpecialists(v);
 }

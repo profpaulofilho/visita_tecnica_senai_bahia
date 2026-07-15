@@ -1,5 +1,5 @@
 {
-  "versao": "1.0.6",
+  "versao": "1.0.7",
   "data": "2026-07-15",
   "regras": [
     "Paulo Filho sem visitas presenciais e sem quilometragem entre 12/04/2026 e 16/05/2026.",
@@ -36,5 +36,13 @@
     "Vinculada Lígia como especialista de Química/Biotecnologia (Biotec-Quím) em todas as unidades onde essas áreas existem.",
     "Quilometragem e trilha recalculadas para os 4 especialistas com as novas visitas confirmadas.",
     "Áreas ambíguas não vinculadas automaticamente por falta de confirmação: Química e Alimentos, Petroquímica, Microbiologia — aguardando confirmação de quem é o especialista responsável."
+  ],
+  "correcoes_1_0_7": [
+    "Removidas as seções 'Qualidade e especialistas' e 'Documentos identificados' da ficha técnica, a pedido do usuário.",
+    "Removidos os boxes agregados de Boas práticas/Oportunidades/Recomendações/Observações que misturavam todas as áreas da visita numa lista só (causava duplicidade e confusão). Agora essas informações só aparecem no 'Resultado consolidado da área', quando o usuário escolhe o especialista e a área no dropdown.",
+    "Corrigido segundo bug de JavaScript (crash em renderAreaResult por referenciar #areaResultPoints, #areaResultResponsible, #areaResultDeadlines e #areaResultItems, que não existiam no HTML) — esse era o motivo do resultado por área não aparecer mesmo depois da correção 1.0.5.",
+    "Adicionado box de Observações ao resultado consolidado por área (antes só tinha Boas práticas, Oportunidades e Recomendações).",
+    "Removido o botão 'Abrir ficha técnica' do popup do mapa — ele só duplicava a ação de clicar no marcador, que já abre o painel lateral.",
+    "Adicionado Marcos Paulo como especialista confirmado na visita de Jequié (visitou junto com Lígia)."
   ]
 }

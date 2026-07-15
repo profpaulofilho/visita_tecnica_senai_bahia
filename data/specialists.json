@@ -457,8 +457,8 @@
     "areas_status": "Confirmada — área de responsabilidade indicada pelo responsável do projeto",
     "resumo_profissional": "Especialista responsável pela área de Eletromecânica em todas as unidades visitadas.",
     "quilometragem": {
-      "km_estimados": 3463.0,
-      "visitas_confirmadas": 14,
+      "km_estimados": 3464.6,
+      "visitas_confirmadas": 15,
       "metodo": "Distância geodésica entre unidades confirmadas, em ordem cronológica",
       "observacao": "Não inclui atividades remotas, rota rodoviária, saída, retorno ou deslocamentos locais.",
       "trechos": [
@@ -492,10 +492,17 @@
         },
         {
           "origem": "Vitória da Conquista",
-          "destino": "Serrinha",
+          "destino": "Jequié",
           "data_origem": "2026-04-10",
+          "data_destino": "2026-04-07",
+          "km_estimados": 138.5
+        },
+        {
+          "origem": "Jequié",
+          "destino": "Serrinha",
+          "data_origem": "2026-04-08",
           "data_destino": "2026-04-28",
-          "km_estimados": 407.4
+          "km_estimados": 270.4
         },
         {
           "origem": "Serrinha",
