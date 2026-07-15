@@ -1,5 +1,5 @@
 {
-  "versao": "1.0.5",
+  "versao": "1.0.6",
   "data": "2026-07-15",
   "regras": [
     "Paulo Filho sem visitas presenciais e sem quilometragem entre 12/04/2026 e 16/05/2026.",
@@ -28,5 +28,13 @@
     "Boas práticas, oportunidades de melhoria, recomendações e observações da ficha técnica agora mostram um resumo consolidado real (agregado de todas as áreas da visita), em vez de texto genérico fixo.",
     "Lista de participantes por área (visitantes) enriquecida com vínculos que estavam faltando após a reconstrução de áreas da versão 1.0.4 (ex.: Marcos Paulo em Construção Civil de Vitória da Conquista).",
     "Confirmado: em Dendezeiros, apenas Paulo Filho, Marcos Paulo, Verônica e Juliana Neri têm participação documentada nos relatórios de origem — Felipe dos Anjos, Joilma Chaves e Lígia não aparecem em nenhuma aba desta unidade."
+  ],
+  "correcoes_1_0_6": [
+    "Vinculada Joilma Chaves como especialista de Eletrotécnica e Automação em todas as unidades onde essas áreas existem.",
+    "Vinculado Marcos Paulo como especialista de Eletromecânica em todas as unidades onde essa área existe.",
+    "Vinculada Verônica como especialista de Edificações em todas as unidades onde essa área existe.",
+    "Vinculada Lígia como especialista de Química/Biotecnologia (Biotec-Quím) em todas as unidades onde essas áreas existem.",
+    "Quilometragem e trilha recalculadas para os 4 especialistas com as novas visitas confirmadas.",
+    "Áreas ambíguas não vinculadas automaticamente por falta de confirmação: Química e Alimentos, Petroquímica, Microbiologia — aguardando confirmação de quem é o especialista responsável."
   ]
 }

@@ -30,7 +30,9 @@
       "ESP006",
       "ESP004",
       "ESP001",
-      "ESP007"
+      "ESP007",
+      "ESP003",
+      "ESP005"
     ],
     "observacao": "Data realizada adotada conforme relatórios. Programação original: 23/02/2026.",
     "data_programada_inicio": null,
@@ -1997,7 +1999,9 @@
     "especialistas": [
       "ESP001",
       "ESP007",
-      "ESP006"
+      "ESP006",
+      "ESP003",
+      "ESP005"
     ],
     "observacao": "",
     "data_programada_inicio": "2026-02-24",
@@ -3580,7 +3584,8 @@
       "ESP004",
       "ESP001",
       "ESP007",
-      "ESP006"
+      "ESP006",
+      "ESP003"
     ],
     "observacao": "",
     "data_programada_inicio": "2026-02-26",
@@ -4393,7 +4398,8 @@
     ],
     "especialistas": [
       "ESP005",
-      "ESP006"
+      "ESP006",
+      "ESP003"
     ],
     "observacao": "",
     "data_programada_inicio": "2026-03-02",
@@ -6528,7 +6534,8 @@
     ],
     "especialistas": [
       "ESP003",
-      "ESP006"
+      "ESP006",
+      "ESP007"
     ],
     "observacao": "",
     "data_programada_inicio": "2026-03-16",
@@ -8193,7 +8200,8 @@
     "especialistas": [
       "ESP007",
       "ESP005",
-      "ESP006"
+      "ESP006",
+      "ESP003"
     ],
     "observacao": "",
     "data_programada_inicio": "2026-04-07",
@@ -9599,7 +9607,8 @@
     "especialistas": [
       "ESP007",
       "ESP003",
-      "ESP006"
+      "ESP006",
+      "ESP004"
     ],
     "observacao": "",
     "data_programada_inicio": "2026-04-28",
@@ -10345,7 +10354,8 @@
     "especialistas": [
       "ESP005",
       "ESP003",
-      "ESP006"
+      "ESP006",
+      "ESP007"
     ],
     "observacao": "",
     "data_programada_inicio": "2026-05-11",
@@ -11327,7 +11337,8 @@
     "especialistas": [
       "ESP005",
       "ESP003",
-      "ESP006"
+      "ESP006",
+      "ESP007"
     ],
     "observacao": "",
     "data_programada_inicio": "2026-05-11",
@@ -12145,7 +12156,10 @@
       "Hidraulica  E Pneumática"
     ],
     "especialistas": [
-      "ESP006"
+      "ESP006",
+      "ESP003",
+      "ESP007",
+      "ESP005"
     ],
     "observacao": "",
     "data_programada_inicio": "2026-05-19",
@@ -13490,7 +13504,8 @@
       "ESP004",
       "ESP007",
       "ESP003",
-      "ESP006"
+      "ESP006",
+      "ESP005"
     ],
     "observacao": "Há registro adicional de Construção Civil em 15/05/2026.",
     "data_programada_inicio": "2026-05-21",
@@ -15031,7 +15046,9 @@
       "Tecnologia da Informação"
     ],
     "especialistas": [
-      "ESP006"
+      "ESP006",
+      "ESP003",
+      "ESP007"
     ],
     "observacao": "Somente a visita confirmada foi incluída.",
     "data_programada_inicio": "2026-05-26",
@@ -15930,7 +15947,8 @@
     ],
     "especialistas": [
       "ESP003",
-      "ESP006"
+      "ESP006",
+      "ESP007"
     ],
     "observacao": "",
     "data_programada_inicio": "2026-06-08",
@@ -16317,7 +16335,8 @@
       "Segurança do Trabalho"
     ],
     "especialistas": [
-      "ESP006"
+      "ESP006",
+      "ESP007"
     ],
     "observacao": "",
     "data_programada_inicio": "2026-06-08",
@@ -16872,7 +16891,9 @@
       "Biblioteca",
       "Infraestrutura do Galpão"
     ],
-    "especialistas": [],
+    "especialistas": [
+      "ESP003"
+    ],
     "observacao": "",
     "data_programada_inicio": "2026-06-08",
     "data_programada_fim": "2026-06-12",
@@ -17369,7 +17390,9 @@
       "Tecnologia da Informação / Laboratórios de Informática"
     ],
     "especialistas": [
-      "ESP006"
+      "ESP006",
+      "ESP003",
+      "ESP007"
     ],
     "observacao": "",
     "data_programada_inicio": "2026-06-08",
@@ -17927,7 +17950,8 @@
     ],
     "especialistas": [
       "ESP005",
-      "ESP006"
+      "ESP006",
+      "ESP003"
     ],
     "observacao": "Visita identificada nos relatórios, mas não localizada na programação original.",
     "data_programada_inicio": null,
