@@ -1960,7 +1960,8 @@
     "fontes_dados": [
       "Relatório visita - Especialistas SENAI BA_UN Dendezeiros.xlsx",
       "19 diagnósticos HTML de TI"
-    ]
+    ],
+    "ano": 2026
   },
   {
     "id": "VIS002",
@@ -3298,7 +3299,8 @@
     ],
     "fontes_dados": [
       "RELATORIO VISITA - Especialistas SENAI BA_UN LAURO DE FREITAS.xlsx"
-    ]
+    ],
+    "ano": 2026
   },
   {
     "id": "VIS003",
@@ -3491,7 +3493,8 @@
     ],
     "fontes_dados": [
       "RELATORIO VISITA - Especialistas SENAI BA_UN Candeias.xlsx"
-    ]
+    ],
+    "ano": 2026
   },
   {
     "id": "VIS004",
@@ -4301,7 +4304,8 @@
     ],
     "fontes_dados": [
       "RELATORIO VISITA - Especialistas SENAI BA_UN Camaçari.xlsx"
-    ]
+    ],
+    "ano": 2026
   },
   {
     "id": "VIS005",
@@ -5690,7 +5694,8 @@
     ],
     "fontes_dados": [
       "RELATORIO VISITA - Especialistas SENAI BA_UN Teixeira de Freitas.xlsx"
-    ]
+    ],
+    "ano": 2026
   },
   {
     "id": "VIS006",
@@ -6462,7 +6467,8 @@
     ],
     "fontes_dados": [
       "RELATORIO VISITA - Especialistas SENAI BA_UN_Eunápolis.xlsx"
-    ]
+    ],
+    "ano": 2026
   },
   {
     "id": "VIS007",
@@ -8146,7 +8152,8 @@
     ],
     "fontes_dados": [
       "RELATORIO VISITA - Especialistas SENAI BA_UN ILHEUS.xlsx"
-    ]
+    ],
+    "ano": 2026
   },
   {
     "id": "VIS008",
@@ -9541,7 +9548,8 @@
     ],
     "fontes_dados": [
       "Relatório visita - Especialistas SENAI BA_UN Vitória da Conquista.xlsx"
-    ]
+    ],
+    "ano": 2026
   },
   {
     "id": "VIS009",
@@ -10286,7 +10294,8 @@
     ],
     "fontes_dados": [
       "Relatório visita - Especialistas SENAI BA_UN SERRINHA.xlsx"
-    ]
+    ],
+    "ano": 2026
   },
   {
     "id": "VIS010",
@@ -11282,7 +11291,8 @@
     ],
     "fontes_dados": [
       "RELATORIO VISITA - Especialistas_UN Barreiras.xlsx"
-    ]
+    ],
+    "ano": 2026
   },
   {
     "id": "VIS011",
@@ -12094,7 +12104,8 @@
     ],
     "fontes_dados": [
       "RELATORIO VISITA - Especialistas_UN LEM.xlsx"
-    ]
+    ],
+    "ano": 2026
   },
   {
     "id": "VIS012",
@@ -13440,7 +13451,8 @@
     ],
     "fontes_dados": [
       "Relatório visita - Especialistas SENAI BA_UN ALAGOINHAS.xlsx"
-    ]
+    ],
+    "ano": 2026
   },
   {
     "id": "VIS013",
@@ -15000,7 +15012,8 @@
     ],
     "fontes_dados": [
       "Relatório visita - Especialistas SENAI BA_UN FEIRA DE SANTANA.xlsx"
-    ]
+    ],
+    "ano": 2026
   },
   {
     "id": "VIS014",
@@ -15918,7 +15931,8 @@
     ],
     "fontes_dados": [
       "Relatório visita - Especialistas SENAI BA_UN SAJ.xlsx"
-    ]
+    ],
+    "ano": 2026
   },
   {
     "id": "VIS015",
@@ -16317,7 +16331,8 @@
     ],
     "fontes_dados": [
       "RELATORIO VISITA - Ourolândia.xlsx"
-    ]
+    ],
+    "ano": 2026
   },
   {
     "id": "VIS016",
@@ -16884,7 +16899,8 @@
     ],
     "fontes_dados": [
       "RELATORIO VISITA - Jacobina.xlsx"
-    ]
+    ],
+    "ano": 2026
   },
   {
     "id": "VIS017",
@@ -17397,7 +17413,8 @@
     ],
     "fontes_dados": [
       "RELATORIO VISITA - Especialistas SENAI BA_CFP SENHOR BONFIM.xlsx"
-    ]
+    ],
+    "ano": 2026
   },
   {
     "id": "VIS018",
@@ -17965,7 +17982,8 @@
     ],
     "fontes_dados": [
       "RELATORIO VISITA - Especialistas SENAI BA_UN JUAZEIRO.xlsx"
-    ]
+    ],
+    "ano": 2026
   },
   {
     "id": "VIS019",
@@ -18553,6 +18571,7 @@
     ],
     "cor_marcador": "padrao",
     "status_visual": "Realizada",
-    "observacao_status": "Visita identificada nos relatórios e não localizada na programação original. O marcador foi padronizado com as demais unidades."
+    "observacao_status": "Visita identificada nos relatórios e não localizada na programação original. O marcador foi padronizado com as demais unidades.",
+    "ano": 2026
   }
 ]

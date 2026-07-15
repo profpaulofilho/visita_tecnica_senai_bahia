@@ -76,3 +76,6 @@ Auditoria completa das 19 planilhas de origem contra os dados carregados no app:
 - Removidos itens sem conteúdo real (restos da aba MODELO e de abas de TI não preenchidas), que apareciam como observações vazias.
 - Segurança do Trabalho vinculada a Juliana Neri (coordenadora da equipe) em todas as unidades onde essa área existe; quilometragem e trilha dela recalculadas.
 - Nenhum conteúdo pré-existente foi removido nesta auditoria.
+
+## Roadmap — ciclo 2027
+A partir de 2026, cada visita tem um campo `ano` e há um filtro de ano na interface. O plano para 2027 é substituir a coleta manual (planilha → extração) por um formulário web padrão preenchido em campo pelos especialistas, alimentando a plataforma diretamente. Detalhes e opções de arquitetura em `data/roadmap.json`.

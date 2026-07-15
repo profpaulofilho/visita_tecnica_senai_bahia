@@ -42,19 +42,20 @@ async function addBahiaBoundary(){
 function fillFilters(){
   uniq(state.visits.map(v=>v.cidade)).forEach(x=>$('#cityFilter').insertAdjacentHTML('beforeend',`<option>${escapeHtml(x)}</option>`));
   uniq(state.visits.map(v=>v.regiao)).forEach(x=>$('#regionFilter').insertAdjacentHTML('beforeend',`<option>${escapeHtml(x)}</option>`));
+  [...new Set(state.visits.map(v=>v.ano).filter(Boolean))].sort((a,b)=>b-a).forEach(x=>$('#yearFilter').insertAdjacentHTML('beforeend',`<option value="${x}">${x}</option>`));
 }
 function bind(){
-  ['search','cityFilter','regionFilter','monthFilter'].forEach(id=>$('#'+id).addEventListener(id==='search'?'input':'change',applyFilters));
+  ['search','cityFilter','regionFilter','monthFilter','yearFilter'].forEach(id=>$('#'+id).addEventListener(id==='search'?'input':'change',applyFilters));
   $('#themeBtn').onclick=()=>{const html=document.documentElement;html.dataset.theme=html.dataset.theme==='dark'?'light':'dark';localStorage.setItem('theme',html.dataset.theme)};
   $('#closeDetails').onclick=()=>$('.details').classList.remove('open');
   const saved=localStorage.getItem('theme');if(saved)document.documentElement.dataset.theme=saved;
 }
 function applyFilters(){
-  const q=$('#search').value.trim().toLowerCase(),city=$('#cityFilter').value,region=$('#regionFilter').value,month=$('#monthFilter').value;
+  const q=$('#search').value.trim().toLowerCase(),city=$('#cityFilter').value,region=$('#regionFilter').value,month=$('#monthFilter').value,year=$('#yearFilter').value;
   state.filtered=state.visits.filter(v=>{
     const docs=(v.relatorios||[]).map(d=>d.arquivo).join(' ');
     const hay=[v.unidade,v.cidade,v.regiao,v.observacao,v.resumo,docs,...(v.areas||[])].join(' ').toLowerCase();
-    return(!q||hay.includes(q))&&(!city||v.cidade===city)&&(!region||v.regiao===region)&&(!month||v.inicio.slice(5,7)===month);
+    return(!q||hay.includes(q))&&(!city||v.cidade===city)&&(!region||v.regiao===region)&&(!month||v.inicio.slice(5,7)===month)&&(!year||String(v.ano)===year);
   });
   renderMarkers();renderTimeline();renderStats();
 }

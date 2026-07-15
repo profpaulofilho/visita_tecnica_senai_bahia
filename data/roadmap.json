@@ -1,0 +1,31 @@
+{
+  "titulo": "Roadmap — Coleta padronizada de visitas técnicas a partir de 2027",
+  "registrado_em": "2026-07-15",
+  "contexto": "Hoje (ciclo 2026) os dados de cada visita vêm de planilhas Excel preenchidas manualmente por unidade/área, depois extraídas e consolidadas manualmente (com apoio de IA) para dentro de data/visits.json. O responsável do projeto pediu para registrar, desde já, o plano de substituir esse processo por um formulário web padrão a partir do ciclo 2027, para que os dados entrem direto na plataforma durante as visitas, sem etapa manual de consolidação.",
+  "decisao_ja_tomada": "Cada visita agora tem um campo \"ano\" (visits.json), começando em 2026. Existe um filtro de ano na interface (#yearFilter). Ciclos futuros (2027, 2028...) devem ser adicionados ao mesmo arquivo com o ano correto, ou — se o volume crescer muito — migrados para um arquivo por ano (data/visits-2026.json, data/visits-2027.json) carregados e concatenados no boot da aplicação.",
+  "proposta_formulario_padrao": {
+    "objetivo": "Um formulário web único, usado pelos especialistas durante a visita técnica, com uma aba/seção por área (mesmas áreas hoje em resultados_por_area) e campos padronizados: unidade, data, especialista responsável, acompanhante local, descrição do item, o que foi observado, boas práticas, oportunidades de melhoria, responsável, prazo, status (C/A/D).",
+    "por_que_isso_resolve_os_problemas_de_2026": "Elimina exatamente os bugs que corrigimos nesta rodada: células mescladas perdendo o acompanhante, abas inteiras esquecidas na extração, nomes abreviados causando confusão entre especialistas (Paulo Filho x Marcos Paulo), áreas com rótulos inconsistentes (Segurança do Trabalho x EMI). Um formulário estruturado com campos obrigatórios e uma lista fixa de especialistas/áreas evita esse tipo de erro na origem.",
+    "problema_em_aberto_que_precisa_de_decisao": "O site hoje é 100% estático (GitHub Pages/Vercel, sem backend), publicando arquivos JSON versionados no Git. Um formulário que 'alimenta automaticamente a plataforma' precisa de algum lugar para gravar os dados em tempo real, o que exige uma peça nova: um backend leve (ex.: Vercel Functions + banco de dados, Google Forms + Google Sheets como fonte, ou Airtable). Isso ainda não foi decidido e deve ser escolhido antes de começar a construir o formulário."
+  },
+  "opcoes_de_backend_para_o_formulario": [
+    {
+      "opcao": "Google Forms + Google Sheets",
+      "esforco": "Baixo",
+      "custo": "Gratuito",
+      "observacao": "Mais rápido de colocar em pé. O site pode ler a planilha publicada como CSV/JSON. Menos controle de validação e layout."
+    },
+    {
+      "opcao": "Formulário próprio + Vercel Functions + banco (Supabase/Postgres)",
+      "esforco": "Médio-alto",
+      "custo": "Gratuito até certo volume, depois pago",
+      "observacao": "Mesmo visual do dashboard atual, validação completa, dropdowns de especialista/área vindos do specialists.json. Mais trabalho de implementação."
+    },
+    {
+      "opcao": "Airtable como banco + formulário nativo do Airtable",
+      "esforco": "Baixo-médio",
+      "custo": "Gratuito até certo volume",
+      "observacao": "Interface de formulário pronta, boa para preenchimento em campo pelo celular, exporta para JSON/CSV facilmente."
+    }
+  ]
+}

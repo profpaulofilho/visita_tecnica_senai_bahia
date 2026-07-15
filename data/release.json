@@ -1,5 +1,5 @@
 {
-  "versao": "1.1.0",
+  "versao": "1.1.1",
   "data": "2026-07-15",
   "regras": [
     "Paulo Filho sem visitas presenciais e sem quilometragem entre 12/04/2026 e 16/05/2026.",
@@ -60,5 +60,9 @@
   "correcoes_1_1_0": [
     "Confirmado: Lígia é a especialista responsável por Microbiologia, Petroquímica e Química e Alimentos, além de Química e Biotecnologia — adicionada a Santo Antônio de Jesus (única unidade que faltava dessas áreas).",
     "Quilometragem e trilha de Lígia recalculadas: 12 visitas confirmadas."
+  ],
+  "correcoes_1_1_1": [
+    "Adicionado campo 'ano' em cada visita (2026 nas visitas atuais) e filtro de ano na interface, preparando a base para ciclos futuros (2027+).",
+    "Registrado em data/roadmap.json o plano de substituir a coleta manual por planilha por um formulário web padrão a partir de 2027, com opções de arquitetura de backend para decisão do responsável do projeto."
   ]
 }
