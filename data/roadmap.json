@@ -2,18 +2,18 @@
   "titulo": "Roadmap — Coleta padronizada de visitas técnicas a partir de 2027",
   "registrado_em": "2026-07-15",
   "contexto": "Hoje (ciclo 2026) os dados de cada visita vêm de planilhas Excel preenchidas manualmente por unidade/área, depois extraídas e consolidadas manualmente (com apoio de IA) para dentro de data/visits.json. O responsável do projeto pediu para registrar, desde já, o plano de substituir esse processo por um formulário web padrão a partir do ciclo 2027, para que os dados entrem direto na plataforma durante as visitas, sem etapa manual de consolidação.",
-  "decisao_ja_tomada": "Cada visita agora tem um campo \"ano\" (visits.json), começando em 2026. Existe um filtro de ano na interface (#yearFilter). Ciclos futuros (2027, 2028...) devem ser adicionados ao mesmo arquivo com o ano correto, ou — se o volume crescer muito — migrados para um arquivo por ano (data/visits-2026.json, data/visits-2027.json) carregados e concatenados no boot da aplicação.",
+  "decisao_ja_tomada": "Cada visita agora tem um campo \"ano\" (visits.json), começando em 2026. Existe um filtro de ano na interface (#yearFilter). Ciclos futuros (2027, 2028...) devem ser adicionados ao mesmo arquivo com o ano correto, ou, se o volume crescer muito, migrados para um arquivo por ano (data/visits-2026.json, data/visits-2027.json) carregados e concatenados no boot da aplicação.",
   "backend_escolhido": {
     "decisao": "Google Forms + Google Sheets",
     "decidido_em": "2026-07-15",
     "por_que": "Menor esforço e custo zero para colocar em pé a tempo do ciclo 2027; cada especialista preenche pelo celular durante a visita, sem precisar de app novo ou treinamento.",
-    "como_deve_funcionar": "1) Um Google Form por área técnica (ou um único form com pergunta condicional de área) com os campos abaixo. 2) As respostas caem numa Google Sheet. 3) A Sheet é publicada (Publicar na web, formato CSV) ou lida via Google Sheets API. 4) Um pequeno script (a ser escrito perto de 2027) converte as linhas da planilha para o mesmo formato de data/visits.json (resultados_por_area, itens, acompanhado_por etc.), preservando a compatibilidade com js/app.js sem precisar mudar o frontend.",
+    "como_deve_funcionar": "1) Um Google Form por área técnica, ou um único form com pergunta condicional de área, com os campos abaixo. 2) As respostas caem numa Google Sheet. 3) A Sheet é publicada (Publicar na web, formato CSV) ou lida via Google Sheets API. 4) Um pequeno script, a ser escrito perto de 2027, converte as linhas da planilha para o mesmo formato de data/visits.json (resultados_por_area, itens, acompanhado_por etc.), preservando a compatibilidade com js/app.js sem precisar mudar o frontend.",
     "campos_do_formulario": [
       "Ano do ciclo (fixo por formulário, ex.: 2027)",
       "Unidade (lista fixa, mesmas 19 unidades)",
       "Data da visita",
-      "Área técnica (lista fixa: Tecnologia da Informação, Eletromecânica, Eletrotécnica, Automação, Segurança do Trabalho, EMI, Construção Civil, Edificações, Química, Biotecnologia, Microbiologia, Petroquímica, Química e Alimentos, Refrigeração, Logística, Redes de Computadores, Desenvolvimento de Sistemas, etc. — sincronizada com as chaves já usadas em resultados_por_area)",
-      "Especialista responsável (lista fixa, os 7 nomes do roster + campo 'outro' com confirmação manual, para nunca mais repetir a confusão Paulo Filho x Marcos Paulo)",
+      "Área técnica (lista fixa, sincronizada com as chaves já usadas em resultados_por_area)",
+      "Especialista responsável (lista fixa, os 7 nomes do roster, para nunca mais repetir a confusão Paulo Filho x Marcos Paulo)",
       "Acompanhante local / NTI / ATI (texto livre)",
       "Descrição do item avaliado",
       "O que foi observado",
@@ -21,8 +21,20 @@
       "Oportunidades de melhoria",
       "Responsável pela ação",
       "Prazo",
-      "Status (Concluído / Aberto / Divergente — mesma lógica dos códigos C/A/D usados hoje)"
+      "Status (Concluído, Aberto ou Divergente, mesma lógica dos códigos C/A/D usados hoje)"
     ],
-    "licoes_de_2026_a_aplicar_no_form": "Tornar 'Especialista responsável' um campo de seleção obrigatório (não texto livre) resolve de raiz os problemas que corrigimos nesta rodada: nomes abreviados causando confusão entre especialistas, células copiadas/coladas de outra unidade, abas inteiras esquecidas na consolidação, e rótulos de área inconsistentes (ex.: 'Segurança do Trabalho / EMI' quando na verdade são duas áreas)."
+    "licoes_de_2026_a_aplicar_no_form": "Tornar o campo Especialista responsável uma lista de seleção obrigatória, não texto livre, resolve de raiz os problemas corrigidos nesta rodada: nomes abreviados causando confusão entre especialistas, células copiadas de outra unidade, abas inteiras esquecidas na consolidação, e rótulos de área inconsistentes como Segurança do Trabalho e EMI aparecendo combinados quando são duas áreas distintas."
   },
-  "opcoes_alternativas_n
+  "opcoes_alternativas_nao_escolhidas": [
+    {
+      "opcao": "Formulário próprio + Vercel Functions + banco (Supabase/Postgres)",
+      "esforco": "Médio-alto",
+      "observacao": "Mesmo visual do dashboard atual, validação completa. Descartada por enquanto por exigir mais desenvolvimento e manutenção."
+    },
+    {
+      "opcao": "Airtable",
+      "esforco": "Baixo-médio",
+      "observacao": "Alternativa razoável se o Google Forms se mostrar limitado depois de testado em campo."
+    }
+  ]
+}
