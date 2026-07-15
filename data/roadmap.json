@@ -128,48 +128,55 @@
       },
       {
         "ordem": 6,
-        "pergunta": "Acompanhante local (NTI/ATI)",
+        "pergunta": "Nome do acompanhante local",
+        "tipo": "Resposta curta",
+        "obrigatorio": false,
+        "observacao": "Qualquer pessoa da unidade que acompanhou a visita — não precisa ser da equipe de NTI/ATI."
+      },
+      {
+        "ordem": 7,
+        "pergunta": "Cargo do acompanhante local",
         "tipo": "Resposta curta",
         "obrigatorio": false
       },
       {
-        "ordem": 7,
+        "ordem": 8,
         "pergunta": "Descrição do item avaliado",
         "tipo": "Resposta curta",
         "obrigatorio": true
       },
       {
-        "ordem": 8,
+        "ordem": 9,
         "pergunta": "O que foi observado",
         "tipo": "Parágrafo",
         "obrigatorio": true
       },
       {
-        "ordem": 9,
+        "ordem": 10,
         "pergunta": "Boas práticas identificadas",
         "tipo": "Parágrafo",
         "obrigatorio": false
       },
       {
-        "ordem": 10,
+        "ordem": 11,
         "pergunta": "Oportunidades de melhoria",
         "tipo": "Parágrafo",
         "obrigatorio": false
       },
       {
-        "ordem": 11,
+        "ordem": 12,
         "pergunta": "Responsável pela ação",
         "tipo": "Resposta curta",
         "obrigatorio": false
       },
       {
-        "ordem": 12,
+        "ordem": 13,
         "pergunta": "Prazo",
         "tipo": "Data",
         "obrigatorio": false
       },
       {
-        "ordem": 13,
+        "ordem": 14,
         "pergunta": "Status",
         "tipo": "Múltipla escolha",
         "obrigatorio": true,

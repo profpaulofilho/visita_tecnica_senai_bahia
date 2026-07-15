@@ -1939,6 +1939,25 @@
           "Refrigeração"
         ],
         "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP003",
+        "nome": "Joilma Chaves",
+        "avatar": "assets/avatars/joilma-chaves.jpg",
+        "areas": [
+          "Automação",
+          "Eletrotécnica"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP005",
+        "nome": "Lígia",
+        "avatar": "assets/avatars/ligia.jpg",
+        "areas": [
+          "Química"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
       }
     ],
     "acompanhantes": [
@@ -3285,6 +3304,43 @@
           "Refrigeração"
         ],
         "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP006",
+        "nome": "Juliana Neri",
+        "avatar": "assets/avatars/juliana-neri.jpg",
+        "areas": [
+          "EMI"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP003",
+        "nome": "Joilma Chaves",
+        "avatar": "assets/avatars/joilma-chaves.jpg",
+        "areas": [
+          "Automação",
+          "Eletrotécnica"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP005",
+        "nome": "Lígia",
+        "avatar": "assets/avatars/ligia.jpg",
+        "areas": [
+          "Microbiologia",
+          "Petroquímica",
+          "Química"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP004",
+        "nome": "Verônica",
+        "avatar": "assets/avatars/veronica.jpg",
+        "areas": [],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
       }
     ],
     "acompanhantes": [
@@ -4291,6 +4347,32 @@
         "areas": [
           "Eletromecânica"
         ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP006",
+        "nome": "Juliana Neri",
+        "avatar": "assets/avatars/juliana-neri.jpg",
+        "areas": [
+          "Segurança do Trabalho"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP003",
+        "nome": "Joilma Chaves",
+        "avatar": "assets/avatars/joilma-chaves.jpg",
+        "areas": [
+          "Automação",
+          "Eletrotécnica"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP005",
+        "nome": "Lígia",
+        "avatar": "assets/avatars/ligia.jpg",
+        "areas": [],
         "origem": "Adicionado por validação manual do responsável pelo projeto"
       }
     ],
@@ -5685,6 +5767,31 @@
         ],
         "modalidade": "remoto",
         "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP006",
+        "nome": "Juliana Neri",
+        "avatar": "assets/avatars/juliana-neri.jpg",
+        "areas": [
+          "Segurança do Trabalho"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP003",
+        "nome": "Joilma Chaves",
+        "avatar": "assets/avatars/joilma-chaves.jpg",
+        "areas": [
+          "Eletrotécnica"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP007",
+        "nome": "Marcos Paulo",
+        "avatar": "assets/avatars/marcos-paulo.jpg",
+        "areas": [],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
       }
     ],
     "acompanhantes": [
@@ -6459,6 +6566,20 @@
         ],
         "modalidade": "remoto",
         "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP007",
+        "nome": "Marcos Paulo",
+        "avatar": "assets/avatars/marcos-paulo.jpg",
+        "areas": [],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP005",
+        "nome": "Lígia",
+        "avatar": "assets/avatars/ligia.jpg",
+        "areas": [],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
       }
     ],
     "acompanhantes": [
@@ -8142,6 +8263,15 @@
         ],
         "modalidade": "remoto",
         "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP007",
+        "nome": "Marcos Paulo",
+        "avatar": "assets/avatars/marcos-paulo.jpg",
+        "areas": [
+          "Eletromecânica"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
       }
     ],
     "acompanhantes": [
@@ -9539,6 +9669,34 @@
         ],
         "modalidade": "remoto",
         "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP006",
+        "nome": "Juliana Neri",
+        "avatar": "assets/avatars/juliana-neri.jpg",
+        "areas": [
+          "EMI",
+          "Segurança do Trabalho"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP003",
+        "nome": "Joilma Chaves",
+        "avatar": "assets/avatars/joilma-chaves.jpg",
+        "areas": [
+          "Eletrotécnica"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP004",
+        "nome": "Verônica",
+        "avatar": "assets/avatars/veronica.jpg",
+        "areas": [
+          "Construção Civil"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
       }
     ],
     "acompanhantes": [
@@ -10283,6 +10441,24 @@
           "Eletrotécnica"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
+      },
+      {
+        "id": "ESP006",
+        "nome": "Juliana Neri",
+        "avatar": "assets/avatars/juliana-neri.jpg",
+        "areas": [
+          "Segurança do Trabalho"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP004",
+        "nome": "Verônica",
+        "avatar": "assets/avatars/veronica.jpg",
+        "areas": [
+          "Edificações"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
       }
     ],
     "acompanhantes": [
@@ -11279,6 +11455,24 @@
         ],
         "modalidade": "remoto",
         "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP006",
+        "nome": "Juliana Neri",
+        "avatar": "assets/avatars/juliana-neri.jpg",
+        "areas": [
+          "Segurança do Trabalho"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP007",
+        "nome": "Marcos Paulo",
+        "avatar": "assets/avatars/marcos-paulo.jpg",
+        "areas": [
+          "Eletromecânica"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
       }
     ],
     "acompanhantes": [
@@ -12090,6 +12284,24 @@
           "Eletrotécnica"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
+      },
+      {
+        "id": "ESP006",
+        "nome": "Juliana Neri",
+        "avatar": "assets/avatars/juliana-neri.jpg",
+        "areas": [
+          "Segurança do Trabalho"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP007",
+        "nome": "Marcos Paulo",
+        "avatar": "assets/avatars/marcos-paulo.jpg",
+        "areas": [
+          "Eletromecânica"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
       }
     ],
     "acompanhantes": [
@@ -13437,6 +13649,51 @@
         ],
         "modalidade": "remoto",
         "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP006",
+        "nome": "Juliana Neri",
+        "avatar": "assets/avatars/juliana-neri.jpg",
+        "areas": [
+          "EMI",
+          "Segurança do Trabalho"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP003",
+        "nome": "Joilma Chaves",
+        "avatar": "assets/avatars/joilma-chaves.jpg",
+        "areas": [
+          "Automação",
+          "Eletrotécnica"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP007",
+        "nome": "Marcos Paulo",
+        "avatar": "assets/avatars/marcos-paulo.jpg",
+        "areas": [
+          "Eletromecânica"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP005",
+        "nome": "Lígia",
+        "avatar": "assets/avatars/ligia.jpg",
+        "areas": [
+          "Química"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP004",
+        "nome": "Verônica",
+        "avatar": "assets/avatars/veronica.jpg",
+        "areas": [],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
       }
     ],
     "acompanhantes": [
@@ -14999,6 +15256,25 @@
         ],
         "modalidade": "remoto",
         "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP006",
+        "nome": "Juliana Neri",
+        "avatar": "assets/avatars/juliana-neri.jpg",
+        "areas": [
+          "Segurança do Trabalho"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP005",
+        "nome": "Lígia",
+        "avatar": "assets/avatars/ligia.jpg",
+        "areas": [
+          "Microbiologia",
+          "Química"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
       }
     ],
     "acompanhantes": [
@@ -15924,6 +16200,51 @@
         ],
         "modalidade": "remoto",
         "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP006",
+        "nome": "Juliana Neri",
+        "avatar": "assets/avatars/juliana-neri.jpg",
+        "areas": [
+          "Segurança do Trabalho"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP003",
+        "nome": "Joilma Chaves",
+        "avatar": "assets/avatars/joilma-chaves.jpg",
+        "areas": [
+          "Eletrotécnica"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP007",
+        "nome": "Marcos Paulo",
+        "avatar": "assets/avatars/marcos-paulo.jpg",
+        "areas": [
+          "Eletromecânica"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP004",
+        "nome": "Verônica",
+        "avatar": "assets/avatars/veronica.jpg",
+        "areas": [
+          "Construção Civil"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP005",
+        "nome": "Lígia",
+        "avatar": "assets/avatars/ligia.jpg",
+        "areas": [
+          "Química e Alimentos"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
       }
     ],
     "acompanhantes": [
@@ -16322,6 +16643,15 @@
         ],
         "modalidade": "remoto",
         "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP007",
+        "nome": "Marcos Paulo",
+        "avatar": "assets/avatars/marcos-paulo.jpg",
+        "areas": [
+          "Eletromecânica"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
       }
     ],
     "acompanhantes": [
@@ -16891,6 +17221,31 @@
         ],
         "modalidade": "remoto",
         "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP006",
+        "nome": "Juliana Neri",
+        "avatar": "assets/avatars/juliana-neri.jpg",
+        "areas": [
+          "Segurança do Trabalho"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP007",
+        "nome": "Marcos Paulo",
+        "avatar": "assets/avatars/marcos-paulo.jpg",
+        "areas": [
+          "Eletromecânica"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP003",
+        "nome": "Joilma Chaves",
+        "avatar": "assets/avatars/joilma-chaves.jpg",
+        "areas": [],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
       }
     ],
     "acompanhantes": [
@@ -17405,6 +17760,29 @@
         ],
         "modalidade": "remoto",
         "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP003",
+        "nome": "Joilma Chaves",
+        "avatar": "assets/avatars/joilma-chaves.jpg",
+        "areas": [
+          "Eletrotécnica"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP007",
+        "nome": "Marcos Paulo",
+        "avatar": "assets/avatars/marcos-paulo.jpg",
+        "areas": [],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP006",
+        "nome": "Juliana Neri",
+        "avatar": "assets/avatars/juliana-neri.jpg",
+        "areas": [],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
       }
     ],
     "acompanhantes": [
@@ -17971,6 +18349,33 @@
         ],
         "modalidade": "remoto",
         "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP006",
+        "nome": "Juliana Neri",
+        "avatar": "assets/avatars/juliana-neri.jpg",
+        "areas": [
+          "Segurança do Trabalho"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP003",
+        "nome": "Joilma Chaves",
+        "avatar": "assets/avatars/joilma-chaves.jpg",
+        "areas": [
+          "Eletrotécnica"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP007",
+        "nome": "Marcos Paulo",
+        "avatar": "assets/avatars/marcos-paulo.jpg",
+        "areas": [
+          "Eletromecânica"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
       }
     ],
     "acompanhantes": [
@@ -18557,6 +18962,32 @@
         ],
         "modalidade": "remoto",
         "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP006",
+        "nome": "Juliana Neri",
+        "avatar": "assets/avatars/juliana-neri.jpg",
+        "areas": [
+          "EMI",
+          "Segurança do Trabalho"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP003",
+        "nome": "Joilma Chaves",
+        "avatar": "assets/avatars/joilma-chaves.jpg",
+        "areas": [
+          "Eletrotécnica"
+        ],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
+      },
+      {
+        "id": "ESP007",
+        "nome": "Marcos Paulo",
+        "avatar": "assets/avatars/marcos-paulo.jpg",
+        "areas": [],
+        "origem": "Adicionado por validação manual do responsável pelo projeto"
       }
     ],
     "acompanhantes": [
