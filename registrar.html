@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Registrar visita — SENAI Bahia</title>
+<link rel="stylesheet" href="css/app.css">
+<style>
+  .reg-wrap{max-width:640px;margin:0 auto;padding:24px 16px 80px}
+  .reg-card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:var(--shadow);margin-bottom:18px}
+  .reg-field{margin-bottom:16px}
+  .reg-field label{display:block;font-size:13px;font-weight:700;color:var(--text-strong);margin-bottom:6px}
+  .reg-field .hint{display:block;font-size:12px;color:var(--muted);margin-top:4px;line-height:1.4}
+  .reg-field input[type=text],.reg-field input[type=email],.reg-field input[type=password],
+  .reg-field input[type=date],.reg-field select,.reg-field textarea{
+    width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panel2);color:var(--text)
+  }
+  .reg-field textarea{resize:vertical;min-height:70px;font-family:inherit}
+  .reg-radio-row{display:flex;gap:16px;flex-wrap:wrap}
+  .reg-radio-row label{display:flex;align-items:center;gap:6px;font-weight:500;font-size:13px;color:var(--text)}
+  .btn-primary{background:var(--brand);color:#fff;border:none;border-radius:10px;padding:12px 20px;font-weight:800;cursor:pointer}
+  .btn-secondary{background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:12px 20px;font-weight:700;cursor:pointer}
+  .reg-msg{padding:10px 12px;border-radius:10px;font-size:13px;margin-bottom:14px;display:none}
+  .reg-msg.error{display:block;background:#fce8e6;color:#8a1c15}
+  .reg-msg.success{display:block;background:#e6f4ea;color:#0d652d}
+  [data-theme="dark"] .reg-msg.error{background:#3a1410;color:#ffb4ab}
+  [data-theme="dark"] .reg-msg.success{background:#0e2b16;color:#8fd99f}
+  .reg-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}
+  .reg-recent{border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:var(--panel2);margin-bottom:8px;font-size:13px}
+  .reg-recent b{color:var(--text-strong)}
+  .reg-recent small{display:block;color:var(--muted);margin-top:2px}
+  #screenLogin,#screenTrocarSenha,#screenForm{display:none}
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <div class="brand">
+      <div class="brandmark">ST</div>
+      <div><h1>Registrar visita técnica</h1><p>SENAI Bahia — ciclo 2027+</p></div>
+    </div>
+    <div style="display:flex;gap:8px;align-items:center">
+      <span id="userGreeting" style="font-size:13px;color:var(--muted)"></span>
+      <a class="iconbtn" href="index.html" style="text-decoration:none">Ver dashboard</a>
+      <button class="iconbtn" id="btnLogout" style="display:none">Sair</button>
+    </div>
+  </header>
+
+  <div class="reg-wrap">
+
+    <!-- LOGIN -->
+    <div class="reg-card" id="screenLogin">
+      <h2 style="margin-top:0">Entrar</h2>
+      <p style="color:var(--muted);font-size:13px">Use o email e a senha temporária que você recebeu. Cada especialista tem seu próprio login — o nome não é mais um campo do formulário, é quem está logado.</p>
+      <div class="reg-msg error" id="loginMsg"></div>
+      <div class="reg-field">
+        <label>Email</label>
+        <input type="email" id="loginEmail" autocomplete="username">
+      </div>
+      <div class="reg-field">
+        <label>Senha</label>
+        <input type="password" id="loginSenha" autocomplete="current-password">
+      </div>
+      <button class="btn-primary" id="btnLogin">Entrar</button>
+    </div>
+
+    <!-- TROCAR SENHA (obrigatório no primeiro acesso) -->
+    <div class="reg-card" id="screenTrocarSenha">
+      <h2 style="margin-top:0">Defina sua senha</h2>
+      <p style="color:var(--muted);font-size:13px">Primeiro acesso: troque a senha temporária antes de continuar.</p>
+      <div class="reg-msg error" id="trocarMsg"></div>
+      <div class="reg-field">
+        <label>Senha temporária atual</label>
+        <input type="password" id="senhaAtual">
+      </div>
+      <div class="reg-field">
+        <label>Nova senha (mínimo 8 caracteres)</label>
+        <input type="password" id="senhaNova">
+      </div>
+      <button class="btn-primary" id="btnTrocarSenha">Salvar nova senha</button>
+    </div>
+
+    <!-- FORM -->
+    <div id="screenForm">
+      <div class="reg-card">
+        <div class="reg-msg success" id="formMsg"></div>
+        <div class="reg-field">
+          <label>Ano do ciclo *</label>
+          <input type="text" id="fAno" value="2027">
+        </div>
+        <div class="reg-field">
+          <label>Unidade *</label>
+          <select id="fUnidade"><option value="" disabled selected>Escolha</option></select>
+        </div>
+        <div class="reg-field">
+          <label>Data da visita *</label>
+          <input type="date" id="fData">
+        </div>
+        <div class="reg-field">
+          <label>Área técnica *</label>
+          <select id="fArea"><option value="" disabled selected>Escolha</option></select>
+          <span class="hint">Tecnologia da Informação engloba Desenvolvimento de Sistemas, Redes de Computadores e Informática para Internet — algumas unidades têm as 3.</span>
+        </div>
+        <div class="reg-field">
+          <label>Nome do acompanhante local</label>
+          <input type="text" id="fAcompNome">
+          <span class="hint">Qualquer pessoa da unidade que acompanhou a visita — não precisa ser da equipe de NTI/ATI.</span>
+        </div>
+        <div class="reg-field">
+          <label>Cargo do acompanhante local</label>
+          <input type="text" id="fAcompCargo">
+        </div>
+        <div class="reg-field">
+          <label>Descrição do item avaliado *</label>
+          <input type="text" id="fDescricao">
+        </div>
+        <div class="reg-field">
+          <label>O que foi observado *</label>
+          <textarea id="fObservado"></textarea>
+        </div>
+        <div class="reg-field">
+          <label>Boas práticas identificadas</label>
+          <textarea id="fBoaPratica"></textarea>
+        </div>
+        <div class="reg-field">
+          <label>Oportunidades de melhoria</label>
+          <textarea id="fOportunidade"></textarea>
+        </div>
+        <div class="reg-field">
+          <label>Responsável pela ação</label>
+          <input type="text" id="fResponsavel">
+        </div>
+        <div class="reg-field">
+          <label>Prazo</label>
+          <input type="date" id="fPrazo">
+        </div>
+        <div class="reg-field">
+          <label>Status *</label>
+          <div class="reg-radio-row">
+            <label><input type="radio" name="fStatus" value="Concluído (C)"> Concluído (C)</label>
+            <label><input type="radio" name="fStatus" value="Em aberto (A)"> Em aberto (A)</label>
+            <label><input type="radio" name="fStatus" value="Divergente (D)"> Divergente (D)</label>
+          </div>
+        </div>
+        <button class="btn-primary" id="btnSalvarItem">Registrar item</button>
+        <button class="btn-secondary" id="btnNovoItem" style="margin-left:8px">Limpar para novo item</button>
+      </div>
+
+      <div class="reg-card">
+        <div class="reg-header"><h3 style="margin:0">Meus registros recentes</h3></div>
+        <div id="recentList"><p style="color:var(--muted);font-size:13px">Carregando…</p></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<script src="js/registrar.js"></script>
+</body>
+</html>

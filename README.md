@@ -78,4 +78,26 @@ Auditoria completa das 19 planilhas de origem contra os dados carregados no app:
 - Nenhum conteúdo pré-existente foi removido nesta auditoria.
 
 ## Roadmap — ciclo 2027
-A partir de 2026, cada visita tem um campo `ano` e há um filtro de ano na interface. O plano para 2027 é substituir a coleta manual (planilha → extração) por um formulário web padrão preenchido em campo pelos especialistas, alimentando a plataforma diretamente. Backend escolhido: Google Forms + Google Sheets. Detalhes, campos do formulário e o porquê da escolha em `data/roadmap.json`.
+A partir de 2026, cada visita tem um campo `ano` e há um filtro de ano na interface. O plano para 2027 é substituir a coleta manual (planilha → extração) por um registro direto na própria plataforma, feito pelos especialistas em campo. Decisão final: página própria (`registrar.html`) com **login individual por especialista** + banco Postgres — não Google Forms, porque login evita que alguém registre em nome de outro especialista (foi exatamente esse tipo de confusão de identidade que precisou ser corrigido na base de 2026). Detalhes e alternativas descartadas em `data/roadmap.json`.
+
+## Registro de visitas 2027+ (`registrar.html`)
+
+Página de login + formulário, uma API serverless (pasta `api/`) e um banco Postgres. Cada um dos 7 especialistas tem seu próprio usuário; o campo "Especialista responsável" não existe mais no formulário — quem preenche é identificado pela sessão logada, então não tem como preencher em nome de outra pessoa.
+
+### Como colocar no ar
+
+1. **Banco de dados**: crie um Postgres gratuito em qualquer provedor (Supabase, Neon, Vercel Postgres...) e copie a connection string.
+2. Rode as migrações, nessa ordem:
+   ```
+   psql "SUA_CONNECTION_STRING" -f db/schema.sql
+   psql "SUA_CONNECTION_STRING" -f db/seed_especialistas.sql
+   ```
+   O seed cria os 7 especialistas com senha temporária (hash bcrypt já pronto no arquivo — a senha em texto puro **não** fica no git, foi entregue separadamente).
+3. **Variáveis de ambiente no Vercel** (Project Settings → Environment Variables):
+   - `DATABASE_URL` — a connection string do passo 1.
+   - `JWT_SECRET` — qualquer string longa e aleatória (ex.: `openssl rand -hex 32`).
+4. Deploy normal (`git push`, o Vercel já detecta os arquivos em `api/` como funções serverless automaticamente).
+5. Acesse `/registrar.html`, entre com o email/senha temporária de cada especialista — a plataforma pede para trocar a senha no primeiro login.
+
+### Dados coletados
+Tabela `visita_itens` (uma linha por item avaliado, mesmo formato das 14 perguntas do roteiro original). Perto do fechamento de cada ciclo, uma consulta agrupa por unidade + área para gerar o mesmo formato usado em `data/visits.json`, sem precisar mudar o dashboard.
