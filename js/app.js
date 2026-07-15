@@ -206,7 +206,8 @@ function showSpecialistInVisit(v,personId){
   const catalog=state.specialists.find(s=>s.id===p.id);
   const distance=catalog?.quilometragem;
   $('#specialistProfile').innerHTML=`${visual}<div><h4>${escapeHtml(p.nome)}</h4>
-    <p>Registro obtido no campo <b>PARTICIPANTES</b> do relatório da unidade.</p>
+    <p>${escapeHtml(p.origem||'Registro obtido no campo PARTICIPANTES do relatório da unidade.')}</p>
+    ${p.modalidade==='remoto'?`<p class="vacation-note"><b>Atividade remota/automatizada</b> — não presencial, não conta como visita nem quilometragem.</p>`:''}
     <p><b>Áreas vinculadas:</b> ${(p.areas||[]).length}</p>
     ${distance?`<p><b>Distância estimada:</b> ${fmtKm(distance.km_estimados)} entre ${distance.visitas_confirmadas} visita(s) confirmada(s).</p>
     <p class="distance-note">Cálculo geodésico entre unidades; não representa a rota por estrada.</p>${catalog?.regra_ferias?`<p class="vacation-note"><b>Férias:</b> 12/04/2026 a 16/05/2026. Registros do período não contam como visita presencial nem quilometragem.</p>`:''}`:''}</div>`;

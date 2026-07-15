@@ -1990,7 +1990,8 @@
       "ESP007",
       "ESP006",
       "ESP003",
-      "ESP005"
+      "ESP005",
+      "ESP004"
     ],
     "observacao": "",
     "data_programada_inicio": "2026-02-24",
@@ -3515,7 +3516,8 @@
       "ESP001",
       "ESP007",
       "ESP006",
-      "ESP003"
+      "ESP003",
+      "ESP005"
     ],
     "observacao": "",
     "data_programada_inicio": "2026-02-26",
@@ -4329,7 +4331,9 @@
     "especialistas": [
       "ESP005",
       "ESP006",
-      "ESP003"
+      "ESP003",
+      "ESP001",
+      "ESP007"
     ],
     "observacao": "",
     "data_programada_inicio": "2026-03-02",
@@ -5665,6 +5669,18 @@
           "Tecnologia da Informação"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
+      },
+      {
+        "id": "ESP001",
+        "nome": "Paulo Filho",
+        "avatar": "assets/avatars/paulo-filho.jpeg",
+        "areas": [
+          "CQP de INFORMÁTICA",
+          "Tecnologia da Informação",
+          "Desenvolvimento de Sistemas / Informática"
+        ],
+        "modalidade": "remoto",
+        "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
       }
     ],
     "acompanhantes": [
@@ -5697,7 +5713,11 @@
       "CQP de INFORMÁTICA",
       "Tecnologia da Informação"
     ],
-    "especialistas": [],
+    "especialistas": [
+      "ESP001",
+      "ESP007",
+      "ESP005"
+    ],
     "observacao": "",
     "data_programada_inicio": "2026-03-02",
     "data_programada_fim": "2026-03-06",
@@ -6423,6 +6443,17 @@
           "Tecnologia da Informação"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
+      },
+      {
+        "id": "ESP001",
+        "nome": "Paulo Filho",
+        "avatar": "assets/avatars/paulo-filho.jpeg",
+        "areas": [
+          "CQP de INFORMÁTICA",
+          "Tecnologia da Informação"
+        ],
+        "modalidade": "remoto",
+        "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
       }
     ],
     "acompanhantes": [
@@ -6465,7 +6496,8 @@
     "especialistas": [
       "ESP003",
       "ESP006",
-      "ESP007"
+      "ESP007",
+      "ESP001"
     ],
     "observacao": "",
     "data_programada_inicio": "2026-03-16",
@@ -8092,6 +8124,18 @@
           "Tecnologia da Informação"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
+      },
+      {
+        "id": "ESP001",
+        "nome": "Paulo Filho",
+        "avatar": "assets/avatars/paulo-filho.jpeg",
+        "areas": [
+          "Ds",
+          "Tecnologia da Informação",
+          "Desenvolvimento de Sistemas / Informática"
+        ],
+        "modalidade": "remoto",
+        "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
       }
     ],
     "acompanhantes": [
@@ -8132,7 +8176,8 @@
       "ESP005",
       "ESP006",
       "ESP003",
-      "ESP004"
+      "ESP004",
+      "ESP001"
     ],
     "observacao": "",
     "data_programada_inicio": "2026-04-07",
@@ -9476,6 +9521,17 @@
           "Tecnologia da Informação"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
+      },
+      {
+        "id": "ESP001",
+        "nome": "Paulo Filho",
+        "avatar": "assets/avatars/paulo-filho.jpeg",
+        "areas": [
+          "Tecnologia da Informação",
+          "Desenvolvimento de Sistemas / Informática"
+        ],
+        "modalidade": "remoto",
+        "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
       }
     ],
     "acompanhantes": [
@@ -10255,7 +10311,8 @@
       "ESP005",
       "ESP003",
       "ESP006",
-      "ESP007"
+      "ESP007",
+      "ESP001"
     ],
     "observacao": "",
     "data_programada_inicio": "2026-05-11",
@@ -11202,6 +11259,17 @@
           "Tecnologia da Informação"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
+      },
+      {
+        "id": "ESP001",
+        "nome": "Paulo Filho",
+        "avatar": "assets/avatars/paulo-filho.jpeg",
+        "areas": [
+          "Ds",
+          "Tecnologia da Informação"
+        ],
+        "modalidade": "remoto",
+        "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
       }
     ],
     "acompanhantes": [
@@ -12057,7 +12125,9 @@
       "ESP006",
       "ESP003",
       "ESP007",
-      "ESP005"
+      "ESP005",
+      "ESP001",
+      "ESP004"
     ],
     "observacao": "",
     "data_programada_inicio": "2026-05-19",
@@ -13342,6 +13412,20 @@
           "Hidraulica  E Pneumática"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
+      },
+      {
+        "id": "ESP001",
+        "nome": "Paulo Filho",
+        "avatar": "assets/avatars/paulo-filho.jpeg",
+        "areas": [
+          "Ds I",
+          "Tecnologia da Informação",
+          "Ds Ii",
+          "Informatica",
+          "Estruturas Lógicas"
+        ],
+        "modalidade": "remoto",
+        "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
       }
     ],
     "acompanhantes": [
@@ -13388,7 +13472,8 @@
       "ESP007",
       "ESP003",
       "ESP006",
-      "ESP005"
+      "ESP005",
+      "ESP001"
     ],
     "observacao": "Há registro adicional de Construção Civil em 15/05/2026.",
     "data_programada_inicio": "2026-05-21",
@@ -14892,6 +14977,16 @@
           "Alimentos"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
+      },
+      {
+        "id": "ESP001",
+        "nome": "Paulo Filho",
+        "avatar": "assets/avatars/paulo-filho.jpeg",
+        "areas": [
+          "Tecnologia da Informação"
+        ],
+        "modalidade": "remoto",
+        "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
       }
     ],
     "acompanhantes": [
@@ -14931,7 +15026,8 @@
       "ESP006",
       "ESP003",
       "ESP007",
-      "ESP004"
+      "ESP004",
+      "ESP001"
     ],
     "observacao": "Somente a visita confirmada foi incluída.",
     "data_programada_inicio": "2026-05-26",
@@ -15804,7 +15900,18 @@
         ]
       }
     },
-    "visitantes": [],
+    "visitantes": [
+      {
+        "id": "ESP001",
+        "nome": "Paulo Filho",
+        "avatar": "assets/avatars/paulo-filho.jpeg",
+        "areas": [
+          "Tecnologia da Informação"
+        ],
+        "modalidade": "remoto",
+        "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
+      }
+    ],
     "acompanhantes": [
       "Anderson"
     ],
@@ -15831,7 +15938,8 @@
     "especialistas": [
       "ESP003",
       "ESP006",
-      "ESP007"
+      "ESP007",
+      "ESP001"
     ],
     "observacao": "",
     "data_programada_inicio": "2026-06-08",
@@ -16189,6 +16297,16 @@
           "Galpão de práticas/ Centro Casa dos Ventos"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
+      },
+      {
+        "id": "ESP001",
+        "nome": "Paulo Filho",
+        "avatar": "assets/avatars/paulo-filho.jpeg",
+        "areas": [
+          "Tecnologia da Informação (TI)"
+        ],
+        "modalidade": "remoto",
+        "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
       }
     ],
     "acompanhantes": [
@@ -16219,7 +16337,9 @@
     ],
     "especialistas": [
       "ESP006",
-      "ESP007"
+      "ESP007",
+      "ESP001",
+      "ESP003"
     ],
     "observacao": "",
     "data_programada_inicio": "2026-06-08",
@@ -16745,6 +16865,16 @@
           "Biblioteca"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
+      },
+      {
+        "id": "ESP001",
+        "nome": "Paulo Filho",
+        "avatar": "assets/avatars/paulo-filho.jpeg",
+        "areas": [
+          "Ti"
+        ],
+        "modalidade": "remoto",
+        "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
       }
     ],
     "acompanhantes": [
@@ -16775,7 +16905,10 @@
       "Infraestrutura do Galpão"
     ],
     "especialistas": [
-      "ESP003"
+      "ESP003",
+      "ESP001",
+      "ESP007",
+      "ESP006"
     ],
     "observacao": "",
     "data_programada_inicio": "2026-06-08",
@@ -17245,6 +17378,16 @@
           "Galpão de prática"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
+      },
+      {
+        "id": "ESP001",
+        "nome": "Paulo Filho",
+        "avatar": "assets/avatars/paulo-filho.jpeg",
+        "areas": [
+          "Tecnologia da Informação (TI)"
+        ],
+        "modalidade": "remoto",
+        "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
       }
     ],
     "acompanhantes": [
@@ -17275,7 +17418,8 @@
     "especialistas": [
       "ESP006",
       "ESP003",
-      "ESP007"
+      "ESP007",
+      "ESP001"
     ],
     "observacao": "",
     "data_programada_inicio": "2026-06-08",
@@ -17799,6 +17943,16 @@
           "Eletrotécnica"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
+      },
+      {
+        "id": "ESP001",
+        "nome": "Paulo Filho",
+        "avatar": "assets/avatars/paulo-filho.jpeg",
+        "areas": [
+          "Tecnologia da Informação / Laboratórios de Informática"
+        ],
+        "modalidade": "remoto",
+        "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
       }
     ],
     "acompanhantes": [
@@ -17834,7 +17988,8 @@
       "ESP005",
       "ESP006",
       "ESP003",
-      "ESP007"
+      "ESP007",
+      "ESP001"
     ],
     "observacao": "Visita identificada nos relatórios, mas não localizada na programação original.",
     "data_programada_inicio": null,
@@ -18373,6 +18528,16 @@
           "Eletrotécnica"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
+      },
+      {
+        "id": "ESP001",
+        "nome": "Paulo Filho",
+        "avatar": "assets/avatars/paulo-filho.jpeg",
+        "areas": [
+          "Tecnologia da Informação"
+        ],
+        "modalidade": "remoto",
+        "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
       }
     ],
     "acompanhantes": [

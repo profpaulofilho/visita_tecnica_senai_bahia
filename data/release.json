@@ -1,5 +1,5 @@
 {
-  "versao": "1.0.8",
+  "versao": "1.0.9",
   "data": "2026-07-15",
   "regras": [
     "Paulo Filho sem visitas presenciais e sem quilometragem entre 12/04/2026 e 16/05/2026.",
@@ -50,5 +50,11 @@
     "Juliana Neri confirmada como especialista responsável por Segurança do Trabalho E EMI (as duas áreas separadamente) em todas as unidades.",
     "Verônica corrigida: responsável apenas por Construção Civil e Edificações — removido qualquer vínculo indevido com Segurança do Trabalho/EMI; adicionada a Vitória da Conquista e Santo Antônio de Jesus, que têm Construção Civil.",
     "Seção 'Especialistas da visita' dividida em duas: 'Especialistas' (equipe confirmada, com foto) e 'Acompanhantes da visita' (equipe local/NTI/ATI, sem vínculo de especialista)."
+  ],
+  "correcoes_1_0_9": [
+    "Paulo Filho vinculado como especialista de TI/DS/Redes de forma remota/automatizada em todas as 13 unidades que têm esse tipo de área (exceto Dendezeiros, Lauro de Freitas e Camaçari, onde a visita foi presencial). Essas visitas remotas NÃO contam para a quilometragem/trilha dele (continua em 3 visitas presenciais confirmadas).",
+    "Perfil do especialista na ficha técnica agora mostra a origem real do registro (ex.: 'Atividade remota/automatizada') em vez de um texto fixo.",
+    "Roster de especialistas por unidade atualizado conforme confirmação do responsável do projeto: Verônica em Lauro de Freitas e Alagoinhas; Lígia em Camaçari e Eunápolis; Marcos Paulo em Teixeira de Freitas, Eunápolis e Senhor do Bonfim; Joilma Chaves em Jacobina; Juliana Neri em Senhor do Bonfim.",
+    "Quilometragem e trilha recalculadas para Joilma Chaves, Verônica, Lígia, Juliana Neri e Marcos Paulo."
   ]
 }

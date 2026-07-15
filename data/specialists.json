@@ -71,8 +71,8 @@
     "areas_status": "Confirmada — área de responsabilidade indicada pelo responsável do projeto",
     "resumo_profissional": "Especialista responsável pelas áreas de Eletrotécnica e Automação em todas as unidades visitadas.",
     "quilometragem": {
-      "km_estimados": 4099.2,
-      "visitas_confirmadas": 17,
+      "km_estimados": 4141.6,
+      "visitas_confirmadas": 18,
       "metodo": "Distância geodésica entre unidades confirmadas, em ordem cronológica",
       "observacao": "Não inclui atividades remotas, rota rodoviária, saída, retorno ou deslocamentos locais.",
       "trechos": [
@@ -176,10 +176,17 @@
         },
         {
           "origem": "Ourolândia",
+          "destino": "Jacobina",
+          "data_origem": "2026-06-09",
+          "data_destino": "2026-06-09",
+          "km_estimados": 66.3
+        },
+        {
+          "origem": "Jacobina",
           "destino": "Senhor do Bonfim",
           "data_origem": "2026-06-09",
           "data_destino": "2026-06-10",
-          "km_estimados": 111.6
+          "km_estimados": 87.6
         },
         {
           "origem": "Senhor do Bonfim",
@@ -205,11 +212,18 @@
     "areas_status": "Confirmada — área de responsabilidade indicada pelo responsável do projeto",
     "resumo_profissional": "Especialista responsável pelas áreas de Construção Civil e Edificações em todas as unidades visitadas.",
     "quilometragem": {
-      "km_estimados": 923.9,
-      "visitas_confirmadas": 6,
+      "km_estimados": 1022.7,
+      "visitas_confirmadas": 8,
       "metodo": "Distância geodésica entre unidades confirmadas, em ordem cronológica",
       "observacao": "Não inclui atividades remotas, rota rodoviária, saída, retorno ou deslocamentos locais.",
       "trechos": [
+        {
+          "origem": "Lauro de Freitas",
+          "destino": "Camaçari",
+          "data_origem": "2026-02-24",
+          "data_destino": "2026-02-26",
+          "km_estimados": 21.9
+        },
         {
           "origem": "Camaçari",
           "destino": "Salvador",
@@ -233,10 +247,17 @@
         },
         {
           "origem": "Serrinha",
-          "destino": "Feira de Santana",
+          "destino": "Alagoinhas",
           "data_origem": "2026-04-28",
+          "data_destino": "2026-05-19",
+          "km_estimados": 82.7
+        },
+        {
+          "origem": "Alagoinhas",
+          "destino": "Feira de Santana",
+          "data_origem": "2026-05-19",
           "data_destino": "2026-05-21",
-          "km_estimados": 67.1
+          "km_estimados": 61.2
         },
         {
           "origem": "Feira de Santana",
@@ -262,24 +283,38 @@
     "areas_status": "Confirmada — área de responsabilidade indicada pelo responsável do projeto",
     "resumo_profissional": "Especialista responsável pelas áreas de Química e Biotecnologia em todas as unidades visitadas.",
     "quilometragem": {
-      "km_estimados": 3044.2,
-      "visitas_confirmadas": 9,
+      "km_estimados": 3088.6,
+      "visitas_confirmadas": 11,
       "metodo": "Distância geodésica entre unidades confirmadas, em ordem cronológica",
       "observacao": "Não inclui atividades remotas, rota rodoviária, saída, retorno ou deslocamentos locais.",
       "trechos": [
         {
           "origem": "Lauro de Freitas",
-          "destino": "Teixeira de Freitas",
+          "destino": "Camaçari",
           "data_origem": "2026-02-24",
+          "data_destino": "2026-02-26",
+          "km_estimados": 21.9
+        },
+        {
+          "origem": "Camaçari",
+          "destino": "Teixeira de Freitas",
+          "data_origem": "2026-02-26",
           "data_destino": "2026-03-03",
-          "km_estimados": 538.4
+          "km_estimados": 559.5
         },
         {
           "origem": "Teixeira de Freitas",
-          "destino": "Salvador",
+          "destino": "Eunápolis",
           "data_origem": "2026-03-03",
+          "data_destino": "2026-03-04",
+          "km_estimados": 130.4
+        },
+        {
+          "origem": "Eunápolis",
+          "destino": "Salvador",
+          "data_origem": "2026-03-04",
           "data_destino": "2026-03-25",
-          "km_estimados": 525.1
+          "km_estimados": 396.1
         },
         {
           "origem": "Salvador",
@@ -340,8 +375,8 @@
     "areas_status": "Confirmada — área exclusiva da especialista, coordenadora da equipe",
     "resumo_profissional": "Especialista responsável pelas áreas de Segurança do Trabalho e EMI em todas as unidades visitadas; coordenadora da equipe de especialistas técnicos.",
     "quilometragem": {
-      "km_estimados": 4129.5,
-      "visitas_confirmadas": 17,
+      "km_estimados": 4141.6,
+      "visitas_confirmadas": 18,
       "metodo": "Distância geodésica entre unidades confirmadas, em ordem cronológica",
       "observacao": "Não inclui atividades remotas, rota rodoviária, saída, retorno ou deslocamentos locais.",
       "trechos": [
@@ -452,10 +487,17 @@
         },
         {
           "origem": "Jacobina",
-          "destino": "Juazeiro",
+          "destino": "Senhor do Bonfim",
           "data_origem": "2026-06-09",
           "data_destino": "2026-06-10",
-          "km_estimados": 196.8
+          "km_estimados": 87.6
+        },
+        {
+          "origem": "Senhor do Bonfim",
+          "destino": "Juazeiro",
+          "data_origem": "2026-06-10",
+          "data_destino": "2026-06-10",
+          "km_estimados": 121.4
         }
       ]
     }
@@ -473,8 +515,8 @@
     "areas_status": "Confirmada — área de responsabilidade indicada pelo responsável do projeto",
     "resumo_profissional": "Especialista responsável pela área de Eletromecânica em todas as unidades visitadas.",
     "quilometragem": {
-      "km_estimados": 3464.6,
-      "visitas_confirmadas": 15,
+      "km_estimados": 4106.0,
+      "visitas_confirmadas": 18,
       "metodo": "Distância geodésica entre unidades confirmadas, em ordem cronológica",
       "observacao": "Não inclui atividades remotas, rota rodoviária, saída, retorno ou deslocamentos locais.",
       "trechos": [
@@ -487,10 +529,24 @@
         },
         {
           "origem": "Camaçari",
-          "destino": "Ilhéus",
+          "destino": "Teixeira de Freitas",
           "data_origem": "2026-02-26",
+          "data_destino": "2026-03-03",
+          "km_estimados": 559.5
+        },
+        {
+          "origem": "Teixeira de Freitas",
+          "destino": "Eunápolis",
+          "data_origem": "2026-03-03",
+          "data_destino": "2026-03-04",
+          "km_estimados": 130.4
+        },
+        {
+          "origem": "Eunápolis",
+          "destino": "Ilhéus",
+          "data_origem": "2026-03-04",
           "data_destino": "2026-03-17",
-          "km_estimados": 245.8
+          "km_estimados": 185.2
         },
         {
           "origem": "Ilhéus",
@@ -571,10 +627,17 @@
         },
         {
           "origem": "Jacobina",
-          "destino": "Juazeiro",
+          "destino": "Senhor do Bonfim",
           "data_origem": "2026-06-09",
           "data_destino": "2026-06-10",
-          "km_estimados": 196.8
+          "km_estimados": 87.6
+        },
+        {
+          "origem": "Senhor do Bonfim",
+          "destino": "Juazeiro",
+          "data_origem": "2026-06-10",
+          "data_destino": "2026-06-10",
+          "km_estimados": 121.4
         }
       ]
     }
