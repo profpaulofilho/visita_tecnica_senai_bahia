@@ -168,13 +168,9 @@ function selectSpecialist(id){
     ? `${s.nome}: ${route.length} visita(s) confirmada(s) · ${fmtKm(s.quilometragem?.km_estimados)} estimados entre unidades${vacationNote}.`
     : `${s.nome}: a base ainda não confirma nominalmente a participação por visita${vacationNote}.`;
 }
-function renderVisitSpecialists(v){
-  const container=$('#detailSpecialistAvatars');
-  const people=v.visitantes||[];
+function renderPersonGroup(container,people,v,emptyMsg){
   if(!people.length){
-    container.innerHTML='<div class="detail-no-specialist">Nenhum participante foi informado nas abas válidas deste relatório.</div>';
-    $('#specialistProfileSection').style.display='none';
-    $('#areaResultSection').style.display='none';
+    container.innerHTML=`<div class="detail-no-specialist">${emptyMsg}</div>`;
     return;
   }
   container.innerHTML=people.map(p=>{
@@ -185,6 +181,17 @@ function renderVisitSpecialists(v){
       <span><b>${escapeHtml(p.nome)}</b><small>${(p.areas||[]).length} área(s) registrada(s)</small></span></button>`;
   }).join('');
   container.querySelectorAll('.detail-specialist-btn').forEach(btn=>btn.onclick=()=>showSpecialistInVisit(v,btn.dataset.id));
+}
+function renderVisitSpecialists(v){
+  const people=v.visitantes||[];
+  const specialists=people.filter(p=>p.avatar);
+  const accompanying=people.filter(p=>!p.avatar);
+  renderPersonGroup($('#detailSpecialistAvatars'),specialists,v,'Nenhum especialista confirmado para esta visita.');
+  renderPersonGroup($('#detailAccompanyingAvatars'),accompanying,v,'Nenhum acompanhante informado nas abas válidas deste relatório.');
+  if(!people.length){
+    $('#specialistProfileSection').style.display='none';
+    $('#areaResultSection').style.display='none';
+  }
 }
 
 function showSpecialistInVisit(v,personId){

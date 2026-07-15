@@ -199,13 +199,14 @@
     "cor": "#198754",
     "visitas": [],
     "areas_atuacao": [
+      "Construção Civil",
       "Edificações"
     ],
     "areas_status": "Confirmada — área de responsabilidade indicada pelo responsável do projeto",
-    "resumo_profissional": "Especialista responsável pela área de Edificações em todas as unidades visitadas.",
+    "resumo_profissional": "Especialista responsável pelas áreas de Construção Civil e Edificações em todas as unidades visitadas.",
     "quilometragem": {
-      "km_estimados": 258.6,
-      "visitas_confirmadas": 4,
+      "km_estimados": 923.9,
+      "visitas_confirmadas": 6,
       "metodo": "Distância geodésica entre unidades confirmadas, em ordem cronológica",
       "observacao": "Não inclui atividades remotas, rota rodoviária, saída, retorno ou deslocamentos locais.",
       "trechos": [
@@ -218,10 +219,17 @@
         },
         {
           "origem": "Salvador",
-          "destino": "Serrinha",
+          "destino": "Vitória da Conquista",
           "data_origem": "2026-03-25",
+          "data_destino": "2026-04-06",
+          "km_estimados": 328.9
+        },
+        {
+          "origem": "Vitória da Conquista",
+          "destino": "Serrinha",
+          "data_origem": "2026-04-10",
           "data_destino": "2026-04-28",
-          "km_estimados": 155.5
+          "km_estimados": 407.4
         },
         {
           "origem": "Serrinha",
@@ -229,6 +237,13 @@
           "data_origem": "2026-04-28",
           "data_destino": "2026-05-21",
           "km_estimados": 67.1
+        },
+        {
+          "origem": "Feira de Santana",
+          "destino": "Santo Antônio de Jesus",
+          "data_origem": "2026-05-21",
+          "data_destino": "2026-05-26",
+          "km_estimados": 84.5
         }
       ]
     }
@@ -319,10 +334,11 @@
     "cor": "#20C997",
     "visitas": [],
     "areas_atuacao": [
-      "Segurança do Trabalho"
+      "Segurança do Trabalho",
+      "EMI"
     ],
     "areas_status": "Confirmada — área exclusiva da especialista, coordenadora da equipe",
-    "resumo_profissional": "Especialista responsável pela área de Segurança do Trabalho em todas as unidades visitadas; coordenadora da equipe de especialistas técnicos.",
+    "resumo_profissional": "Especialista responsável pelas áreas de Segurança do Trabalho e EMI em todas as unidades visitadas; coordenadora da equipe de especialistas técnicos.",
     "quilometragem": {
       "km_estimados": 4129.5,
       "visitas_confirmadas": 17,

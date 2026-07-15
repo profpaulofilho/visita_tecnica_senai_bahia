@@ -17,14 +17,14 @@
       "Automação  - 28/05",
       "Química",
       "Segurança do Trabalho",
-      "Segurança do Trabalho / EMI",
       "Logística",
       "Tecnologia da Informação",
       "Redes de Computadores",
       "Construção Civil",
       "Desenvolvimento de Sistemas / Informática",
       "Biotecnologia e Química",
-      "Edificações"
+      "Edificações",
+      "EMI"
     ],
     "especialistas": [
       "ESP006",
@@ -840,11 +840,11 @@
       },
       "Segurança do Trabalho": {
         "status": "Extraído do relatório Excel",
-        "resumo": "Extintores sem suporte",
+        "resumo": "Instalar suporte para extintores; adquirir armários para materiais sobressalentes; substituir DEA por modelo próprio para treinamento; separar EPIs vencidos em armário específico para demonstração; instalar guard rail na área prática de empilhadeira elétrica.",
         "indicadores": [
           {
             "rotulo": "Itens avaliados",
-            "valor": 5
+            "valor": 4
           },
           {
             "rotulo": "Oportunidades",
@@ -859,8 +859,7 @@
           "Extintores sem suporte",
           "Materias sem local de aramazenagem",
           "DEA não é apropriado para treinamento",
-          "EPIs com CA vencido no mesmo espaço dos que encontram-se no prazo",
-          "Ausencia de guard rail na área prática de empilhadeira elétrica"
+          "EPIs com CA vencido no mesmo espaço dos que encontram-se no prazo"
         ],
         "boas_praticas": [
           "NA"
@@ -907,12 +906,6 @@
             "boa_pratica": "NA",
             "oportunidade": "Separar armario com materiais para demonstração",
             "acompanhado_por": "Verônica e Paloma"
-          },
-          {
-            "descricao": "Guard Rail",
-            "observado": "Ausencia de guard rail na área prática de empilhadeira elétrica",
-            "boa_pratica": "NA",
-            "acompanhado_por": "Verônica"
           }
         ],
         "fontes": [
@@ -938,56 +931,6 @@
             "arquivo": "Seg. Trabalho",
             "aba": "Seg. Trabalho",
             "linha": 13,
-            "data": "2026-03-25"
-          },
-          {
-            "arquivo": "Seg. Trabalho",
-            "aba": "Seg. Trabalho",
-            "linha": 14,
-            "data": "2026-03-25"
-          }
-        ]
-      },
-      "Segurança do Trabalho / EMI": {
-        "status": "Extraído do relatório Excel",
-        "resumo": "Instalar suporte para extintores; adquirir armários para materiais sobressalentes; substituir DEA por modelo próprio para treinamento; separar EPIs vencidos em armário específico para demonstração; instalar guard rail na área prática de empilhadeira elétrica.",
-        "indicadores": [
-          {
-            "rotulo": "Itens avaliados",
-            "valor": 1
-          },
-          {
-            "rotulo": "Oportunidades",
-            "valor": 0
-          },
-          {
-            "rotulo": "Boas práticas",
-            "valor": 0
-          }
-        ],
-        "principais_pontos": [
-          "Ausencia de guard rail na área prática de empilhadeira elétrica"
-        ],
-        "boas_praticas": [],
-        "oportunidades": [],
-        "recomendacoes": [],
-        "observacoes": [],
-        "responsaveis": [],
-        "prazos": [],
-        "status_itens": [],
-        "itens": [
-          {
-            "descricao": "Guard Rail",
-            "observado": "Ausencia de guard rail na área prática de empilhadeira elétrica",
-            "boa_pratica": "NA",
-            "acompanhado_por": "Verônica"
-          }
-        ],
-        "fontes": [
-          {
-            "arquivo": "Relatório visita - Especialistas SENAI BA_UN Dendezeiros.xlsx",
-            "aba": "Seg. Trabalho",
-            "linha": 14,
             "data": "2026-03-25"
           }
         ],
@@ -1769,6 +1712,53 @@
             "data": "2026-03-25"
           }
         ]
+      },
+      "EMI": {
+        "status": "Extraído do relatório Excel",
+        "resumo": "Instalar suporte para extintores; adquirir armários para materiais sobressalentes; substituir DEA por modelo próprio para treinamento; separar EPIs vencidos em armário específico para demonstração; instalar guard rail na área prática de empilhadeira elétrica.",
+        "indicadores": [
+          {
+            "rotulo": "Itens avaliados",
+            "valor": 1
+          },
+          {
+            "rotulo": "Oportunidades",
+            "valor": 0
+          },
+          {
+            "rotulo": "Boas práticas",
+            "valor": 1
+          }
+        ],
+        "principais_pontos": [
+          "Ausencia de guard rail na área prática de empilhadeira elétrica"
+        ],
+        "boas_praticas": [
+          "NA"
+        ],
+        "oportunidades": [],
+        "recomendacoes": [],
+        "observacoes": [],
+        "responsaveis": [],
+        "prazos": [],
+        "status_itens": [],
+        "itens": [
+          {
+            "descricao": "Guard Rail",
+            "observado": "Ausencia de guard rail na área prática de empilhadeira elétrica",
+            "boa_pratica": "NA",
+            "acompanhado_por": "Verônica"
+          }
+        ],
+        "fontes": [
+          {
+            "arquivo": "Seg. Trabalho",
+            "aba": "Seg. Trabalho",
+            "linha": 14,
+            "data": "2026-03-25"
+          }
+        ],
+        "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
       }
     },
     "visitantes": [
@@ -1983,8 +1973,6 @@
     "lat": -12.8944,
     "lng": -38.3272,
     "areas": [
-      "Segurança do Trabalho / EMI",
-      "Segurança do Trabalho",
       "Eletromecânica",
       "Refrigeração",
       "Tecnologia da Informação",
@@ -1994,7 +1982,8 @@
       "Petroquímica",
       "Eletrotécnica",
       "Automação",
-      "Desenvolvimento de Sistemas / Informática"
+      "Desenvolvimento de Sistemas / Informática",
+      "EMI"
     ],
     "especialistas": [
       "ESP001",
@@ -2020,115 +2009,6 @@
     "status_dados": "Dados técnicos extraídos dos relatórios Excel e resumo executivo da apresentação.",
     "especialistas_status": "Avatares exibidos somente após selecionar a unidade",
     "resultados_por_area": {
-      "Segurança do Trabalho / EMI": {
-        "status": "Extraído do relatório Excel",
-        "resumo": "Instalação de guardrail para proteção das áreas de circulação e movimentação, reforçando a segurança operacional.",
-        "indicadores": [
-          {
-            "rotulo": "Itens avaliados",
-            "valor": 1
-          },
-          {
-            "rotulo": "Oportunidades",
-            "valor": 2
-          },
-          {
-            "rotulo": "Boas práticas",
-            "valor": 0
-          }
-        ],
-        "principais_pontos": [
-          "Área de movimentação sem proteção nas laterais"
-        ],
-        "boas_praticas": [],
-        "oportunidades": [
-          "Necessidade de instalaçao de guardrail",
-          "Instalação de guardrail para proteção das áreas de circulação e movimentação, reforçando a segurança operacional."
-        ],
-        "recomendacoes": [],
-        "observacoes": [
-          "Unidade"
-        ],
-        "responsaveis": [],
-        "prazos": [],
-        "status_itens": [
-          "A"
-        ],
-        "itens": [
-          {
-            "descricao": "Guardrail",
-            "observado": "Área de movimentação sem proteção nas laterais",
-            "boa_pratica": "NA",
-            "oportunidade": "Necessidade de instalaçao de guardrail",
-            "observacao_geral": "Unidade",
-            "status": "A",
-            "acompanhado_por": "Valmir"
-          }
-        ],
-        "fontes": [
-          {
-            "arquivo": "RELATORIO VISITA - Especialistas SENAI BA_UN LAURO DE FREITAS.xlsx",
-            "aba": "Seg Trabalho",
-            "linha": 10,
-            "data": "2026-02-24"
-          },
-          {
-            "arquivo": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pptx",
-            "aba": "Slide consolidado - Lauro de Freitas"
-          }
-        ],
-        "resumo_executivo": "Instalação de guardrail para proteção das áreas de circulação e movimentação, reforçando a segurança operacional.",
-        "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
-      },
-      "Segurança do Trabalho": {
-        "status": "Extraído do relatório Excel",
-        "resumo": "Área de movimentação sem proteção nas laterais",
-        "indicadores": [
-          {
-            "rotulo": "Itens avaliados",
-            "valor": 1
-          },
-          {
-            "rotulo": "Oportunidades",
-            "valor": 1
-          },
-          {
-            "rotulo": "Boas práticas",
-            "valor": 0
-          }
-        ],
-        "principais_pontos": [
-          "Área de movimentação sem proteção nas laterais"
-        ],
-        "boas_praticas": [],
-        "oportunidades": [
-          "Necessidade de instalaçao de guardrail"
-        ],
-        "recomendacoes": [],
-        "observacoes": [],
-        "responsaveis": [],
-        "prazos": [],
-        "status_itens": [
-          "A"
-        ],
-        "itens": [
-          {
-            "descricao": "Guardrail",
-            "observado": "Área de movimentação sem proteção nas laterais",
-            "oportunidade": "Necessidade de instalaçao de guardrail",
-            "status": "A",
-            "acompanhado_por": "Valmir"
-          }
-        ],
-        "fontes": [
-          {
-            "arquivo": "Seg Trabalho",
-            "aba": "Seg Trabalho",
-            "linha": 10,
-            "data": "2026-02-24"
-          }
-        ]
-      },
       "Eletromecânica": {
         "status": "Extraído do relatório Excel",
         "resumo": "Instalação urgente dos novos tornos; reposição das morsas das bancadas; demarcação das áreas de máquinas; adequação da exaustão da soldagem; organização dos equipamentos compartilhados; redistribuição de equipamentos entre áreas; descarte ou recuperação de kits incompletos.",
@@ -3257,6 +3137,56 @@
           }
         ],
         "resumo_executivo": "Padronização de todos os laboratórios para 16 GB de RAM e SSD de maior capacidade; eliminação definitiva de HD mecânico; adequação da quantidade de computadores à capacidade das salas; atualização tecnológica visando softwares mais robustos.",
+        "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
+      },
+      "EMI": {
+        "status": "Extraído do relatório Excel",
+        "resumo": "Instalação de guardrail para proteção das áreas de circulação e movimentação, reforçando a segurança operacional.",
+        "indicadores": [
+          {
+            "rotulo": "Itens avaliados",
+            "valor": 1
+          },
+          {
+            "rotulo": "Oportunidades",
+            "valor": 1
+          },
+          {
+            "rotulo": "Boas práticas",
+            "valor": 0
+          }
+        ],
+        "principais_pontos": [
+          "Área de movimentação sem proteção nas laterais"
+        ],
+        "boas_praticas": [],
+        "oportunidades": [
+          "Necessidade de instalaçao de guardrail"
+        ],
+        "recomendacoes": [],
+        "observacoes": [],
+        "responsaveis": [],
+        "prazos": [],
+        "status_itens": [
+          "A"
+        ],
+        "itens": [
+          {
+            "descricao": "Guardrail",
+            "observado": "Área de movimentação sem proteção nas laterais",
+            "oportunidade": "Necessidade de instalaçao de guardrail",
+            "status": "A",
+            "acompanhado_por": "Valmir"
+          }
+        ],
+        "fontes": [
+          {
+            "arquivo": "Seg Trabalho",
+            "aba": "Seg Trabalho",
+            "linha": 10,
+            "data": "2026-02-24"
+          }
+        ],
         "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
       }
     },
@@ -8186,7 +8116,6 @@
     "lng": -40.8448,
     "areas": [
       "Segurança do Trabalho",
-      "Segurança do Trabalho / EMI",
       "Eletromecânica",
       "Eletrotécnica",
       "Biotecnologia",
@@ -8195,13 +8124,15 @@
       "Tecnologia da Informação",
       "Construção Civil",
       "Desenvolvimento de Sistemas / Informática",
-      "IFTP - Biotec"
+      "IFTP - Biotec",
+      "EMI"
     ],
     "especialistas": [
       "ESP007",
       "ESP005",
       "ESP006",
-      "ESP003"
+      "ESP003",
+      "ESP004"
     ],
     "observacao": "",
     "data_programada_inicio": "2026-04-07",
@@ -8229,15 +8160,15 @@
     "resultados_por_area": {
       "Segurança do Trabalho": {
         "status": "Extraído do relatório Excel",
-        "resumo": "O kit foi desmembrado",
+        "resumo": "Reorganizar o laboratório de Segurança do Trabalho; recompor o kit de EPI; substituir ou identificar cintos e capacetes vencidos para demonstração; armazenar GLP em local adequado; adquirir chave Storz; localizar Fit Test; criar cobertura e instalar guard rail na área de práticas de empilhadeira.",
         "indicadores": [
           {
             "rotulo": "Itens avaliados",
-            "valor": 9
+            "valor": 7
           },
           {
             "rotulo": "Oportunidades",
-            "valor": 9
+            "valor": 7
           },
           {
             "rotulo": "Boas práticas",
@@ -8251,9 +8182,7 @@
           "Botijão de GLP (13Kg) armazenado em laboratório",
           "Capacetes de segurança utilizados nos cursos de NR-35 para redes elétricas e NR 35 estão vencidos",
           "A unidade não possui chave storz para demostração aos alunos. Hoje é utilizada a da unidade.",
-          "Não foi localizado fit test entregue em investimento",
-          "Necessidade de cobertura para espaço de realização para aulas práticas de empilhadeira",
-          "Ausencia de guard rail na área prática de empilhadeira a combustão"
+          "Não foi localizado fit test entregue em investimento"
         ],
         "boas_praticas": [
           "NA"
@@ -8265,9 +8194,7 @@
           "Armazenar botijão em local adequado (ex.: central de gás)",
           "Realizar substituição de capacetes de segurança vencidos. Para os casos de demonstração indicar que o cinto é para '' Demonstrar em aulas práticas\"",
           "Adquirir chave stoz",
-          "Verificar a entrega pela fabrica de kits",
-          "Criar cobertura para espaço de realização para aulas práticas de empilhadeira",
-          "Instalar guard rail para aulas prática de empilhadeira combustão"
+          "Verificar a entrega pela fabrica de kits"
         ],
         "recomendacoes": [],
         "observacoes": [],
@@ -8328,20 +8255,6 @@
             "boa_pratica": "NA",
             "oportunidade": "Verificar a entrega pela fabrica de kits",
             "acompanhado_por": "Tulio"
-          },
-          {
-            "descricao": "Área de realização das práticas de empilhadeira",
-            "observado": "Necessidade de cobertura para espaço de realização para aulas práticas de empilhadeira",
-            "boa_pratica": "NA",
-            "oportunidade": "Criar cobertura para espaço de realização para aulas práticas de empilhadeira",
-            "acompanhado_por": "Tulio"
-          },
-          {
-            "descricao": "Guard rail",
-            "observado": "Ausencia de guard rail na área prática de empilhadeira a combustão",
-            "boa_pratica": "NA",
-            "oportunidade": "Instalar guard rail para aulas prática de empilhadeira combustão",
-            "acompanhado_por": "Tulio"
           }
         ],
         "fontes": [
@@ -8386,84 +8299,6 @@
             "aba": "SEG. TRAB",
             "linha": 16,
             "data": "2026-04-06"
-          },
-          {
-            "arquivo": "SEG. TRAB",
-            "aba": "SEG. TRAB",
-            "linha": 17,
-            "data": "2026-04-06"
-          },
-          {
-            "arquivo": "SEG. TRAB",
-            "aba": "SEG. TRAB",
-            "linha": 18,
-            "data": "2026-04-06"
-          }
-        ]
-      },
-      "Segurança do Trabalho / EMI": {
-        "status": "Extraído do relatório Excel",
-        "resumo": "Reorganizar o laboratório de Segurança do Trabalho; recompor o kit de EPI; substituir ou identificar cintos e capacetes vencidos para demonstração; armazenar GLP em local adequado; adquirir chave Storz; localizar Fit Test; criar cobertura e instalar guard rail na área de práticas de empilhadeira.",
-        "indicadores": [
-          {
-            "rotulo": "Itens avaliados",
-            "valor": 2
-          },
-          {
-            "rotulo": "Oportunidades",
-            "valor": 2
-          },
-          {
-            "rotulo": "Boas práticas",
-            "valor": 0
-          }
-        ],
-        "principais_pontos": [
-          "Necessidade de cobertura para espaço de realização para aulas práticas de empilhadeira",
-          "Ausencia de guard rail na área prática de empilhadeira a combustão"
-        ],
-        "boas_praticas": [],
-        "oportunidades": [
-          "Criar cobertura para espaço de realização para aulas práticas de empilhadeira",
-          "Instalar guard rail para aulas prática de empilhadeira combustão"
-        ],
-        "recomendacoes": [],
-        "observacoes": [
-          "Unidade"
-        ],
-        "responsaveis": [],
-        "prazos": [],
-        "status_itens": [],
-        "itens": [
-          {
-            "descricao": "Área de realização das práticas de empilhadeira",
-            "observado": "Necessidade de cobertura para espaço de realização para aulas práticas de empilhadeira",
-            "boa_pratica": "NA",
-            "oportunidade": "Criar cobertura para espaço de realização para aulas práticas de empilhadeira",
-            "observacao_geral": "Unidade",
-            "acompanhado_por": "Tulio"
-          },
-          {
-            "descricao": "Guard rail",
-            "observado": "Ausencia de guard rail na área prática de empilhadeira a combustão",
-            "boa_pratica": "NA",
-            "oportunidade": "Instalar guard rail para aulas prática de empilhadeira combustão",
-            "observacao_geral": "Unidade",
-            "acompanhado_por": "Tulio"
-          }
-        ],
-        "fontes": [
-          {
-            "arquivo": "Relatório visita - Especialistas SENAI BA_UN Vitória da Conquista.xlsx",
-            "aba": "SEG. TRAB",
-            "linha": 17,
-            "data": "06,08,09 e 10/04/26"
-          },
-          {
-            "arquivo": "Relatório visita - Especialistas SENAI BA_UN Vitória da Conquista.xlsx",
-            "aba": "SEG. TRAB",
-            "linha": 18,
-            "data": "06,08,09 e 10/04/26"
           }
         ],
         "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
@@ -9517,6 +9352,71 @@
             "data": "2026-04-06"
           }
         ]
+      },
+      "EMI": {
+        "status": "Extraído do relatório Excel",
+        "resumo": "Reorganizar o laboratório de Segurança do Trabalho; recompor o kit de EPI; substituir ou identificar cintos e capacetes vencidos para demonstração; armazenar GLP em local adequado; adquirir chave Storz; localizar Fit Test; criar cobertura e instalar guard rail na área de práticas de empilhadeira.",
+        "indicadores": [
+          {
+            "rotulo": "Itens avaliados",
+            "valor": 2
+          },
+          {
+            "rotulo": "Oportunidades",
+            "valor": 2
+          },
+          {
+            "rotulo": "Boas práticas",
+            "valor": 1
+          }
+        ],
+        "principais_pontos": [
+          "Necessidade de cobertura para espaço de realização para aulas práticas de empilhadeira",
+          "Ausencia de guard rail na área prática de empilhadeira a combustão"
+        ],
+        "boas_praticas": [
+          "NA"
+        ],
+        "oportunidades": [
+          "Criar cobertura para espaço de realização para aulas práticas de empilhadeira",
+          "Instalar guard rail para aulas prática de empilhadeira combustão"
+        ],
+        "recomendacoes": [],
+        "observacoes": [],
+        "responsaveis": [],
+        "prazos": [],
+        "status_itens": [],
+        "itens": [
+          {
+            "descricao": "Área de realização das práticas de empilhadeira",
+            "observado": "Necessidade de cobertura para espaço de realização para aulas práticas de empilhadeira",
+            "boa_pratica": "NA",
+            "oportunidade": "Criar cobertura para espaço de realização para aulas práticas de empilhadeira",
+            "acompanhado_por": "Tulio"
+          },
+          {
+            "descricao": "Guard rail",
+            "observado": "Ausencia de guard rail na área prática de empilhadeira a combustão",
+            "boa_pratica": "NA",
+            "oportunidade": "Instalar guard rail para aulas prática de empilhadeira combustão",
+            "acompanhado_por": "Tulio"
+          }
+        ],
+        "fontes": [
+          {
+            "arquivo": "SEG. TRAB",
+            "aba": "SEG. TRAB",
+            "linha": 17,
+            "data": "2026-04-06"
+          },
+          {
+            "arquivo": "SEG. TRAB",
+            "aba": "SEG. TRAB",
+            "linha": 18,
+            "data": "2026-04-06"
+          }
+        ],
+        "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
       }
     },
     "visitantes": [
@@ -10376,7 +10276,7 @@
     "resultados_por_area": {
       "Segurança do Trabalho": {
         "status": "Extraído do relatório Excel",
-        "resumo": "Reorganizar o laboratório de Segurança do Trabalho; acondicionar corretamente máscaras autônomas, extintores e prancha de resgate; orientar docentes quanto ao armazenamento correto dos equipamentos de higiene ocupacional (remoção de pilhas e baterias); substituir cintos de segurança e talabartes com validade expirada.",
+        "resumo": "Necessidade de acondicionamento dos equipamentos do laboratório de Segurança do Trabalho e melhorar layout e organização do espaço.",
         "indicadores": [
           {
             "rotulo": "Itens avaliados",
@@ -10451,8 +10351,7 @@
             "linha": 12,
             "data": "2026-05-13"
           }
-        ],
-        "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
+        ]
       },
       "Eletromecânica": {
         "status": "Extraído do relatório Excel",
@@ -11359,7 +11258,7 @@
     "resultados_por_area": {
       "Segurança do Trabalho": {
         "status": "Extraído do relatório Excel",
-        "resumo": "Estruturar laboratório exclusivo para Segurança do Trabalho com armários e suportes adequados; higienizar e organizar EPIs; realizar limpeza e testes periódicos do chuveiro e lava-olhos; disponibilizar os equipamentos adquiridos no investimento de 2025; adquirir kit de Higiene Ocupacional para atendimento às futuras ofertas.",
+        "resumo": "Equipamentos de segurança do trabalho estão sendo guardados em uma instalação sanitária.",
         "indicadores": [
           {
             "rotulo": "Itens avaliados",
@@ -11449,8 +11348,7 @@
             "linha": 13,
             "data": "2026-05-14"
           }
-        ],
-        "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
+        ]
       },
       "Eletromecânica": {
         "status": "Extraído do relatório Excel",
@@ -12142,7 +12040,6 @@
     "lng": -38.4192,
     "areas": [
       "Segurança do Trabalho",
-      "Segurança do Trabalho / EMI",
       "Logística",
       "Eletromecânica",
       "Química",
@@ -12153,7 +12050,8 @@
       "Informatica",
       "Automação",
       "Estruturas Lógicas",
-      "Hidraulica  E Pneumática"
+      "Hidraulica  E Pneumática",
+      "EMI"
     ],
     "especialistas": [
       "ESP006",
@@ -12180,15 +12078,15 @@
     "resultados_por_area": {
       "Segurança do Trabalho": {
         "status": "Extraído do relatório Excel",
-        "resumo": "A unidade também não possui acessórios de combate a incêndio: Chave de mangueira, derivantes, redução de 2 1/2\" para 1 1/2'', esguichos regulaveis.",
+        "resumo": "Criar espaço exclusivo para a identidade da área de Segurança do Trabalho; adquirir acessórios para combate a incêndio (chave Storz, esguichos, derivações e reduções); adquirir equipamentos de primeiros socorros; substituir a estante de movimentação de cargas da área de EMI devido ao processo de oxidação.",
         "indicadores": [
           {
             "rotulo": "Itens avaliados",
-            "valor": 3
+            "valor": 2
           },
           {
             "rotulo": "Oportunidades",
-            "valor": 3
+            "valor": 2
           },
           {
             "rotulo": "Boas práticas",
@@ -12197,7 +12095,6 @@
         ],
         "principais_pontos": [
           "A unidade também não possui acessórios de combate a incêndio: Chave de mangueira, derivantes, redução de 2 1/2\" para 1 1/2'', esguichos regulaveis.",
-          "Necessidade de substituição da estante de movimentação de cargas, devido a oxidação.",
           "Necessidade de aquisição de equipamentos: Ambu, Colar cervical, Imobilizador, Kit de talas, Head block"
         ],
         "boas_praticas": [
@@ -12205,7 +12102,6 @@
         ],
         "oportunidades": [
           "Aquisição de acessorios para combate a incêndio",
-          "Realizar a trocar da estante de movimentação de cargas localizada na área de prática do curso de Operação de Empilhadeira",
           "Adquirir equipamentos de primeiros socorros"
         ],
         "recomendacoes": [],
@@ -12225,13 +12121,6 @@
             "acompanhado_por": "André"
           },
           {
-            "descricao": "Equipamentos de aulas práticas - EMI - Estante de movimentação de cargas",
-            "observado": "Necessidade de substituição da estante de movimentação de cargas, devido a oxidação.",
-            "boa_pratica": "NA",
-            "oportunidade": "Realizar a trocar da estante de movimentação de cargas localizada na área de prática do curso de Operação de Empilhadeira",
-            "acompanhado_por": "João"
-          },
-          {
             "descricao": "Equipamentos de  Primeiros Socorros",
             "observado": "Necessidade de aquisição de equipamentos: Ambu, Colar cervical, Imobilizador, Kit de talas, Head block",
             "boa_pratica": "NA",
@@ -12249,63 +12138,7 @@
           {
             "arquivo": "SEG TRABALHO",
             "aba": "SEG TRABALHO",
-            "linha": 11,
-            "data": "2026-05-19"
-          },
-          {
-            "arquivo": "SEG TRABALHO",
-            "aba": "SEG TRABALHO",
             "linha": 12,
-            "data": "2026-05-19"
-          }
-        ]
-      },
-      "Segurança do Trabalho / EMI": {
-        "status": "Extraído do relatório Excel",
-        "resumo": "Criar espaço exclusivo para a identidade da área de Segurança do Trabalho; adquirir acessórios para combate a incêndio (chave Storz, esguichos, derivações e reduções); adquirir equipamentos de primeiros socorros; substituir a estante de movimentação de cargas da área de EMI devido ao processo de oxidação.",
-        "indicadores": [
-          {
-            "rotulo": "Itens avaliados",
-            "valor": 1
-          },
-          {
-            "rotulo": "Oportunidades",
-            "valor": 1
-          },
-          {
-            "rotulo": "Boas práticas",
-            "valor": 0
-          }
-        ],
-        "principais_pontos": [
-          "Necessidade de substituição da estante de movimentação de cargas, devido a oxidação."
-        ],
-        "boas_praticas": [],
-        "oportunidades": [
-          "Realizar a trocar da estante de movimentação de cargas localizada na área de prática do curso de Operação de Empilhadeira"
-        ],
-        "recomendacoes": [],
-        "observacoes": [],
-        "responsaveis": [
-          "Unidade Alagoinhas"
-        ],
-        "prazos": [],
-        "status_itens": [],
-        "itens": [
-          {
-            "descricao": "Equipamentos de aulas práticas - EMI - Estante de movimentação de cargas",
-            "observado": "Necessidade de substituição da estante de movimentação de cargas, devido a oxidação.",
-            "boa_pratica": "NA",
-            "oportunidade": "Realizar a trocar da estante de movimentação de cargas localizada na área de prática do curso de Operação de Empilhadeira",
-            "responsavel": "Unidade Alagoinhas",
-            "acompanhado_por": "João"
-          }
-        ],
-        "fontes": [
-          {
-            "arquivo": "Relatório visita - Especialistas SENAI BA_UN ALAGOINHAS.xlsx",
-            "aba": "SEG TRABALHO",
-            "linha": 11,
             "data": "2026-05-19"
           }
         ],
@@ -13342,6 +13175,56 @@
             "data": "2026-03-26"
           }
         ]
+      },
+      "EMI": {
+        "status": "Extraído do relatório Excel",
+        "resumo": "Criar espaço exclusivo para a identidade da área de Segurança do Trabalho; adquirir acessórios para combate a incêndio (chave Storz, esguichos, derivações e reduções); adquirir equipamentos de primeiros socorros; substituir a estante de movimentação de cargas da área de EMI devido ao processo de oxidação.",
+        "indicadores": [
+          {
+            "rotulo": "Itens avaliados",
+            "valor": 1
+          },
+          {
+            "rotulo": "Oportunidades",
+            "valor": 1
+          },
+          {
+            "rotulo": "Boas práticas",
+            "valor": 1
+          }
+        ],
+        "principais_pontos": [
+          "Necessidade de substituição da estante de movimentação de cargas, devido a oxidação."
+        ],
+        "boas_praticas": [
+          "NA"
+        ],
+        "oportunidades": [
+          "Realizar a trocar da estante de movimentação de cargas localizada na área de prática do curso de Operação de Empilhadeira"
+        ],
+        "recomendacoes": [],
+        "observacoes": [],
+        "responsaveis": [],
+        "prazos": [],
+        "status_itens": [],
+        "itens": [
+          {
+            "descricao": "Equipamentos de aulas práticas - EMI - Estante de movimentação de cargas",
+            "observado": "Necessidade de substituição da estante de movimentação de cargas, devido a oxidação.",
+            "boa_pratica": "NA",
+            "oportunidade": "Realizar a trocar da estante de movimentação de cargas localizada na área de prática do curso de Operação de Empilhadeira",
+            "acompanhado_por": "João"
+          }
+        ],
+        "fontes": [
+          {
+            "arquivo": "SEG TRABALHO",
+            "aba": "SEG TRABALHO",
+            "linha": 11,
+            "data": "2026-05-19"
+          }
+        ],
+        "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
       }
     },
     "visitantes": [
@@ -13526,7 +13409,7 @@
     "resultados_por_area": {
       "Segurança do Trabalho": {
         "status": "Extraído do relatório Excel",
-        "resumo": "Organizar o kit de EPI em caixa/case; readequar o layout do laboratório por temas, como combate a incêndio, trabalho em altura, espaço confinado, higiene ocupacional e LOTO; montar kit de primeiros socorros; adquirir equipamentos próprios para trabalho em altura; adquirir chaves Storz e acessórios de combate a incêndio.",
+        "resumo": "Ausencia de caixa/case para organização do Kit",
         "indicadores": [
           {
             "rotulo": "Itens avaliados",
@@ -13631,8 +13514,7 @@
             "linha": 14,
             "data": "2026-05-21"
           }
-        ],
-        "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
+        ]
       },
       "Logística": {
         "status": "Extraído do relatório Excel",
@@ -15048,7 +14930,8 @@
     "especialistas": [
       "ESP006",
       "ESP003",
-      "ESP007"
+      "ESP007",
+      "ESP004"
     ],
     "observacao": "Somente a visita confirmada foi incluída.",
     "data_programada_inicio": "2026-05-26",
@@ -17413,7 +17296,7 @@
     "resultados_por_area": {
       "Segurança do Trabalho": {
         "status": "Extraído do relatório Excel",
-        "resumo": "Adquirir maca tipo envelope para práticas de primeiros socorros e espaço confinado; descartar cintos, talabartes e acessórios vencidos, mantendo apenas exemplares devidamente identificados para demonstração; instalar o guincho no tripé destinado às práticas de espaço confinado, conforme investimento realizado em 2026.",
+        "resumo": "Ausencia de maca tipo envelope",
         "indicadores": [
           {
             "rotulo": "Itens avaliados",
@@ -17488,8 +17371,7 @@
             "linha": 12,
             "data": "2026-06-10"
           }
-        ],
-        "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
+        ]
       },
       "Eletromecânica": {
         "status": "Extraído do relatório Excel",
@@ -17944,9 +17826,9 @@
       "Alimentos",
       "Eletrotécnica",
       "Segurança do Trabalho",
-      "Segurança do Trabalho / EMI",
       "Logística",
-      "Tecnologia da Informação"
+      "Tecnologia da Informação",
+      "EMI"
     ],
     "especialistas": [
       "ESP005",
@@ -18172,35 +18054,31 @@
       },
       "Segurança do Trabalho": {
         "status": "Extraído do relatório Excel",
-        "resumo": "Ausencia de área destinada as práticas de Segurança do Trabalho",
+        "resumo": "Criar espaço específico para práticas de Segurança do Trabalho; centralizar e organizar os equipamentos da área; substituir cordas inadequadas por cordas certificadas; verificar validade e condições dos capacetes; adequar área de EMI com guard rail e materiais necessários caso haja oferta de turmas para comunidade.",
         "indicadores": [
           {
             "rotulo": "Itens avaliados",
-            "valor": 4
+            "valor": 3
           },
           {
             "rotulo": "Oportunidades",
-            "valor": 4
+            "valor": 3
           },
           {
             "rotulo": "Boas práticas",
-            "valor": 1
+            "valor": 0
           }
         ],
         "principais_pontos": [
           "Ausencia de área destinada as práticas de Segurança do Trabalho",
           "Cordas em condições inadequadas de uso",
-          "Validades de capacetes",
-          "Ausencia de guard rail e materiais para realização de práticas para realização de práticas (empilhadeira)"
+          "Validades de capacetes"
         ],
-        "boas_praticas": [
-          "NA"
-        ],
+        "boas_praticas": [],
         "oportunidades": [
           "Criar um espaço destinado à área de Segurança do Trabalho, pois, os equipamentos estão distribuídos em diferentes locais do galpão.(extintores de incendio, prancha de primeiros socorros.\nAtentar para possivel oferta de curso da área de segurança",
           "Substituir as cordas e na oportunidade da compra solicitar a certificação destas cordas.",
-          "Não foi possível verificar o prazo de validade dos capacetes disponíveis. Estes devem seguir as especificações do fabricante, considerando a data de fabricação acrescida de até 5 anos, desde que não apresentem danos.",
-          "Caso a unidade tenha previsão de oferta de turmas para a comunidade, será necessário realizar as adequações para viabilizar essa oferta."
+          "Não foi possível verificar o prazo de validade dos capacetes disponíveis. Estes devem seguir as especificações do fabricante, considerando a data de fabricação acrescida de até 5 anos, desde que não apresentem danos."
         ],
         "recomendacoes": [],
         "observacoes": [],
@@ -18230,13 +18108,6 @@
             "observado": "Validades de capacetes",
             "oportunidade": "Não foi possível verificar o prazo de validade dos capacetes disponíveis. Estes devem seguir as especificações do fabricante, considerando a data de fabricação acrescida de até 5 anos, desde que não apresentem danos.",
             "acompanhado_por": "Massai"
-          },
-          {
-            "descricao": "Área de EMI",
-            "observado": "Ausencia de guard rail e materiais para realização de práticas para realização de práticas (empilhadeira)",
-            "boa_pratica": "NA",
-            "oportunidade": "Caso a unidade tenha previsão de oferta de turmas para a comunidade, será necessário realizar as adequações para viabilizar essa oferta.",
-            "acompanhado_por": "Massai"
           }
         ],
         "fontes": [
@@ -18257,62 +18128,6 @@
             "aba": "SEG. TRAB",
             "linha": 12,
             "data": "2026-04-07"
-          },
-          {
-            "arquivo": "SEG. TRAB",
-            "aba": "SEG. TRAB",
-            "linha": 13,
-            "data": "2026-04-07"
-          }
-        ]
-      },
-      "Segurança do Trabalho / EMI": {
-        "status": "Extraído do relatório Excel",
-        "resumo": "Criar espaço específico para práticas de Segurança do Trabalho; centralizar e organizar os equipamentos da área; substituir cordas inadequadas por cordas certificadas; verificar validade e condições dos capacetes; adequar área de EMI com guard rail e materiais necessários caso haja oferta de turmas para comunidade.",
-        "indicadores": [
-          {
-            "rotulo": "Itens avaliados",
-            "valor": 1
-          },
-          {
-            "rotulo": "Oportunidades",
-            "valor": 1
-          },
-          {
-            "rotulo": "Boas práticas",
-            "valor": 0
-          }
-        ],
-        "principais_pontos": [
-          "Ausencia de guard rail e materiais para realização de práticas para realização de práticas (empilhadeira)"
-        ],
-        "boas_praticas": [],
-        "oportunidades": [
-          "Caso a unidade tenha previsão de oferta de turmas para a comunidade, será necessário realizar as adequações para viabilizar essa oferta."
-        ],
-        "recomendacoes": [],
-        "observacoes": [
-          "Unidade"
-        ],
-        "responsaveis": [],
-        "prazos": [],
-        "status_itens": [],
-        "itens": [
-          {
-            "descricao": "Área de EMI",
-            "observado": "Ausencia de guard rail e materiais para realização de práticas para realização de práticas (empilhadeira)",
-            "boa_pratica": "NA",
-            "oportunidade": "Caso a unidade tenha previsão de oferta de turmas para a comunidade, será necessário realizar as adequações para viabilizar essa oferta.",
-            "observacao_geral": "Unidade",
-            "acompanhado_por": "Massai"
-          }
-        ],
-        "fontes": [
-          {
-            "arquivo": "Relatório visita - Especialistas SENAI BA_UN Jequié.xlsx",
-            "aba": "SEG. TRAB",
-            "linha": 13,
-            "data": "2026-04-08"
           }
         ],
         "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
@@ -18454,6 +18269,56 @@
             "data": "2026-04-07"
           }
         ]
+      },
+      "EMI": {
+        "status": "Extraído do relatório Excel",
+        "resumo": "Criar espaço específico para práticas de Segurança do Trabalho; centralizar e organizar os equipamentos da área; substituir cordas inadequadas por cordas certificadas; verificar validade e condições dos capacetes; adequar área de EMI com guard rail e materiais necessários caso haja oferta de turmas para comunidade.",
+        "indicadores": [
+          {
+            "rotulo": "Itens avaliados",
+            "valor": 1
+          },
+          {
+            "rotulo": "Oportunidades",
+            "valor": 1
+          },
+          {
+            "rotulo": "Boas práticas",
+            "valor": 1
+          }
+        ],
+        "principais_pontos": [
+          "Ausencia de guard rail e materiais para realização de práticas para realização de práticas (empilhadeira)"
+        ],
+        "boas_praticas": [
+          "NA"
+        ],
+        "oportunidades": [
+          "Caso a unidade tenha previsão de oferta de turmas para a comunidade, será necessário realizar as adequações para viabilizar essa oferta."
+        ],
+        "recomendacoes": [],
+        "observacoes": [],
+        "responsaveis": [],
+        "prazos": [],
+        "status_itens": [],
+        "itens": [
+          {
+            "descricao": "Área de EMI",
+            "observado": "Ausencia de guard rail e materiais para realização de práticas para realização de práticas (empilhadeira)",
+            "boa_pratica": "NA",
+            "oportunidade": "Caso a unidade tenha previsão de oferta de turmas para a comunidade, será necessário realizar as adequações para viabilizar essa oferta.",
+            "acompanhado_por": "Massai"
+          }
+        ],
+        "fontes": [
+          {
+            "arquivo": "SEG. TRAB",
+            "aba": "SEG. TRAB",
+            "linha": 13,
+            "data": "2026-04-07"
+          }
+        ],
+        "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
       }
     },
     "visitantes": [
