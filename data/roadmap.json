@@ -8,7 +8,7 @@
     "decidido_em": "2026-07-15",
     "decisao_anterior_substituida": "Google Forms + Google Sheets — descartada porque não tem login: qualquer pessoa poderia selecionar o nome de qualquer especialista no dropdown, reabrindo o mesmo tipo de problema de identidade corrigido na base de 2026 (caso Paulo Filho x Marcos Paulo).",
     "por_que": "Login por especialista elimina o campo 'Especialista responsável' como seleção manual — quem preenche é identificado pela sessão autenticada, então é estruturalmente impossível registrar em nome de outra pessoa. Além disso os dados já nascem no formato usado por data/visits.json, sem etapa de conversão.",
-    "como_funciona": "1) 7 especialistas com login próprio (tabela especialistas, senha com hash bcrypt). 2) Formulário registrar.html grava cada item avaliado na tabela visita_itens (Postgres). 3) Perto do fechamento do ciclo, uma consulta agrupa por unidade+área e gera o mesmo formato de data/visits.json. 4) Backend implementado como funções serverless do próprio projeto Vercel (pasta api/) — sem servidor dedicado, sem custo além do banco.",
+    "como_funciona": "1) 7 especialistas com login próprio (tabela especialistas, senha com hash bcrypt). 2) Formulário registrar.html grava cada item avaliado na tabela visita_itens (Postgres). 3) scripts/gerar_visits_do_banco.js agrupa por unidade+área e gera o mesmo formato de data/visits.json — pode ser rodado a qualquer momento do ano (não só no fechamento), é idempotente por ano. 4) Backend implementado como funções serverless do próprio projeto Vercel (pasta api/) — sem servidor dedicado, sem custo além do banco.",
     "stack": {
       "banco": "Postgres (qualquer provedor: Supabase, Neon, Vercel Postgres...)",
       "backend": "Vercel Functions (Node.js) — pasta api/",
@@ -27,14 +27,15 @@
       "api/registrar-item.js",
       "api/minhas-respostas.js",
       "registrar.html",
-      "js/registrar.js"
+      "js/registrar.js",
+      "scripts/gerar_visits_do_banco.js"
     ],
     "pendente_do_usuario": [
-      "Criar o banco Postgres e configurar DATABASE_URL e JWT_SECRET no Vercel",
-      "Rodar db/schema.sql e db/seed_especialistas.sql no banco",
       "Distribuir as senhas temporárias aos 7 especialistas (arquivo entregue à parte, fora do git)",
-      "Trocar os emails placeholder (@senaiba.local) pelos emails reais, se desejado"
-    ]
+      "Trocar os emails placeholder (@senaiba.local) pelos emails reais, se desejado",
+      "Rodar `npm run gerar-visits -- 2027` periodicamente (ou no fechamento do ciclo) e dar push no data/visits.json atualizado"
+    ],
+    "status_setup": "Banco Neon criado e conectado, schema.sql e seed_especialistas.sql já rodados, JWT_SECRET configurada, testado em produção com sucesso em 2026-07-15."
   },
   "opcoes_alternativas_nao_escolhidas": [
     {

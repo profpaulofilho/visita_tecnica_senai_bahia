@@ -100,4 +100,14 @@ Página de login + formulário, uma API serverless (pasta `api/`) e um banco Pos
 5. Acesse `/registrar.html`, entre com o email/senha temporária de cada especialista — a plataforma pede para trocar a senha no primeiro login.
 
 ### Dados coletados
-Tabela `visita_itens` (uma linha por item avaliado, mesmo formato das 14 perguntas do roteiro original). Perto do fechamento de cada ciclo, uma consulta agrupa por unidade + área para gerar o mesmo formato usado em `data/visits.json`, sem precisar mudar o dashboard.
+Tabela `visita_itens` (uma linha por item avaliado, mesmo formato das 14 perguntas do roteiro original).
+
+### Trazer os dados para o dashboard (`scripts/gerar_visits_do_banco.js`)
+
+Script pronto que lê a tabela `visita_itens`, agrupa por unidade + área e gera visitas no mesmo formato de `data/visits.json` — o dashboard não precisa de nenhuma mudança para exibir os dados de 2027+, é o mesmo `index.html`/`js/app.js` de sempre.
+
+```
+DATABASE_URL="a mesma connection string do Neon/Vercel" npm run gerar-visits -- 2027
+```
+
+Pode ser rodado quantas vezes quiser durante o ano — cada execução substitui as visitas daquele ano específico em `data/visits.json` pela versão mais atual do banco (sem duplicar e sem mexer em anos anteriores), então dá pra usar tanto para acompanhar o progresso ao longo do ciclo quanto para o fechamento final. Depois de rodar, é só commitar e dar `git push` no `data/visits.json` atualizado para o dashboard publicado refletir os dados novos.
