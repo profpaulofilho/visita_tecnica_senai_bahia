@@ -1,5 +1,5 @@
 {
-  "versao": "1.0.9",
+  "versao": "1.1.0",
   "data": "2026-07-15",
   "regras": [
     "Paulo Filho sem visitas presenciais e sem quilometragem entre 12/04/2026 e 16/05/2026.",
@@ -56,5 +56,9 @@
     "Perfil do especialista na ficha técnica agora mostra a origem real do registro (ex.: 'Atividade remota/automatizada') em vez de um texto fixo.",
     "Roster de especialistas por unidade atualizado conforme confirmação do responsável do projeto: Verônica em Lauro de Freitas e Alagoinhas; Lígia em Camaçari e Eunápolis; Marcos Paulo em Teixeira de Freitas, Eunápolis e Senhor do Bonfim; Joilma Chaves em Jacobina; Juliana Neri em Senhor do Bonfim.",
     "Quilometragem e trilha recalculadas para Joilma Chaves, Verônica, Lígia, Juliana Neri e Marcos Paulo."
+  ],
+  "correcoes_1_1_0": [
+    "Confirmado: Lígia é a especialista responsável por Microbiologia, Petroquímica e Química e Alimentos, além de Química e Biotecnologia — adicionada a Santo Antônio de Jesus (única unidade que faltava dessas áreas).",
+    "Quilometragem e trilha de Lígia recalculadas: 12 visitas confirmadas."
   ]
 }

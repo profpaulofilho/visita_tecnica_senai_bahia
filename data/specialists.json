@@ -278,13 +278,16 @@
     "visitas": [],
     "areas_atuacao": [
       "Química",
-      "Biotecnologia"
+      "Biotecnologia",
+      "Microbiologia",
+      "Petroquímica",
+      "Química e Alimentos"
     ],
     "areas_status": "Confirmada — área de responsabilidade indicada pelo responsável do projeto",
-    "resumo_profissional": "Especialista responsável pelas áreas de Química e Biotecnologia em todas as unidades visitadas.",
+    "resumo_profissional": "Especialista responsável pelas áreas de Química, Biotecnologia, Microbiologia, Petroquímica e Química/Alimentos em todas as unidades visitadas.",
     "quilometragem": {
-      "km_estimados": 3088.6,
-      "visitas_confirmadas": 11,
+      "km_estimados": 3173.1,
+      "visitas_confirmadas": 12,
       "metodo": "Distância geodésica entre unidades confirmadas, em ordem cronológica",
       "observacao": "Não inclui atividades remotas, rota rodoviária, saída, retorno ou deslocamentos locais.",
       "trechos": [
@@ -357,6 +360,13 @@
           "data_origem": "2026-05-19",
           "data_destino": "2026-05-21",
           "km_estimados": 61.2
+        },
+        {
+          "origem": "Feira de Santana",
+          "destino": "Santo Antônio de Jesus",
+          "data_origem": "2026-05-21",
+          "data_destino": "2026-05-26",
+          "km_estimados": 84.5
         }
       ]
     }
