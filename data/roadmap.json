@@ -103,8 +103,6 @@
         "obrigatorio": true,
         "opcoes": [
           "Tecnologia da Informação",
-          "Desenvolvimento de Sistemas",
-          "Redes de Computadores",
           "Eletrotécnica",
           "Automação",
           "Eletromecânica",
@@ -120,11 +118,13 @@
           "EMI",
           "Logística",
           "Mecatrônica",
-          "Alimentos / Agroindústria",
+          "Alimentos",
+          "Agroindústria",
           "Biblioteca",
           "Infraestrutura Geral",
           "Outra (especificar)"
-        ]
+        ],
+        "observacao": "Tecnologia da Informação engloba 3 sub-áreas (Desenvolvimento de Sistemas, Redes de Computadores, Informática para Internet) — algumas unidades têm as 3. 'Alimentos' e 'Agroindústria' agora são opções separadas."
       },
       {
         "ordem": 6,
