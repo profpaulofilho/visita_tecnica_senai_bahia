@@ -1922,7 +1922,8 @@
         "nome": "Paloma Ribeiro",
         "avatar": null,
         "areas": [
-          "Construção Civil"
+          "Construção Civil",
+          "Edificações"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
       },
@@ -8061,7 +8062,8 @@
           "Laboratórios",
           "Metrologia / Manutenção",
           "Refrigeração / Segurança",
-          "Logística"
+          "Logística",
+          "Eletromecânica"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
       },
@@ -8081,7 +8083,8 @@
           "Laboratórios",
           "Metrologia / Manutenção",
           "Refrigeração / Segurança",
-          "Logística"
+          "Logística",
+          "Eletromecânica"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
       },
@@ -8100,7 +8103,8 @@
           "Manutenção Mecânica / Refrigeração",
           "Laboratórios",
           "Metrologia / Manutenção",
-          "Refrigeração / Segurança"
+          "Refrigeração / Segurança",
+          "Eletromecânica"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
       },
@@ -9530,7 +9534,9 @@
           "Eletrotécnica",
           "Biotecnologia",
           "Alimentos",
-          "Área de Práticas"
+          "Área de Práticas",
+          "IFTP - Biotec",
+          "Construção Civil"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
       },
@@ -9539,7 +9545,8 @@
         "nome": "Marcos Paulo",
         "avatar": "assets/avatars/marcos-paulo.jpg",
         "areas": [
-          "Eletrotécnica"
+          "Eletrotécnica",
+          "Construção Civil"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
       },
@@ -9548,7 +9555,8 @@
         "nome": "Lígia",
         "avatar": "assets/avatars/ligia.jpg",
         "areas": [
-          "Área de Práticas"
+          "Área de Práticas",
+          "Construção Civil"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
       },
@@ -13360,7 +13368,8 @@
           "Segurança do Trabalho",
           "Segurança do Trabalho / EMI",
           "Eletromecânica",
-          "Eletrotécnica"
+          "Eletrotécnica",
+          "Automação"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
       },
@@ -13380,7 +13389,8 @@
         "avatar": null,
         "areas": [
           "Eletromecânica",
-          "Eletrotécnica"
+          "Eletrotécnica",
+          "Automação"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
       },
@@ -13390,7 +13400,8 @@
         "avatar": null,
         "areas": [
           "Eletromecânica",
-          "Eletrotécnica"
+          "Eletrotécnica",
+          "Automação"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
       },
@@ -13400,7 +13411,8 @@
         "avatar": null,
         "areas": [
           "Eletromecânica",
-          "Eletrotécnica"
+          "Eletrotécnica",
+          "Automação"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
       },
@@ -14918,7 +14930,8 @@
           "Microbiologia",
           "Microbiologia/Química",
           "Química",
-          "Alimentos"
+          "Alimentos",
+          "Construção Civil"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
       },
@@ -14936,7 +14949,8 @@
         "nome": "Verônica",
         "avatar": "assets/avatars/veronica.jpg",
         "areas": [
-          "Edificações"
+          "Edificações",
+          "Construção Civil"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
       },

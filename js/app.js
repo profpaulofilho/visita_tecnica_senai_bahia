@@ -249,6 +249,22 @@ function renderAreaResult(v,area){
     : '<span class="muted-result">Nenhum item detalhado.</span>';
 }
 
+function aggregateAreaField(v,field){
+  const seen=new Set();const out=[];
+  Object.entries(v.resultados_por_area||{}).forEach(([area,d])=>{
+    (d[field]||[]).forEach(txt=>{
+      const key=area+'|'+txt;
+      if(txt && !seen.has(key)){seen.add(key);out.push({area,txt});}
+    });
+  });
+  return out;
+}
+function renderAggregatedList(containerId,items,emptyMsg){
+  const el=$(containerId);
+  el.innerHTML=items.length
+    ? `<ul class="result-list">${items.map(i=>`<li><b>${escapeHtml(i.area)}:</b> ${escapeHtml(i.txt)}</li>`).join('')}</ul>`
+    : `<span class="muted-result">${emptyMsg}</span>`;
+}
 function showDetails(v){
   state.currentVisit=v;
   const panel=$('.details');panel.classList.add('open');$('#emptyDetail').style.display='none';$('#detailCard').classList.add('show');
@@ -260,6 +276,10 @@ function showDetails(v){
   $('#detailAccompanied').innerHTML=(v.acompanhantes||[]).length
     ? `<ul class="people-list">${v.acompanhantes.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul>`
     : '<span class="muted-result">Não informado na coluna ACOMPANHADO POR.</span>';
+  renderAggregatedList('#detailBoas',aggregateAreaField(v,'boas_praticas'),'Nenhuma boa prática consolidada nos relatórios desta unidade.');
+  renderAggregatedList('#detailOportunidades',aggregateAreaField(v,'oportunidades'),'Nenhuma oportunidade de melhoria consolidada nos relatórios desta unidade.');
+  renderAggregatedList('#detailRecomendacoes',aggregateAreaField(v,'recomendacoes'),'Nenhuma recomendação consolidada nos relatórios desta unidade.');
+  renderAggregatedList('#detailObs',aggregateAreaField(v,'observacoes'),'Nenhuma observação geral consolidada nos relatórios desta unidade.');
   $('#detailDataStatus').textContent=v.status_dados||'Em validação';
   $('#detailSpecialists').textContent=v.especialistas_status||'Em validação';
   const docs=(v.fontes_dados||[]).map(x=>({tipo:'Fonte analisada',arquivo:x}));

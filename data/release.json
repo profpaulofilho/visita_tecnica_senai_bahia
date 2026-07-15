@@ -1,5 +1,5 @@
 {
-  "versao": "1.0.4",
+  "versao": "1.0.5",
   "data": "2026-07-15",
   "regras": [
     "Paulo Filho sem visitas presenciais e sem quilometragem entre 12/04/2026 e 16/05/2026.",
@@ -21,5 +21,12 @@
     "Removidos itens-fantasma sem conteúdo real (apenas um código de status, sem texto) originados da aba MODELO (template) e de abas de TI sem preenchimento (ex.: Feira de Santana), em vez de exibi-los como se fossem observações válidas.",
     "Segurança do Trabalho vinculada a Juliana Neri (ESP006) em todas as 14 visitas onde essa área existe e ela ainda não estava associada; quilometragem e trilha dela recalculadas com as 17 visitas confirmadas.",
     "Nenhum conteúdo pré-existente foi removido — todas as áreas e itens que já estavam corretos permanecem intactos; a auditoria completa está documentada no relatório de correções."
+  ],
+  "correcoes_1_0_5": [
+    "Corrigido bug de JavaScript que travava a 'ficha técnica' (painel lateral): showDetails() referenciava um elemento HTML inexistente (#detailAccompanied) e interrompia a execução antes de renderizar especialistas da visita, boas práticas, oportunidades, recomendações, observações, status dos dados e documentos.",
+    "Reintroduzido o elemento 'Acompanhantes locais (NTI/ATI)' no painel, que já existia nos dados mas nunca era exibido por causa do bug acima.",
+    "Boas práticas, oportunidades de melhoria, recomendações e observações da ficha técnica agora mostram um resumo consolidado real (agregado de todas as áreas da visita), em vez de texto genérico fixo.",
+    "Lista de participantes por área (visitantes) enriquecida com vínculos que estavam faltando após a reconstrução de áreas da versão 1.0.4 (ex.: Marcos Paulo em Construção Civil de Vitória da Conquista).",
+    "Confirmado: em Dendezeiros, apenas Paulo Filho, Marcos Paulo, Verônica e Juliana Neri têm participação documentada nos relatórios de origem — Felipe dos Anjos, Joilma Chaves e Lígia não aparecem em nenhuma aba desta unidade."
   ]
 }
