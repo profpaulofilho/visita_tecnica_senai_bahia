@@ -36,5 +36,153 @@
       "esforco": "Baixo-médio",
       "observacao": "Alternativa razoável se o Google Forms se mostrar limitado depois de testado em campo."
     }
-  ]
+  ],
+  "roteiro_perguntas_v1": {
+    "documento_completo": "Roteiro_Formulario_Visitas_2027.docx (na pasta do projeto)",
+    "regra_de_preenchimento": "Cada resposta do formulário = um item avaliado dentro de uma área técnica. O especialista preenche uma vez por item observado.",
+    "perguntas": [
+      {
+        "ordem": 1,
+        "pergunta": "Ano do ciclo",
+        "tipo": "Resposta curta (número)",
+        "obrigatorio": true
+      },
+      {
+        "ordem": 2,
+        "pergunta": "Unidade",
+        "tipo": "Lista suspensa",
+        "obrigatorio": true,
+        "opcoes": [
+          "Alagoinhas",
+          "Barreiras",
+          "Camaçari",
+          "Candeias",
+          "Dendezeiros",
+          "Eunápolis",
+          "Feira de Santana",
+          "Ilhéus",
+          "Jacobina",
+          "Jequié",
+          "Juazeiro",
+          "Lauro de Freitas",
+          "Luís Eduardo Magalhães",
+          "Ourolândia",
+          "Santo Antônio de Jesus",
+          "Senhor do Bonfim",
+          "Serrinha",
+          "Teixeira de Freitas",
+          "Vitória da Conquista"
+        ]
+      },
+      {
+        "ordem": 3,
+        "pergunta": "Data da visita",
+        "tipo": "Data",
+        "obrigatorio": true
+      },
+      {
+        "ordem": 4,
+        "pergunta": "Especialista responsável",
+        "tipo": "Lista suspensa",
+        "obrigatorio": true,
+        "opcoes": [
+          "Paulo Filho",
+          "Felipe dos Anjos",
+          "Joilma Chaves",
+          "Verônica",
+          "Lígia",
+          "Juliana Neri",
+          "Marcos Paulo",
+          "Outro (especificar e validar depois)"
+        ]
+      },
+      {
+        "ordem": 5,
+        "pergunta": "Área técnica",
+        "tipo": "Lista suspensa",
+        "obrigatorio": true,
+        "opcoes": [
+          "Tecnologia da Informação",
+          "Desenvolvimento de Sistemas",
+          "Redes de Computadores",
+          "Eletrotécnica",
+          "Automação",
+          "Eletromecânica",
+          "Refrigeração",
+          "Construção Civil",
+          "Edificações",
+          "Química",
+          "Biotecnologia",
+          "Microbiologia",
+          "Petroquímica",
+          "Química e Alimentos",
+          "Segurança do Trabalho",
+          "EMI",
+          "Logística",
+          "Mecatrônica",
+          "Alimentos / Agroindústria",
+          "Biblioteca",
+          "Infraestrutura Geral",
+          "Outra (especificar)"
+        ]
+      },
+      {
+        "ordem": 6,
+        "pergunta": "Acompanhante local (NTI/ATI)",
+        "tipo": "Resposta curta",
+        "obrigatorio": false
+      },
+      {
+        "ordem": 7,
+        "pergunta": "Descrição do item avaliado",
+        "tipo": "Resposta curta",
+        "obrigatorio": true
+      },
+      {
+        "ordem": 8,
+        "pergunta": "O que foi observado",
+        "tipo": "Parágrafo",
+        "obrigatorio": true
+      },
+      {
+        "ordem": 9,
+        "pergunta": "Boas práticas identificadas",
+        "tipo": "Parágrafo",
+        "obrigatorio": false
+      },
+      {
+        "ordem": 10,
+        "pergunta": "Oportunidades de melhoria",
+        "tipo": "Parágrafo",
+        "obrigatorio": false
+      },
+      {
+        "ordem": 11,
+        "pergunta": "Responsável pela ação",
+        "tipo": "Resposta curta",
+        "obrigatorio": false
+      },
+      {
+        "ordem": 12,
+        "pergunta": "Prazo",
+        "tipo": "Data",
+        "obrigatorio": false
+      },
+      {
+        "ordem": 13,
+        "pergunta": "Status",
+        "tipo": "Múltipla escolha",
+        "obrigatorio": true,
+        "opcoes": [
+          "Concluído (C)",
+          "Em aberto (A)",
+          "Divergente (D)"
+        ]
+      }
+    ],
+    "pendencias_para_2027": [
+      "Definir a área de Felipe dos Anjos — hoje sem nenhuma área/visita confirmada.",
+      "Definir se Logística, Mecatrônica, Alimentos/Agroindústria, Biblioteca e Infraestrutura Geral terão especialista fixo."
+    ]
+  }
 }
