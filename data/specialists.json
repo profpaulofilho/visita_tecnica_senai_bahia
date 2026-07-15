@@ -205,35 +205,128 @@
     "avatar": "assets/avatars/juliana-neri.jpg",
     "cor": "#20C997",
     "visitas": [],
-    "areas_atuacao": [],
-    "areas_status": "Aguardando confirmação documental",
-    "resumo_profissional": "Cadastro de especialista disponível; áreas de atuação ainda não confirmadas na base documental.",
+    "areas_atuacao": [
+      "Segurança do Trabalho"
+    ],
+    "areas_status": "Confirmada — área exclusiva da especialista, coordenadora da equipe",
+    "resumo_profissional": "Especialista responsável pela área de Segurança do Trabalho em todas as unidades visitadas; coordenadora da equipe de especialistas técnicos.",
     "quilometragem": {
-      "km_estimados": 811.6,
-      "visitas_confirmadas": 4,
+      "km_estimados": 4129.5,
+      "visitas_confirmadas": 17,
       "metodo": "Distância geodésica entre unidades confirmadas, em ordem cronológica",
       "observacao": "Não inclui atividades remotas, rota rodoviária, saída, retorno ou deslocamentos locais.",
       "trechos": [
         {
+          "origem": "Lauro de Freitas",
+          "destino": "Candeias",
+          "data_origem": "2026-02-24",
+          "data_destino": "2026-02-25",
+          "km_estimados": 34.4
+        },
+        {
           "origem": "Candeias",
-          "destino": "Ilhéus",
+          "destino": "Camaçari",
           "data_origem": "2026-02-25",
+          "data_destino": "2026-02-26",
+          "km_estimados": 24.4
+        },
+        {
+          "origem": "Camaçari",
+          "destino": "Teixeira de Freitas",
+          "data_origem": "2026-02-26",
+          "data_destino": "2026-03-03",
+          "km_estimados": 559.5
+        },
+        {
+          "origem": "Teixeira de Freitas",
+          "destino": "Ilhéus",
+          "data_origem": "2026-03-03",
           "data_destino": "2026-03-17",
-          "km_estimados": 242.0
+          "km_estimados": 314.3
         },
         {
           "origem": "Ilhéus",
           "destino": "Salvador",
-          "data_origem": "2026-03-17",
+          "data_origem": "2026-03-18",
           "data_destino": "2026-03-25",
           "km_estimados": 211.0
         },
         {
           "origem": "Salvador",
-          "destino": "Ourolândia",
+          "destino": "Vitória da Conquista",
           "data_origem": "2026-03-25",
+          "data_destino": "2026-04-06",
+          "km_estimados": 328.9
+        },
+        {
+          "origem": "Vitória da Conquista",
+          "destino": "Jequié",
+          "data_origem": "2026-04-10",
+          "data_destino": "2026-04-07",
+          "km_estimados": 138.5
+        },
+        {
+          "origem": "Jequié",
+          "destino": "Serrinha",
+          "data_origem": "2026-04-08",
+          "data_destino": "2026-04-28",
+          "km_estimados": 270.4
+        },
+        {
+          "origem": "Serrinha",
+          "destino": "Barreiras",
+          "data_origem": "2026-04-28",
+          "data_destino": "2026-05-13",
+          "km_estimados": 653.2
+        },
+        {
+          "origem": "Barreiras",
+          "destino": "Luís Eduardo Magalhães",
+          "data_origem": "2026-05-13",
+          "data_destino": "2026-05-14",
+          "km_estimados": 86.8
+        },
+        {
+          "origem": "Luís Eduardo Magalhães",
+          "destino": "Alagoinhas",
+          "data_origem": "2026-05-14",
+          "data_destino": "2026-05-19",
+          "km_estimados": 801.0
+        },
+        {
+          "origem": "Alagoinhas",
+          "destino": "Feira de Santana",
+          "data_origem": "2026-05-19",
+          "data_destino": "2026-05-21",
+          "km_estimados": 61.2
+        },
+        {
+          "origem": "Feira de Santana",
+          "destino": "Santo Antônio de Jesus",
+          "data_origem": "2026-05-21",
+          "data_destino": "2026-05-26",
+          "km_estimados": 84.5
+        },
+        {
+          "origem": "Santo Antônio de Jesus",
+          "destino": "Ourolândia",
+          "data_origem": "2026-05-26",
           "data_destino": "2026-06-09",
-          "km_estimados": 358.5
+          "km_estimados": 298.3
+        },
+        {
+          "origem": "Ourolândia",
+          "destino": "Jacobina",
+          "data_origem": "2026-06-09",
+          "data_destino": "2026-06-09",
+          "km_estimados": 66.3
+        },
+        {
+          "origem": "Jacobina",
+          "destino": "Juazeiro",
+          "data_origem": "2026-06-09",
+          "data_destino": "2026-06-10",
+          "km_estimados": 196.8
         }
       ]
     }

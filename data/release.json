@@ -1,16 +1,25 @@
 {
-  "versao": "1.0.3",
-  "data": "2026-07-14",
+  "versao": "1.0.4",
+  "data": "2026-07-15",
   "regras": [
     "Paulo Filho sem visitas presenciais e sem quilometragem entre 12/04/2026 e 16/05/2026.",
     "Fotos dos especialistas sempre visíveis na barra lateral.",
     "Fotos no mapa somente após selecionar a unidade.",
-    "Distâncias recalculadas após exclusão do período de férias."
+    "Distâncias recalculadas após exclusão do período de férias.",
+    "Segurança do Trabalho é área exclusiva da especialista e coordenadora da equipe Juliana Neri em todas as unidades."
   ],
   "correcoes": [
     "Visitas anteriores de Marcos Paulo preservadas.",
     "Dendezeiros, Lauro de Freitas e Camaçari adicionadas às visitas já existentes de Marcos Paulo.",
     "Paulo Filho mantido apenas em Dendezeiros, Lauro de Freitas e Camaçari.",
     "Trilhas, contadores e quilometragens recalculados sem apagar vínculos anteriores."
+  ],
+  "correcoes_1_0_4": [
+    "Auditoria completa das 19 planilhas de origem contra data/visits.json: 19 áreas técnicas inteiras estavam ausentes do app (ex.: Edificações em Serrinha, Segurança do Trabalho e IFTP-Biotec em Vitória da Conquista) e foram adicionadas.",
+    "Santo Antônio de Jesus estava com apenas 3 de 40 itens carregados; reconstruída para os 40 itens do relatório de origem.",
+    "Campo 'acompanhado_por' (acompanhante local) agora é preenchido em praticamente todos os itens, replicando corretamente as células mescladas das planilhas de origem (antes só o primeiro item de cada bloco tinha o acompanhante registrado).",
+    "Removidos itens-fantasma sem conteúdo real (apenas um código de status, sem texto) originados da aba MODELO (template) e de abas de TI sem preenchimento (ex.: Feira de Santana), em vez de exibi-los como se fossem observações válidas.",
+    "Segurança do Trabalho vinculada a Juliana Neri (ESP006) em todas as 14 visitas onde essa área existe e ela ainda não estava associada; quilometragem e trilha dela recalculadas com as 17 visitas confirmadas.",
+    "Nenhum conteúdo pré-existente foi removido — todas as áreas e itens que já estavam corretos permanecem intactos; a auditoria completa está documentada no relatório de correções."
   ]
 }

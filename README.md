@@ -66,3 +66,13 @@ Correção da lógica de Marcos Paulo:
 - Dendezeiros, Lauro de Freitas e Camaçari foram adicionadas às visitas anteriores;
 - nenhuma associação anterior foi removida;
 - trilha, contador e quilometragem foram recalculados.
+
+
+## Release 1.0.4
+Auditoria completa das 19 planilhas de origem contra os dados carregados no app:
+- 19 áreas técnicas inteiras que existiam nos relatórios estavam ausentes do app (ex.: Edificações em Serrinha, Segurança do Trabalho e IFTP-Biotec em Vitória da Conquista) — adicionadas.
+- Santo Antônio de Jesus estava com apenas 3 de 40 itens carregados; reconstruída integralmente.
+- Campo "Acompanhado por" agora é preenchido em praticamente todos os itens (antes só o primeiro item de cada bloco de área tinha o acompanhante, por causa de células mescladas nas planilhas de origem).
+- Removidos itens sem conteúdo real (restos da aba MODELO e de abas de TI não preenchidas), que apareciam como observações vazias.
+- Segurança do Trabalho vinculada a Juliana Neri (coordenadora da equipe) em todas as unidades onde essa área existe; quilometragem e trilha dela recalculadas.
+- Nenhum conteúdo pré-existente foi removido nesta auditoria.
