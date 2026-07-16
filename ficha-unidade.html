@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ficha da unidade — SENAI Bahia</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="shortcut icon" href="assets/favicon.ico">
+<link rel="stylesheet" href="css/app.css">
+<style>
+  body{background:var(--bg)}
+  .fu-wrap{max-width:980px;margin:0 auto;padding:22px 18px 90px}
+  .fu-top{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;margin-bottom:18px}
+  .fu-top a{color:var(--brand);font-size:13px;text-decoration:none;font-weight:700}
+  .fu-actions{display:flex;gap:8px}
+  .fu-header{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:26px 28px;box-shadow:var(--shadow);margin-bottom:20px}
+  .fu-header h1{margin:0 0 6px;font-size:30px;color:var(--text-strong)}
+  .fu-header .sub{color:var(--muted);font-size:14px;margin:0 0 14px}
+  .fu-badges{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+  .fu-badge{padding:5px 12px;border-radius:999px;background:color-mix(in srgb,var(--brand) 14%,transparent);color:var(--brand);font-size:12px;font-weight:800}
+  .fu-badge.warn{background:#fff3cd;color:#7a5a00}
+  [data-theme="dark"] .fu-badge.warn{background:#3a2d08;color:#ffe18a}
+  .fu-overview{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:8px}
+  .fu-ov-stat{padding:12px;border-radius:12px;background:var(--panel2);border:1px solid var(--line);text-align:center}
+  .fu-ov-stat b{display:block;font-size:22px;color:var(--text-strong)}
+  .fu-ov-stat small{color:var(--muted);font-size:11px}
+  .fu-section-title{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:800;margin:26px 0 12px}
+  .fu-specialists{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:10px}
+  .fu-spec-card{display:flex;align-items:center;gap:10px;padding:12px;border:1px solid var(--line);border-radius:14px;background:var(--panel);cursor:pointer;text-align:left}
+  .fu-spec-card img,.fu-spec-card .init{width:44px;height:44px;border-radius:50%;object-fit:cover;flex:0 0 auto}
+  .fu-spec-card .init{background:var(--brand);color:#fff;display:grid;place-items:center;font-weight:800}
+  .fu-spec-card b{display:block;color:var(--text-strong);font-size:13.5px}
+  .fu-spec-card small{color:var(--muted);font-size:11.5px}
+  .fu-spec-card.active{border-color:var(--brand);box-shadow:0 0 0 2px var(--brand)}
+  .fu-panel{display:none;margin-top:18px;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:var(--shadow)}
+  .fu-panel.show{display:block}
+  .fu-panel-head{display:flex;align-items:center;gap:14px;margin-bottom:16px;padding-bottom:16px;border-bottom:1px solid var(--line)}
+  .fu-panel-head img,.fu-panel-head .init{width:56px;height:56px;border-radius:50%;object-fit:cover}
+  .fu-panel-head .init{background:var(--brand);color:#fff;display:grid;place-items:center;font-weight:800;font-size:20px}
+  .fu-panel-head h2{margin:0;font-size:20px;color:var(--text-strong)}
+  .fu-panel-head p{margin:2px 0 0;color:var(--muted);font-size:13px}
+  .fu-area-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+  .fu-area-tab{padding:8px 14px;border-radius:999px;border:1px solid var(--line);background:var(--panel2);color:var(--text);font-size:13px;font-weight:700;cursor:pointer}
+  .fu-area-tab.active{background:var(--brand);border-color:var(--brand);color:#fff}
+  .fu-area-block h3{font-size:12px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin:18px 0 8px}
+  .fu-area-block h3:first-child{margin-top:0}
+  .fu-resumo{font-size:14.5px;line-height:1.6;color:var(--text)}
+  .fu-status-badge{display:inline-block;padding:4px 10px;border-radius:8px;background:var(--panel2);border:1px solid var(--line);font-size:12px;font-weight:700;color:var(--text)}
+  .fu-kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+  .fu-kpi{padding:11px;border-radius:10px;background:var(--panel2);border:1px solid var(--line);text-align:center}
+  .fu-kpi b{display:block;font-size:20px;color:var(--text-strong)}
+  .fu-kpi small{color:var(--muted);font-size:11px}
+  .fu-list{margin:0;padding-left:20px;display:grid;gap:6px;font-size:13.5px;line-height:1.5}
+  .fu-list.empty{color:var(--muted);list-style:none;padding-left:0;font-style:italic}
+  .fu-items{display:grid;gap:10px}
+  .fu-item{border:1px solid var(--line);border-left:4px solid var(--brand);border-radius:0 12px 12px 0;padding:12px 14px;background:var(--panel2)}
+  .fu-item-head{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:6px}
+  .fu-item-head b{color:var(--text-strong);font-size:14px}
+  .fu-item-status{font-size:11px;font-weight:800;padding:3px 9px;border-radius:999px;white-space:nowrap}
+  .fu-item-status.c{background:#e6f4ea;color:#0d652d}
+  .fu-item-status.a{background:#fff3cd;color:#7a5a00}
+  .fu-item-status.d{background:#fce8e6;color:#8a1c15}
+  [data-theme="dark"] .fu-item-status.c{background:#0e2b16;color:#8fd99f}
+  [data-theme="dark"] .fu-item-status.a{background:#3a2d08;color:#ffe18a}
+  [data-theme="dark"] .fu-item-status.d{background:#3a1410;color:#ffb4ab}
+  .fu-item-row{font-size:13px;margin-top:4px;line-height:1.5}
+  .fu-item-row b{color:var(--text-strong);font-weight:700}
+  .fu-fontes{margin-top:16px;font-size:11.5px;color:var(--muted)}
+  .fu-accomp-list{display:flex;flex-wrap:wrap;gap:8px}
+  .fu-accomp-pill{padding:6px 12px;border-radius:999px;background:var(--panel2);border:1px solid var(--line);font-size:12.5px;color:var(--text)}
+  .fu-empty{padding:40px;text-align:center;color:var(--muted)}
+  @media print{
+    .fu-actions,.fu-top a,#printBtn{display:none!important}
+    body{background:#fff}
+    .fu-header,.fu-panel,.fu-spec-card{box-shadow:none;border-color:#ccc}
+  }
+</style>
+</head>
+<body>
+<div class="fu-wrap" id="app">
+  <div class="fu-top">
+    <a href="index.html">&larr; Voltar ao dashboard</a>
+    <div class="fu-actions">
+      <button class="iconbtn" id="printBtn">Imprimir / PDF</button>
+    </div>
+  </div>
+  <div id="content">
+    <div class="fu-empty">Carregando…</div>
+  </div>
+</div>
+<script src="js/ficha-unidade.js"></script>
+</body>
+</html>

@@ -102,6 +102,14 @@ Página de login + formulário, uma API serverless (pasta `api/`) e um banco Pos
 ### Dados coletados
 Tabela `visita_itens` (uma linha por item avaliado, mesmo formato das 14 perguntas do roteiro original).
 
+### Ficha da unidade (`ficha-unidade.html`)
+
+Clicar em uma unidade na "Linha do tempo" da barra lateral do dashboard abre, em nova aba, `ficha-unidade.html?id=<id da visita>` — uma página de apresentação (própria para levar à unidade ou imprimir/exportar em PDF), diferente do painel lateral do dashboard: mostra todos os especialistas com avatar, e ao clicar em cada um exibe as áreas que ele registrou e, para a área escolhida, a informação completa e ordenada (resumo, indicadores, principais pontos, boas práticas, oportunidades, recomendações, observações, responsáveis, prazos e cada item avaliado individualmente com status e acompanhante).
+
+### Unidade de teste
+
+Existe uma visita fictícia em `data/visits.json` (id `VIS-TESTE-01`, unidade "SENAI Unidade Teste", ano 2099) só para testar o fluxo ponta a ponta sem misturar com dados reais — aparece com o selo "DADOS DE TESTE" na ficha da unidade. "Unidade Teste (não usar em produção)" também está disponível no dropdown do `registrar.html`, então dá pra testar o formulário real (login → banco → `npm run gerar-visits`) sem afetar nenhuma unidade de verdade. Quando não precisar mais, apague a visita com id `VIS-TESTE-01` de `data/visits.json`.
+
 ### Trazer os dados para o dashboard (`scripts/gerar_visits_do_banco.js`)
 
 Script pronto que lê a tabela `visita_itens`, agrupa por unidade + área e gera visitas no mesmo formato de `data/visits.json` — o dashboard não precisa de nenhuma mudança para exibir os dados de 2027+, é o mesmo `index.html`/`js/app.js` de sempre.

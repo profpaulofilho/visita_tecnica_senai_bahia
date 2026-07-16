@@ -4,7 +4,8 @@
   const UNIDADES = ["Alagoinhas","Barreiras","Camaçari","Candeias","Dendezeiros","Eunápolis",
     "Feira de Santana","Ilhéus","Jacobina","Jequié","Juazeiro","Lauro de Freitas",
     "Luís Eduardo Magalhães","Ourolândia","Santo Antônio de Jesus","Senhor do Bonfim",
-    "Serrinha","Teixeira de Freitas","Vitória da Conquista"];
+    "Serrinha","Teixeira de Freitas","Vitória da Conquista",
+    "Unidade Teste (não usar em produção)"];
 
   const AREAS = ["Tecnologia da Informação","Eletrotécnica","Automação","Eletromecânica","Refrigeração",
     "Construção Civil","Edificações","Química","Biotecnologia","Microbiologia","Petroquímica",

@@ -131,12 +131,8 @@ function renderMarkers(){
 
 function renderTimeline(){
   const list=[...state.filtered].sort((a,b)=>a.inicio.localeCompare(b.inicio));
-  $('#timeline').innerHTML=list.map(v=>`<button class="timeline-item" data-id="${v.id}"><b>${escapeHtml(v.cidade)}</b><small>${period(v.inicio,v.fim)} · ${escapeHtml(v.unidade)}</small></button>`).join('')||'<div class="empty">Nenhuma visita encontrada.</div>';
-  document.querySelectorAll('.timeline-item').forEach(x=>x.onclick=()=>focusVisit(x.dataset.id));
-}
-function focusVisit(id){
-  const v=state.visits.find(v=>v.id===id);if(!v)return;
-  map.setView([v.lat,v.lng],10);state.markers.get(v.id)?.openPopup();showDetails(v);
+  $('#timeline').innerHTML=list.map(v=>`<button class="timeline-item" data-id="${v.id}" title="Abrir ficha completa da unidade em nova aba"><b>${escapeHtml(v.cidade)}</b><small>${period(v.inicio,v.fim)} · ${escapeHtml(v.unidade)}</small></button>`).join('')||'<div class="empty">Nenhuma visita encontrada.</div>';
+  document.querySelectorAll('.timeline-item').forEach(x=>x.onclick=()=>window.open(`ficha-unidade.html?id=${encodeURIComponent(x.dataset.id)}`,'_blank'));
 }
 function renderStats(){
   $('#totalVisits').textContent=state.filtered.length;
