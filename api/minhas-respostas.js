@@ -13,7 +13,7 @@ module.exports = async (req, res) => {
   }
   try {
     const { rows } = await query(
-      `select id, ano, unidade, data_visita, area_tecnica, descricao_item, status, criado_em
+      `select id, ano, unidade, data_visita, area_tecnica, subarea_ti, descricao_item, status, criado_em
        from visita_itens
        where especialista_id = $1
        order by criado_em desc

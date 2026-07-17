@@ -26,6 +26,7 @@ create table if not exists visita_itens (
   data_visita date not null,
   especialista_id text not null references especialistas(id),
   area_tecnica text not null,
+  subarea_ti text, -- preenchido só quando area_tecnica = 'Tecnologia da Informação': texto livre digitado pelo especialista (ex.: "Redes de Computadores", "Desenvolvimento de Sistemas / Informática", "Informática para Internet")
   acompanhante_nome text,
   acompanhante_cargo text,
   descricao_item text not null,

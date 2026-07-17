@@ -56,6 +56,12 @@
     fillSelect($("#fUnidade"), UNIDADES);
     fillSelect($("#fArea"), AREAS);
     $("#fUnidade").dataset.filled = "1";
+    $("#fArea").addEventListener("change", toggleSubareaTi);
+  }
+
+  function toggleSubareaTi() {
+    const ehTI = $("#fArea").value === "Tecnologia da Informação";
+    $("#fSubareaTiWrap").style.display = ehTI ? "block" : "none";
   }
 
   async function loadRecent() {
@@ -67,17 +73,18 @@
         return;
       }
       box.innerHTML = data.itens
-        .map(
-          (it) => `<div class="reg-recent" data-item-id="${escapeHtml(it.id)}">
+        .map((it) => {
+          const area = it.subarea_ti ? `${it.area_tecnica} — ${it.subarea_ti}` : it.area_tecnica;
+          return `<div class="reg-recent" data-item-id="${escapeHtml(it.id)}">
             <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px">
               <div>
-                <b>${escapeHtml(it.unidade)} — ${escapeHtml(it.area_tecnica)}</b>
+                <b>${escapeHtml(it.unidade)} — ${escapeHtml(area)}</b>
                 <small>${escapeHtml(it.descricao_item)} · ${it.data_visita ? it.data_visita.substring(0, 10) : ""} · ${escapeHtml(it.status)}</small>
               </div>
               <button class="reg-delete-btn" data-id="${escapeHtml(it.id)}" title="Apagar este registro">Apagar</button>
             </div>
-          </div>`
-        )
+          </div>`;
+        })
         .join("");
       box.querySelectorAll(".reg-delete-btn").forEach((btn) => {
         btn.addEventListener("click", () => deleteItem(btn.dataset.id));
@@ -146,8 +153,9 @@
       (id) => ($("#" + id).value = "")
     );
     document.querySelectorAll('input[name="fStatus"]').forEach((r) => (r.checked = false));
-    // Ano, Unidade, Data e Área ficam preenchidos — normalmente vários itens seguidos são
-    // da mesma visita/área, então só a "Descrição do item" e o resto muda a cada envio.
+    // Ano, Unidade, Data, Área (e Sub-área de TI, quando aplicável) ficam preenchidos —
+    // normalmente vários itens seguidos são da mesma visita/área, então só a "Descrição do
+    // item" e o resto muda a cada envio.
   }
 
   $("#btnNovoItem").addEventListener("click", resetItemFields);
@@ -157,12 +165,21 @@
     msg.className = "reg-msg";
     msg.style.display = "none";
 
+    if ($("#fArea").value === "Tecnologia da Informação" && !$("#fSubareaTi").value.trim()) {
+      msg.textContent = "Informe a sub-área de TI (ex.: Redes de Computadores, Desenvolvimento de Sistemas / Informática, Informática para Internet).";
+      msg.classList.add("error");
+      msg.style.display = "block";
+      $("#fSubareaTi").focus();
+      return;
+    }
+
     const status = document.querySelector('input[name="fStatus"]:checked');
     const body = {
       ano: $("#fAno").value,
       unidade: $("#fUnidade").value,
       data_visita: $("#fData").value,
       area_tecnica: $("#fArea").value,
+      subarea_ti: $("#fSubareaTi").value,
       acompanhante_nome: $("#fAcompNome").value,
       acompanhante_cargo: $("#fAcompCargo").value,
       descricao_item: $("#fDescricao").value,

@@ -25,13 +25,20 @@ module.exports = async (req, res) => {
       res.status(400).json({ erro: "Status inválido." });
       return;
     }
+    // Quando a área técnica é Tecnologia da Informação, a sub-área (texto livre) é obrigatória —
+    // é isso que permite o dashboard mostrar Redes de Computadores / Desenvolvimento de Sistemas /
+    // Informática para Internet separadamente em vez de um rótulo genérico único.
+    if (b.area_tecnica === "Tecnologia da Informação" && !(b.subarea_ti || "").trim()) {
+      res.status(400).json({ erro: "Informe a sub-área de TI (ex.: Redes de Computadores, Desenvolvimento de Sistemas / Informática, Informática para Internet)." });
+      return;
+    }
     // especialista_id vem da sessão autenticada, nunca do corpo da requisição —
     // é isso que impede alguém de registrar um item em nome de outro especialista.
     const { rows } = await query(
       `insert into visita_itens
-        (ano, unidade, data_visita, especialista_id, area_tecnica, acompanhante_nome, acompanhante_cargo,
+        (ano, unidade, data_visita, especialista_id, area_tecnica, subarea_ti, acompanhante_nome, acompanhante_cargo,
          descricao_item, observado, boa_pratica, oportunidade, responsavel_acao, prazo, status)
-       values ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14)
+       values ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15)
        returning id, criado_em`,
       [
         b.ano,
@@ -39,6 +46,7 @@ module.exports = async (req, res) => {
         b.data_visita,
         session.id,
         b.area_tecnica,
+        b.area_tecnica === "Tecnologia da Informação" ? (b.subarea_ti || "").trim() : null,
         b.acompanhante_nome || null,
         b.acompanhante_cargo || null,
         b.descricao_item,

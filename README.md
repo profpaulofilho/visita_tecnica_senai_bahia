@@ -106,6 +106,16 @@ Página de login + formulário, uma API serverless (pasta `api/`) e um banco Pos
 ### Dados coletados
 Tabela `visita_itens` (uma linha por item avaliado, mesmo formato das 14 perguntas do roteiro original).
 
+### Sub-área de TI (`subarea_ti`)
+
+O dropdown "Área técnica" continua com uma única opção "Tecnologia da Informação" (pra não sobrecarregar o formulário). Quando essa opção é escolhida, aparece um campo de texto extra e obrigatório, "Sub-área de TI", onde o especialista digita livremente qual sub-área aquele item cobre — por exemplo `Redes de Computadores`, `Desenvolvimento de Sistemas / Informática` ou `Informática para Internet`. Esse texto vira a área "de verdade" no dashboard e na ficha da unidade (em `lib/visitas.js`, função `areaEfetiva`), então cada sub-área aparece separada, do jeito que já acontece com especialistas que têm mais de uma área técnica. Mesmo critério usado para limpar os dados históricos de 2025/2026 extraídos de Excel.
+
+Banco já provisionado antes desta versão? Rode a migração incremental uma vez:
+```
+psql "SUA_CONNECTION_STRING" -f db/migration_subarea_ti.sql
+```
+(ou cole o conteúdo do arquivo no Neon SQL Editor). Instalações novas já recebem a coluna direto pelo `db/schema.sql`.
+
 ### Ficha da unidade (`ficha-unidade.html`)
 
 Clicar em uma unidade na "Linha do tempo" da barra lateral do dashboard abre, em nova aba, `ficha-unidade.html?id=<id da visita>` — uma página de apresentação (própria para levar à unidade ou imprimir/exportar em PDF), diferente do painel lateral do dashboard: mostra todos os especialistas com avatar, e ao clicar em cada um exibe as áreas que ele registrou e, para a área escolhida, a informação completa e ordenada (resumo, indicadores, principais pontos, boas práticas, oportunidades, recomendações, observações, responsáveis, prazos e cada item avaliado individualmente com status e acompanhante).
