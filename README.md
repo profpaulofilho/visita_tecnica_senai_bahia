@@ -110,6 +110,10 @@ Clicar em uma unidade na "Linha do tempo" da barra lateral do dashboard abre, em
 
 Existe uma visita fictícia em `data/visits.json` (id `VIS-TESTE-01`, unidade "SENAI Unidade Teste", ano 2099) só para testar o fluxo ponta a ponta sem misturar com dados reais — aparece com o selo "DADOS DE TESTE" na ficha da unidade. "Unidade Teste (não usar em produção)" também está disponível no dropdown do `registrar.html`, então dá pra testar o formulário real (login → banco → `npm run gerar-visits`) sem afetar nenhuma unidade de verdade. Quando não precisar mais, apague a visita com id `VIS-TESTE-01` de `data/visits.json`.
 
+### Dados ao vivo no dashboard (`api/visitas-live.js`)
+
+O dashboard e a ficha da unidade também consultam esse endpoint ao carregar a página — ele lê a tabela `visita_itens` direto do Postgres e devolve no mesmo formato de `data/visits.json`, sem gravar nada em arquivo. Isso significa que qualquer item registrado em `registrar.html` aparece no site (com o selo "AO VIVO") assim que a página é recarregada, sem precisar rodar script nem dar commit. Só some da lista "ao vivo" quando a mesma unidade+ano for oficializada via `gerar-visits` (aí passa a vir do `data/visits.json` normalmente, sem selo).
+
 ### Trazer os dados para o dashboard (`scripts/gerar_visits_do_banco.js`)
 
 Script pronto que lê a tabela `visita_itens`, agrupa por unidade + área e gera visitas no mesmo formato de `data/visits.json` — o dashboard não precisa de nenhuma mudança para exibir os dados de 2027+, é o mesmo `index.html`/`js/app.js` de sempre.

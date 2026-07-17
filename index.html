@@ -22,6 +22,7 @@
 <main class="layout">
 <aside class="sidebar">
   <div id="dataAlert" class="data-alert">Os arquivos JSON não carregaram. A base interna de segurança foi ativada.</div>
+  <div id="liveAlert" class="data-alert live"></div>
   <input class="search" id="search" placeholder="Buscar unidade, cidade, área ou relatório">
   <div class="filters">
     <select id="cityFilter"><option value="">Todas as cidades</option></select>
@@ -40,7 +41,7 @@
   <div class="section-title">Linha do tempo</div><div id="timeline" class="timeline"></div>
 </aside>
 <section class="map-wrap">
-  <div class="map-title">Estado da Bahia · visitas técnicas 2026</div>
+  <div class="map-title" id="mapTitle">Estado da Bahia · visitas técnicas</div>
   <div id="map"></div>
   <div class="map-note">Contorno oficial via API de Malhas do IBGE · base OpenStreetMap</div>
 </section>

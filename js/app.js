@@ -21,9 +21,28 @@ async function loadData(){
     return window.APP_FALLBACK_DATA;
   }
 }
+// Busca visitas direto do banco (registros feitos via registrar.html que ainda
+// não foram "oficializados" com scripts/gerar_visits_do_banco.js + commit).
+// Some silenciosamente se a API não responder (ex.: abrindo o HTML localmente
+// sem passar pela Vercel) — o dashboard continua funcionando só com o estático.
+async function loadLiveVisits(existentes){
+  try{
+    const r=await fetch('./api/visitas-live',{cache:'no-store'});
+    if(!r.ok)return[];
+    const data=await r.json();
+    const jaExiste=new Set(existentes.map(v=>`${v.unidade}|${v.ano}`));
+    return(data.visitas||[]).filter(v=>!jaExiste.has(`${v.unidade}|${v.ano}`));
+  }catch(e){
+    console.warn('Dados ao vivo indisponíveis (normal fora do deploy da Vercel).',e);
+    return[];
+  }
+}
 async function boot(){
   const data=await loadData();
-  state.visits=data.visits||[];state.specialists=data.specialists||[];state.filtered=[...state.visits];
+  state.visits=data.visits||[];state.specialists=data.specialists||[];
+  const live=await loadLiveVisits(state.visits);
+  if(live.length){state.visits=[...state.visits,...live];$('#liveAlert').style.display='block';$('#liveAlert').textContent=`${live.length} visita(s) ao vivo do banco (ainda não oficializadas) somadas ao mapa — identificadas com o selo "AO VIVO".`;}
+  state.filtered=[...state.visits];
   setupMap();await addBahiaBoundary();fillFilters();renderSpecialists();bind();applyFilters();
 }
 function setupMap(){
@@ -57,7 +76,18 @@ function applyFilters(){
     const hay=[v.unidade,v.cidade,v.regiao,v.observacao,v.resumo,docs,...(v.areas||[])].join(' ').toLowerCase();
     return(!q||hay.includes(q))&&(!city||v.cidade===city)&&(!region||v.regiao===region)&&(!month||v.inicio.slice(5,7)===month)&&(!year||String(v.ano)===year);
   });
-  renderMarkers();renderTimeline();renderStats();
+  renderMarkers();renderTimeline();renderStats();updateMapTitle(year);
+}
+function updateMapTitle(yearFilter){
+  let label;
+  if(yearFilter){
+    label=yearFilter;
+  }else{
+    const anos=[...new Set(state.visits.map(v=>v.ano).filter(Boolean))].sort((a,b)=>a-b);
+    label=anos.length>1?`${anos[0]}–${anos[anos.length-1]}`:(anos[0]||'');
+  }
+  $('#mapTitle').textContent=`Estado da Bahia · visitas técnicas${label?` ${label}`:''}`;
+  document.title=`Visitas Técnicas SENAI Bahia — ${label||'Todos os anos'}`;
 }
 function selectedUnitPeopleMarkup(v){
   const people=v.visitantes||[];
@@ -131,7 +161,10 @@ function renderMarkers(){
 
 function renderTimeline(){
   const list=[...state.filtered].sort((a,b)=>a.inicio.localeCompare(b.inicio));
-  $('#timeline').innerHTML=list.map(v=>`<button class="timeline-item" data-id="${v.id}" title="Abrir ficha completa da unidade em nova aba"><b>${escapeHtml(v.cidade)}</b><small>${period(v.inicio,v.fim)} · ${escapeHtml(v.unidade)}</small></button>`).join('')||'<div class="empty">Nenhuma visita encontrada.</div>';
+  $('#timeline').innerHTML=list.map(v=>{
+    const live=v.id.startsWith('LIVE-')?' <span class="live-pill">AO VIVO</span>':'';
+    return `<button class="timeline-item" data-id="${v.id}" title="Abrir ficha completa da unidade em nova aba"><b>${escapeHtml(v.cidade)}${live}</b><small>${period(v.inicio,v.fim)} · ${escapeHtml(v.unidade)}</small></button>`;
+  }).join('')||'<div class="empty">Nenhuma visita encontrada.</div>';
   document.querySelectorAll('.timeline-item').forEach(x=>x.onclick=()=>window.open(`ficha-unidade.html?id=${encodeURIComponent(x.dataset.id)}`,'_blank'));
 }
 function renderStats(){

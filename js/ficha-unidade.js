@@ -33,6 +33,7 @@
           <span class="fu-badge">${escapeHtml(v.status || "")}</span>
           <span class="fu-badge">Ano ${escapeHtml(v.ano)}</span>
           ${v.ano === 2099 ? '<span class="fu-badge warn">DADOS DE TESTE</span>' : ""}
+          ${v.id.startsWith("LIVE-") ? '<span class="fu-badge warn">AO VIVO — ainda não oficializado no site</span>' : ""}
         </div>
         <h1>${escapeHtml(v.unidade)}</h1>
         <p class="sub">${escapeHtml(v.cidade)} · ${escapeHtml(v.regiao)} · ${period(v.inicio, v.fim)}</p>
@@ -197,7 +198,23 @@
       return;
     }
 
-    const v = visits.find((x) => x.id === id);
+    let v = visits.find((x) => x.id === id);
+
+    // IDs "LIVE-..." (ou qualquer id não encontrado no estático) podem ser
+    // uma visita que já está no banco mas ainda não foi "oficializada" com
+    // scripts/gerar_visits_do_banco.js — busca ao vivo antes de desistir.
+    if (!v) {
+      try {
+        const rl = await fetch("./api/visitas-live", { cache: "no-store" });
+        if (rl.ok) {
+          const data = await rl.json();
+          v = (data.visitas || []).find((x) => x.id === id);
+        }
+      } catch (e) {
+        console.warn("Dados ao vivo indisponíveis.", e);
+      }
+    }
+
     if (!v) {
       content.innerHTML = `<div class="fu-empty">Visita "${escapeHtml(id)}" não encontrada.</div>`;
       return;
