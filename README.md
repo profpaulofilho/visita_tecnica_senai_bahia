@@ -82,6 +82,10 @@ A partir de 2026, cada visita tem um campo `ano` e há um filtro de ano na inter
 
 ## Registro de visitas 2027+ (`registrar.html`)
 
+O campo "Ano do ciclo" é uma lista travada: os próximos 5 ciclos (2027 a 2031) aparecem desabilitados até serem habilitados oficialmente (edite as opções em `registrar.html` removendo o `disabled` do ano correspondente quando for a hora). O único ano liberado hoje é **2099**, reservado para testes — assim ninguém registra sem querer em cima do ciclo real enquanto o fluxo ainda está sendo validado.
+
+Cada item na lista "Meus registros recentes" tem um botão **Apagar**, que chama `api/deletar-item.js` — só apaga item do próprio especialista logado (a checagem é feita no servidor, não dá pra apagar registro de outra pessoa nem manipulando a requisição).
+
 Página de login + formulário, uma API serverless (pasta `api/`) e um banco Postgres. Cada um dos 7 especialistas tem seu próprio usuário; o campo "Especialista responsável" não existe mais no formulário — quem preenche é identificado pela sessão logada, então não tem como preencher em nome de outra pessoa.
 
 ### Como colocar no ar
