@@ -19262,11 +19262,15 @@
     "lng": -38.4192,
     "areas": [
       "Segurança do Trabalho",
-      "Tecnologia da Informação",
+      "Desenvolvimento de Sistemas I",
+      "Desenvolvimento de Sistemas II",
+      "Informática para Internet",
+      "Automação",
+      "Estruturas Lógicas",
+      "Hidráulica e Pneumática",
       "Química",
       "Logística",
       "Eletrotécnica",
-      "Automação",
       "Eletromecânica"
     ],
     "especialistas": [],
@@ -19274,7 +19278,7 @@
     "data_programada_inicio": null,
     "data_programada_fim": null,
     "relatorios": [],
-    "resumo": "12 participante(s) registrado(s), 12 acompanhante(s) e 7 área(s) técnica(s) consolidadas.",
+    "resumo": "12 participante(s) registrado(s), 12 acompanhante(s) e 11 área(s) técnica(s) consolidadas.",
     "indicadores": {},
     "boas_praticas": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
@@ -19460,18 +19464,18 @@
           }
         ]
       },
-      "Tecnologia da Informação": {
+      "Desenvolvimento de Sistemas I": {
         "status": "Extraído do relatório Excel 2025",
         "resumo": "47 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 512GB",
         "resumo_fonte": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
         "indicadores": [
           {
             "rotulo": "Itens avaliados",
-            "valor": 13
+            "valor": 3
           },
           {
             "rotulo": "Oportunidades",
-            "valor": 4
+            "valor": 3
           },
           {
             "rotulo": "Boas práticas",
@@ -19481,13 +19485,7 @@
         "principais_pontos": [
           "47 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 512GB",
           "Os Aplicativos instalados, suprem as necessidades dos docentes para as aulas de DS e Informática para Internet.",
-          "Na visita de 2024, observei que não era utilizado em aula conjuntos de arduíno, somente simuladores,  agora existe uma quantidade suficiente para as aulas de eletronica e IOT.",
-          "41 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 512GB",
-          "37* COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB",
-          "35* COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB",
-          "Os Aplicativos instalados, suprem as necessidades dos docentes para as aulas de qualquer área",
-          "43 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB",
-          "Os Aplicativos instalados, suprem as necessidades dos docentes para as aulas de qualquer área."
+          "Na visita de 2024, observei que não era utilizado em aula conjuntos de arduíno, somente simuladores,  agora existe uma quantidade suficiente para as aulas de eletronica e IOT."
         ],
         "boas_praticas": [
           "PLACAS NA PORTA COM QRcode PARA UM FORMULARIO DE informações para checklist de ambiente didático.",
@@ -19497,8 +19495,7 @@
         "oportunidades": [
           "1 - Caixas de Som EXCLUSIVA para o laboratório                           2 - Aplicativo para controle de acesso de alunos nos computadores*(solicitação do professor)                   3 - Aumento da capacidade dos discos dos computadores",
           "Verificar mensalmente a utilização dos espaços dos discos para excluir arquivos desnecessarios dos alunos.",
-          "Manter a estrutura organizada.",
-          "1 - Caixas de Som EXCLUSIVA para o laboratório                           2 - Aplicativo para controle de acesso de alunos nos computadores*(solicitação do professor)                   3 - Aumento da capacidade dos discos dos computadores para 16GB"
+          "Manter a estrutura organizada."
         ],
         "recomendacoes": [],
         "observacoes": [],
@@ -19526,7 +19523,59 @@
             "boa_pratica": "Todos os dispositivos arrumados em caixas com etiquetas de identificação, excelente organização.",
             "oportunidade": "Manter a estrutura organizada.",
             "acompanhado_por": "GISELE"
+          }
+        ],
+        "fontes": [
+          {
+            "arquivo": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
+            "linha": 10
           },
+          {
+            "arquivo": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
+            "linha": 11
+          },
+          {
+            "arquivo": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
+            "linha": 12
+          }
+        ]
+      },
+      "Desenvolvimento de Sistemas II": {
+        "status": "Extraído do relatório Excel 2025",
+        "resumo": "41 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 512GB",
+        "resumo_fonte": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
+        "indicadores": [
+          {
+            "rotulo": "Itens avaliados",
+            "valor": 2
+          },
+          {
+            "rotulo": "Oportunidades",
+            "valor": 2
+          },
+          {
+            "rotulo": "Boas práticas",
+            "valor": 2
+          }
+        ],
+        "principais_pontos": [
+          "41 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 512GB",
+          "Os Aplicativos instalados, suprem as necessidades dos docentes para as aulas de DS e Informática para Internet."
+        ],
+        "boas_praticas": [
+          "PLACAS NA PORTA COM QRcode PARA UM FORMULARIO DE informações para checklist de ambiente didático.",
+          "Imagem de replica de discos para todos os Laboratorios da unidade, otimizando a utilização para o curso"
+        ],
+        "oportunidades": [
+          "1 - Caixas de Som EXCLUSIVA para o laboratório                           2 - Aplicativo para controle de acesso de alunos nos computadores*(solicitação do professor)                   3 - Aumento da capacidade dos discos dos computadores para 16GB",
+          "Verificar mensalmente a utilização dos espaços dos discos para excluir arquivos desnecessarios dos alunos."
+        ],
+        "recomendacoes": [],
+        "observacoes": [],
+        "responsaveis": [],
+        "prazos": [],
+        "status_itens": [],
+        "itens": [
           {
             "descricao": "ESTRUTURA  DO LABORATÓRIO",
             "observado": "41 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 512GB",
@@ -19540,7 +19589,55 @@
             "boa_pratica": "Imagem de replica de discos para todos os Laboratorios da unidade, otimizando a utilização para o curso",
             "oportunidade": "Verificar mensalmente a utilização dos espaços dos discos para excluir arquivos desnecessarios dos alunos.",
             "acompanhado_por": "GISELE"
+          }
+        ],
+        "fontes": [
+          {
+            "arquivo": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
+            "linha": 13
           },
+          {
+            "arquivo": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
+            "linha": 14
+          }
+        ]
+      },
+      "Informática para Internet": {
+        "status": "Extraído do relatório Excel 2025",
+        "resumo": "37* COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB",
+        "resumo_fonte": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
+        "indicadores": [
+          {
+            "rotulo": "Itens avaliados",
+            "valor": 2
+          },
+          {
+            "rotulo": "Oportunidades",
+            "valor": 2
+          },
+          {
+            "rotulo": "Boas práticas",
+            "valor": 2
+          }
+        ],
+        "principais_pontos": [
+          "37* COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB",
+          "Os Aplicativos instalados, suprem as necessidades dos docentes para as aulas de DS e Informática para Internet."
+        ],
+        "boas_praticas": [
+          "PLACAS NA PORTA COM QRcode PARA UM FORMULARIO DE informações para checklist de ambiente didático.",
+          "Imagem de replica de discos para todos os Laboratorios da unidade, otimizando a utilização para o curso"
+        ],
+        "oportunidades": [
+          "1 - Caixas de Som EXCLUSIVA para o laboratório                           2 - Aplicativo para controle de acesso de alunos nos computadores*(solicitação do professor)                   3 - Aumento da capacidade dos discos dos computadores para 16GB",
+          "Verificar mensalmente a utilização dos espaços dos discos para excluir arquivos desnecessarios dos alunos."
+        ],
+        "recomendacoes": [],
+        "observacoes": [],
+        "responsaveis": [],
+        "prazos": [],
+        "status_itens": [],
+        "itens": [
           {
             "descricao": "ESTRUTURA  DO LABORATÓRIO",
             "observado": "37* COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB",
@@ -19554,7 +19651,65 @@
             "boa_pratica": "Imagem de replica de discos para todos os Laboratorios da unidade, otimizando a utilização para o curso",
             "oportunidade": "Verificar mensalmente a utilização dos espaços dos discos para excluir arquivos desnecessarios dos alunos.",
             "acompanhado_por": "GISELE/JORGE NTI"
+          }
+        ],
+        "fontes": [
+          {
+            "arquivo": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
+            "linha": 15
           },
+          {
+            "arquivo": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
+            "linha": 16
+          }
+        ]
+      },
+      "Automação": {
+        "status": "Extraído do relatório Excel 2025",
+        "resumo": "35* COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB",
+        "resumo_fonte": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
+        "indicadores": [
+          {
+            "rotulo": "Itens avaliados",
+            "valor": 5
+          },
+          {
+            "rotulo": "Oportunidades",
+            "valor": 5
+          },
+          {
+            "rotulo": "Boas práticas",
+            "valor": 3
+          }
+        ],
+        "principais_pontos": [
+          "35* COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB",
+          "Os Aplicativos instalados, suprem as necessidades dos docentes para as aulas de qualquer área",
+          "Poucos kits de CLP disponiveis no espaço, mas não há espaço físico para acomodar mais kits",
+          "Espaço multiplo com 3 plantas, sendo uma delas a Smart 4.0 nível 1. Plantas Smar e Exto com água nos reservátórios abertos, com sinais de oxidação. Kits de nível também com mesmo acumulo de água. As plantas e kits aparentam não está sendo utilizadas com frequência.",
+          "Localizado todos os itens"
+        ],
+        "boas_praticas": [
+          "PLACAS NA PORTA COM QRcode PARA UM FORMULARIO DE informações para checklist de ambiente didático.",
+          "Imagem de replica de discos para todos os Laboratorios da unidade, otimizando a utilização para o curso",
+          "Muitos kits alternativos montados pelos docentes, seria bom, formalizar os projetos e avaliar a possibilidade de confecção desses kits pela fábrica"
+        ],
+        "oportunidades": [
+          "1 - Caixas de Som EXCLUSIVA para o laboratório                           2 - Aplicativo para controle de acesso de alunos nos computadores*(solicitação do professor)                   3 - Aumento da capacidade dos discos dos computadores para 16GB",
+          "Verificar mensalmente a utilização dos espaços dos discos para excluir arquivos desnecessarios dos alunos.",
+          "necessário aquisição de pelo menos mais 2 kits de CLP. necessário organização do espaço para acomodação de novos kits.",
+          "Realizar drenagem das plantas com mais frequência. Verificar com os docentes a utilização da planta smart 4.0, realizar cursos de multiplicação entre os docente. Incentivar o uso das plantas pelos docentes.",
+          "Ainda sem utilização"
+        ],
+        "recomendacoes": [],
+        "observacoes": [],
+        "responsaveis": [
+          "Unidade de Alagoinhas / GEP",
+          "Unidade de Alagoinhas"
+        ],
+        "prazos": [],
+        "status_itens": [],
+        "itens": [
           {
             "descricao": "ESTRUTURA  DO LABORATÓRIO",
             "observado": "35* COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB",
@@ -19570,6 +19725,85 @@
             "acompanhado_por": "JORGE NTI"
           },
           {
+            "descricao": "Laboratório de Sistemas Lógicos",
+            "observado": "Poucos kits de CLP disponiveis no espaço, mas não há espaço físico para acomodar mais kits",
+            "boa_pratica": "Muitos kits alternativos montados pelos docentes, seria bom, formalizar os projetos e avaliar a possibilidade de confecção desses kits pela fábrica",
+            "oportunidade": "necessário aquisição de pelo menos mais 2 kits de CLP. necessário organização do espaço para acomodação de novos kits.",
+            "acompanhado_por": "André"
+          },
+          {
+            "descricao": "Laboratório de Automação",
+            "observado": "Espaço multiplo com 3 plantas, sendo uma delas a Smart 4.0 nível 1. Plantas Smar e Exto com água nos reservátórios abertos, com sinais de oxidação. Kits de nível também com mesmo acumulo de água. As plantas e kits aparentam não está sendo utilizadas com frequência.",
+            "oportunidade": "Realizar drenagem das plantas com mais frequência. Verificar com os docentes a utilização da planta smart 4.0, realizar cursos de multiplicação entre os docente. Incentivar o uso das plantas pelos docentes.",
+            "acompanhado_por": "André"
+          },
+          {
+            "descricao": "Investimento",
+            "observado": "Localizado todos os itens",
+            "oportunidade": "Ainda sem utilização",
+            "acompanhado_por": "André"
+          }
+        ],
+        "fontes": [
+          {
+            "arquivo": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
+            "linha": 17
+          },
+          {
+            "arquivo": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
+            "linha": 18
+          },
+          {
+            "arquivo": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
+            "linha": 10
+          },
+          {
+            "arquivo": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
+            "linha": 11
+          },
+          {
+            "arquivo": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
+            "linha": 12
+          }
+        ]
+      },
+      "Estruturas Lógicas": {
+        "status": "Extraído do relatório Excel 2025",
+        "resumo": "43 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB",
+        "resumo_fonte": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
+        "indicadores": [
+          {
+            "rotulo": "Itens avaliados",
+            "valor": 2
+          },
+          {
+            "rotulo": "Oportunidades",
+            "valor": 2
+          },
+          {
+            "rotulo": "Boas práticas",
+            "valor": 2
+          }
+        ],
+        "principais_pontos": [
+          "43 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB",
+          "Os Aplicativos instalados, suprem as necessidades dos docentes para as aulas de qualquer área"
+        ],
+        "boas_praticas": [
+          "PLACAS NA PORTA COM QRcode PARA UM FORMULARIO DE informações para checklist de ambiente didático.",
+          "Imagem de replica de discos para todos os Laboratorios da unidade, otimizando a utilização para o curso"
+        ],
+        "oportunidades": [
+          "1 - Caixas de Som EXCLUSIVA para o laboratório                           2 - Aplicativo para controle de acesso de alunos nos computadores*(solicitação do professor)                   3 - Aumento da capacidade dos discos dos computadores para 16GB",
+          "Verificar mensalmente a utilização dos espaços dos discos para excluir arquivos desnecessarios dos alunos."
+        ],
+        "recomendacoes": [],
+        "observacoes": [],
+        "responsaveis": [],
+        "prazos": [],
+        "status_itens": [],
+        "itens": [
+          {
             "descricao": "ESTRUTURA  DO LABORATÓRIO",
             "observado": "43 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB",
             "boa_pratica": "PLACAS NA PORTA COM QRcode PARA UM FORMULARIO DE informações para checklist de ambiente didático.",
@@ -19582,7 +19816,55 @@
             "boa_pratica": "Imagem de replica de discos para todos os Laboratorios da unidade, otimizando a utilização para o curso",
             "oportunidade": "Verificar mensalmente a utilização dos espaços dos discos para excluir arquivos desnecessarios dos alunos.",
             "acompanhado_por": "JORGE NTI"
+          }
+        ],
+        "fontes": [
+          {
+            "arquivo": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
+            "linha": 19
           },
+          {
+            "arquivo": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
+            "linha": 20
+          }
+        ]
+      },
+      "Hidráulica e Pneumática": {
+        "status": "Extraído do relatório Excel 2025",
+        "resumo": "37* COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB",
+        "resumo_fonte": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
+        "indicadores": [
+          {
+            "rotulo": "Itens avaliados",
+            "valor": 2
+          },
+          {
+            "rotulo": "Oportunidades",
+            "valor": 2
+          },
+          {
+            "rotulo": "Boas práticas",
+            "valor": 2
+          }
+        ],
+        "principais_pontos": [
+          "37* COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB",
+          "Os Aplicativos instalados, suprem as necessidades dos docentes para as aulas de qualquer área."
+        ],
+        "boas_praticas": [
+          "PLACAS NA PORTA COM QRcode PARA UM FORMULARIO DE informações para checklist de ambiente didático.",
+          "Imagem de replica de discos para todos os Laboratorios da unidade, otimizando a utilização para o curso"
+        ],
+        "oportunidades": [
+          "1 - Caixas de Som EXCLUSIVA para o laboratório                           2 - Aplicativo para controle de acesso de alunos nos computadores*(solicitação do professor)                   3 - Aumento da capacidade dos discos dos computadores para 16GB",
+          "Verificar mensalmente a utilização dos espaços dos discos para excluir arquivos desnecessarios dos alunos."
+        ],
+        "recomendacoes": [],
+        "observacoes": [],
+        "responsaveis": [],
+        "prazos": [],
+        "status_itens": [],
+        "itens": [
           {
             "descricao": "ESTRUTURA  DO LABORATÓRIO",
             "observado": "37* COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB",
@@ -19599,50 +19881,6 @@
           }
         ],
         "fontes": [
-          {
-            "arquivo": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
-            "linha": 10
-          },
-          {
-            "arquivo": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
-            "linha": 11
-          },
-          {
-            "arquivo": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
-            "linha": 12
-          },
-          {
-            "arquivo": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
-            "linha": 13
-          },
-          {
-            "arquivo": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
-            "linha": 14
-          },
-          {
-            "arquivo": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
-            "linha": 15
-          },
-          {
-            "arquivo": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
-            "linha": 16
-          },
-          {
-            "arquivo": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
-            "linha": 17
-          },
-          {
-            "arquivo": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
-            "linha": 18
-          },
-          {
-            "arquivo": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
-            "linha": 19
-          },
-          {
-            "arquivo": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
-            "linha": 20
-          },
           {
             "arquivo": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
             "linha": 21
@@ -20106,81 +20344,6 @@
           }
         ]
       },
-      "Automação": {
-        "status": "Extraído do relatório Excel 2025",
-        "resumo": "Poucos kits de CLP disponiveis no espaço, mas não há espaço físico para acomodar mais kits",
-        "resumo_fonte": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
-        "indicadores": [
-          {
-            "rotulo": "Itens avaliados",
-            "valor": 3
-          },
-          {
-            "rotulo": "Oportunidades",
-            "valor": 3
-          },
-          {
-            "rotulo": "Boas práticas",
-            "valor": 1
-          }
-        ],
-        "principais_pontos": [
-          "Poucos kits de CLP disponiveis no espaço, mas não há espaço físico para acomodar mais kits",
-          "Espaço multiplo com 3 plantas, sendo uma delas a Smart 4.0 nível 1. Plantas Smar e Exto com água nos reservátórios abertos, com sinais de oxidação. Kits de nível também com mesmo acumulo de água. As plantas e kits aparentam não está sendo utilizadas com frequência.",
-          "Localizado todos os itens"
-        ],
-        "boas_praticas": [
-          "Muitos kits alternativos montados pelos docentes, seria bom, formalizar os projetos e avaliar a possibilidade de confecção desses kits pela fábrica"
-        ],
-        "oportunidades": [
-          "necessário aquisição de pelo menos mais 2 kits de CLP. necessário organização do espaço para acomodação de novos kits.",
-          "Realizar drenagem das plantas com mais frequência. Verificar com os docentes a utilização da planta smart 4.0, realizar cursos de multiplicação entre os docente. Incentivar o uso das plantas pelos docentes.",
-          "Ainda sem utilização"
-        ],
-        "recomendacoes": [],
-        "observacoes": [],
-        "responsaveis": [
-          "Unidade de Alagoinhas / GEP",
-          "Unidade de Alagoinhas"
-        ],
-        "prazos": [],
-        "status_itens": [],
-        "itens": [
-          {
-            "descricao": "Laboratório de Sistemas Lógicos",
-            "observado": "Poucos kits de CLP disponiveis no espaço, mas não há espaço físico para acomodar mais kits",
-            "boa_pratica": "Muitos kits alternativos montados pelos docentes, seria bom, formalizar os projetos e avaliar a possibilidade de confecção desses kits pela fábrica",
-            "oportunidade": "necessário aquisição de pelo menos mais 2 kits de CLP. necessário organização do espaço para acomodação de novos kits.",
-            "acompanhado_por": "André"
-          },
-          {
-            "descricao": "Laboratório de Automação",
-            "observado": "Espaço multiplo com 3 plantas, sendo uma delas a Smart 4.0 nível 1. Plantas Smar e Exto com água nos reservátórios abertos, com sinais de oxidação. Kits de nível também com mesmo acumulo de água. As plantas e kits aparentam não está sendo utilizadas com frequência.",
-            "oportunidade": "Realizar drenagem das plantas com mais frequência. Verificar com os docentes a utilização da planta smart 4.0, realizar cursos de multiplicação entre os docente. Incentivar o uso das plantas pelos docentes.",
-            "acompanhado_por": "André"
-          },
-          {
-            "descricao": "Investimento",
-            "observado": "Localizado todos os itens",
-            "oportunidade": "Ainda sem utilização",
-            "acompanhado_por": "André"
-          }
-        ],
-        "fontes": [
-          {
-            "arquivo": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
-            "linha": 10
-          },
-          {
-            "arquivo": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
-            "linha": 11
-          },
-          {
-            "arquivo": "Relatório visita técnica 2025 — ALAGOINHAS _26.03.xlsx",
-            "linha": 12
-          }
-        ]
-      },
       "Eletromecânica": {
         "status": "Extraído do relatório Excel 2025",
         "resumo": "Itens localizados na maioria. Não localizamos a Lixadeira 7'.",
@@ -20304,7 +20467,8 @@
         "nome": "GISELE",
         "avatar": null,
         "areas": [
-          "Tecnologia da Informação"
+          "Desenvolvimento de Sistemas I",
+          "Desenvolvimento de Sistemas II"
         ],
         "origem": "Campo acompanhado_por do relatório (2025)"
       },
@@ -20313,7 +20477,7 @@
         "nome": "GISELE/JORGE NTI",
         "avatar": null,
         "areas": [
-          "Tecnologia da Informação"
+          "Informática para Internet"
         ],
         "origem": "Campo acompanhado_por do relatório (2025)"
       },
@@ -20322,7 +20486,9 @@
         "nome": "JORGE NTI",
         "avatar": null,
         "areas": [
-          "Tecnologia da Informação"
+          "Automação",
+          "Estruturas Lógicas",
+          "Hidráulica e Pneumática"
         ],
         "origem": "Campo acompanhado_por do relatório (2025)"
       },
@@ -20415,7 +20581,7 @@
       "Segurança do Trabalho",
       "Eletromecânica",
       "Eletrotécnica",
-      "Tecnologia da Informação",
+      "Desenvolvimento de Sistemas / Informática",
       "Edificações",
       "Gestão"
     ],
@@ -20908,7 +21074,7 @@
           }
         ]
       },
-      "Tecnologia da Informação": {
+      "Desenvolvimento de Sistemas / Informática": {
         "status": "Extraído do relatório Excel 2025",
         "resumo": "08 LABORATÓRIOS DE INFORMÁTICA e 01 TELECENTRO, com um total de 301 (5 laboratórios com 41 computadores cada, 2 laboratório com 21 computadores e 1 telecentro com 31 computadores), COMPUTADORES  (INCLUINDO O DO DOCENTE),  possuem processadores variados em sua maioria Intel de 12ª  e 9ª geração, especificamente o Intel Core i5-12400. com 8GB de memória.                                             Alguns apresentam lentidão devido a HDDs, espaço de armazenamento não alocado, e SSDs com pouco espaço (256GB), além de memória RAM limitada (8GB). Isso impacta o desempenho, especialmente em máquinas mais antigas ou com painel frontal solto.",
         "resumo_fonte": "Relatório visita técnica 2025 — CAMAÇARI.xlsx",
@@ -21250,7 +21416,7 @@
         "nome": "Paulo Filho",
         "avatar": "assets/avatars/paulo-filho.jpeg",
         "areas": [
-          "Tecnologia da Informação"
+          "Desenvolvimento de Sistemas / Informática"
         ],
         "origem": "Campo PARTICIPANTES do relatório (2025)"
       },
@@ -21315,7 +21481,7 @@
         "nome": "Antonio/Cleber NTI",
         "avatar": null,
         "areas": [
-          "Tecnologia da Informação"
+          "Desenvolvimento de Sistemas / Informática"
         ],
         "origem": "Campo acompanhado_por do relatório (2025)"
       },
@@ -21359,7 +21525,9 @@
       "Mecânica",
       "Hidráulica e Pneumática",
       "Eletrotécnica",
-      "Tecnologia da Informação",
+      "Desenvolvimento de Sistemas / Informática",
+      "Redes de Computadores",
+      "Telecomunicações",
       "Edificações",
       "Petroquímica",
       "Biotecnologia",
@@ -21375,7 +21543,7 @@
     "data_programada_inicio": null,
     "data_programada_fim": null,
     "relatorios": [],
-    "resumo": "15 participante(s) registrado(s), 10 acompanhante(s) e 10 área(s) técnica(s) consolidadas.",
+    "resumo": "15 participante(s) registrado(s), 10 acompanhante(s) e 12 área(s) técnica(s) consolidadas.",
     "indicadores": {},
     "boas_praticas": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
@@ -21782,48 +21950,39 @@
           }
         ]
       },
-      "Tecnologia da Informação": {
+      "Desenvolvimento de Sistemas / Informática": {
         "status": "Extraído do relatório Excel 2025",
         "resumo": "1. Computadores estão com configuração ideal para o curso – Processador Intel 12ª. Geração , SSD de 1TB e memória RAM de 16GB (tratando-se de laboratórios de informática 2 e 3, de uso comum). \n2. Ergonomia para os alunos nas mesas de computadores é prejudicial. A visualização do professor e das apresentações nas aulas são prejudicadas pela disposição das bancadas. \n3. Sugere-se autilizar de 1 kit de Arduino para 2 alunos uso da UC de IOT.",
         "resumo_fonte": "Relatório visita técnica 2025 — CIMATEC.xlsx",
         "indicadores": [
           {
             "rotulo": "Itens avaliados",
-            "valor": 9
+            "valor": 3
           },
           {
             "rotulo": "Oportunidades",
-            "valor": 4
+            "valor": 2
           },
           {
             "rotulo": "Boas práticas",
-            "valor": 4
+            "valor": 2
           }
         ],
         "principais_pontos": [
           "1. Computadores estão com configuração ideal para o curso – Processador Intel 12ª. Geração , SSD de 1TB e memória RAM de 16GB (tratando-se de laboratórios de informática 2 e 3, de uso comum). \n2. Ergonomia para os alunos nas mesas de computadores é prejudicial. A visualização do professor e das apresentações nas aulas são prejudicadas pela disposição das bancadas. \n3. Sugere-se autilizar de 1 kit de Arduino para 2 alunos uso da UC de IOT.",
           "Os Aplicativos instalados, suprem as necessidades dos docentes para as aulas de DS e outros cursos de TI.",
-          "IOT Arduinos compartilhado de outra área.",
-          "Computadores com configuração ideal para o curso – Processador Intel 12ª ou 13ª. Geração, SSD de 1TB e memória RAM de 16GB. \n2. Os equipamentos como Switchs e Roteadores CISCO antigos (15 anos ou mais), necessitando de manutenção e verificação de possível upgrade e atualização de firmware, precisando de análise mais detalhada.  \n3. Telefones IP e ATA antigos, não possuem equipamentos adequados de rádio para aulas de wireless utilizando equipamentos residenciais que são limitados para configuração e entendimento. \n4. Insumos como plugs, cabos de rede, patch panels e outros em quantidade adequada.  \n5. Possui somente 2 (duas) ilhas para (inadequadas) SAEP, o que prejudica também uma boa performance dos discentes. \n6. Máquina de fusão de fibra funciona*",
-          "Os Aplicativos instalados, suprem as necessidades dos docentes para cursos de TI.",
-          "1. Computadores estão com configuração ideal para o curso – Processador Intel 12ª ou 13ª. Geração, SSD de 1TB e memória RAM de 32GB. \n2. Possui uma infraestrutura robusta de Operadora de Telecom com servidores, switchs datacom, roteadores, VoiP, firewall ASA CISCO. Entretanto é subutilizada. Não está totalmente obsoleta por ter estrutura de Rack de operadora interfaces 10GB de fibra, que pode ser utilizado (sugestão do docente Jaílton) para simulação de atividades de conexão entre redes, cyber security e cloud computer.  \nNecessidades : Firewall atualizado, equipamentos Wireless atualizados, telefones IP atualizados Mikrotik"
+          "IOT Arduinos compartilhado de outra área."
         ],
         "boas_praticas": [
           "Aplicativos padronizados*, e melhor configuração de computadores em laboratórios do DR.",
-          "Imagem de replica de discos para todos os Laboratorios da unidade, otimizando a utilização para o curso *",
-          "Necessita de Organização",
-          "Aulas práticas com arduíno para cursos de infraestrutura"
+          "Imagem de replica de discos para todos os Laboratorios da unidade, otimizando a utilização para o curso *"
         ],
         "oportunidades": [
           "Cadeiras do Lab Informática 1 do Cimatec 2 precisam de atenção.",
-          "Verificar mensalmente a utilização dos espaços dos discos para excluir arquivos desnecessarios dos alunos.",
-          "Montar um kit de atualização para os cursos de infraestrutura.",
-          "Manter a estrutura organizada, com armários e bancadas de práticas."
+          "Verificar mensalmente a utilização dos espaços dos discos para excluir arquivos desnecessarios dos alunos."
         ],
         "recomendacoes": [],
-        "observacoes": [
-          "Equipamentos de investimento 2024"
-        ],
+        "observacoes": [],
         "responsaveis": [],
         "prazos": [],
         "status_itens": [],
@@ -21846,7 +22005,63 @@
             "descricao": "DISPOSITIVOS DE APOIO PARA AULAS PRÁTICAS",
             "observado": "IOT Arduinos compartilhado de outra área.",
             "acompanhado_por": "NTI/DANIELE"
+          }
+        ],
+        "fontes": [
+          {
+            "arquivo": "Relatório visita técnica 2025 — CIMATEC.xlsx",
+            "linha": 10
           },
+          {
+            "arquivo": "Relatório visita técnica 2025 — CIMATEC.xlsx",
+            "linha": 11
+          },
+          {
+            "arquivo": "Relatório visita técnica 2025 — CIMATEC.xlsx",
+            "linha": 12
+          }
+        ]
+      },
+      "Redes de Computadores": {
+        "status": "Extraído do relatório Excel 2025",
+        "resumo": "Computadores com configuração ideal para o curso – Processador Intel 12ª ou 13ª. Geração, SSD de 1TB e memória RAM de 16GB. \n2. Os equipamentos como Switchs e Roteadores CISCO antigos (15 anos ou mais), necessitando de manutenção e verificação de possível upgrade e atualização de firmware, precisando de análise mais detalhada.  \n3. Telefones IP e ATA antigos, não possuem equipamentos adequados de rádio para aulas de wireless utilizando equipamentos residenciais que são limitados para configuração e entendimento. \n4. Insumos como plugs, cabos de rede, patch panels e outros em quantidade adequada.  \n5. Possui somente 2 (duas) ilhas para (inadequadas) SAEP, o que prejudica também uma boa performance dos discentes. \n6. Máquina de fusão de fibra funciona*",
+        "resumo_fonte": "Relatório visita técnica 2025 — CIMATEC.xlsx",
+        "indicadores": [
+          {
+            "rotulo": "Itens avaliados",
+            "valor": 3
+          },
+          {
+            "rotulo": "Oportunidades",
+            "valor": 3
+          },
+          {
+            "rotulo": "Boas práticas",
+            "valor": 3
+          }
+        ],
+        "principais_pontos": [
+          "Computadores com configuração ideal para o curso – Processador Intel 12ª ou 13ª. Geração, SSD de 1TB e memória RAM de 16GB. \n2. Os equipamentos como Switchs e Roteadores CISCO antigos (15 anos ou mais), necessitando de manutenção e verificação de possível upgrade e atualização de firmware, precisando de análise mais detalhada.  \n3. Telefones IP e ATA antigos, não possuem equipamentos adequados de rádio para aulas de wireless utilizando equipamentos residenciais que são limitados para configuração e entendimento. \n4. Insumos como plugs, cabos de rede, patch panels e outros em quantidade adequada.  \n5. Possui somente 2 (duas) ilhas para (inadequadas) SAEP, o que prejudica também uma boa performance dos discentes. \n6. Máquina de fusão de fibra funciona*",
+          "Os Aplicativos instalados, suprem as necessidades dos docentes para cursos de TI."
+        ],
+        "boas_praticas": [
+          "Necessita de Organização",
+          "Imagem de replica de discos para todos os Laboratorios da unidade, otimizando a utilização para o curso *",
+          "Aulas práticas com arduíno para cursos de infraestrutura"
+        ],
+        "oportunidades": [
+          "Montar um kit de atualização para os cursos de infraestrutura.",
+          "Verificar mensalmente a utilização dos espaços dos discos para excluir arquivos desnecessarios dos alunos.",
+          "Manter a estrutura organizada, com armários e bancadas de práticas."
+        ],
+        "recomendacoes": [],
+        "observacoes": [
+          "Equipamentos de investimento 2024"
+        ],
+        "responsaveis": [],
+        "prazos": [],
+        "status_itens": [],
+        "itens": [
           {
             "descricao": "ESTRUTURA  DO LABORATÓRIO",
             "observado": "Computadores com configuração ideal para o curso – Processador Intel 12ª ou 13ª. Geração, SSD de 1TB e memória RAM de 16GB. \n2. Os equipamentos como Switchs e Roteadores CISCO antigos (15 anos ou mais), necessitando de manutenção e verificação de possível upgrade e atualização de firmware, precisando de análise mais detalhada.  \n3. Telefones IP e ATA antigos, não possuem equipamentos adequados de rádio para aulas de wireless utilizando equipamentos residenciais que são limitados para configuração e entendimento. \n4. Insumos como plugs, cabos de rede, patch panels e outros em quantidade adequada.  \n5. Possui somente 2 (duas) ilhas para (inadequadas) SAEP, o que prejudica também uma boa performance dos discentes. \n6. Máquina de fusão de fibra funciona*",
@@ -21866,7 +22081,59 @@
             "boa_pratica": "Aulas práticas com arduíno para cursos de infraestrutura",
             "oportunidade": "Manter a estrutura organizada, com armários e bancadas de práticas.",
             "acompanhado_por": "DANIELE"
+          }
+        ],
+        "fontes": [
+          {
+            "arquivo": "Relatório visita técnica 2025 — CIMATEC.xlsx",
+            "linha": 13
           },
+          {
+            "arquivo": "Relatório visita técnica 2025 — CIMATEC.xlsx",
+            "linha": 14
+          },
+          {
+            "arquivo": "Relatório visita técnica 2025 — CIMATEC.xlsx",
+            "linha": 15
+          }
+        ]
+      },
+      "Telecomunicações": {
+        "status": "Extraído do relatório Excel 2025",
+        "resumo": "1. Computadores estão com configuração ideal para o curso – Processador Intel 12ª ou 13ª. Geração, SSD de 1TB e memória RAM de 32GB. \n2. Possui uma infraestrutura robusta de Operadora de Telecom com servidores, switchs datacom, roteadores, VoiP, firewall ASA CISCO. Entretanto é subutilizada. Não está totalmente obsoleta por ter estrutura de Rack de operadora interfaces 10GB de fibra, que pode ser utilizado (sugestão do docente Jaílton) para simulação de atividades de conexão entre redes, cyber security e cloud computer.  \nNecessidades : Firewall atualizado, equipamentos Wireless atualizados, telefones IP atualizados Mikrotik",
+        "resumo_fonte": "Relatório visita técnica 2025 — CIMATEC.xlsx",
+        "indicadores": [
+          {
+            "rotulo": "Itens avaliados",
+            "valor": 3
+          },
+          {
+            "rotulo": "Oportunidades",
+            "valor": 2
+          },
+          {
+            "rotulo": "Boas práticas",
+            "valor": 2
+          }
+        ],
+        "principais_pontos": [
+          "1. Computadores estão com configuração ideal para o curso – Processador Intel 12ª ou 13ª. Geração, SSD de 1TB e memória RAM de 32GB. \n2. Possui uma infraestrutura robusta de Operadora de Telecom com servidores, switchs datacom, roteadores, VoiP, firewall ASA CISCO. Entretanto é subutilizada. Não está totalmente obsoleta por ter estrutura de Rack de operadora interfaces 10GB de fibra, que pode ser utilizado (sugestão do docente Jaílton) para simulação de atividades de conexão entre redes, cyber security e cloud computer.  \nNecessidades : Firewall atualizado, equipamentos Wireless atualizados, telefones IP atualizados Mikrotik",
+          "Os Aplicativos instalados, suprem as necessidades dos docentes para cursos de TI."
+        ],
+        "boas_praticas": [
+          "Imagem de replica de discos para todos os Laboratorios da unidade, otimizando a utilização para o curso *",
+          "Aulas práticas com arduíno para cursos de infraestrutura"
+        ],
+        "oportunidades": [
+          "Verificar mensalmente a utilização dos espaços dos discos para excluir arquivos desnecessarios dos alunos.",
+          "Manter a estrutura organizada, com armários e bancadas de práticas."
+        ],
+        "recomendacoes": [],
+        "observacoes": [],
+        "responsaveis": [],
+        "prazos": [],
+        "status_itens": [],
+        "itens": [
           {
             "descricao": "ESTRUTURA  DO LABORATÓRIO",
             "observado": "1. Computadores estão com configuração ideal para o curso – Processador Intel 12ª ou 13ª. Geração, SSD de 1TB e memória RAM de 32GB. \n2. Possui uma infraestrutura robusta de Operadora de Telecom com servidores, switchs datacom, roteadores, VoiP, firewall ASA CISCO. Entretanto é subutilizada. Não está totalmente obsoleta por ter estrutura de Rack de operadora interfaces 10GB de fibra, que pode ser utilizado (sugestão do docente Jaílton) para simulação de atividades de conexão entre redes, cyber security e cloud computer.  \nNecessidades : Firewall atualizado, equipamentos Wireless atualizados, telefones IP atualizados Mikrotik",
@@ -21887,30 +22154,6 @@
           }
         ],
         "fontes": [
-          {
-            "arquivo": "Relatório visita técnica 2025 — CIMATEC.xlsx",
-            "linha": 10
-          },
-          {
-            "arquivo": "Relatório visita técnica 2025 — CIMATEC.xlsx",
-            "linha": 11
-          },
-          {
-            "arquivo": "Relatório visita técnica 2025 — CIMATEC.xlsx",
-            "linha": 12
-          },
-          {
-            "arquivo": "Relatório visita técnica 2025 — CIMATEC.xlsx",
-            "linha": 13
-          },
-          {
-            "arquivo": "Relatório visita técnica 2025 — CIMATEC.xlsx",
-            "linha": 14
-          },
-          {
-            "arquivo": "Relatório visita técnica 2025 — CIMATEC.xlsx",
-            "linha": 15
-          },
           {
             "arquivo": "Relatório visita técnica 2025 — CIMATEC.xlsx",
             "linha": 16
@@ -22265,7 +22508,9 @@
         "nome": "Paulo Filho",
         "avatar": "assets/avatars/paulo-filho.jpeg",
         "areas": [
-          "Tecnologia da Informação"
+          "Desenvolvimento de Sistemas / Informática",
+          "Redes de Computadores",
+          "Telecomunicações"
         ],
         "origem": "Campo PARTICIPANTES do relatório (2025)"
       },
@@ -22321,7 +22566,7 @@
         "nome": "NTI/DANIELE",
         "avatar": null,
         "areas": [
-          "Tecnologia da Informação"
+          "Desenvolvimento de Sistemas / Informática"
         ],
         "origem": "Campo acompanhado_por do relatório (2025)"
       },
@@ -22330,7 +22575,7 @@
         "nome": "DANIELE",
         "avatar": null,
         "areas": [
-          "Tecnologia da Informação"
+          "Redes de Computadores"
         ],
         "origem": "Campo acompanhado_por do relatório (2025)"
       },
@@ -22339,7 +22584,7 @@
         "nome": "JAILTON",
         "avatar": null,
         "areas": [
-          "Tecnologia da Informação"
+          "Telecomunicações"
         ],
         "origem": "Campo acompanhado_por do relatório (2025)"
       },
@@ -22410,7 +22655,8 @@
     "lng": -38.5011,
     "areas": [
       "Segurança do Trabalho",
-      "Tecnologia da Informação",
+      "Desenvolvimento de Sistemas / Informática",
+      "Redes de Computadores",
       "Alimentos",
       "Eletrotécnica",
       "Automação",
@@ -22428,7 +22674,7 @@
     "data_programada_inicio": null,
     "data_programada_fim": null,
     "relatorios": [],
-    "resumo": "13 participante(s) registrado(s), 10 acompanhante(s) e 9 área(s) técnica(s) consolidadas.",
+    "resumo": "13 participante(s) registrado(s), 10 acompanhante(s) e 10 área(s) técnica(s) consolidadas.",
     "indicadores": {},
     "boas_praticas": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
@@ -22633,49 +22879,42 @@
           }
         ]
       },
-      "Tecnologia da Informação": {
+      "Desenvolvimento de Sistemas / Informática": {
         "status": "Extraído do relatório Excel 2025",
         "resumo": "28 LABORATÓRIOS DE INFORMÁTICA, com um total de 942 COMPUTADORES  (INCLUINDO O DO DOCENTE),  possuem processadores variados em sua maioria Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB, Laboratórios de automação, eletrotecnica e de informática",
         "resumo_fonte": "Relatório visita técnica 2025 — DENDEZEIROS.xlsx",
         "indicadores": [
           {
             "rotulo": "Itens avaliados",
-            "valor": 6
+            "valor": 3
           },
           {
             "rotulo": "Oportunidades",
-            "valor": 4
+            "valor": 3
           },
           {
             "rotulo": "Boas práticas",
-            "valor": 5
+            "valor": 3
           }
         ],
         "principais_pontos": [
           "28 LABORATÓRIOS DE INFORMÁTICA, com um total de 942 COMPUTADORES  (INCLUINDO O DO DOCENTE),  possuem processadores variados em sua maioria Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB, Laboratórios de automação, eletrotecnica e de informática",
           "Os Aplicativos instalados, suprem as necessidades dos docentes para as aulas de DS e outros cursos de TI.",
-          "Quantidade de arduino suficiente para as aulas de eletronica e IOT.",
-          "B2 sala apoio TI estagiário Sanclei 04 pcs para projetos\nB3 infra para qualquer curso de Infra (31 Computadores)\nConectores, paineis de pratica, fibra otica, cftv.",
-          "Os Aplicativos instalados, suprem as necessidades dos docentes para cursos de TI.",
-          "Equipamentos e insumos suprem necessidade dos cursos que rodam na unidade, obs. o  estagiario cuida dessa organização"
+          "Quantidade de arduino suficiente para as aulas de eletronica e IOT."
         ],
         "boas_praticas": [
           "Aplicativos padronizados.",
           "Imagem de replica de discos para todos os Laboratorios da unidade, otimizando a utilização para o curso *",
-          "Aulas práticas com arduíno para IOT",
-          "Organizados",
-          "Aulas práticas com arduíno para cursos de infraestrutura"
+          "Aulas práticas com arduíno para IOT"
         ],
         "oportunidades": [
           "1 - Lentidão em todos os PCs dos LABs. do bloco D, possivelmente por usar HDD.                                             2 - SSDs sobrecarregados com espaço livre em 7% no I01                                                                                       3 - G07 e I01 com problema de conexão wifi.                                                 4 - Aumento da capacidade da memória RAM para 16GB, (utilização do Revit) Requisitos Tecnicos                           5 - LAB K não conseguimos entrar 6- LAB Bloco N sem possibilidade de utilizar, cheiro forte de mofo e muito úmido.",
           "Verificar mensalmente a utilização dos espaços dos discos para excluir arquivos desnecessarios dos alunos.",
-          "Manter a estrutura organizada, com armários e bancadas de práticas.",
-          "Laboratório provisório, quando estiver no bloco L ficará excelente."
+          "Manter a estrutura organizada, com armários e bancadas de práticas."
         ],
         "recomendacoes": [],
         "observacoes": [
-          "LINK Requisitos REVIT",
-          "Equipamentos de investimento 2024"
+          "LINK Requisitos REVIT"
         ],
         "responsaveis": [],
         "prazos": [],
@@ -22708,7 +22947,64 @@
             "oportunidade": "Manter a estrutura organizada, com armários e bancadas de práticas.",
             "status": "D",
             "acompanhado_por": "LINALDO"
+          }
+        ],
+        "fontes": [
+          {
+            "arquivo": "Relatório visita técnica 2025 — DENDEZEIROS.xlsx",
+            "linha": 10
           },
+          {
+            "arquivo": "Relatório visita técnica 2025 — DENDEZEIROS.xlsx",
+            "linha": 11
+          },
+          {
+            "arquivo": "Relatório visita técnica 2025 — DENDEZEIROS.xlsx",
+            "linha": 12
+          }
+        ]
+      },
+      "Redes de Computadores": {
+        "status": "Extraído do relatório Excel 2025",
+        "resumo": "B2 sala apoio TI estagiário Sanclei 04 pcs para projetos\nB3 infra para qualquer curso de Infra (31 Computadores)\nConectores, paineis de pratica, fibra otica, cftv.",
+        "resumo_fonte": "Relatório visita técnica 2025 — DENDEZEIROS.xlsx",
+        "indicadores": [
+          {
+            "rotulo": "Itens avaliados",
+            "valor": 3
+          },
+          {
+            "rotulo": "Oportunidades",
+            "valor": 3
+          },
+          {
+            "rotulo": "Boas práticas",
+            "valor": 3
+          }
+        ],
+        "principais_pontos": [
+          "B2 sala apoio TI estagiário Sanclei 04 pcs para projetos\nB3 infra para qualquer curso de Infra (31 Computadores)\nConectores, paineis de pratica, fibra otica, cftv.",
+          "Os Aplicativos instalados, suprem as necessidades dos docentes para cursos de TI.",
+          "Equipamentos e insumos suprem necessidade dos cursos que rodam na unidade, obs. o  estagiario cuida dessa organização"
+        ],
+        "boas_praticas": [
+          "Organizados",
+          "Imagem de replica de discos para todos os Laboratorios da unidade, otimizando a utilização para o curso *",
+          "Aulas práticas com arduíno para cursos de infraestrutura"
+        ],
+        "oportunidades": [
+          "Laboratório provisório, quando estiver no bloco L ficará excelente.",
+          "Verificar mensalmente a utilização dos espaços dos discos para excluir arquivos desnecessarios dos alunos.",
+          "Manter a estrutura organizada, com armários e bancadas de práticas."
+        ],
+        "recomendacoes": [],
+        "observacoes": [
+          "Equipamentos de investimento 2024"
+        ],
+        "responsaveis": [],
+        "prazos": [],
+        "status_itens": [],
+        "itens": [
           {
             "descricao": "ESTRUTURA  DO LABORATÓRIO",
             "observado": "B2 sala apoio TI estagiário Sanclei 04 pcs para projetos\nB3 infra para qualquer curso de Infra (31 Computadores)\nConectores, paineis de pratica, fibra otica, cftv.",
@@ -22732,18 +23028,6 @@
           }
         ],
         "fontes": [
-          {
-            "arquivo": "Relatório visita técnica 2025 — DENDEZEIROS.xlsx",
-            "linha": 10
-          },
-          {
-            "arquivo": "Relatório visita técnica 2025 — DENDEZEIROS.xlsx",
-            "linha": 11
-          },
-          {
-            "arquivo": "Relatório visita técnica 2025 — DENDEZEIROS.xlsx",
-            "linha": 12
-          },
           {
             "arquivo": "Relatório visita técnica 2025 — DENDEZEIROS.xlsx",
             "linha": 13
@@ -23607,7 +23891,8 @@
         "nome": "Paulo Filho",
         "avatar": "assets/avatars/paulo-filho.jpeg",
         "areas": [
-          "Tecnologia da Informação"
+          "Desenvolvimento de Sistemas / Informática",
+          "Redes de Computadores"
         ],
         "origem": "Campo PARTICIPANTES do relatório (2025)"
       },
@@ -23634,7 +23919,8 @@
         "nome": "LINALDO",
         "avatar": null,
         "areas": [
-          "Tecnologia da Informação"
+          "Desenvolvimento de Sistemas / Informática",
+          "Redes de Computadores"
         ],
         "origem": "Campo acompanhado_por do relatório (2025)"
       },
@@ -23735,7 +24021,7 @@
     "areas": [
       "Segurança do Trabalho",
       "Logística",
-      "Tecnologia da Informação",
+      "Desenvolvimento de Sistemas / Informática",
       "Edificações",
       "Eletromecânica",
       "Química",
@@ -24031,7 +24317,7 @@
           }
         ]
       },
-      "Tecnologia da Informação": {
+      "Desenvolvimento de Sistemas / Informática": {
         "status": "Extraído do relatório Excel 2025",
         "resumo": "10 LABORATÓRIOS DE INFORMÁTICA, 1 com 37 COMPUTADORES e 9 com 43 computadores (INCLUINDO O DO DOCENTE),  possuem processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB, LAB Movimentação e Armazenagem com 10 PCS. (total 476 computadores incluindo o de Automação com 33 computadores)",
         "resumo_fonte": "Relatório visita técnica 2025 — FEIRA DE SANTANA.xlsx",
@@ -24739,7 +25025,7 @@
         "nome": "Paulo Filho",
         "avatar": "assets/avatars/paulo-filho.jpeg",
         "areas": [
-          "Tecnologia da Informação"
+          "Desenvolvimento de Sistemas / Informática"
         ],
         "origem": "Campo PARTICIPANTES do relatório (2025)"
       },
@@ -24795,7 +25081,7 @@
         "nome": "WELBER / VITOR",
         "avatar": null,
         "areas": [
-          "Tecnologia da Informação"
+          "Desenvolvimento de Sistemas / Informática"
         ],
         "origem": "Campo acompanhado_por do relatório (2025)"
       },
@@ -24860,7 +25146,7 @@
       "Eletrotécnica",
       "Alimentos",
       "Gestão",
-      "Tecnologia da Informação"
+      "Desenvolvimento de Sistemas"
     ],
     "especialistas": [
       "ESP007",
@@ -25420,7 +25706,7 @@
           }
         ]
       },
-      "Tecnologia da Informação": {
+      "Desenvolvimento de Sistemas": {
         "status": "Extraído do relatório Excel 2025",
         "resumo": "33 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB",
         "resumo_fonte": "Relatório visita técnica 2025 — ILHEUS.xlsx",
@@ -25499,11 +25785,11 @@
         "nome": "Marcos Paulo",
         "avatar": "assets/avatars/marcos-paulo.jpg",
         "areas": [
+          "Desenvolvimento de Sistemas",
           "Eletromecânica",
           "Eletrotécnica",
           "Gestão",
-          "Segurança do Trabalho",
-          "Tecnologia da Informação"
+          "Segurança do Trabalho"
         ],
         "origem": "Campo PARTICIPANTES do relatório (2025)"
       },
@@ -25512,8 +25798,8 @@
         "nome": "Paulo Filho",
         "avatar": "assets/avatars/paulo-filho.jpeg",
         "areas": [
-          "Segurança do Trabalho",
-          "Tecnologia da Informação"
+          "Desenvolvimento de Sistemas",
+          "Segurança do Trabalho"
         ],
         "origem": "Campo PARTICIPANTES do relatório (2025)"
       },
@@ -25576,7 +25862,7 @@
         "nome": "Marcos Paulo/Reinaldo Luiz NTI",
         "avatar": null,
         "areas": [
-          "Tecnologia da Informação"
+          "Desenvolvimento de Sistemas"
         ],
         "origem": "Campo acompanhado_por do relatório (2025)"
       }
@@ -25612,7 +25898,7 @@
       "Refrigeração",
       "Almoxarifado",
       "Eletrotécnica",
-      "Tecnologia da Informação",
+      "Desenvolvimento de Sistemas / Informática",
       "Gestão"
     ],
     "especialistas": [
@@ -26278,7 +26564,7 @@
           }
         ]
       },
-      "Tecnologia da Informação": {
+      "Desenvolvimento de Sistemas / Informática": {
         "status": "Extraído do relatório Excel 2025",
         "resumo": "02 LABORATÓRIOS DE INFORMÁTICA com um total de 42 COMPUTADORES  (INCLUINDO O DO DOCENTE),  possuem processadores variados em sua maioria Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, LAB 1 com SSD de 256GB e o LAB 2 com HDD de 1TB, existe a necessidade de troca por SSD de 512GB",
         "resumo_fonte": "Relatório visita técnica 2025 — JUAZEIRO.xlsx",
@@ -26499,8 +26785,8 @@
         "nome": "Marcos Paulo",
         "avatar": "assets/avatars/marcos-paulo.jpg",
         "areas": [
-          "Eletrotécnica",
-          "Tecnologia da Informação"
+          "Desenvolvimento de Sistemas / Informática",
+          "Eletrotécnica"
         ],
         "origem": "Campo PARTICIPANTES do relatório (2025)"
       },
@@ -26519,7 +26805,7 @@
         "nome": "Paulo Filho",
         "avatar": "assets/avatars/paulo-filho.jpeg",
         "areas": [
-          "Tecnologia da Informação"
+          "Desenvolvimento de Sistemas / Informática"
         ],
         "origem": "Campo PARTICIPANTES do relatório (2025)"
       },
@@ -26593,7 +26879,7 @@
         "nome": "Marcos Paulo/ Israel NTI",
         "avatar": null,
         "areas": [
-          "Tecnologia da Informação"
+          "Desenvolvimento de Sistemas / Informática"
         ],
         "origem": "Campo acompanhado_por do relatório (2025)"
       },
@@ -26638,7 +26924,8 @@
       "Eletromecânica",
       "Refrigeração",
       "Logística",
-      "Tecnologia da Informação",
+      "Desenvolvimento de Sistemas / Informática",
+      "Redes de Computadores",
       "Química e Petroquímica",
       "Eletrotécnica",
       "Automação",
@@ -26652,7 +26939,7 @@
     "data_programada_inicio": null,
     "data_programada_fim": null,
     "relatorios": [],
-    "resumo": "9 participante(s) registrado(s), 7 acompanhante(s) e 9 área(s) técnica(s) consolidadas.",
+    "resumo": "9 participante(s) registrado(s), 7 acompanhante(s) e 10 área(s) técnica(s) consolidadas.",
     "indicadores": {},
     "boas_praticas": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
     "oportunidades": "Conteúdo presente no relatório da unidade; aguardando consolidação para exibição por item.",
@@ -27179,55 +27466,46 @@
           }
         ]
       },
-      "Tecnologia da Informação": {
+      "Desenvolvimento de Sistemas / Informática": {
         "status": "Extraído do relatório Excel 2025",
         "resumo": "11 LABORATÓRIOS, 10 DE INFORMÁTICA e 01 de AUTOMAÇÃO, com um total de 410 COMPUTADORES  (INCLUINDO O DO DOCENTE),  possuem processadores variados em sua maioria Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB, os LABs B2, B6 e B9 estão com HDD de 512GB, necessitando de troca por SSD de 512GB, os LAB B3 e B10 são os mais adequados para uso dos cursos de DS e utilização do REVIT e AUTOCAD.",
         "resumo_fonte": "Relatório visita técnica 2025 — LAURO DE FREITAS.xlsx",
         "indicadores": [
           {
             "rotulo": "Itens avaliados",
-            "valor": 6
+            "valor": 3
           },
           {
             "rotulo": "Oportunidades",
-            "valor": 5
+            "valor": 3
           },
           {
             "rotulo": "Boas práticas",
-            "valor": 3
+            "valor": 2
           }
         ],
         "principais_pontos": [
           "11 LABORATÓRIOS, 10 DE INFORMÁTICA e 01 de AUTOMAÇÃO, com um total de 410 COMPUTADORES  (INCLUINDO O DO DOCENTE),  possuem processadores variados em sua maioria Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB, os LABs B2, B6 e B9 estão com HDD de 512GB, necessitando de troca por SSD de 512GB, os LAB B3 e B10 são os mais adequados para uso dos cursos de DS e utilização do REVIT e AUTOCAD.",
           "Os Aplicativos instalados, suprem as necessidades dos docentes para as aulas de DS e outros cursos de TI.",
-          "Não existe arduino da área, utiliza-se os de automação.",
-          "Existe um ambiente com racks e guias apropriadas para a oferta do curso.",
-          "Não constam em todos os computadores aplicativos de infra estrutura, a exemplo de GNS3, Packt Tracer e etc...",
-          "Não existem equipamentos(ativos) na unidade, os que existem estão na unidade Dendezeiros"
+          "Não existe arduino da área, utiliza-se os de automação."
         ],
         "boas_praticas": [
           "Aplicativos padronizados, Labs Identificados e organizados.",
-          "Imagem de replica de discos para todos os Laboratorios da unidade, otimizando a utilização para o curso *",
-          "Imagem de replica de discos para todos os Laboratorios da unidade, otimizando a utilização para o curso (precisando de instalação de alguns softwares)."
+          "Imagem de replica de discos para todos os Laboratorios da unidade, otimizando a utilização para o curso *"
         ],
         "oportunidades": [
           "1 - Lentidão em todos os PCs dos LABs. B2, B6 e B9 possivelmente por usar HDD.                                             2 - SSDs precisam de upgrade para 512GB (A17, B1, B5, B7 e B8.                                                                                                      3 - Aumento da capacidade da memória RAM para 16GB, (utilização do Revit) requisitos Tecnicos  (LAB B3 e B10 estão em conformidade)                                                                                                                                                                                                                                                                                                                                                     O Cenário em 2024 : Verificou-se que os computadores, em sua maioria, possuem requisitos aceitáveis. No entanto, precisam de UPGRADE em memória de 8GB para 16GB e adição de armazenamentos SSD maiores. \nA unidade possui 7 (sete) laboratórios, com total de 283 (duzentos e oitenta e três) PCs.",
           "Verificar mensalmente a utilização dos espaços dos discos para excluir arquivos desnecessarios dos alunos.",
-          "Adquirir kits de arduino para as aulas de IOT para o curso de DS, sugestão de 1 kit para 2 alunos.",
-          "Ainda nesse semstre chegarão os equipamentos de investimento 2024.",
-          "Manter a estrutura organizada, com armários e bancadas de práticas."
+          "Adquirir kits de arduino para as aulas de IOT para o curso de DS, sugestão de 1 kit para 2 alunos."
         ],
         "recomendacoes": [],
         "observacoes": [
           "LINK Requisitos REVIT",
-          "AUTOCAD",
-          "Equipamentos de investimento 2024",
-          "Equipamentos de investimento 2024. Sugeri a oferta do curso de MSI (Manutenção e Suporte em Informatica)."
+          "AUTOCAD"
         ],
         "responsaveis": [
           "NTI/IRAN",
-          "IRAN",
-          "PAULO"
+          "IRAN"
         ],
         "prazos": [],
         "status_itens": [
@@ -27258,7 +27536,65 @@
             "oportunidade": "Adquirir kits de arduino para as aulas de IOT para o curso de DS, sugestão de 1 kit para 2 alunos.",
             "status": "D",
             "acompanhado_por": "IRAN/DILTON"
+          }
+        ],
+        "fontes": [
+          {
+            "arquivo": "Relatório visita técnica 2025 — LAURO DE FREITAS.xlsx",
+            "linha": 10
           },
+          {
+            "arquivo": "Relatório visita técnica 2025 — LAURO DE FREITAS.xlsx",
+            "linha": 11
+          },
+          {
+            "arquivo": "Relatório visita técnica 2025 — LAURO DE FREITAS.xlsx",
+            "linha": 12
+          }
+        ]
+      },
+      "Redes de Computadores": {
+        "status": "Extraído do relatório Excel 2025",
+        "resumo": "Existe um ambiente com racks e guias apropriadas para a oferta do curso.",
+        "resumo_fonte": "Relatório visita técnica 2025 — LAURO DE FREITAS.xlsx",
+        "indicadores": [
+          {
+            "rotulo": "Itens avaliados",
+            "valor": 3
+          },
+          {
+            "rotulo": "Oportunidades",
+            "valor": 3
+          },
+          {
+            "rotulo": "Boas práticas",
+            "valor": 1
+          }
+        ],
+        "principais_pontos": [
+          "Existe um ambiente com racks e guias apropriadas para a oferta do curso.",
+          "Não constam em todos os computadores aplicativos de infra estrutura, a exemplo de GNS3, Packt Tracer e etc...",
+          "Não existem equipamentos(ativos) na unidade, os que existem estão na unidade Dendezeiros"
+        ],
+        "boas_praticas": [
+          "Imagem de replica de discos para todos os Laboratorios da unidade, otimizando a utilização para o curso (precisando de instalação de alguns softwares)."
+        ],
+        "oportunidades": [
+          "Ainda nesse semstre chegarão os equipamentos de investimento 2024.",
+          "Verificar mensalmente a utilização dos espaços dos discos para excluir arquivos desnecessarios dos alunos.",
+          "Manter a estrutura organizada, com armários e bancadas de práticas."
+        ],
+        "recomendacoes": [],
+        "observacoes": [
+          "Equipamentos de investimento 2024",
+          "Equipamentos de investimento 2024. Sugeri a oferta do curso de MSI (Manutenção e Suporte em Informatica)."
+        ],
+        "responsaveis": [
+          "PAULO"
+        ],
+        "prazos": [],
+        "status_itens": [],
+        "itens": [
           {
             "descricao": "ESTRUTURA  DO LABORATÓRIO",
             "observado": "Existe um ambiente com racks e guias apropriadas para a oferta do curso.",
@@ -27280,18 +27616,6 @@
           }
         ],
         "fontes": [
-          {
-            "arquivo": "Relatório visita técnica 2025 — LAURO DE FREITAS.xlsx",
-            "linha": 10
-          },
-          {
-            "arquivo": "Relatório visita técnica 2025 — LAURO DE FREITAS.xlsx",
-            "linha": 11
-          },
-          {
-            "arquivo": "Relatório visita técnica 2025 — LAURO DE FREITAS.xlsx",
-            "linha": 12
-          },
           {
             "arquivo": "Relatório visita técnica 2025 — LAURO DE FREITAS.xlsx",
             "linha": 13
@@ -27575,7 +27899,8 @@
         "nome": "Paulo Filho",
         "avatar": "assets/avatars/paulo-filho.jpeg",
         "areas": [
-          "Tecnologia da Informação"
+          "Desenvolvimento de Sistemas / Informática",
+          "Redes de Computadores"
         ],
         "origem": "Campo PARTICIPANTES do relatório (2025)"
       },
@@ -27621,7 +27946,8 @@
         "nome": "IRAN/DILTON",
         "avatar": null,
         "areas": [
-          "Tecnologia da Informação"
+          "Desenvolvimento de Sistemas / Informática",
+          "Redes de Computadores"
         ],
         "origem": "Campo acompanhado_por do relatório (2025)"
       },
@@ -27677,7 +28003,7 @@
       "Eletrotécnica",
       "Logística",
       "Alimentos",
-      "Tecnologia da Informação"
+      "Desenvolvimento de Sistemas"
     ],
     "especialistas": [
       "ESP007",
@@ -28272,7 +28598,7 @@
           }
         ]
       },
-      "Tecnologia da Informação": {
+      "Desenvolvimento de Sistemas": {
         "status": "Extraído do relatório Excel 2025",
         "resumo": "26 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB",
         "resumo_fonte": "Relatório visita técnica 2025 — OESTE.xlsx",
@@ -28356,9 +28682,9 @@
         "avatar": "assets/avatars/marcos-paulo.jpg",
         "areas": [
           "Alimentos",
+          "Desenvolvimento de Sistemas",
           "Eletrotécnica",
-          "Logística",
-          "Tecnologia da Informação"
+          "Logística"
         ],
         "origem": "Campo PARTICIPANTES do relatório (2025)"
       },
@@ -28368,9 +28694,9 @@
         "avatar": "assets/avatars/paulo-filho.jpeg",
         "areas": [
           "Alimentos",
+          "Desenvolvimento de Sistemas",
           "Eletrotécnica",
-          "Logística",
-          "Tecnologia da Informação"
+          "Logística"
         ],
         "origem": "Campo PARTICIPANTES do relatório (2025)"
       },
@@ -28460,7 +28786,7 @@
         "nome": "Marcos Paulo/Caio Rafael NTI",
         "avatar": null,
         "areas": [
-          "Tecnologia da Informação"
+          "Desenvolvimento de Sistemas"
         ],
         "origem": "Campo acompanhado_por do relatório (2025)"
       }
@@ -28499,7 +28825,7 @@
       "Eletrotécnica",
       "Logística",
       "Alimentos",
-      "Tecnologia da Informação"
+      "Desenvolvimento de Sistemas"
     ],
     "especialistas": [
       "ESP007",
@@ -29094,7 +29420,7 @@
           }
         ]
       },
-      "Tecnologia da Informação": {
+      "Desenvolvimento de Sistemas": {
         "status": "Extraído do relatório Excel 2025",
         "resumo": "26 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB",
         "resumo_fonte": "Relatório visita técnica 2025 — OESTE.xlsx",
@@ -29178,9 +29504,9 @@
         "avatar": "assets/avatars/marcos-paulo.jpg",
         "areas": [
           "Alimentos",
+          "Desenvolvimento de Sistemas",
           "Eletrotécnica",
-          "Logística",
-          "Tecnologia da Informação"
+          "Logística"
         ],
         "origem": "Campo PARTICIPANTES do relatório (2025)"
       },
@@ -29190,9 +29516,9 @@
         "avatar": "assets/avatars/paulo-filho.jpeg",
         "areas": [
           "Alimentos",
+          "Desenvolvimento de Sistemas",
           "Eletrotécnica",
-          "Logística",
-          "Tecnologia da Informação"
+          "Logística"
         ],
         "origem": "Campo PARTICIPANTES do relatório (2025)"
       },
@@ -29282,7 +29608,7 @@
         "nome": "Marcos Paulo/Caio Rafael NTI",
         "avatar": null,
         "areas": [
-          "Tecnologia da Informação"
+          "Desenvolvimento de Sistemas"
         ],
         "origem": "Campo acompanhado_por do relatório (2025)"
       }
@@ -29317,7 +29643,7 @@
     "lng": -40.8448,
     "areas": [
       "Segurança do Trabalho",
-      "Tecnologia da Informação",
+      "Desenvolvimento de Sistemas / Informática",
       "Eletromecânica",
       "Eletrotécnica",
       "Logística"
@@ -29525,7 +29851,7 @@
           }
         ]
       },
-      "Tecnologia da Informação": {
+      "Desenvolvimento de Sistemas / Informática": {
         "status": "Extraído do relatório Excel 2025",
         "resumo": "04 LABORATÓRIOS DE INFORMÁTICA, com um total de 69 COMPUTADORES  (INCLUINDO O DO DOCENTE),  possuem COMPUTADORES DE 4 MODELOS (DATEN, LOGIN, LENOVO THINKCENTRE E ALL IN ONE 3GREEN), processadores variados em sua maioria Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB.",
         "resumo_fonte": "Relatório visita técnica 2025 — VITÓRIA DA CONQUISTA.xlsx",
@@ -30072,9 +30398,9 @@
         "nome": "Paulo Filho",
         "avatar": "assets/avatars/paulo-filho.jpeg",
         "areas": [
+          "Desenvolvimento de Sistemas / Informática",
           "Eletrotécnica",
-          "Logística",
-          "Tecnologia da Informação"
+          "Logística"
         ],
         "origem": "Campo PARTICIPANTES do relatório (2025)"
       },
@@ -30103,8 +30429,8 @@
         "nome": "TÚLIO",
         "avatar": null,
         "areas": [
-          "Eletromecânica",
-          "Tecnologia da Informação"
+          "Desenvolvimento de Sistemas / Informática",
+          "Eletromecânica"
         ],
         "origem": "Campo acompanhado_por do relatório (2025)"
       }
