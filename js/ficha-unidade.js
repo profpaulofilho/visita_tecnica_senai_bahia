@@ -10,9 +10,12 @@
 
   function statusClass(status) {
     if (!status) return "";
-    if (status.includes("(C)")) return "c";
-    if (status.includes("(A)")) return "a";
-    if (status.includes("(D)")) return "d";
+    // Aceita tanto o formato completo do registrar.html ("Concluído (C)")
+    // quanto a letra crua usada nos dados históricos extraídos de Excel ("C").
+    const s = String(status).trim().toUpperCase();
+    if (s.includes("(C)") || s === "C") return "c";
+    if (s.includes("(A)") || s === "A") return "a";
+    if (s.includes("(D)") || s === "D") return "d";
     return "";
   }
 
