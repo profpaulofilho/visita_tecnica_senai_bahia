@@ -96,11 +96,13 @@
         <h3>Oportunidades de melhoria</h3>
         ${list(r.oportunidades, "Nenhuma oportunidade registrada.")}
 
+        ${(r.recomendacoes && r.recomendacoes.length) ? `
         <h3>Recomendações</h3>
-        ${list(r.recomendacoes, "Nenhuma recomendação registrada.")}
+        ${list(r.recomendacoes, "Nenhuma recomendação registrada.")}` : ""}
 
+        ${(r.observacoes && r.observacoes.length) ? `
         <h3>Observações</h3>
-        ${list(r.observacoes, "Nenhuma observação registrada.")}
+        ${list(r.observacoes, "Nenhuma observação registrada.")}` : ""}
 
         <h3>Responsáveis pela ação</h3>
         ${list(r.responsaveis, "Não informado.")}

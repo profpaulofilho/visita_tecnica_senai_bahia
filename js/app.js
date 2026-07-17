@@ -267,8 +267,16 @@ function renderAreaResult(v,area){
   $('#areaResultKpis').innerHTML=(r.indicadores||[]).map(k=>`<div class="mini-kpi"><b>${escapeHtml(k.valor)}</b><small>${escapeHtml(k.rotulo)}</small></div>`).join('');
   $('#areaResultGood').innerHTML=list(r.boas_praticas);
   $('#areaResultOpportunities').innerHTML=list(r.oportunidades);
-  $('#areaResultRecommendations').innerHTML=list(r.recomendacoes);
-  $('#areaResultObservations').innerHTML=list(r.observacoes);
+  // Recomendações/Observações não têm campo equivalente no formulário registrar.html
+  // (só existiam na coluna "Observação geral" das planilhas Excel de 2025/2026), então
+  // pra registros novos essas duas seções ficam escondidas em vez de mostrar "Não
+  // registrado no relatório." à toa.
+  const temRecomendacoes=r.recomendacoes&&r.recomendacoes.length;
+  const temObservacoes=r.observacoes&&r.observacoes.length;
+  $('#areaResultRecommendationsWrap').style.display=temRecomendacoes?'':'none';
+  $('#areaResultObservationsWrap').style.display=temObservacoes?'':'none';
+  $('#areaResultRecommendations').innerHTML=temRecomendacoes?list(r.recomendacoes):'';
+  $('#areaResultObservations').innerHTML=temObservacoes?list(r.observacoes):'';
 }
 
 function showDetails(v){
