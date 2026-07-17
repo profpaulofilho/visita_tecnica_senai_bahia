@@ -32,6 +32,10 @@
   .reg-recent{border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:var(--panel2);margin-bottom:8px;font-size:13px}
   .reg-recent b{color:var(--text-strong)}
   .reg-recent small{display:block;color:var(--muted);margin-top:2px}
+  .reg-delete-btn{flex:0 0 auto;background:transparent;border:1px solid #d93025;color:#d93025;border-radius:8px;padding:5px 10px;font-size:11.5px;font-weight:700;cursor:pointer}
+  .reg-delete-btn:hover{background:#fce8e6}
+  [data-theme="dark"] .reg-delete-btn{border-color:#ffb4ab;color:#ffb4ab}
+  [data-theme="dark"] .reg-delete-btn:hover{background:#3a1410}
   #screenLogin,#screenTrocarSenha,#screenForm{display:none}
 </style>
 </head>
@@ -89,7 +93,15 @@
         <div class="reg-msg success" id="formMsg"></div>
         <div class="reg-field">
           <label>Ano do ciclo *</label>
-          <input type="text" id="fAno" value="2027">
+          <select id="fAno">
+            <option value="2027" disabled>2027 (ciclo ainda não habilitado)</option>
+            <option value="2028" disabled>2028 (ciclo ainda não habilitado)</option>
+            <option value="2029" disabled>2029 (ciclo ainda não habilitado)</option>
+            <option value="2030" disabled>2030 (ciclo ainda não habilitado)</option>
+            <option value="2031" disabled>2031 (ciclo ainda não habilitado)</option>
+            <option value="2099" selected>2099 (uso exclusivo para testes)</option>
+          </select>
+          <span class="hint">Os ciclos reais (2027–2031) ficam bloqueados até serem habilitados oficialmente. Por enquanto, só é possível registrar em 2099, para testes.</span>
         </div>
         <div class="reg-field">
           <label>Unidade *</label>

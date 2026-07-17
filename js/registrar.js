@@ -68,14 +68,32 @@
       }
       box.innerHTML = data.itens
         .map(
-          (it) => `<div class="reg-recent">
-            <b>${escapeHtml(it.unidade)} — ${escapeHtml(it.area_tecnica)}</b>
-            <small>${escapeHtml(it.descricao_item)} · ${it.data_visita ? it.data_visita.substring(0, 10) : ""} · ${escapeHtml(it.status)}</small>
+          (it) => `<div class="reg-recent" data-item-id="${escapeHtml(it.id)}">
+            <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px">
+              <div>
+                <b>${escapeHtml(it.unidade)} — ${escapeHtml(it.area_tecnica)}</b>
+                <small>${escapeHtml(it.descricao_item)} · ${it.data_visita ? it.data_visita.substring(0, 10) : ""} · ${escapeHtml(it.status)}</small>
+              </div>
+              <button class="reg-delete-btn" data-id="${escapeHtml(it.id)}" title="Apagar este registro">Apagar</button>
+            </div>
           </div>`
         )
         .join("");
+      box.querySelectorAll(".reg-delete-btn").forEach((btn) => {
+        btn.addEventListener("click", () => deleteItem(btn.dataset.id));
+      });
     } catch (e) {
       box.innerHTML = '<p style="color:var(--muted);font-size:13px">Não foi possível carregar os registros.</p>';
+    }
+  }
+
+  async function deleteItem(id) {
+    if (!confirm("Apagar este registro? Não dá para desfazer.")) return;
+    try {
+      await api("/api/deletar-item", { method: "POST", body: JSON.stringify({ id }) });
+      loadRecent();
+    } catch (e) {
+      alert("Não foi possível apagar: " + e.message);
     }
   }
 
