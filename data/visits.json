@@ -18,10 +18,9 @@
       "Química",
       "Segurança do Trabalho",
       "Logística",
-      "Tecnologia da Informação",
+      "Desenvolvimento de Sistemas / Informática",
       "Redes de Computadores",
       "Construção Civil",
-      "Desenvolvimento de Sistemas / Informática",
       "Biotecnologia e Química",
       "Edificações",
       "EMI"
@@ -1030,143 +1029,6 @@
         ],
         "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
       },
-      "Tecnologia da Informação": {
-        "status": "Extraído do relatório Excel",
-        "resumo": "Foram diagnosticados diversos laboratórios (L09, L07, LAB 11, L10, L13, L12, I01, I02, G05, G07, C01-C04, C09-C10). Total de máquinas mapeadas ultrapassa 900 computadores.(947 para ser exato)",
-        "indicadores": [
-          {
-            "rotulo": "Itens avaliados",
-            "valor": 6
-          },
-          {
-            "rotulo": "Oportunidades",
-            "valor": 5
-          },
-          {
-            "rotulo": "Boas práticas",
-            "valor": 5
-          }
-        ],
-        "principais_pontos": [
-          "Foram diagnosticados diversos laboratórios (L09, L07, LAB 11, L10, L13, L12, I01, I02, G05, G07, C01-C04, C09-C10). Total de máquinas mapeadas ultrapassa 900 computadores.(947 para ser exato)",
-          "Os Aplicativos instalados, suprem as necessidades dos docentes para as aulas de DS e outros cursos de TI.",
-          "Quantidade de arduino suficiente para as aulas de eletronica e IOT.",
-          "Os Aplicativos instalados, suprem as necessidades dos docentes para cursos de TI.",
-          "Equipamentos e insumos suprem necessidade dos cursos que rodam na unidade, obs. o  estagiario cuida dessa organização"
-        ],
-        "boas_praticas": [
-          "Aplicativos padronizados. Boas práticas de login de cadastro de catracas e informações de uso.",
-          "Imagem de replica de discos para todos os Laboratorios da unidade, otimizando a utilização para o curso *",
-          "Aulas práticas com arduíno para IOT",
-          "Organizados",
-          "Aulas práticas com arduíno para cursos de infraestrutura"
-        ],
-        "oportunidades": [
-          "L13: Teclados com teclas faltando e mouses frágeis. I01: PCs fora do domínio, wallpaper animado e bloqueio de admin.  D4: Tela de projeção muito baixa, dificultando a visão dos alunos no fundo da sala.Verificar atualizações de licenças dos softwares CCW e Elipse.",
-          "LINK_Diagnostico_Pcs",
-          "Manter a estrutura organizada, com armários e bancadas de práticas.",
-          "Lab. Redes sendo estruturado e já em uso",
-          "Verificar mensalmente a utilização dos espaços dos discos para excluir arquivos desnecessarios dos alunos."
-        ],
-        "recomendacoes": [],
-        "observacoes": [
-          "L07\t25\tDestaque: Racks exclusivos para Redes.\nLAB 11\t49\tBoa Prática: Organizado, boas práticas no login de catracas.\nL10\t41\tBoa Prática: Organizado, boas práticas de login.\nL13\t41\tCrítico: Mouses frágeis e teclados danificados por alunos.\nL12\t49\tOrganizado, câmeras bem localizadas.\nI01 e I02 (sem internet)- 43\tCrítico: Fora do domínio, software não autorizado, precisa formatar.\nD03\t31\tAutomação - Rede Wireless.\nD4\t21\tInfra: Tela de projeção muito baixa.\nD5\t21\tAutomação - Softwares CCW e Elipse.\nG07\t55\tMaior laboratório em capacidade de máquinas.\nOutros (C01-C10, I02, G05)\t~250\tOperacionais, sem intercorrências graves relatadas.",
-          "Os Racks das bancadas do LAB de Redes são abertos, sugiro usar Racks fechados, evitando que danifiquem equipamentos."
-        ],
-        "responsaveis": [],
-        "prazos": [],
-        "status_itens": [
-          "C",
-          "A",
-          "D"
-        ],
-        "itens": [
-          {
-            "descricao": "ESTRUTURA  DO LABORATÓRIO",
-            "observado": "Foram diagnosticados diversos laboratórios (L09, L07, LAB 11, L10, L13, L12, I01, I02, G05, G07, C01-C04, C09-C10). Total de máquinas mapeadas ultrapassa 900 computadores.(947 para ser exato)",
-            "boa_pratica": "Aplicativos padronizados. Boas práticas de login de cadastro de catracas e informações de uso.",
-            "oportunidade": "L13: Teclados com teclas faltando e mouses frágeis. I01: PCs fora do domínio, wallpaper animado e bloqueio de admin.  D4: Tela de projeção muito baixa, dificultando a visão dos alunos no fundo da sala.Verificar atualizações de licenças dos softwares CCW e Elipse.",
-            "observacao_geral": "L07\t25\tDestaque: Racks exclusivos para Redes.\nLAB 11\t49\tBoa Prática: Organizado, boas práticas no login de catracas.\nL10\t41\tBoa Prática: Organizado, boas práticas de login.\nL13\t41\tCrítico: Mouses frágeis e teclados danificados por alunos.\nL12\t49\tOrganizado, câmeras bem localizadas.\nI01 e I02 (sem internet)- 43\tCrítico: Fora do domínio, software não autorizado, precisa formatar.\nD03\t31\tAutomação - Rede Wireless.\nD4\t21\tInfra: Tela de projeção muito baixa.\nD5\t21\tAutomação - Softwares CCW e Elipse.\nG07\t55\tMaior laboratório em capacidade de máquinas.\nOutros (C01-C10, I02, G05)\t~250\tOperacionais, sem intercorrências graves relatadas.",
-            "status": "C",
-            "acompanhado_por": "Tainá e Deisiele-NTI e Vanessa - ATI"
-          },
-          {
-            "descricao": "ESTRUTURA DE APLICATIVOS",
-            "observado": "Os Aplicativos instalados, suprem as necessidades dos docentes para as aulas de DS e outros cursos de TI.",
-            "boa_pratica": "Imagem de replica de discos para todos os Laboratorios da unidade, otimizando a utilização para o curso *",
-            "oportunidade": "LINK_Diagnostico_Pcs",
-            "observacao_geral": "Os Racks das bancadas do LAB de Redes são abertos, sugiro usar Racks fechados, evitando que danifiquem equipamentos.",
-            "status": "A",
-            "acompanhado_por": "Tainá e Deisiele-NTI e Vanessa - ATI"
-          },
-          {
-            "descricao": "DISPOSITIVOS DE APOIO PARA AULAS PRÁTICAS",
-            "observado": "Quantidade de arduino suficiente para as aulas de eletronica e IOT.",
-            "boa_pratica": "Aulas práticas com arduíno para IOT",
-            "oportunidade": "Manter a estrutura organizada, com armários e bancadas de práticas.",
-            "status": "D",
-            "acompanhado_por": "Tainá e Deisiele-NTI e Vanessa - ATI"
-          },
-          {
-            "descricao": "ESTRUTURA  DO LABORATÓRIO",
-            "boa_pratica": "Organizados",
-            "oportunidade": "Lab. Redes sendo estruturado e já em uso",
-            "acompanhado_por": "Tainá e Deisiele-NTI e Vanessa - ATI"
-          },
-          {
-            "descricao": "ESTRUTURA DE APLICATIVOS",
-            "observado": "Os Aplicativos instalados, suprem as necessidades dos docentes para cursos de TI.",
-            "boa_pratica": "Imagem de replica de discos para todos os Laboratorios da unidade, otimizando a utilização para o curso *",
-            "oportunidade": "Verificar mensalmente a utilização dos espaços dos discos para excluir arquivos desnecessarios dos alunos.",
-            "acompanhado_por": "Tainá e Deisiele-NTI e Vanessa - ATI"
-          },
-          {
-            "descricao": "DISPOSITIVOS DE APOIO PARA AULAS PRÁTICAS",
-            "observado": "Equipamentos e insumos suprem necessidade dos cursos que rodam na unidade, obs. o  estagiario cuida dessa organização",
-            "boa_pratica": "Aulas práticas com arduíno para cursos de infraestrutura",
-            "oportunidade": "Manter a estrutura organizada, com armários e bancadas de práticas.",
-            "acompanhado_por": "Tainá e Deisiele-NTI e Vanessa - ATI"
-          }
-        ],
-        "fontes": [
-          {
-            "arquivo": "Tecnologia da Informação",
-            "aba": "Tecnologia da Informação",
-            "linha": 10,
-            "data": "2026-03-25"
-          },
-          {
-            "arquivo": "Tecnologia da Informação",
-            "aba": "Tecnologia da Informação",
-            "linha": 11,
-            "data": "2026-03-25"
-          },
-          {
-            "arquivo": "Tecnologia da Informação",
-            "aba": "Tecnologia da Informação",
-            "linha": 12,
-            "data": "2026-03-25"
-          },
-          {
-            "arquivo": "Tecnologia da Informação",
-            "aba": "Tecnologia da Informação",
-            "linha": 13,
-            "data": "2026-03-25"
-          },
-          {
-            "arquivo": "Tecnologia da Informação",
-            "aba": "Tecnologia da Informação",
-            "linha": 14,
-            "data": "2026-03-25"
-          },
-          {
-            "arquivo": "Tecnologia da Informação",
-            "aba": "Tecnologia da Informação",
-            "linha": 15,
-            "data": "2026-03-25"
-          }
-        ]
-      },
       "Redes de Computadores": {
         "status": "Extraído do relatório Excel",
         "resumo": "Manter rotina de organização dos espaços, armários e bancadas; verificar mensalmente uso dos discos; avaliar adoção de racks fechados para reduzir risco de danos aos equipamentos.",
@@ -1374,29 +1236,137 @@
         "indicadores": [
           {
             "rotulo": "Itens avaliados",
-            "valor": 0
+            "valor": 6
           },
           {
             "rotulo": "Oportunidades",
-            "valor": 1
+            "valor": 6
           },
           {
             "rotulo": "Boas práticas",
-            "valor": 0
+            "valor": 5
           }
         ],
-        "principais_pontos": [],
-        "boas_praticas": [],
+        "principais_pontos": [
+          "Foram diagnosticados diversos laboratórios (L09, L07, LAB 11, L10, L13, L12, I01, I02, G05, G07, C01-C04, C09-C10). Total de máquinas mapeadas ultrapassa 900 computadores.(947 para ser exato)",
+          "Os Aplicativos instalados, suprem as necessidades dos docentes para as aulas de DS e outros cursos de TI.",
+          "Quantidade de arduino suficiente para as aulas de eletronica e IOT.",
+          "Os Aplicativos instalados, suprem as necessidades dos docentes para cursos de TI.",
+          "Equipamentos e insumos suprem necessidade dos cursos que rodam na unidade, obs. o  estagiario cuida dessa organização"
+        ],
+        "boas_praticas": [
+          "Aplicativos padronizados. Boas práticas de login de cadastro de catracas e informações de uso.",
+          "Imagem de replica de discos para todos os Laboratorios da unidade, otimizando a utilização para o curso *",
+          "Aulas práticas com arduíno para IOT",
+          "Organizados",
+          "Aulas práticas com arduíno para cursos de infraestrutura"
+        ],
         "oportunidades": [
-          "Corrigir laboratórios com computadores fora do domínio ou sem internet; substituir periféricos danificados; revisar altura de tela de projeção no D4; atualizar licenças CCW e Elipse; monitorar espaço em disco; adotar racks fechados no laboratório de Redes para proteger equipamentos."
+          "Corrigir laboratórios com computadores fora do domínio ou sem internet; substituir periféricos danificados; revisar altura de tela de projeção no D4; atualizar licenças CCW e Elipse; monitorar espaço em disco; adotar racks fechados no laboratório de Redes para proteger equipamentos.",
+          "L13: Teclados com teclas faltando e mouses frágeis. I01: PCs fora do domínio, wallpaper animado e bloqueio de admin.  D4: Tela de projeção muito baixa, dificultando a visão dos alunos no fundo da sala.Verificar atualizações de licenças dos softwares CCW e Elipse.",
+          "LINK_Diagnostico_Pcs",
+          "Manter a estrutura organizada, com armários e bancadas de práticas.",
+          "Lab. Redes sendo estruturado e já em uso",
+          "Verificar mensalmente a utilização dos espaços dos discos para excluir arquivos desnecessarios dos alunos."
         ],
         "recomendacoes": [],
-        "observacoes": [],
+        "observacoes": [
+          "L07\t25\tDestaque: Racks exclusivos para Redes.\nLAB 11\t49\tBoa Prática: Organizado, boas práticas no login de catracas.\nL10\t41\tBoa Prática: Organizado, boas práticas de login.\nL13\t41\tCrítico: Mouses frágeis e teclados danificados por alunos.\nL12\t49\tOrganizado, câmeras bem localizadas.\nI01 e I02 (sem internet)- 43\tCrítico: Fora do domínio, software não autorizado, precisa formatar.\nD03\t31\tAutomação - Rede Wireless.\nD4\t21\tInfra: Tela de projeção muito baixa.\nD5\t21\tAutomação - Softwares CCW e Elipse.\nG07\t55\tMaior laboratório em capacidade de máquinas.\nOutros (C01-C10, I02, G05)\t~250\tOperacionais, sem intercorrências graves relatadas.",
+          "Os Racks das bancadas do LAB de Redes são abertos, sugiro usar Racks fechados, evitando que danifiquem equipamentos."
+        ],
         "responsaveis": [],
         "prazos": [],
-        "status_itens": [],
-        "itens": [],
-        "fontes": [],
+        "status_itens": [
+          "C",
+          "A",
+          "D"
+        ],
+        "itens": [
+          {
+            "descricao": "ESTRUTURA  DO LABORATÓRIO",
+            "observado": "Foram diagnosticados diversos laboratórios (L09, L07, LAB 11, L10, L13, L12, I01, I02, G05, G07, C01-C04, C09-C10). Total de máquinas mapeadas ultrapassa 900 computadores.(947 para ser exato)",
+            "boa_pratica": "Aplicativos padronizados. Boas práticas de login de cadastro de catracas e informações de uso.",
+            "oportunidade": "L13: Teclados com teclas faltando e mouses frágeis. I01: PCs fora do domínio, wallpaper animado e bloqueio de admin.  D4: Tela de projeção muito baixa, dificultando a visão dos alunos no fundo da sala.Verificar atualizações de licenças dos softwares CCW e Elipse.",
+            "observacao_geral": "L07\t25\tDestaque: Racks exclusivos para Redes.\nLAB 11\t49\tBoa Prática: Organizado, boas práticas no login de catracas.\nL10\t41\tBoa Prática: Organizado, boas práticas de login.\nL13\t41\tCrítico: Mouses frágeis e teclados danificados por alunos.\nL12\t49\tOrganizado, câmeras bem localizadas.\nI01 e I02 (sem internet)- 43\tCrítico: Fora do domínio, software não autorizado, precisa formatar.\nD03\t31\tAutomação - Rede Wireless.\nD4\t21\tInfra: Tela de projeção muito baixa.\nD5\t21\tAutomação - Softwares CCW e Elipse.\nG07\t55\tMaior laboratório em capacidade de máquinas.\nOutros (C01-C10, I02, G05)\t~250\tOperacionais, sem intercorrências graves relatadas.",
+            "status": "C",
+            "acompanhado_por": "Tainá e Deisiele-NTI e Vanessa - ATI"
+          },
+          {
+            "descricao": "ESTRUTURA DE APLICATIVOS",
+            "observado": "Os Aplicativos instalados, suprem as necessidades dos docentes para as aulas de DS e outros cursos de TI.",
+            "boa_pratica": "Imagem de replica de discos para todos os Laboratorios da unidade, otimizando a utilização para o curso *",
+            "oportunidade": "LINK_Diagnostico_Pcs",
+            "observacao_geral": "Os Racks das bancadas do LAB de Redes são abertos, sugiro usar Racks fechados, evitando que danifiquem equipamentos.",
+            "status": "A",
+            "acompanhado_por": "Tainá e Deisiele-NTI e Vanessa - ATI"
+          },
+          {
+            "descricao": "DISPOSITIVOS DE APOIO PARA AULAS PRÁTICAS",
+            "observado": "Quantidade de arduino suficiente para as aulas de eletronica e IOT.",
+            "boa_pratica": "Aulas práticas com arduíno para IOT",
+            "oportunidade": "Manter a estrutura organizada, com armários e bancadas de práticas.",
+            "status": "D",
+            "acompanhado_por": "Tainá e Deisiele-NTI e Vanessa - ATI"
+          },
+          {
+            "descricao": "ESTRUTURA  DO LABORATÓRIO",
+            "boa_pratica": "Organizados",
+            "oportunidade": "Lab. Redes sendo estruturado e já em uso",
+            "acompanhado_por": "Tainá e Deisiele-NTI e Vanessa - ATI"
+          },
+          {
+            "descricao": "ESTRUTURA DE APLICATIVOS",
+            "observado": "Os Aplicativos instalados, suprem as necessidades dos docentes para cursos de TI.",
+            "boa_pratica": "Imagem de replica de discos para todos os Laboratorios da unidade, otimizando a utilização para o curso *",
+            "oportunidade": "Verificar mensalmente a utilização dos espaços dos discos para excluir arquivos desnecessarios dos alunos.",
+            "acompanhado_por": "Tainá e Deisiele-NTI e Vanessa - ATI"
+          },
+          {
+            "descricao": "DISPOSITIVOS DE APOIO PARA AULAS PRÁTICAS",
+            "observado": "Equipamentos e insumos suprem necessidade dos cursos que rodam na unidade, obs. o  estagiario cuida dessa organização",
+            "boa_pratica": "Aulas práticas com arduíno para cursos de infraestrutura",
+            "oportunidade": "Manter a estrutura organizada, com armários e bancadas de práticas.",
+            "acompanhado_por": "Tainá e Deisiele-NTI e Vanessa - ATI"
+          }
+        ],
+        "fontes": [
+          {
+            "arquivo": "Tecnologia da Informação",
+            "aba": "Tecnologia da Informação",
+            "linha": 10,
+            "data": "2026-03-25"
+          },
+          {
+            "arquivo": "Tecnologia da Informação",
+            "aba": "Tecnologia da Informação",
+            "linha": 11,
+            "data": "2026-03-25"
+          },
+          {
+            "arquivo": "Tecnologia da Informação",
+            "aba": "Tecnologia da Informação",
+            "linha": 12,
+            "data": "2026-03-25"
+          },
+          {
+            "arquivo": "Tecnologia da Informação",
+            "aba": "Tecnologia da Informação",
+            "linha": 13,
+            "data": "2026-03-25"
+          },
+          {
+            "arquivo": "Tecnologia da Informação",
+            "aba": "Tecnologia da Informação",
+            "linha": 14,
+            "data": "2026-03-25"
+          },
+          {
+            "arquivo": "Tecnologia da Informação",
+            "aba": "Tecnologia da Informação",
+            "linha": 15,
+            "data": "2026-03-25"
+          }
+        ],
         "resumo_executivo": "Corrigir laboratórios com computadores fora do domínio ou sem internet; substituir periféricos danificados; revisar altura de tela de projeção no D4; atualizar licenças CCW e Elipse; monitorar espaço em disco; adotar racks fechados no laboratório de Redes para proteger equipamentos.",
         "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
       },
@@ -1874,7 +1844,7 @@
         "nome": "Tainá",
         "avatar": null,
         "areas": [
-          "Tecnologia da Informação",
+          "Desenvolvimento de Sistemas / Informática",
           "Redes de Computadores"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
@@ -1884,7 +1854,7 @@
         "nome": "Deisiele",
         "avatar": null,
         "areas": [
-          "Tecnologia da Informação",
+          "Desenvolvimento de Sistemas / Informática",
           "Redes de Computadores"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
@@ -1894,7 +1864,7 @@
         "nome": "Bruno - NTI",
         "avatar": null,
         "areas": [
-          "Tecnologia da Informação",
+          "Desenvolvimento de Sistemas / Informática",
           "Redes de Computadores"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
@@ -1904,7 +1874,7 @@
         "nome": "Vanessa ATI",
         "avatar": null,
         "areas": [
-          "Tecnologia da Informação",
+          "Desenvolvimento de Sistemas / Informática",
           "Redes de Computadores"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
@@ -1924,9 +1894,8 @@
         "nome": "Paulo Filho",
         "avatar": "assets/avatars/paulo-filho.jpeg",
         "areas": [
-          "Tecnologia da Informação",
-          "Redes de Computadores",
-          "Desenvolvimento de Sistemas / Informática"
+          "Desenvolvimento de Sistemas / Informática",
+          "Redes de Computadores"
         ],
         "origem": "Validação manual do responsável pelo projeto"
       },
@@ -1995,14 +1964,13 @@
     "areas": [
       "Eletromecânica",
       "Refrigeração",
-      "Tecnologia da Informação",
+      "Desenvolvimento de Sistemas / Informática",
       "Redes de Computadores",
       "Química",
       "Microbiologia",
       "Petroquímica",
       "Eletrotécnica",
       "Automação",
-      "Desenvolvimento de Sistemas / Informática",
       "EMI"
     ],
     "especialistas": [
@@ -2345,133 +2313,6 @@
           }
         ],
         "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
-      },
-      "Tecnologia da Informação": {
-        "status": "Extraído do relatório Excel",
-        "resumo": "11 Laboratórios no total;\n10 de Informática\n01 de Automação\n397 computadores (máquinas de alunos)\nCapacidade total: 426 alunos (diferença de 29 pcs a menor)\nProcessadores:\nIntel i5 9ª e 10ª geração (maioria)\nRyzen 5 (LAB 3 e LAB 10)\nMemória:\nPredominância de…",
-        "indicadores": [
-          {
-            "rotulo": "Itens avaliados",
-            "valor": 6
-          },
-          {
-            "rotulo": "Oportunidades",
-            "valor": 3
-          },
-          {
-            "rotulo": "Boas práticas",
-            "valor": 2
-          }
-        ],
-        "principais_pontos": [
-          "11 Laboratórios no total;\n10 de Informática\n01 de Automação\n397 computadores (máquinas de alunos)\nCapacidade total: 426 alunos (diferença de 29 pcs a menor)\nProcessadores:\nIntel i5 9ª e 10ª geração (maioria)\nRyzen 5 (LAB 3 e LAB 10)\nMemória:\nPredominância de 8GB\nLAB 3 e LAB 10 com 16GB\nLAB 1 e LAB 5 em processo de upgrade gradativo para 16GB\nArmazenamento:\nSSD 256GB (maioria)\nSSD 480GB (LAB 2, 3 e 10)\nLAB 6 ainda possui parte das máquinas com HD\nHD já removido em alguns laboratórios",
-          "Os Aplicativos instalados, suprem as necessidades dos docentes para as aulas de DS e outros cursos de TI.",
-          "Kits de arduino e IoT (18).",
-          "Existe um ambiente com racks e guias apropriadas para a oferta do curso.",
-          "Existem equipamentos do investimento de 2024, que chegaram 2025."
-        ],
-        "boas_praticas": [
-          "Laboratórios organizados e identificados.\nParcial padronização de hardware.\nProcesso em andamento para upgrade de memória.\nRemoção progressiva de HDD.\nUso de imagem padrão para replicação de sistemas.\nAmbientes LAB 3 e LAB 10 adequados para aplicações mais robustas.",
-          "Imagem de replica de discos para todos os Laboratorios da unidade, otimizando a utilização para o curso *"
-        ],
-        "oportunidades": [
-          "Padronizar memória RAM para 16GB em todos os laboratórios.\nPadronizar SSD mínimo de 480GB.\nEliminar totalmente HD mecânico (LAB 6).\nAvaliar compatibilidade futura com Windows 11 e softwares Autodesk atualizados.\n Equalizar número de máquinas x capacidade física.",
-          "Existem equipamentos de investimento 2024.",
-          "Manter a estrutura organizada, com armários e bancadas de práticas."
-        ],
-        "recomendacoes": [],
-        "observacoes": [
-          "Configuração geral adequada para cursos técnicos regulares.\nLAB 3 e LAB 10 apresentam melhor desempenho para softwares mais pesados (Revit, AutoCAD, modelagem 3D).\nPersistência de máquinas com HD no LAB 6, impactando desempenho.\nPredominância de 8GB de RAM — atende uso básico, mas limita aplicações como Revit.\nSSD 256GB pode ficar no limite para softwares gráficos + atualizações do sistema.\nDiferença entre número de máquinas e capacidade em alguns laboratórios (ex.: LAB 7 e LAB 10).",
-          "Equipamentos de investimento chegaram 2025, ver lista de equipamentos abaixo",
-          "Equipamentos de investimento 2024. Sugeri a oferta do curso de MSI (Manutenção e Suporte em Informatica)."
-        ],
-        "responsaveis": [],
-        "prazos": [],
-        "status_itens": [
-          "C",
-          "A",
-          "D"
-        ],
-        "itens": [
-          {
-            "descricao": "ESTRUTURA  DO LABORATÓRIO",
-            "observado": "11 Laboratórios no total;\n10 de Informática\n01 de Automação\n397 computadores (máquinas de alunos)\nCapacidade total: 426 alunos (diferença de 29 pcs a menor)\nProcessadores:\nIntel i5 9ª e 10ª geração (maioria)\nRyzen 5 (LAB 3 e LAB 10)\nMemória:\nPredominância de 8GB\nLAB 3 e LAB 10 com 16GB\nLAB 1 e LAB 5 em processo de upgrade gradativo para 16GB\nArmazenamento:\nSSD 256GB (maioria)\nSSD 480GB (LAB 2, 3 e 10)\nLAB 6 ainda possui parte das máquinas com HD\nHD já removido em alguns laboratórios",
-            "boa_pratica": "Laboratórios organizados e identificados.\nParcial padronização de hardware.\nProcesso em andamento para upgrade de memória.\nRemoção progressiva de HDD.\nUso de imagem padrão para replicação de sistemas.\nAmbientes LAB 3 e LAB 10 adequados para aplicações mais robustas.",
-            "oportunidade": "Padronizar memória RAM para 16GB em todos os laboratórios.\nPadronizar SSD mínimo de 480GB.\nEliminar totalmente HD mecânico (LAB 6).\nAvaliar compatibilidade futura com Windows 11 e softwares Autodesk atualizados.\n Equalizar número de máquinas x capacidade física.",
-            "observacao_geral": "Configuração geral adequada para cursos técnicos regulares.\nLAB 3 e LAB 10 apresentam melhor desempenho para softwares mais pesados (Revit, AutoCAD, modelagem 3D).\nPersistência de máquinas com HD no LAB 6, impactando desempenho.\nPredominância de 8GB de RAM — atende uso básico, mas limita aplicações como Revit.\nSSD 256GB pode ficar no limite para softwares gráficos + atualizações do sistema.\nDiferença entre número de máquinas e capacidade em alguns laboratórios (ex.: LAB 7 e LAB 10).",
-            "status": "C",
-            "acompanhado_por": "IRAN/NTI"
-          },
-          {
-            "descricao": "ESTRUTURA DE APLICATIVOS",
-            "observado": "Os Aplicativos instalados, suprem as necessidades dos docentes para as aulas de DS e outros cursos de TI.",
-            "boa_pratica": "Imagem de replica de discos para todos os Laboratorios da unidade, otimizando a utilização para o curso *",
-            "status": "A",
-            "acompanhado_por": "IRAN/NTI"
-          },
-          {
-            "descricao": "DISPOSITIVOS DE APOIO PARA AULAS PRÁTICAS",
-            "observado": "Kits de arduino e IoT (18).",
-            "status": "D",
-            "acompanhado_por": "IRAN/NTI"
-          },
-          {
-            "descricao": "ESTRUTURA  DO LABORATÓRIO",
-            "observado": "Existe um ambiente com racks e guias apropriadas para a oferta do curso.",
-            "oportunidade": "Existem equipamentos de investimento 2024.",
-            "observacao_geral": "Equipamentos de investimento chegaram 2025, ver lista de equipamentos abaixo",
-            "acompanhado_por": "IRAN/NTI"
-          },
-          {
-            "descricao": "ESTRUTURA DE APLICATIVOS",
-            "acompanhado_por": "IRAN/NTI"
-          },
-          {
-            "descricao": "DISPOSITIVOS DE APOIO PARA AULAS PRÁTICAS",
-            "observado": "Existem equipamentos do investimento de 2024, que chegaram 2025.",
-            "oportunidade": "Manter a estrutura organizada, com armários e bancadas de práticas.",
-            "observacao_geral": "Equipamentos de investimento 2024. Sugeri a oferta do curso de MSI (Manutenção e Suporte em Informatica).",
-            "acompanhado_por": "IRAN/NTI"
-          }
-        ],
-        "fontes": [
-          {
-            "arquivo": "TECNOLOGIA DA INFORMAÇÃO",
-            "aba": "TECNOLOGIA DA INFORMAÇÃO",
-            "linha": 10,
-            "data": "2026-02-24"
-          },
-          {
-            "arquivo": "TECNOLOGIA DA INFORMAÇÃO",
-            "aba": "TECNOLOGIA DA INFORMAÇÃO",
-            "linha": 11,
-            "data": "2026-02-24"
-          },
-          {
-            "arquivo": "TECNOLOGIA DA INFORMAÇÃO",
-            "aba": "TECNOLOGIA DA INFORMAÇÃO",
-            "linha": 12,
-            "data": "2026-02-24"
-          },
-          {
-            "arquivo": "TECNOLOGIA DA INFORMAÇÃO",
-            "aba": "TECNOLOGIA DA INFORMAÇÃO",
-            "linha": 13,
-            "data": "2026-02-24"
-          },
-          {
-            "arquivo": "TECNOLOGIA DA INFORMAÇÃO",
-            "aba": "TECNOLOGIA DA INFORMAÇÃO",
-            "linha": 14,
-            "data": "2026-02-24"
-          },
-          {
-            "arquivo": "TECNOLOGIA DA INFORMAÇÃO",
-            "aba": "TECNOLOGIA DA INFORMAÇÃO",
-            "linha": 15,
-            "data": "2026-02-24"
-          }
-        ]
       },
       "Redes de Computadores": {
         "status": "Extraído do relatório Excel",
@@ -3129,32 +2970,129 @@
         "indicadores": [
           {
             "rotulo": "Itens avaliados",
-            "valor": 0
+            "valor": 6
           },
           {
             "rotulo": "Oportunidades",
-            "valor": 1
+            "valor": 4
           },
           {
             "rotulo": "Boas práticas",
-            "valor": 0
+            "valor": 2
           }
         ],
-        "principais_pontos": [],
-        "boas_praticas": [],
+        "principais_pontos": [
+          "11 Laboratórios no total;\n10 de Informática\n01 de Automação\n397 computadores (máquinas de alunos)\nCapacidade total: 426 alunos (diferença de 29 pcs a menor)\nProcessadores:\nIntel i5 9ª e 10ª geração (maioria)\nRyzen 5 (LAB 3 e LAB 10)\nMemória:\nPredominância de 8GB\nLAB 3 e LAB 10 com 16GB\nLAB 1 e LAB 5 em processo de upgrade gradativo para 16GB\nArmazenamento:\nSSD 256GB (maioria)\nSSD 480GB (LAB 2, 3 e 10)\nLAB 6 ainda possui parte das máquinas com HD\nHD já removido em alguns laboratórios",
+          "Os Aplicativos instalados, suprem as necessidades dos docentes para as aulas de DS e outros cursos de TI.",
+          "Kits de arduino e IoT (18).",
+          "Existe um ambiente com racks e guias apropriadas para a oferta do curso.",
+          "Existem equipamentos do investimento de 2024, que chegaram 2025."
+        ],
+        "boas_praticas": [
+          "Laboratórios organizados e identificados.\nParcial padronização de hardware.\nProcesso em andamento para upgrade de memória.\nRemoção progressiva de HDD.\nUso de imagem padrão para replicação de sistemas.\nAmbientes LAB 3 e LAB 10 adequados para aplicações mais robustas.",
+          "Imagem de replica de discos para todos os Laboratorios da unidade, otimizando a utilização para o curso *"
+        ],
         "oportunidades": [
-          "Padronização de todos os laboratórios para 16 GB de RAM e SSD de maior capacidade; eliminação definitiva de HD mecânico; adequação da quantidade de computadores à capacidade das salas; atualização tecnológica visando softwares mais robustos."
+          "Padronização de todos os laboratórios para 16 GB de RAM e SSD de maior capacidade; eliminação definitiva de HD mecânico; adequação da quantidade de computadores à capacidade das salas; atualização tecnológica visando softwares mais robustos.",
+          "Padronizar memória RAM para 16GB em todos os laboratórios.\nPadronizar SSD mínimo de 480GB.\nEliminar totalmente HD mecânico (LAB 6).\nAvaliar compatibilidade futura com Windows 11 e softwares Autodesk atualizados.\n Equalizar número de máquinas x capacidade física.",
+          "Existem equipamentos de investimento 2024.",
+          "Manter a estrutura organizada, com armários e bancadas de práticas."
         ],
         "recomendacoes": [],
-        "observacoes": [],
+        "observacoes": [
+          "Configuração geral adequada para cursos técnicos regulares.\nLAB 3 e LAB 10 apresentam melhor desempenho para softwares mais pesados (Revit, AutoCAD, modelagem 3D).\nPersistência de máquinas com HD no LAB 6, impactando desempenho.\nPredominância de 8GB de RAM — atende uso básico, mas limita aplicações como Revit.\nSSD 256GB pode ficar no limite para softwares gráficos + atualizações do sistema.\nDiferença entre número de máquinas e capacidade em alguns laboratórios (ex.: LAB 7 e LAB 10).",
+          "Equipamentos de investimento chegaram 2025, ver lista de equipamentos abaixo",
+          "Equipamentos de investimento 2024. Sugeri a oferta do curso de MSI (Manutenção e Suporte em Informatica)."
+        ],
         "responsaveis": [],
         "prazos": [],
-        "status_itens": [],
-        "itens": [],
+        "status_itens": [
+          "C",
+          "A",
+          "D"
+        ],
+        "itens": [
+          {
+            "descricao": "ESTRUTURA  DO LABORATÓRIO",
+            "observado": "11 Laboratórios no total;\n10 de Informática\n01 de Automação\n397 computadores (máquinas de alunos)\nCapacidade total: 426 alunos (diferença de 29 pcs a menor)\nProcessadores:\nIntel i5 9ª e 10ª geração (maioria)\nRyzen 5 (LAB 3 e LAB 10)\nMemória:\nPredominância de 8GB\nLAB 3 e LAB 10 com 16GB\nLAB 1 e LAB 5 em processo de upgrade gradativo para 16GB\nArmazenamento:\nSSD 256GB (maioria)\nSSD 480GB (LAB 2, 3 e 10)\nLAB 6 ainda possui parte das máquinas com HD\nHD já removido em alguns laboratórios",
+            "boa_pratica": "Laboratórios organizados e identificados.\nParcial padronização de hardware.\nProcesso em andamento para upgrade de memória.\nRemoção progressiva de HDD.\nUso de imagem padrão para replicação de sistemas.\nAmbientes LAB 3 e LAB 10 adequados para aplicações mais robustas.",
+            "oportunidade": "Padronizar memória RAM para 16GB em todos os laboratórios.\nPadronizar SSD mínimo de 480GB.\nEliminar totalmente HD mecânico (LAB 6).\nAvaliar compatibilidade futura com Windows 11 e softwares Autodesk atualizados.\n Equalizar número de máquinas x capacidade física.",
+            "observacao_geral": "Configuração geral adequada para cursos técnicos regulares.\nLAB 3 e LAB 10 apresentam melhor desempenho para softwares mais pesados (Revit, AutoCAD, modelagem 3D).\nPersistência de máquinas com HD no LAB 6, impactando desempenho.\nPredominância de 8GB de RAM — atende uso básico, mas limita aplicações como Revit.\nSSD 256GB pode ficar no limite para softwares gráficos + atualizações do sistema.\nDiferença entre número de máquinas e capacidade em alguns laboratórios (ex.: LAB 7 e LAB 10).",
+            "status": "C",
+            "acompanhado_por": "IRAN/NTI"
+          },
+          {
+            "descricao": "ESTRUTURA DE APLICATIVOS",
+            "observado": "Os Aplicativos instalados, suprem as necessidades dos docentes para as aulas de DS e outros cursos de TI.",
+            "boa_pratica": "Imagem de replica de discos para todos os Laboratorios da unidade, otimizando a utilização para o curso *",
+            "status": "A",
+            "acompanhado_por": "IRAN/NTI"
+          },
+          {
+            "descricao": "DISPOSITIVOS DE APOIO PARA AULAS PRÁTICAS",
+            "observado": "Kits de arduino e IoT (18).",
+            "status": "D",
+            "acompanhado_por": "IRAN/NTI"
+          },
+          {
+            "descricao": "ESTRUTURA  DO LABORATÓRIO",
+            "observado": "Existe um ambiente com racks e guias apropriadas para a oferta do curso.",
+            "oportunidade": "Existem equipamentos de investimento 2024.",
+            "observacao_geral": "Equipamentos de investimento chegaram 2025, ver lista de equipamentos abaixo",
+            "acompanhado_por": "IRAN/NTI"
+          },
+          {
+            "descricao": "ESTRUTURA DE APLICATIVOS",
+            "acompanhado_por": "IRAN/NTI"
+          },
+          {
+            "descricao": "DISPOSITIVOS DE APOIO PARA AULAS PRÁTICAS",
+            "observado": "Existem equipamentos do investimento de 2024, que chegaram 2025.",
+            "oportunidade": "Manter a estrutura organizada, com armários e bancadas de práticas.",
+            "observacao_geral": "Equipamentos de investimento 2024. Sugeri a oferta do curso de MSI (Manutenção e Suporte em Informatica).",
+            "acompanhado_por": "IRAN/NTI"
+          }
+        ],
         "fontes": [
           {
             "arquivo": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pptx",
             "aba": "Slide consolidado - Lauro de Freitas"
+          },
+          {
+            "arquivo": "TECNOLOGIA DA INFORMAÇÃO",
+            "aba": "TECNOLOGIA DA INFORMAÇÃO",
+            "linha": 10,
+            "data": "2026-02-24"
+          },
+          {
+            "arquivo": "TECNOLOGIA DA INFORMAÇÃO",
+            "aba": "TECNOLOGIA DA INFORMAÇÃO",
+            "linha": 11,
+            "data": "2026-02-24"
+          },
+          {
+            "arquivo": "TECNOLOGIA DA INFORMAÇÃO",
+            "aba": "TECNOLOGIA DA INFORMAÇÃO",
+            "linha": 12,
+            "data": "2026-02-24"
+          },
+          {
+            "arquivo": "TECNOLOGIA DA INFORMAÇÃO",
+            "aba": "TECNOLOGIA DA INFORMAÇÃO",
+            "linha": 13,
+            "data": "2026-02-24"
+          },
+          {
+            "arquivo": "TECNOLOGIA DA INFORMAÇÃO",
+            "aba": "TECNOLOGIA DA INFORMAÇÃO",
+            "linha": 14,
+            "data": "2026-02-24"
+          },
+          {
+            "arquivo": "TECNOLOGIA DA INFORMAÇÃO",
+            "aba": "TECNOLOGIA DA INFORMAÇÃO",
+            "linha": 15,
+            "data": "2026-02-24"
           }
         ],
         "resumo_executivo": "Padronização de todos os laboratórios para 16 GB de RAM e SSD de maior capacidade; eliminação definitiva de HD mecânico; adequação da quantidade de computadores à capacidade das salas; atualização tecnológica visando softwares mais robustos.",
@@ -3248,7 +3186,7 @@
         "nome": "Iran",
         "avatar": null,
         "areas": [
-          "Tecnologia da Informação",
+          "Desenvolvimento de Sistemas / Informática",
           "Redes de Computadores"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
@@ -3289,9 +3227,8 @@
         "nome": "Paulo Filho",
         "avatar": "assets/avatars/paulo-filho.jpeg",
         "areas": [
-          "Tecnologia da Informação",
-          "Redes de Computadores",
-          "Desenvolvimento de Sistemas / Informática"
+          "Desenvolvimento de Sistemas / Informática",
+          "Redes de Computadores"
         ],
         "origem": "Validação manual do responsável pelo projeto"
       },
@@ -3565,7 +3502,7 @@
     "areas": [
       "Segurança do Trabalho",
       "Eletromecânica",
-      "Tecnologia da Informação",
+      "Desenvolvimento de Sistemas / Informática",
       "Construção Civil",
       "Eletrotécnica",
       "Automação"
@@ -3888,84 +3825,6 @@
           }
         ]
       },
-      "Tecnologia da Informação": {
-        "status": "Extraído do relatório Excel",
-        "resumo": "*10 ambientes de laboratório*\n07 Laboratórios de Informática\n02 Laboratórios de Automação\n01 Telecentro\n295 computadores próprios\n47 máquinas locadas\nTotal geral em operação: 342 máquinas\nCapacidade total de ocupação: 362 alunos (Diferença de 20…",
-        "indicadores": [
-          {
-            "rotulo": "Itens avaliados",
-            "valor": 3
-          },
-          {
-            "rotulo": "Oportunidades",
-            "valor": 1
-          },
-          {
-            "rotulo": "Boas práticas",
-            "valor": 2
-          }
-        ],
-        "principais_pontos": [
-          "*10 ambientes de laboratório*\n07 Laboratórios de Informática\n02 Laboratórios de Automação\n01 Telecentro\n295 computadores próprios\n47 máquinas locadas\nTotal geral em operação: 342 máquinas\nCapacidade total de ocupação: 362 alunos (Diferença de 20 pcs).\n*Configuração Geral Encontrada\nArmazenamento\nPredominância de SSD (256GB, 500GB e 512GB)\nHD mecânico já removido onde existia\n*Laboratórios com SSD 500GB apresentam melhor margem operacional\nMemória RAM\nPredominância de 8GB\n*Laboratório 7 (Antiga sala 21) com 16GB\n*Laboratórios 02 e 03 com upgrade para 16GB em aquisição\nPresença de máquinas locadas em:\nLab 06 (6 máquinas)\nLab Medidas (29 locadas)\nTelecentro (12 locadas)",
-          "Os Aplicativos instalados, suprem as necessidades dos docentes para as aulas de DS e outros cursos de TI.",
-          "Kits de arduino e IoT (07), necessidade de 01 kit para cada 2 alunos, o ideal é ter kits especificos para cada área."
-        ],
-        "boas_praticas": [
-          "Renovação recente de parte significativa das máquinas.\nPredominância de SSD (eliminação de HD).\nInício de upgrade de memória em LAB 02 e 03.\nLaboratório 7 já adequado para aplicações de maior demanda.\nEstrutura de automação com ambientes dedicados.",
-          "Imagem de replica de discos para todos os Laboratorios da unidade, otimizando a utilização para o curso *"
-        ],
-        "oportunidades": [
-          "Padronizar memória RAM para 16GB em todos os laboratórios.\nPadronizar armazenamento mínimo para 500GB/512GB SSD.\nReduzir dependência de máquinas locadas (planejamento de investimento próprio).\nEqualizar número de máquinas x capacidade física em alguns ambientes.\nDefinir laboratório padrão para softwares mais exigentes (Revit, modelagem 3D, simulação, máquinas virtuais)."
-        ],
-        "recomendacoes": [],
-        "observacoes": [
-          "Parque computacional atualizado e predominantemente com SSD.\nExpansão estruturada dos ambientes.\nInício de processo de melhoria de memória RAM.\nNecessidade estratégica de:\nPadronização de 16GB RAM.\nPadronização de SSD mínimo 500GB.\nPlanejamento de substituição gradual das máquinas locadas.\nO cenário atual atende plenamente cursos técnicos e tecnológicos, porém a padronização elevaria o nível para médio/alto desempenho e aumentaria a longevidade do parque para 4–5 anos."
-        ],
-        "responsaveis": [],
-        "prazos": [],
-        "status_itens": [],
-        "itens": [
-          {
-            "descricao": "ESTRUTURA  DO LABORATÓRIO",
-            "observado": "*10 ambientes de laboratório*\n07 Laboratórios de Informática\n02 Laboratórios de Automação\n01 Telecentro\n295 computadores próprios\n47 máquinas locadas\nTotal geral em operação: 342 máquinas\nCapacidade total de ocupação: 362 alunos (Diferença de 20 pcs).\n*Configuração Geral Encontrada\nArmazenamento\nPredominância de SSD (256GB, 500GB e 512GB)\nHD mecânico já removido onde existia\n*Laboratórios com SSD 500GB apresentam melhor margem operacional\nMemória RAM\nPredominância de 8GB\n*Laboratório 7 (Antiga sala 21) com 16GB\n*Laboratórios 02 e 03 com upgrade para 16GB em aquisição\nPresença de máquinas locadas em:\nLab 06 (6 máquinas)\nLab Medidas (29 locadas)\nTelecentro (12 locadas)",
-            "boa_pratica": "Renovação recente de parte significativa das máquinas.\nPredominância de SSD (eliminação de HD).\nInício de upgrade de memória em LAB 02 e 03.\nLaboratório 7 já adequado para aplicações de maior demanda.\nEstrutura de automação com ambientes dedicados.",
-            "oportunidade": "Padronizar memória RAM para 16GB em todos os laboratórios.\nPadronizar armazenamento mínimo para 500GB/512GB SSD.\nReduzir dependência de máquinas locadas (planejamento de investimento próprio).\nEqualizar número de máquinas x capacidade física em alguns ambientes.\nDefinir laboratório padrão para softwares mais exigentes (Revit, modelagem 3D, simulação, máquinas virtuais).",
-            "observacao_geral": "Parque computacional atualizado e predominantemente com SSD.\nExpansão estruturada dos ambientes.\nInício de processo de melhoria de memória RAM.\nNecessidade estratégica de:\nPadronização de 16GB RAM.\nPadronização de SSD mínimo 500GB.\nPlanejamento de substituição gradual das máquinas locadas.\nO cenário atual atende plenamente cursos técnicos e tecnológicos, porém a padronização elevaria o nível para médio/alto desempenho e aumentaria a longevidade do parque para 4–5 anos.",
-            "acompanhado_por": "NTI/Westen"
-          },
-          {
-            "descricao": "ESTRUTURA DE APLICATIVOS",
-            "observado": "Os Aplicativos instalados, suprem as necessidades dos docentes para as aulas de DS e outros cursos de TI.",
-            "boa_pratica": "Imagem de replica de discos para todos os Laboratorios da unidade, otimizando a utilização para o curso *",
-            "acompanhado_por": "NTI/Westen"
-          },
-          {
-            "descricao": "DISPOSITIVOS DE APOIO PARA AULAS PRÁTICAS",
-            "observado": "Kits de arduino e IoT (07), necessidade de 01 kit para cada 2 alunos, o ideal é ter kits especificos para cada área.",
-            "acompanhado_por": "NTI/Westen"
-          }
-        ],
-        "fontes": [
-          {
-            "arquivo": "TECNOLOGIA DA INFORMAÇÃO",
-            "aba": "TECNOLOGIA DA INFORMAÇÃO",
-            "linha": 10,
-            "data": "2026-02-26"
-          },
-          {
-            "arquivo": "TECNOLOGIA DA INFORMAÇÃO",
-            "aba": "TECNOLOGIA DA INFORMAÇÃO",
-            "linha": 11,
-            "data": "2026-02-26"
-          },
-          {
-            "arquivo": "TECNOLOGIA DA INFORMAÇÃO",
-            "aba": "TECNOLOGIA DA INFORMAÇÃO",
-            "linha": 12,
-            "data": "2026-02-26"
-          }
-        ]
-      },
       "Construção Civil": {
         "status": "Extraído do relatório Excel",
         "resumo": "Laboratório montado com bastante espaço, bancadas e equipamentos necessários ao atendimento das UC's de Módulo 1",
@@ -4251,6 +4110,84 @@
             "data": "2026-02-26"
           }
         ]
+      },
+      "Desenvolvimento de Sistemas / Informática": {
+        "status": "Extraído do relatório Excel",
+        "resumo": "*10 ambientes de laboratório*\n07 Laboratórios de Informática\n02 Laboratórios de Automação\n01 Telecentro\n295 computadores próprios\n47 máquinas locadas\nTotal geral em operação: 342 máquinas\nCapacidade total de ocupação: 362 alunos (Diferença de 20…",
+        "indicadores": [
+          {
+            "rotulo": "Itens avaliados",
+            "valor": 3
+          },
+          {
+            "rotulo": "Oportunidades",
+            "valor": 1
+          },
+          {
+            "rotulo": "Boas práticas",
+            "valor": 2
+          }
+        ],
+        "principais_pontos": [
+          "*10 ambientes de laboratório*\n07 Laboratórios de Informática\n02 Laboratórios de Automação\n01 Telecentro\n295 computadores próprios\n47 máquinas locadas\nTotal geral em operação: 342 máquinas\nCapacidade total de ocupação: 362 alunos (Diferença de 20 pcs).\n*Configuração Geral Encontrada\nArmazenamento\nPredominância de SSD (256GB, 500GB e 512GB)\nHD mecânico já removido onde existia\n*Laboratórios com SSD 500GB apresentam melhor margem operacional\nMemória RAM\nPredominância de 8GB\n*Laboratório 7 (Antiga sala 21) com 16GB\n*Laboratórios 02 e 03 com upgrade para 16GB em aquisição\nPresença de máquinas locadas em:\nLab 06 (6 máquinas)\nLab Medidas (29 locadas)\nTelecentro (12 locadas)",
+          "Os Aplicativos instalados, suprem as necessidades dos docentes para as aulas de DS e outros cursos de TI.",
+          "Kits de arduino e IoT (07), necessidade de 01 kit para cada 2 alunos, o ideal é ter kits especificos para cada área."
+        ],
+        "boas_praticas": [
+          "Renovação recente de parte significativa das máquinas.\nPredominância de SSD (eliminação de HD).\nInício de upgrade de memória em LAB 02 e 03.\nLaboratório 7 já adequado para aplicações de maior demanda.\nEstrutura de automação com ambientes dedicados.",
+          "Imagem de replica de discos para todos os Laboratorios da unidade, otimizando a utilização para o curso *"
+        ],
+        "oportunidades": [
+          "Padronizar memória RAM para 16GB em todos os laboratórios.\nPadronizar armazenamento mínimo para 500GB/512GB SSD.\nReduzir dependência de máquinas locadas (planejamento de investimento próprio).\nEqualizar número de máquinas x capacidade física em alguns ambientes.\nDefinir laboratório padrão para softwares mais exigentes (Revit, modelagem 3D, simulação, máquinas virtuais)."
+        ],
+        "recomendacoes": [],
+        "observacoes": [
+          "Parque computacional atualizado e predominantemente com SSD.\nExpansão estruturada dos ambientes.\nInício de processo de melhoria de memória RAM.\nNecessidade estratégica de:\nPadronização de 16GB RAM.\nPadronização de SSD mínimo 500GB.\nPlanejamento de substituição gradual das máquinas locadas.\nO cenário atual atende plenamente cursos técnicos e tecnológicos, porém a padronização elevaria o nível para médio/alto desempenho e aumentaria a longevidade do parque para 4–5 anos."
+        ],
+        "responsaveis": [],
+        "prazos": [],
+        "status_itens": [],
+        "itens": [
+          {
+            "descricao": "ESTRUTURA  DO LABORATÓRIO",
+            "observado": "*10 ambientes de laboratório*\n07 Laboratórios de Informática\n02 Laboratórios de Automação\n01 Telecentro\n295 computadores próprios\n47 máquinas locadas\nTotal geral em operação: 342 máquinas\nCapacidade total de ocupação: 362 alunos (Diferença de 20 pcs).\n*Configuração Geral Encontrada\nArmazenamento\nPredominância de SSD (256GB, 500GB e 512GB)\nHD mecânico já removido onde existia\n*Laboratórios com SSD 500GB apresentam melhor margem operacional\nMemória RAM\nPredominância de 8GB\n*Laboratório 7 (Antiga sala 21) com 16GB\n*Laboratórios 02 e 03 com upgrade para 16GB em aquisição\nPresença de máquinas locadas em:\nLab 06 (6 máquinas)\nLab Medidas (29 locadas)\nTelecentro (12 locadas)",
+            "boa_pratica": "Renovação recente de parte significativa das máquinas.\nPredominância de SSD (eliminação de HD).\nInício de upgrade de memória em LAB 02 e 03.\nLaboratório 7 já adequado para aplicações de maior demanda.\nEstrutura de automação com ambientes dedicados.",
+            "oportunidade": "Padronizar memória RAM para 16GB em todos os laboratórios.\nPadronizar armazenamento mínimo para 500GB/512GB SSD.\nReduzir dependência de máquinas locadas (planejamento de investimento próprio).\nEqualizar número de máquinas x capacidade física em alguns ambientes.\nDefinir laboratório padrão para softwares mais exigentes (Revit, modelagem 3D, simulação, máquinas virtuais).",
+            "observacao_geral": "Parque computacional atualizado e predominantemente com SSD.\nExpansão estruturada dos ambientes.\nInício de processo de melhoria de memória RAM.\nNecessidade estratégica de:\nPadronização de 16GB RAM.\nPadronização de SSD mínimo 500GB.\nPlanejamento de substituição gradual das máquinas locadas.\nO cenário atual atende plenamente cursos técnicos e tecnológicos, porém a padronização elevaria o nível para médio/alto desempenho e aumentaria a longevidade do parque para 4–5 anos.",
+            "acompanhado_por": "NTI/Westen"
+          },
+          {
+            "descricao": "ESTRUTURA DE APLICATIVOS",
+            "observado": "Os Aplicativos instalados, suprem as necessidades dos docentes para as aulas de DS e outros cursos de TI.",
+            "boa_pratica": "Imagem de replica de discos para todos os Laboratorios da unidade, otimizando a utilização para o curso *",
+            "acompanhado_por": "NTI/Westen"
+          },
+          {
+            "descricao": "DISPOSITIVOS DE APOIO PARA AULAS PRÁTICAS",
+            "observado": "Kits de arduino e IoT (07), necessidade de 01 kit para cada 2 alunos, o ideal é ter kits especificos para cada área.",
+            "acompanhado_por": "NTI/Westen"
+          }
+        ],
+        "fontes": [
+          {
+            "arquivo": "TECNOLOGIA DA INFORMAÇÃO",
+            "aba": "TECNOLOGIA DA INFORMAÇÃO",
+            "linha": 10,
+            "data": "2026-02-26"
+          },
+          {
+            "arquivo": "TECNOLOGIA DA INFORMAÇÃO",
+            "aba": "TECNOLOGIA DA INFORMAÇÃO",
+            "linha": 11,
+            "data": "2026-02-26"
+          },
+          {
+            "arquivo": "TECNOLOGIA DA INFORMAÇÃO",
+            "aba": "TECNOLOGIA DA INFORMAÇÃO",
+            "linha": 12,
+            "data": "2026-02-26"
+          }
+        ]
       }
     },
     "visitantes": [
@@ -4336,7 +4273,7 @@
         "nome": "Paulo Filho",
         "avatar": "assets/avatars/paulo-filho.jpeg",
         "areas": [
-          "Tecnologia da Informação"
+          "Desenvolvimento de Sistemas / Informática"
         ],
         "origem": "Validação manual do responsável pelo projeto"
       },
@@ -4411,7 +4348,6 @@
       "Hidráulica",
       "Eletrotécnica",
       "CQP de INFORMÁTICA",
-      "Tecnologia da Informação",
       "Desenvolvimento de Sistemas / Informática"
     ],
     "especialistas": [
@@ -5581,9 +5517,9 @@
           }
         ]
       },
-      "Tecnologia da Informação": {
+      "Desenvolvimento de Sistemas / Informática": {
         "status": "Extraído do relatório Excel",
-        "resumo": "19 Computadores + 1",
+        "resumo": "Adequar os laboratórios para atendimento aos cursos de Desenvolvimento de Sistemas, com atualização para Windows 11, padronização para 16 GB de RAM e SSD de 480 GB ou superior, implantação da imagem padrão institucional, instalação dos softwares necessários e aquisição de kits de Arduino para as atividades práticas.",
         "indicadores": [
           {
             "rotulo": "Itens avaliados",
@@ -5591,7 +5527,7 @@
           },
           {
             "rotulo": "Oportunidades",
-            "valor": 1
+            "valor": 2
           },
           {
             "rotulo": "Boas práticas",
@@ -5604,6 +5540,7 @@
         ],
         "boas_praticas": [],
         "oportunidades": [
+          "Adequar os laboratórios para atendimento aos cursos de Desenvolvimento de Sistemas, com atualização para Windows 11, padronização para 16 GB de RAM e SSD de 480 GB ou superior, implantação da imagem padrão institucional, instalação dos softwares necessários e aquisição de kits de Arduino para as atividades práticas.",
           "Padronizar memória RAM para 16GB em todos os laboratórios.\nPadronizar SSD mínimo de 480GB.\nAtualizar os SO das maquinas para Windows 11, pedir orientação a GTI na pessoa de Eriverton ou Solicitar Imagem dos aplicativos para uma unidade com mais maturidade a exemplo do Dendezeiros ou Lauro, sugiro buscar os responsáveis por essas unidades, pode falar em meu nome. Tambem é preciso adiquirir kits de Arduino para o curso de DS sugiro 1 Kit para dois alunos."
         ],
         "recomendacoes": [],
@@ -5633,6 +5570,10 @@
         ],
         "fontes": [
           {
+            "arquivo": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pptx",
+            "aba": "Slide consolidado - Teixeira de Freitas"
+          },
+          {
             "arquivo": "Tecnologia da Informação",
             "aba": "Tecnologia da Informação",
             "linha": 10,
@@ -5649,41 +5590,6 @@
             "aba": "Tecnologia da Informação",
             "linha": 12,
             "data": "2026-03-03"
-          }
-        ]
-      },
-      "Desenvolvimento de Sistemas / Informática": {
-        "status": "Extraído do relatório Excel",
-        "resumo": "Adequar os laboratórios para atendimento aos cursos de Desenvolvimento de Sistemas, com atualização para Windows 11, padronização para 16 GB de RAM e SSD de 480 GB ou superior, implantação da imagem padrão institucional, instalação dos softwares necessários e aquisição de kits de Arduino para as atividades práticas.",
-        "indicadores": [
-          {
-            "rotulo": "Itens avaliados",
-            "valor": 0
-          },
-          {
-            "rotulo": "Oportunidades",
-            "valor": 1
-          },
-          {
-            "rotulo": "Boas práticas",
-            "valor": 0
-          }
-        ],
-        "principais_pontos": [],
-        "boas_praticas": [],
-        "oportunidades": [
-          "Adequar os laboratórios para atendimento aos cursos de Desenvolvimento de Sistemas, com atualização para Windows 11, padronização para 16 GB de RAM e SSD de 480 GB ou superior, implantação da imagem padrão institucional, instalação dos softwares necessários e aquisição de kits de Arduino para as atividades práticas."
-        ],
-        "recomendacoes": [],
-        "observacoes": [],
-        "responsaveis": [],
-        "prazos": [],
-        "status_itens": [],
-        "itens": [],
-        "fontes": [
-          {
-            "arquivo": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pptx",
-            "aba": "Slide consolidado - Teixeira de Freitas"
           }
         ],
         "resumo_executivo": "Adequar os laboratórios para atendimento aos cursos de Desenvolvimento de Sistemas, com atualização para Windows 11, padronização para 16 GB de RAM e SSD de 480 GB ou superior, implantação da imagem padrão institucional, instalação dos softwares necessários e aquisição de kits de Arduino para as atividades práticas.",
@@ -5752,7 +5658,7 @@
         "avatar": null,
         "areas": [
           "CQP de INFORMÁTICA",
-          "Tecnologia da Informação"
+          "Desenvolvimento de Sistemas / Informática"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
       },
@@ -5762,7 +5668,6 @@
         "avatar": "assets/avatars/paulo-filho.jpeg",
         "areas": [
           "CQP de INFORMÁTICA",
-          "Tecnologia da Informação",
           "Desenvolvimento de Sistemas / Informática"
         ],
         "modalidade": "remoto",
@@ -5823,7 +5728,7 @@
       "Equipamentos Elétricos",
       "Celulose e Papel",
       "CQP de INFORMÁTICA",
-      "Tecnologia da Informação"
+      "Desenvolvimento de Sistemas / Informática"
     ],
     "especialistas": [
       "ESP001",
@@ -6458,7 +6363,7 @@
           }
         ]
       },
-      "Tecnologia da Informação": {
+      "Desenvolvimento de Sistemas / Informática": {
         "status": "Extraído do relatório Excel",
         "resumo": "15 Computadores + 6",
         "indicadores": [
@@ -6552,7 +6457,7 @@
         "avatar": null,
         "areas": [
           "CQP de INFORMÁTICA",
-          "Tecnologia da Informação"
+          "Desenvolvimento de Sistemas / Informática"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
       },
@@ -6562,7 +6467,7 @@
         "avatar": "assets/avatars/paulo-filho.jpeg",
         "areas": [
           "CQP de INFORMÁTICA",
-          "Tecnologia da Informação"
+          "Desenvolvimento de Sistemas / Informática"
         ],
         "modalidade": "remoto",
         "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
@@ -6615,10 +6520,9 @@
       "Metrologia / Manutenção",
       "Refrigeração / Segurança",
       "Logística",
-      "Ds",
-      "Tecnologia da Informação",
-      "Eletromecânica",
-      "Desenvolvimento de Sistemas / Informática"
+      "Desenvolvimento de Sistemas",
+      "Desenvolvimento de Sistemas / Informática",
+      "Eletromecânica"
     ],
     "especialistas": [
       "ESP003",
@@ -7753,132 +7657,6 @@
         ],
         "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
       },
-      "Ds": {
-        "status": "Extraído do relatório Excel",
-        "resumo": "33 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. algumas maquinas com 8GB de memória e outras com 16GB, SSD de 256GB, porém existem computadores co Disco mecânico ainda.(HDD) + 17 computadores no Lab. de Automação.",
-        "indicadores": [
-          {
-            "rotulo": "Itens avaliados",
-            "valor": 1
-          },
-          {
-            "rotulo": "Oportunidades",
-            "valor": 1
-          },
-          {
-            "rotulo": "Boas práticas",
-            "valor": 0
-          }
-        ],
-        "principais_pontos": [
-          "33 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. algumas maquinas com 8GB de memória e outras com 16GB, SSD de 256GB, porém existem computadores co Disco mecânico ainda.(HDD) + 17 computadores no Lab. de Automação."
-        ],
-        "boas_praticas": [],
-        "oportunidades": [
-          "1 - Aumento da capacidade da memória RAM e  dos discos dos computadores"
-        ],
-        "recomendacoes": [],
-        "observacoes": [],
-        "responsaveis": [],
-        "prazos": [],
-        "status_itens": [
-          "C"
-        ],
-        "itens": [
-          {
-            "descricao": "ESTRUTURA  DO LABORATÓRIO",
-            "observado": "33 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. algumas maquinas com 8GB de memória e outras com 16GB, SSD de 256GB, porém existem computadores co Disco mecânico ainda.(HDD) + 17 computadores no Lab. de Automação.",
-            "oportunidade": "1 - Aumento da capacidade da memória RAM e  dos discos dos computadores",
-            "status": "C",
-            "acompanhado_por": "Reinaldo Luiz NTI"
-          }
-        ],
-        "fontes": [
-          {
-            "arquivo": "RELATORIO VISITA - Especialistas SENAI BA_UN ILHEUS.xlsx",
-            "aba": "Tecnologia da Informação",
-            "linha": 10,
-            "data": "2026-03-18"
-          }
-        ]
-      },
-      "Tecnologia da Informação": {
-        "status": "Extraído do relatório Excel",
-        "resumo": "33 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. algumas maquinas com 8GB de memória e outras com 16GB, SSD de 256GB, porém existem computadores co Disco mecânico ainda.(HDD) + 17 computadores…",
-        "indicadores": [
-          {
-            "rotulo": "Itens avaliados",
-            "valor": 3
-          },
-          {
-            "rotulo": "Oportunidades",
-            "valor": 1
-          },
-          {
-            "rotulo": "Boas práticas",
-            "valor": 0
-          }
-        ],
-        "principais_pontos": [
-          "33 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. algumas maquinas com 8GB de memória e outras com 16GB, SSD de 256GB, porém existem computadores co Disco mecânico ainda.(HDD) + 17 computadores no Lab. de Automação.",
-          "Os Aplicativos instalados, atendem ao curso de DS.",
-          "Existem kits de arduino para aulas de DS, IoT"
-        ],
-        "boas_praticas": [],
-        "oportunidades": [
-          "1 - Aumento da capacidade da memória RAM e  dos discos dos computadores"
-        ],
-        "recomendacoes": [],
-        "observacoes": [],
-        "responsaveis": [],
-        "prazos": [],
-        "status_itens": [
-          "C",
-          "A",
-          "D"
-        ],
-        "itens": [
-          {
-            "descricao": "ESTRUTURA  DO LABORATÓRIO",
-            "observado": "33 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. algumas maquinas com 8GB de memória e outras com 16GB, SSD de 256GB, porém existem computadores co Disco mecânico ainda.(HDD) + 17 computadores no Lab. de Automação.",
-            "oportunidade": "1 - Aumento da capacidade da memória RAM e  dos discos dos computadores",
-            "status": "C",
-            "acompanhado_por": "Reinaldo Luiz NTI"
-          },
-          {
-            "descricao": "ESTRUTURA DE APLICATIVOS",
-            "observado": "Os Aplicativos instalados, atendem ao curso de DS.",
-            "status": "A",
-            "acompanhado_por": "Reinaldo Luiz NTI"
-          },
-          {
-            "descricao": "DISPOSITIVOS DE APOIO PARA AULAS PRÁTICAS",
-            "observado": "Existem kits de arduino para aulas de DS, IoT",
-            "status": "D",
-            "acompanhado_por": "Reinaldo Luiz NTI"
-          }
-        ],
-        "fontes": [
-          {
-            "arquivo": "Tecnologia da Informação",
-            "aba": "Tecnologia da Informação",
-            "linha": 10,
-            "data": "2026-03-17"
-          },
-          {
-            "arquivo": "Tecnologia da Informação",
-            "aba": "Tecnologia da Informação",
-            "linha": 11,
-            "data": "2026-03-17"
-          },
-          {
-            "arquivo": "Tecnologia da Informação",
-            "aba": "Tecnologia da Informação",
-            "linha": 12,
-            "data": "2026-03-17"
-          }
-        ]
-      },
       "Eletromecânica": {
         "status": "Extraído do relatório Excel",
         "resumo": "Implantar área de soldagem com sistema de exaustão; reorganizar o layout das áreas de manutenção, pneumática/hidráulica e usinagem; adequar equipamentos à NR-12 (especialmente o torno); instalar demarcações de segurança; reposicionar equipamentos conforme o fluxo das práticas; adequar o armazenamento de gases refrigerantes; instalar mantas nas bancadas; prever aquisição de forno para práticas térmicas e avaliar a necessidade de manutenção ou substituição de equipamentos antigos.",
@@ -8091,7 +7869,91 @@
         "indicadores": [
           {
             "rotulo": "Itens avaliados",
+            "valor": 3
+          },
+          {
+            "rotulo": "Oportunidades",
+            "valor": 2
+          },
+          {
+            "rotulo": "Boas práticas",
             "valor": 0
+          }
+        ],
+        "principais_pontos": [
+          "33 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. algumas maquinas com 8GB de memória e outras com 16GB, SSD de 256GB, porém existem computadores co Disco mecânico ainda.(HDD) + 17 computadores no Lab. de Automação.",
+          "Os Aplicativos instalados, atendem ao curso de DS.",
+          "Existem kits de arduino para aulas de DS, IoT"
+        ],
+        "boas_praticas": [],
+        "oportunidades": [
+          "Padronizar os computadores com 16 GB de memória RAM e SSD de maior capacidade, substituindo definitivamente os equipamentos que ainda utilizam HDD para garantir melhor desempenho nas aplicações de desenvolvimento.",
+          "1 - Aumento da capacidade da memória RAM e  dos discos dos computadores"
+        ],
+        "recomendacoes": [],
+        "observacoes": [],
+        "responsaveis": [],
+        "prazos": [],
+        "status_itens": [
+          "C",
+          "A",
+          "D"
+        ],
+        "itens": [
+          {
+            "descricao": "ESTRUTURA  DO LABORATÓRIO",
+            "observado": "33 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. algumas maquinas com 8GB de memória e outras com 16GB, SSD de 256GB, porém existem computadores co Disco mecânico ainda.(HDD) + 17 computadores no Lab. de Automação.",
+            "oportunidade": "1 - Aumento da capacidade da memória RAM e  dos discos dos computadores",
+            "status": "C",
+            "acompanhado_por": "Reinaldo Luiz NTI"
+          },
+          {
+            "descricao": "ESTRUTURA DE APLICATIVOS",
+            "observado": "Os Aplicativos instalados, atendem ao curso de DS.",
+            "status": "A",
+            "acompanhado_por": "Reinaldo Luiz NTI"
+          },
+          {
+            "descricao": "DISPOSITIVOS DE APOIO PARA AULAS PRÁTICAS",
+            "observado": "Existem kits de arduino para aulas de DS, IoT",
+            "status": "D",
+            "acompanhado_por": "Reinaldo Luiz NTI"
+          }
+        ],
+        "fontes": [
+          {
+            "arquivo": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pptx",
+            "aba": "Slide consolidado - Ilhéus"
+          },
+          {
+            "arquivo": "Tecnologia da Informação",
+            "aba": "Tecnologia da Informação",
+            "linha": 10,
+            "data": "2026-03-17"
+          },
+          {
+            "arquivo": "Tecnologia da Informação",
+            "aba": "Tecnologia da Informação",
+            "linha": 11,
+            "data": "2026-03-17"
+          },
+          {
+            "arquivo": "Tecnologia da Informação",
+            "aba": "Tecnologia da Informação",
+            "linha": 12,
+            "data": "2026-03-17"
+          }
+        ],
+        "resumo_executivo": "Padronizar os computadores com 16 GB de memória RAM e SSD de maior capacidade, substituindo definitivamente os equipamentos que ainda utilizam HDD para garantir melhor desempenho nas aplicações de desenvolvimento.",
+        "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
+      },
+      "Desenvolvimento de Sistemas": {
+        "status": "Extraído do relatório Excel",
+        "resumo": "33 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. algumas maquinas com 8GB de memória e outras com 16GB, SSD de 256GB, porém existem computadores co Disco mecânico ainda.(HDD) + 17 computadores no Lab. de Automação.",
+        "indicadores": [
+          {
+            "rotulo": "Itens avaliados",
+            "valor": 1
           },
           {
             "rotulo": "Oportunidades",
@@ -8102,25 +7964,37 @@
             "valor": 0
           }
         ],
-        "principais_pontos": [],
+        "principais_pontos": [
+          "33 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. algumas maquinas com 8GB de memória e outras com 16GB, SSD de 256GB, porém existem computadores co Disco mecânico ainda.(HDD) + 17 computadores no Lab. de Automação."
+        ],
         "boas_praticas": [],
         "oportunidades": [
-          "Padronizar os computadores com 16 GB de memória RAM e SSD de maior capacidade, substituindo definitivamente os equipamentos que ainda utilizam HDD para garantir melhor desempenho nas aplicações de desenvolvimento."
+          "1 - Aumento da capacidade da memória RAM e  dos discos dos computadores"
         ],
         "recomendacoes": [],
         "observacoes": [],
         "responsaveis": [],
         "prazos": [],
-        "status_itens": [],
-        "itens": [],
-        "fontes": [
+        "status_itens": [
+          "C"
+        ],
+        "itens": [
           {
-            "arquivo": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pptx",
-            "aba": "Slide consolidado - Ilhéus"
+            "descricao": "ESTRUTURA  DO LABORATÓRIO",
+            "observado": "33 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. algumas maquinas com 8GB de memória e outras com 16GB, SSD de 256GB, porém existem computadores co Disco mecânico ainda.(HDD) + 17 computadores no Lab. de Automação.",
+            "oportunidade": "1 - Aumento da capacidade da memória RAM e  dos discos dos computadores",
+            "status": "C",
+            "acompanhado_por": "Reinaldo Luiz NTI"
           }
         ],
-        "resumo_executivo": "Padronizar os computadores com 16 GB de memória RAM e SSD de maior capacidade, substituindo definitivamente os equipamentos que ainda utilizam HDD para garantir melhor desempenho nas aplicações de desenvolvimento.",
-        "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
+        "fontes": [
+          {
+            "arquivo": "RELATORIO VISITA - Especialistas SENAI BA_UN ILHEUS.xlsx",
+            "aba": "Tecnologia da Informação",
+            "linha": 10,
+            "data": "2026-03-18"
+          }
+        ]
       }
     },
     "visitantes": [
@@ -8247,8 +8121,8 @@
         "nome": "Reinaldo Luiz NTI",
         "avatar": null,
         "areas": [
-          "Ds",
-          "Tecnologia da Informação"
+          "Desenvolvimento de Sistemas",
+          "Desenvolvimento de Sistemas / Informática"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
       },
@@ -8257,8 +8131,7 @@
         "nome": "Paulo Filho",
         "avatar": "assets/avatars/paulo-filho.jpeg",
         "areas": [
-          "Ds",
-          "Tecnologia da Informação",
+          "Desenvolvimento de Sistemas",
           "Desenvolvimento de Sistemas / Informática"
         ],
         "modalidade": "remoto",
@@ -8302,9 +8175,8 @@
       "Biotecnologia",
       "Alimentos",
       "Área de Práticas",
-      "Tecnologia da Informação",
-      "Construção Civil",
       "Desenvolvimento de Sistemas / Informática",
+      "Construção Civil",
       "IFTP - Biotec",
       "EMI"
     ],
@@ -9128,167 +9000,6 @@
           }
         ]
       },
-      "Tecnologia da Informação": {
-        "status": "Extraído do relatório Excel",
-        "resumo": "Laboratório de Informática 1\nNº de computadores: 25\nPatrimônio: 0003090050\nProcessador: Intel Core i5-14400 (10 núcleos / 16 threads, 2500 MHz)\nRAM: 15,73 GB\nDisco C: 476 GB total | 341 GB livre\nDisco D: 932 GB total | 146 GB livre\nSO: Windows 10 Pro…",
-        "indicadores": [
-          {
-            "rotulo": "Itens avaliados",
-            "valor": 9
-          },
-          {
-            "rotulo": "Oportunidades",
-            "valor": 5
-          },
-          {
-            "rotulo": "Boas práticas",
-            "valor": 0
-          }
-        ],
-        "principais_pontos": [
-          "Laboratório de Informática 1\nNº de computadores: 25\nPatrimônio: 0003090050\nProcessador: Intel Core i5-14400 (10 núcleos / 16 threads, 2500 MHz)\nRAM: 15,73 GB\nDisco C: 476 GB total | 341 GB livre\nDisco D: 932 GB total | 146 GB livre\nSO: Windows 10 Pro Education (Build 26200 v25H2) — 64 bits Hostname: C323-LAB1-016\nIP: 172.26.41.53\nDomínio: senaiba.com.br\nRede: Ethernet — 100 Mbps      Apps instalados:\n• Visual Studio Code 1.102.2\n• Python 3.12.10\n• Figma 125.6.5\n• Arduino IDE 2.3.6\n• CodeBlocks 25.03",
-          "OS APLICATIVOS DEPOIS DE INSTALADOS DE FORMA UNICA NOS LABS PODERÃO RODAR DIVERSOS CURSOS NA ÁREA DE TI",
-          "Quantidade de arduino suficiente para as aulas de eletronica e IOT em DS, entertanto devem ser separados e organizados, oriento comprar mais kits de arduíno.",
-          "Laboratório de Informática — Sala 06\nNº de computadores: 40\nPatrimônio: 0003090055\nProcessador: Intel Core i5-14400 (10 núcleos / 16 threads, 2500 MHz)\nRAM: 15,73 GB\nDisco C: 476 GB total | 326 GB livre\nDisco D: 932 GB total | 146 GB livre\nSO: Windows 10 Pro Education (Build 26200 v25H2) — 64 bits",
-          "Apps instalados:\n• Visual Studio Code 1.112.0\n• Python 3.12.10\n• Google Chrome 146.0\n• GitHub Desktop 3.5.4\n• Arduino IDE 2.3.6",
-          "Laboratório de Informática — Sala (Equipamentos Novos)\nNº de computadores: 11\nPatrimônio: — (sem patrimônio registrado)\nProcessador: Intel Core i5-14400 (10 núcleos / 16 threads, 2500 MHz)\nRAM: 15,73 GB\nDisco C: 476 GB total | 372 GB livre\nDisco D: 932 GB total | 146 GB livre\nSO: Windows 10 Pro Education (Build 26200 v25H2) — 64 bits"
-        ],
-        "boas_praticas": [],
-        "oportunidades": [
-          "Ingressar máquinas no domínio senaiba.com.br. Padronizar hostnames conforme convenção institucional. Priorizar conexão Ethernet.Hostname: C323-LAB1-016\nIP: 172.26.41.53\nDomínio: senaiba.com.br\nRede: Ethernet — 100 Mbps",
-          "Verificar mensalmente a utilização dos espaços dos discos para excluir arquivos desnecessarios dos alunos.",
-          "Manter a estrutura organizada, com armários e bancadas de práticas.",
-          "Hostname: C323-PROV-214\nIP: 192.168.114.22\nDomínio: Sem domínio\nRede: Wi-Fi — 130 Mbps",
-          "Hostname: bozonaro\nIP: 192.168.112.21\nDomínio: Sem domínio\nRede: Wi-Fi — 130 Mbps"
-        ],
-        "recomendacoes": [],
-        "observacoes": [
-          "TOTAL DE 76 Computadores"
-        ],
-        "responsaveis": [],
-        "prazos": [],
-        "status_itens": [
-          "C",
-          "A",
-          "D"
-        ],
-        "itens": [
-          {
-            "descricao": "ESTRUTURA  DO LABORATÓRIO",
-            "observado": "Laboratório de Informática 1\nNº de computadores: 25\nPatrimônio: 0003090050\nProcessador: Intel Core i5-14400 (10 núcleos / 16 threads, 2500 MHz)\nRAM: 15,73 GB\nDisco C: 476 GB total | 341 GB livre\nDisco D: 932 GB total | 146 GB livre\nSO: Windows 10 Pro Education (Build 26200 v25H2) — 64 bits Hostname: C323-LAB1-016\nIP: 172.26.41.53\nDomínio: senaiba.com.br\nRede: Ethernet — 100 Mbps      Apps instalados:\n• Visual Studio Code 1.102.2\n• Python 3.12.10\n• Figma 125.6.5\n• Arduino IDE 2.3.6\n• CodeBlocks 25.03",
-            "oportunidade": "Ingressar máquinas no domínio senaiba.com.br. Padronizar hostnames conforme convenção institucional. Priorizar conexão Ethernet.Hostname: C323-LAB1-016\nIP: 172.26.41.53\nDomínio: senaiba.com.br\nRede: Ethernet — 100 Mbps",
-            "observacao_geral": "TOTAL DE 76 Computadores",
-            "status": "C",
-            "acompanhado_por": "Alexandre"
-          },
-          {
-            "descricao": "ESTRUTURA DE APLICATIVOS",
-            "observado": "OS APLICATIVOS DEPOIS DE INSTALADOS DE FORMA UNICA NOS LABS PODERÃO RODAR DIVERSOS CURSOS NA ÁREA DE TI",
-            "oportunidade": "Verificar mensalmente a utilização dos espaços dos discos para excluir arquivos desnecessarios dos alunos.",
-            "status": "A",
-            "acompanhado_por": "Alexandre"
-          },
-          {
-            "descricao": "DISPOSITIVOS DE APOIO PARA AULAS PRÁTICAS",
-            "observado": "Quantidade de arduino suficiente para as aulas de eletronica e IOT em DS, entertanto devem ser separados e organizados, oriento comprar mais kits de arduíno.",
-            "oportunidade": "Manter a estrutura organizada, com armários e bancadas de práticas.",
-            "status": "D",
-            "acompanhado_por": "Alexandre"
-          },
-          {
-            "descricao": "ESTRUTURA  DO LABORATÓRIO",
-            "observado": "Laboratório de Informática — Sala 06\nNº de computadores: 40\nPatrimônio: 0003090055\nProcessador: Intel Core i5-14400 (10 núcleos / 16 threads, 2500 MHz)\nRAM: 15,73 GB\nDisco C: 476 GB total | 326 GB livre\nDisco D: 932 GB total | 146 GB livre\nSO: Windows 10 Pro Education (Build 26200 v25H2) — 64 bits",
-            "oportunidade": "Hostname: C323-PROV-214\nIP: 192.168.114.22\nDomínio: Sem domínio\nRede: Wi-Fi — 130 Mbps",
-            "acompanhado_por": "Alexandre"
-          },
-          {
-            "descricao": "ESTRUTURA DE APLICATIVOS",
-            "observado": "Apps instalados:\n• Visual Studio Code 1.112.0\n• Python 3.12.10\n• Google Chrome 146.0\n• GitHub Desktop 3.5.4\n• Arduino IDE 2.3.6",
-            "oportunidade": "Verificar mensalmente a utilização dos espaços dos discos para excluir arquivos desnecessarios dos alunos.",
-            "acompanhado_por": "Alexandre"
-          },
-          {
-            "descricao": "DISPOSITIVOS DE APOIO PARA AULAS PRÁTICAS",
-            "observado": "Quantidade de arduino suficiente para as aulas de eletronica e IOT em DS, entertanto devem ser separados e organizados, oriento comprar mais kits de arduíno.",
-            "oportunidade": "Manter a estrutura organizada, com armários e bancadas de práticas.",
-            "acompanhado_por": "Alexandre"
-          },
-          {
-            "descricao": "ESTRUTURA  DO LABORATÓRIO",
-            "observado": "Laboratório de Informática — Sala (Equipamentos Novos)\nNº de computadores: 11\nPatrimônio: — (sem patrimônio registrado)\nProcessador: Intel Core i5-14400 (10 núcleos / 16 threads, 2500 MHz)\nRAM: 15,73 GB\nDisco C: 476 GB total | 372 GB livre\nDisco D: 932 GB total | 146 GB livre\nSO: Windows 10 Pro Education (Build 26200 v25H2) — 64 bits",
-            "oportunidade": "Hostname: bozonaro\nIP: 192.168.112.21\nDomínio: Sem domínio\nRede: Wi-Fi — 130 Mbps",
-            "acompanhado_por": "Alexandre"
-          },
-          {
-            "descricao": "ESTRUTURA DE APLICATIVOS",
-            "observado": "Apps instalados:\n• Visual Studio Code 1.112.0\n• Python 3.12.10\n• Google Chrome 146.0\n• GitHub Desktop 3.5.4\n• Arduino IDE 2.3.6",
-            "oportunidade": "Verificar mensalmente a utilização dos espaços dos discos para excluir arquivos desnecessarios dos alunos.",
-            "acompanhado_por": "Alexandre"
-          },
-          {
-            "descricao": "DISPOSITIVOS DE APOIO PARA AULAS PRÁTICAS",
-            "observado": "Quantidade de arduino suficiente para as aulas de eletronica e IOT em DS, entertanto devem ser separados e organizados, oriento comprar mais kits de arduíno.",
-            "oportunidade": "Manter a estrutura organizada, com armários e bancadas de práticas.",
-            "acompanhado_por": "Alexandre"
-          }
-        ],
-        "fontes": [
-          {
-            "arquivo": "Tecnologia da Informação",
-            "aba": "Tecnologia da Informação",
-            "linha": 10,
-            "data": "2026-04-06"
-          },
-          {
-            "arquivo": "Tecnologia da Informação",
-            "aba": "Tecnologia da Informação",
-            "linha": 11,
-            "data": "2026-04-06"
-          },
-          {
-            "arquivo": "Tecnologia da Informação",
-            "aba": "Tecnologia da Informação",
-            "linha": 12,
-            "data": "2026-04-06"
-          },
-          {
-            "arquivo": "Tecnologia da Informação",
-            "aba": "Tecnologia da Informação",
-            "linha": 13,
-            "data": "2026-04-06"
-          },
-          {
-            "arquivo": "Tecnologia da Informação",
-            "aba": "Tecnologia da Informação",
-            "linha": 14,
-            "data": "2026-04-06"
-          },
-          {
-            "arquivo": "Tecnologia da Informação",
-            "aba": "Tecnologia da Informação",
-            "linha": 15,
-            "data": "2026-04-06"
-          },
-          {
-            "arquivo": "Tecnologia da Informação",
-            "aba": "Tecnologia da Informação",
-            "linha": 16,
-            "data": "2026-04-06"
-          },
-          {
-            "arquivo": "Tecnologia da Informação",
-            "aba": "Tecnologia da Informação",
-            "linha": 17,
-            "data": "2026-04-06"
-          },
-          {
-            "arquivo": "Tecnologia da Informação",
-            "aba": "Tecnologia da Informação",
-            "linha": 18,
-            "data": "2026-04-06"
-          }
-        ]
-      },
       "Construção Civil": {
         "status": "Extraído do relatório Excel",
         "resumo": "Criar espaço próprio para práticas de construção civil, garantindo identidade da área e segurança em relação às atividades elétricas; concluir acabamentos e instalações da prática existente na Arena Coelba; inspecionar periodicamente os kits didáticos e repor ferramentas danificadas ou obsoletas.",
@@ -9378,32 +9089,163 @@
         "indicadores": [
           {
             "rotulo": "Itens avaliados",
-            "valor": 0
+            "valor": 9
           },
           {
             "rotulo": "Oportunidades",
-            "valor": 1
+            "valor": 6
           },
           {
             "rotulo": "Boas práticas",
             "valor": 0
           }
         ],
-        "principais_pontos": [],
+        "principais_pontos": [
+          "Laboratório de Informática 1\nNº de computadores: 25\nPatrimônio: 0003090050\nProcessador: Intel Core i5-14400 (10 núcleos / 16 threads, 2500 MHz)\nRAM: 15,73 GB\nDisco C: 476 GB total | 341 GB livre\nDisco D: 932 GB total | 146 GB livre\nSO: Windows 10 Pro Education (Build 26200 v25H2) — 64 bits Hostname: C323-LAB1-016\nIP: 172.26.41.53\nDomínio: senaiba.com.br\nRede: Ethernet — 100 Mbps      Apps instalados:\n• Visual Studio Code 1.102.2\n• Python 3.12.10\n• Figma 125.6.5\n• Arduino IDE 2.3.6\n• CodeBlocks 25.03",
+          "OS APLICATIVOS DEPOIS DE INSTALADOS DE FORMA UNICA NOS LABS PODERÃO RODAR DIVERSOS CURSOS NA ÁREA DE TI",
+          "Quantidade de arduino suficiente para as aulas de eletronica e IOT em DS, entertanto devem ser separados e organizados, oriento comprar mais kits de arduíno.",
+          "Laboratório de Informática — Sala 06\nNº de computadores: 40\nPatrimônio: 0003090055\nProcessador: Intel Core i5-14400 (10 núcleos / 16 threads, 2500 MHz)\nRAM: 15,73 GB\nDisco C: 476 GB total | 326 GB livre\nDisco D: 932 GB total | 146 GB livre\nSO: Windows 10 Pro Education (Build 26200 v25H2) — 64 bits",
+          "Apps instalados:\n• Visual Studio Code 1.112.0\n• Python 3.12.10\n• Google Chrome 146.0\n• GitHub Desktop 3.5.4\n• Arduino IDE 2.3.6",
+          "Laboratório de Informática — Sala (Equipamentos Novos)\nNº de computadores: 11\nPatrimônio: — (sem patrimônio registrado)\nProcessador: Intel Core i5-14400 (10 núcleos / 16 threads, 2500 MHz)\nRAM: 15,73 GB\nDisco C: 476 GB total | 372 GB livre\nDisco D: 932 GB total | 146 GB livre\nSO: Windows 10 Pro Education (Build 26200 v25H2) — 64 bits"
+        ],
         "boas_praticas": [],
         "oportunidades": [
-          "Ingressar todas as máquinas no domínio institucional; padronizar hostnames; priorizar conexão Ethernet; verificar mensalmente o uso dos discos; organizar kits Arduino em armários e bancadas próprias; avaliar aquisição de novos kits Arduino para ampliar a capacidade de práticas."
+          "Ingressar todas as máquinas no domínio institucional; padronizar hostnames; priorizar conexão Ethernet; verificar mensalmente o uso dos discos; organizar kits Arduino em armários e bancadas próprias; avaliar aquisição de novos kits Arduino para ampliar a capacidade de práticas.",
+          "Ingressar máquinas no domínio senaiba.com.br. Padronizar hostnames conforme convenção institucional. Priorizar conexão Ethernet.Hostname: C323-LAB1-016\nIP: 172.26.41.53\nDomínio: senaiba.com.br\nRede: Ethernet — 100 Mbps",
+          "Verificar mensalmente a utilização dos espaços dos discos para excluir arquivos desnecessarios dos alunos.",
+          "Manter a estrutura organizada, com armários e bancadas de práticas.",
+          "Hostname: C323-PROV-214\nIP: 192.168.114.22\nDomínio: Sem domínio\nRede: Wi-Fi — 130 Mbps",
+          "Hostname: bozonaro\nIP: 192.168.112.21\nDomínio: Sem domínio\nRede: Wi-Fi — 130 Mbps"
         ],
         "recomendacoes": [],
-        "observacoes": [],
+        "observacoes": [
+          "TOTAL DE 76 Computadores"
+        ],
         "responsaveis": [],
         "prazos": [],
-        "status_itens": [],
-        "itens": [],
+        "status_itens": [
+          "C",
+          "A",
+          "D"
+        ],
+        "itens": [
+          {
+            "descricao": "ESTRUTURA  DO LABORATÓRIO",
+            "observado": "Laboratório de Informática 1\nNº de computadores: 25\nPatrimônio: 0003090050\nProcessador: Intel Core i5-14400 (10 núcleos / 16 threads, 2500 MHz)\nRAM: 15,73 GB\nDisco C: 476 GB total | 341 GB livre\nDisco D: 932 GB total | 146 GB livre\nSO: Windows 10 Pro Education (Build 26200 v25H2) — 64 bits Hostname: C323-LAB1-016\nIP: 172.26.41.53\nDomínio: senaiba.com.br\nRede: Ethernet — 100 Mbps      Apps instalados:\n• Visual Studio Code 1.102.2\n• Python 3.12.10\n• Figma 125.6.5\n• Arduino IDE 2.3.6\n• CodeBlocks 25.03",
+            "oportunidade": "Ingressar máquinas no domínio senaiba.com.br. Padronizar hostnames conforme convenção institucional. Priorizar conexão Ethernet.Hostname: C323-LAB1-016\nIP: 172.26.41.53\nDomínio: senaiba.com.br\nRede: Ethernet — 100 Mbps",
+            "observacao_geral": "TOTAL DE 76 Computadores",
+            "status": "C",
+            "acompanhado_por": "Alexandre"
+          },
+          {
+            "descricao": "ESTRUTURA DE APLICATIVOS",
+            "observado": "OS APLICATIVOS DEPOIS DE INSTALADOS DE FORMA UNICA NOS LABS PODERÃO RODAR DIVERSOS CURSOS NA ÁREA DE TI",
+            "oportunidade": "Verificar mensalmente a utilização dos espaços dos discos para excluir arquivos desnecessarios dos alunos.",
+            "status": "A",
+            "acompanhado_por": "Alexandre"
+          },
+          {
+            "descricao": "DISPOSITIVOS DE APOIO PARA AULAS PRÁTICAS",
+            "observado": "Quantidade de arduino suficiente para as aulas de eletronica e IOT em DS, entertanto devem ser separados e organizados, oriento comprar mais kits de arduíno.",
+            "oportunidade": "Manter a estrutura organizada, com armários e bancadas de práticas.",
+            "status": "D",
+            "acompanhado_por": "Alexandre"
+          },
+          {
+            "descricao": "ESTRUTURA  DO LABORATÓRIO",
+            "observado": "Laboratório de Informática — Sala 06\nNº de computadores: 40\nPatrimônio: 0003090055\nProcessador: Intel Core i5-14400 (10 núcleos / 16 threads, 2500 MHz)\nRAM: 15,73 GB\nDisco C: 476 GB total | 326 GB livre\nDisco D: 932 GB total | 146 GB livre\nSO: Windows 10 Pro Education (Build 26200 v25H2) — 64 bits",
+            "oportunidade": "Hostname: C323-PROV-214\nIP: 192.168.114.22\nDomínio: Sem domínio\nRede: Wi-Fi — 130 Mbps",
+            "acompanhado_por": "Alexandre"
+          },
+          {
+            "descricao": "ESTRUTURA DE APLICATIVOS",
+            "observado": "Apps instalados:\n• Visual Studio Code 1.112.0\n• Python 3.12.10\n• Google Chrome 146.0\n• GitHub Desktop 3.5.4\n• Arduino IDE 2.3.6",
+            "oportunidade": "Verificar mensalmente a utilização dos espaços dos discos para excluir arquivos desnecessarios dos alunos.",
+            "acompanhado_por": "Alexandre"
+          },
+          {
+            "descricao": "DISPOSITIVOS DE APOIO PARA AULAS PRÁTICAS",
+            "observado": "Quantidade de arduino suficiente para as aulas de eletronica e IOT em DS, entertanto devem ser separados e organizados, oriento comprar mais kits de arduíno.",
+            "oportunidade": "Manter a estrutura organizada, com armários e bancadas de práticas.",
+            "acompanhado_por": "Alexandre"
+          },
+          {
+            "descricao": "ESTRUTURA  DO LABORATÓRIO",
+            "observado": "Laboratório de Informática — Sala (Equipamentos Novos)\nNº de computadores: 11\nPatrimônio: — (sem patrimônio registrado)\nProcessador: Intel Core i5-14400 (10 núcleos / 16 threads, 2500 MHz)\nRAM: 15,73 GB\nDisco C: 476 GB total | 372 GB livre\nDisco D: 932 GB total | 146 GB livre\nSO: Windows 10 Pro Education (Build 26200 v25H2) — 64 bits",
+            "oportunidade": "Hostname: bozonaro\nIP: 192.168.112.21\nDomínio: Sem domínio\nRede: Wi-Fi — 130 Mbps",
+            "acompanhado_por": "Alexandre"
+          },
+          {
+            "descricao": "ESTRUTURA DE APLICATIVOS",
+            "observado": "Apps instalados:\n• Visual Studio Code 1.112.0\n• Python 3.12.10\n• Google Chrome 146.0\n• GitHub Desktop 3.5.4\n• Arduino IDE 2.3.6",
+            "oportunidade": "Verificar mensalmente a utilização dos espaços dos discos para excluir arquivos desnecessarios dos alunos.",
+            "acompanhado_por": "Alexandre"
+          },
+          {
+            "descricao": "DISPOSITIVOS DE APOIO PARA AULAS PRÁTICAS",
+            "observado": "Quantidade de arduino suficiente para as aulas de eletronica e IOT em DS, entertanto devem ser separados e organizados, oriento comprar mais kits de arduíno.",
+            "oportunidade": "Manter a estrutura organizada, com armários e bancadas de práticas.",
+            "acompanhado_por": "Alexandre"
+          }
+        ],
         "fontes": [
           {
             "arquivo": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pptx",
             "aba": "Slide consolidado - Vitória da Conquista"
+          },
+          {
+            "arquivo": "Tecnologia da Informação",
+            "aba": "Tecnologia da Informação",
+            "linha": 10,
+            "data": "2026-04-06"
+          },
+          {
+            "arquivo": "Tecnologia da Informação",
+            "aba": "Tecnologia da Informação",
+            "linha": 11,
+            "data": "2026-04-06"
+          },
+          {
+            "arquivo": "Tecnologia da Informação",
+            "aba": "Tecnologia da Informação",
+            "linha": 12,
+            "data": "2026-04-06"
+          },
+          {
+            "arquivo": "Tecnologia da Informação",
+            "aba": "Tecnologia da Informação",
+            "linha": 13,
+            "data": "2026-04-06"
+          },
+          {
+            "arquivo": "Tecnologia da Informação",
+            "aba": "Tecnologia da Informação",
+            "linha": 14,
+            "data": "2026-04-06"
+          },
+          {
+            "arquivo": "Tecnologia da Informação",
+            "aba": "Tecnologia da Informação",
+            "linha": 15,
+            "data": "2026-04-06"
+          },
+          {
+            "arquivo": "Tecnologia da Informação",
+            "aba": "Tecnologia da Informação",
+            "linha": 16,
+            "data": "2026-04-06"
+          },
+          {
+            "arquivo": "Tecnologia da Informação",
+            "aba": "Tecnologia da Informação",
+            "linha": 17,
+            "data": "2026-04-06"
+          },
+          {
+            "arquivo": "Tecnologia da Informação",
+            "aba": "Tecnologia da Informação",
+            "linha": 18,
+            "data": "2026-04-06"
           }
         ],
         "resumo_executivo": "Ingressar todas as máquinas no domínio institucional; padronizar hostnames; priorizar conexão Ethernet; verificar mensalmente o uso dos discos; organizar kits Arduino em armários e bancadas próprias; avaliar aquisição de novos kits Arduino para ampliar a capacidade de práticas.",
@@ -9655,7 +9497,7 @@
         "nome": "Alexandre",
         "avatar": null,
         "areas": [
-          "Tecnologia da Informação"
+          "Desenvolvimento de Sistemas / Informática"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
       },
@@ -9664,7 +9506,6 @@
         "nome": "Paulo Filho",
         "avatar": "assets/avatars/paulo-filho.jpeg",
         "areas": [
-          "Tecnologia da Informação",
           "Desenvolvimento de Sistemas / Informática"
         ],
         "modalidade": "remoto",
@@ -10489,7 +10330,7 @@
       "Refrigeração",
       "Eletrotécnica",
       "Alimentos",
-      "Ds",
+      "Desenvolvimento de Sistemas",
       "Tecnologia da Informação"
     ],
     "especialistas": [
@@ -11246,59 +11087,6 @@
         ],
         "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
       },
-      "Ds": {
-        "status": "Extraído do relatório Excel",
-        "resumo": "Padronizar os computadores com 16 GB de RAM e SSD de maior capacidade; implantar novo laboratório com aproximadamente 40 computadores para atender às turmas do IFTP; atualizar os aplicativos conforme orientações da GTI; realizar manutenção periódica dos discos; adquirir kits de Arduino, microcontroladores e materiais de eletrônica para apoiar as aulas práticas de Desenvolvimento de Sistemas e Eletroeletrônica.",
-        "indicadores": [
-          {
-            "rotulo": "Itens avaliados",
-            "valor": 1
-          },
-          {
-            "rotulo": "Oportunidades",
-            "valor": 2
-          },
-          {
-            "rotulo": "Boas práticas",
-            "valor": 0
-          }
-        ],
-        "principais_pontos": [
-          "23 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB"
-        ],
-        "boas_praticas": [],
-        "oportunidades": [
-          "1 - Aumento da capacidade da memória RAM e  dos discos dos computadores, para a execução adequada dos apçicativos demandados pelos cursos de CHP.\nnecessidade de criação de mais um laboratporio com nominimo 40 máquinas que possam comportar as turmas de IFTP.",
-          "Padronizar os computadores com 16 GB de RAM e SSD de maior capacidade; implantar novo laboratório com aproximadamente 40 computadores para atender às turmas do IFTP; atualizar os aplicativos conforme orientações da GTI; realizar manutenção periódica dos discos; adquirir kits de Arduino, microcontroladores e materiais de eletrônica para apoiar as aulas práticas de Desenvolvimento de Sistemas e Eletroeletrônica."
-        ],
-        "recomendacoes": [],
-        "observacoes": [],
-        "responsaveis": [],
-        "prazos": [],
-        "status_itens": [],
-        "itens": [
-          {
-            "descricao": "ESTRUTURA  DO LABORATÓRIO SENAI",
-            "observado": "23 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB",
-            "boa_pratica": "NA",
-            "oportunidade": "1 - Aumento da capacidade da memória RAM e  dos discos dos computadores, para a execução adequada dos apçicativos demandados pelos cursos de CHP.\nnecessidade de criação de mais um laboratporio com nominimo 40 máquinas que possam comportar as turmas de IFTP.",
-            "acompanhado_por": "Joilma, Lígia, Luana, Gabriel, Jan Alef"
-          }
-        ],
-        "fontes": [
-          {
-            "arquivo": "RELATORIO VISITA - Especialistas_UN Barreiras.xlsx",
-            "aba": "TECNOLOGIA DA INFORMAÇÃO",
-            "linha": 10,
-            "data": "2026-05-13"
-          },
-          {
-            "arquivo": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pptx",
-            "aba": "Slide consolidado - Barreiras"
-          }
-        ],
-        "resumo_executivo": "Padronizar os computadores com 16 GB de RAM e SSD de maior capacidade; implantar novo laboratório com aproximadamente 40 computadores para atender às turmas do IFTP; atualizar os aplicativos conforme orientações da GTI; realizar manutenção periódica dos discos; adquirir kits de Arduino, microcontroladores e materiais de eletrônica para apoiar as aulas práticas de Desenvolvimento de Sistemas e Eletroeletrônica."
-      },
       "Tecnologia da Informação": {
         "status": "Extraído do relatório Excel",
         "resumo": "Padronizar os computadores com 16 GB de RAM e SSD de maior capacidade; implantar novo laboratório com aproximadamente 40 computadores para atender às turmas do IFTP; atualizar os aplicativos conforme orientações da GTI; realizar manutenção periódica dos discos; adquirir kits de Arduino, microcontroladores e materiais de eletrônica para apoiar as aulas práticas de Desenvolvimento de Sistemas e Eletroeletrônica.",
@@ -11380,6 +11168,59 @@
           }
         ],
         "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
+      },
+      "Desenvolvimento de Sistemas": {
+        "status": "Extraído do relatório Excel",
+        "resumo": "Padronizar os computadores com 16 GB de RAM e SSD de maior capacidade; implantar novo laboratório com aproximadamente 40 computadores para atender às turmas do IFTP; atualizar os aplicativos conforme orientações da GTI; realizar manutenção periódica dos discos; adquirir kits de Arduino, microcontroladores e materiais de eletrônica para apoiar as aulas práticas de Desenvolvimento de Sistemas e Eletroeletrônica.",
+        "indicadores": [
+          {
+            "rotulo": "Itens avaliados",
+            "valor": 1
+          },
+          {
+            "rotulo": "Oportunidades",
+            "valor": 2
+          },
+          {
+            "rotulo": "Boas práticas",
+            "valor": 0
+          }
+        ],
+        "principais_pontos": [
+          "23 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB"
+        ],
+        "boas_praticas": [],
+        "oportunidades": [
+          "1 - Aumento da capacidade da memória RAM e  dos discos dos computadores, para a execução adequada dos apçicativos demandados pelos cursos de CHP.\nnecessidade de criação de mais um laboratporio com nominimo 40 máquinas que possam comportar as turmas de IFTP.",
+          "Padronizar os computadores com 16 GB de RAM e SSD de maior capacidade; implantar novo laboratório com aproximadamente 40 computadores para atender às turmas do IFTP; atualizar os aplicativos conforme orientações da GTI; realizar manutenção periódica dos discos; adquirir kits de Arduino, microcontroladores e materiais de eletrônica para apoiar as aulas práticas de Desenvolvimento de Sistemas e Eletroeletrônica."
+        ],
+        "recomendacoes": [],
+        "observacoes": [],
+        "responsaveis": [],
+        "prazos": [],
+        "status_itens": [],
+        "itens": [
+          {
+            "descricao": "ESTRUTURA  DO LABORATÓRIO SENAI",
+            "observado": "23 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB",
+            "boa_pratica": "NA",
+            "oportunidade": "1 - Aumento da capacidade da memória RAM e  dos discos dos computadores, para a execução adequada dos apçicativos demandados pelos cursos de CHP.\nnecessidade de criação de mais um laboratporio com nominimo 40 máquinas que possam comportar as turmas de IFTP.",
+            "acompanhado_por": "Joilma, Lígia, Luana, Gabriel, Jan Alef"
+          }
+        ],
+        "fontes": [
+          {
+            "arquivo": "RELATORIO VISITA - Especialistas_UN Barreiras.xlsx",
+            "aba": "TECNOLOGIA DA INFORMAÇÃO",
+            "linha": 10,
+            "data": "2026-05-13"
+          },
+          {
+            "arquivo": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pptx",
+            "aba": "Slide consolidado - Barreiras"
+          }
+        ],
+        "resumo_executivo": "Padronizar os computadores com 16 GB de RAM e SSD de maior capacidade; implantar novo laboratório com aproximadamente 40 computadores para atender às turmas do IFTP; atualizar os aplicativos conforme orientações da GTI; realizar manutenção periódica dos discos; adquirir kits de Arduino, microcontroladores e materiais de eletrônica para apoiar as aulas práticas de Desenvolvimento de Sistemas e Eletroeletrônica."
       }
     },
     "visitantes": [
@@ -11393,7 +11234,7 @@
           "Refrigeração",
           "Eletrotécnica",
           "Alimentos",
-          "Ds",
+          "Desenvolvimento de Sistemas",
           "Tecnologia da Informação"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
@@ -11406,7 +11247,7 @@
           "Segurança do Trabalho",
           "Eletrotécnica",
           "Alimentos",
-          "Ds",
+          "Desenvolvimento de Sistemas",
           "Tecnologia da Informação"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
@@ -11418,7 +11259,7 @@
         "areas": [
           "Segurança do Trabalho",
           "Eletrotécnica",
-          "Ds",
+          "Desenvolvimento de Sistemas",
           "Tecnologia da Informação"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
@@ -11429,7 +11270,7 @@
         "avatar": null,
         "areas": [
           "Eletrotécnica",
-          "Ds",
+          "Desenvolvimento de Sistemas",
           "Tecnologia da Informação"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
@@ -11440,7 +11281,7 @@
         "avatar": null,
         "areas": [
           "Eletrotécnica",
-          "Ds",
+          "Desenvolvimento de Sistemas",
           "Tecnologia da Informação"
         ],
         "origem": "Campo PARTICIPANTES do relatório"
@@ -11450,7 +11291,7 @@
         "nome": "Paulo Filho",
         "avatar": "assets/avatars/paulo-filho.jpeg",
         "areas": [
-          "Ds",
+          "Desenvolvimento de Sistemas",
           "Tecnologia da Informação"
         ],
         "modalidade": "remoto",
@@ -12335,10 +12176,10 @@
       "Eletromecânica",
       "Química",
       "Eletrotécnica",
-      "Ds I",
-      "Tecnologia da Informação",
-      "Ds Ii",
-      "Informatica",
+      "Desenvolvimento de Sistemas I",
+      "Desenvolvimento de Sistemas / Informática",
+      "Desenvolvimento de Sistemas II",
+      "Informática para Internet",
       "Automação",
       "Estruturas Lógicas",
       "Hidraulica  E Pneumática",
@@ -12929,9 +12770,79 @@
         ],
         "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
       },
-      "Ds I": {
+      "Automação": {
         "status": "Extraído do relatório Excel",
-        "resumo": "47 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 512GB",
+        "resumo": "Quantidade reduzida de kits de CLP disponíveis no espaço. Observou-se limitação de espaço físico para acomodação de novos kits e expansão do laboratório. Já foram solicitados mais 4 kits de redes industriais.",
+        "indicadores": [
+          {
+            "rotulo": "Itens avaliados",
+            "valor": 2
+          },
+          {
+            "rotulo": "Oportunidades",
+            "valor": 2
+          },
+          {
+            "rotulo": "Boas práticas",
+            "valor": 2
+          }
+        ],
+        "principais_pontos": [
+          "Quantidade reduzida de kits de CLP disponíveis no espaço. Observou-se limitação de espaço físico para acomodação de novos kits e expansão do laboratório. Já foram solicitados mais 4 kits de redes industriais.",
+          "Espaço compartilhado com três plantas didáticas, incluindo a planta Smart 4.0 Nível 1, além das plantas Smar e Exsto. As plantas encontram-se com sinais operacionais ativos."
+        ],
+        "boas_praticas": [
+          "Existência de diversos kits alternativos desenvolvidos pelos docentes, demonstrando iniciativa e criatividade para ampliação das práticas pedagógicas. Sugere-se formalizar os projetos e avaliar, junto à fábrica, a possibilidade de produção padronizada desses kits.",
+          "Disponibilidade de diferentes plantas industriais, possibilitando maior diversidade de práticas em automação industrial."
+        ],
+        "oportunidades": [
+          "Necessária a aquisição de pelo menos mais 2 kits de CLP. Também é necessária a reorganização do espaço físico para melhor acomodação dos novos kits e otimização das atividades práticas.",
+          "Necessário ampliar a utilização pedagógica da planta Smart 4.0, considerando que atualmente ela integra a infraestrutura prevista para o curso de Automação no SAEP."
+        ],
+        "recomendacoes": [],
+        "observacoes": [],
+        "responsaveis": [],
+        "prazos": [],
+        "status_itens": [
+          "C",
+          "A"
+        ],
+        "itens": [
+          {
+            "descricao": "Laboratório de Sistemas Lógicos",
+            "observado": "Quantidade reduzida de kits de CLP disponíveis no espaço. Observou-se limitação de espaço físico para acomodação de novos kits e expansão do laboratório. Já foram solicitados mais 4 kits de redes industriais.",
+            "boa_pratica": "Existência de diversos kits alternativos desenvolvidos pelos docentes, demonstrando iniciativa e criatividade para ampliação das práticas pedagógicas. Sugere-se formalizar os projetos e avaliar, junto à fábrica, a possibilidade de produção padronizada desses kits.",
+            "oportunidade": "Necessária a aquisição de pelo menos mais 2 kits de CLP. Também é necessária a reorganização do espaço físico para melhor acomodação dos novos kits e otimização das atividades práticas.",
+            "status": "C",
+            "acompanhado_por": "André"
+          },
+          {
+            "descricao": "Laboratório de Automação",
+            "observado": "Espaço compartilhado com três plantas didáticas, incluindo a planta Smart 4.0 Nível 1, além das plantas Smar e Exsto. As plantas encontram-se com sinais operacionais ativos.",
+            "boa_pratica": "Disponibilidade de diferentes plantas industriais, possibilitando maior diversidade de práticas em automação industrial.",
+            "oportunidade": "Necessário ampliar a utilização pedagógica da planta Smart 4.0, considerando que atualmente ela integra a infraestrutura prevista para o curso de Automação no SAEP.",
+            "status": "A",
+            "acompanhado_por": "André"
+          }
+        ],
+        "fontes": [
+          {
+            "arquivo": "AUTOMAÇÃO",
+            "aba": "AUTOMAÇÃO",
+            "linha": 10,
+            "data": "2026-05-19"
+          },
+          {
+            "arquivo": "AUTOMAÇÃO",
+            "aba": "AUTOMAÇÃO",
+            "linha": 11,
+            "data": "2026-05-19"
+          }
+        ]
+      },
+      "Estruturas Lógicas": {
+        "status": "Extraído do relatório Excel",
+        "resumo": "43 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB",
         "indicadores": [
           {
             "rotulo": "Itens avaliados",
@@ -12947,13 +12858,13 @@
           }
         ],
         "principais_pontos": [
-          "47 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 512GB"
+          "43 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB"
         ],
         "boas_praticas": [
           "PLACAS NA PORTA COM QRcode PARA UM FORMULARIO DE informações para checklist de ambiente didático."
         ],
         "oportunidades": [
-          "1 - Caixas de Som EXCLUSIVA para o laboratório                           2 - Aplicativo para controle de acesso de alunos nos computadores*(solicitação do professor)                   3 - Aumento da capacidade dos discos dos computadores"
+          "1 - Caixas de Som EXCLUSIVA para o laboratório                           2 - Aplicativo para controle de acesso de alunos nos computadores*(solicitação do professor)                   3 - Aumento da capacidade dos discos dos computadores para 16GB"
         ],
         "recomendacoes": [],
         "observacoes": [],
@@ -12963,22 +12874,121 @@
         "itens": [
           {
             "descricao": "ESTRUTURA  DO LABORATÓRIO",
-            "observado": "47 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 512GB",
+            "observado": "43 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB",
             "boa_pratica": "PLACAS NA PORTA COM QRcode PARA UM FORMULARIO DE informações para checklist de ambiente didático.",
-            "oportunidade": "1 - Caixas de Som EXCLUSIVA para o laboratório                           2 - Aplicativo para controle de acesso de alunos nos computadores*(solicitação do professor)                   3 - Aumento da capacidade dos discos dos computadores",
-            "acompanhado_por": "GISELE"
+            "oportunidade": "1 - Caixas de Som EXCLUSIVA para o laboratório                           2 - Aplicativo para controle de acesso de alunos nos computadores*(solicitação do professor)                   3 - Aumento da capacidade dos discos dos computadores para 16GB",
+            "acompanhado_por": "JORGE NTI"
           }
         ],
         "fontes": [
           {
             "arquivo": "Relatório visita - Especialistas SENAI BA_UN ALAGOINHAS.xlsx",
             "aba": "TECNOLOGIA DA INFORMAÇÃO",
-            "linha": 10,
+            "linha": 19,
             "data": "2026-03-26"
           }
         ]
       },
-      "Tecnologia da Informação": {
+      "Hidraulica  E Pneumática": {
+        "status": "Extraído do relatório Excel",
+        "resumo": "37* COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB",
+        "indicadores": [
+          {
+            "rotulo": "Itens avaliados",
+            "valor": 1
+          },
+          {
+            "rotulo": "Oportunidades",
+            "valor": 1
+          },
+          {
+            "rotulo": "Boas práticas",
+            "valor": 1
+          }
+        ],
+        "principais_pontos": [
+          "37* COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB"
+        ],
+        "boas_praticas": [
+          "PLACAS NA PORTA COM QRcode PARA UM FORMULARIO DE informações para checklist de ambiente didático."
+        ],
+        "oportunidades": [
+          "1 - Caixas de Som EXCLUSIVA para o laboratório                           2 - Aplicativo para controle de acesso de alunos nos computadores*(solicitação do professor)                   3 - Aumento da capacidade dos discos dos computadores para 16GB"
+        ],
+        "recomendacoes": [],
+        "observacoes": [],
+        "responsaveis": [],
+        "prazos": [],
+        "status_itens": [],
+        "itens": [
+          {
+            "descricao": "ESTRUTURA  DO LABORATÓRIO",
+            "observado": "37* COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB",
+            "boa_pratica": "PLACAS NA PORTA COM QRcode PARA UM FORMULARIO DE informações para checklist de ambiente didático.",
+            "oportunidade": "1 - Caixas de Som EXCLUSIVA para o laboratório                           2 - Aplicativo para controle de acesso de alunos nos computadores*(solicitação do professor)                   3 - Aumento da capacidade dos discos dos computadores para 16GB",
+            "acompanhado_por": "JORGE NTI"
+          }
+        ],
+        "fontes": [
+          {
+            "arquivo": "Relatório visita - Especialistas SENAI BA_UN ALAGOINHAS.xlsx",
+            "aba": "TECNOLOGIA DA INFORMAÇÃO",
+            "linha": 21,
+            "data": "2026-03-26"
+          }
+        ]
+      },
+      "EMI": {
+        "status": "Extraído do relatório Excel",
+        "resumo": "Criar espaço exclusivo para a identidade da área de Segurança do Trabalho; adquirir acessórios para combate a incêndio (chave Storz, esguichos, derivações e reduções); adquirir equipamentos de primeiros socorros; substituir a estante de movimentação de cargas da área de EMI devido ao processo de oxidação.",
+        "indicadores": [
+          {
+            "rotulo": "Itens avaliados",
+            "valor": 1
+          },
+          {
+            "rotulo": "Oportunidades",
+            "valor": 1
+          },
+          {
+            "rotulo": "Boas práticas",
+            "valor": 1
+          }
+        ],
+        "principais_pontos": [
+          "Necessidade de substituição da estante de movimentação de cargas, devido a oxidação."
+        ],
+        "boas_praticas": [
+          "NA"
+        ],
+        "oportunidades": [
+          "Realizar a trocar da estante de movimentação de cargas localizada na área de prática do curso de Operação de Empilhadeira"
+        ],
+        "recomendacoes": [],
+        "observacoes": [],
+        "responsaveis": [],
+        "prazos": [],
+        "status_itens": [],
+        "itens": [
+          {
+            "descricao": "Equipamentos de aulas práticas - EMI - Estante de movimentação de cargas",
+            "observado": "Necessidade de substituição da estante de movimentação de cargas, devido a oxidação.",
+            "boa_pratica": "NA",
+            "oportunidade": "Realizar a trocar da estante de movimentação de cargas localizada na área de prática do curso de Operação de Empilhadeira",
+            "acompanhado_por": "João"
+          }
+        ],
+        "fontes": [
+          {
+            "arquivo": "SEG TRABALHO",
+            "aba": "SEG TRABALHO",
+            "linha": 11,
+            "data": "2026-05-19"
+          }
+        ],
+        "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
+      },
+      "Desenvolvimento de Sistemas / Informática": {
         "status": "Extraído do relatório Excel",
         "resumo": "47 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 512GB",
         "indicadores": [
@@ -13203,7 +13213,56 @@
           }
         ]
       },
-      "Ds Ii": {
+      "Desenvolvimento de Sistemas I": {
+        "status": "Extraído do relatório Excel",
+        "resumo": "47 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 512GB",
+        "indicadores": [
+          {
+            "rotulo": "Itens avaliados",
+            "valor": 1
+          },
+          {
+            "rotulo": "Oportunidades",
+            "valor": 1
+          },
+          {
+            "rotulo": "Boas práticas",
+            "valor": 1
+          }
+        ],
+        "principais_pontos": [
+          "47 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 512GB"
+        ],
+        "boas_praticas": [
+          "PLACAS NA PORTA COM QRcode PARA UM FORMULARIO DE informações para checklist de ambiente didático."
+        ],
+        "oportunidades": [
+          "1 - Caixas de Som EXCLUSIVA para o laboratório                           2 - Aplicativo para controle de acesso de alunos nos computadores*(solicitação do professor)                   3 - Aumento da capacidade dos discos dos computadores"
+        ],
+        "recomendacoes": [],
+        "observacoes": [],
+        "responsaveis": [],
+        "prazos": [],
+        "status_itens": [],
+        "itens": [
+          {
+            "descricao": "ESTRUTURA  DO LABORATÓRIO",
+            "observado": "47 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 512GB",
+            "boa_pratica": "PLACAS NA PORTA COM QRcode PARA UM FORMULARIO DE informações para checklist de ambiente didático.",
+            "oportunidade": "1 - Caixas de Som EXCLUSIVA para o laboratório                           2 - Aplicativo para controle de acesso de alunos nos computadores*(solicitação do professor)                   3 - Aumento da capacidade dos discos dos computadores",
+            "acompanhado_por": "GISELE"
+          }
+        ],
+        "fontes": [
+          {
+            "arquivo": "Relatório visita - Especialistas SENAI BA_UN ALAGOINHAS.xlsx",
+            "aba": "TECNOLOGIA DA INFORMAÇÃO",
+            "linha": 10,
+            "data": "2026-03-26"
+          }
+        ]
+      },
+      "Desenvolvimento de Sistemas II": {
         "status": "Extraído do relatório Excel",
         "resumo": "41 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 512GB",
         "indicadores": [
@@ -13252,7 +13311,7 @@
           }
         ]
       },
-      "Informatica": {
+      "Informática para Internet": {
         "status": "Extraído do relatório Excel",
         "resumo": "37* COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB",
         "indicadores": [
@@ -13300,224 +13359,6 @@
             "data": "2026-03-26"
           }
         ]
-      },
-      "Automação": {
-        "status": "Extraído do relatório Excel",
-        "resumo": "Quantidade reduzida de kits de CLP disponíveis no espaço. Observou-se limitação de espaço físico para acomodação de novos kits e expansão do laboratório. Já foram solicitados mais 4 kits de redes industriais.",
-        "indicadores": [
-          {
-            "rotulo": "Itens avaliados",
-            "valor": 2
-          },
-          {
-            "rotulo": "Oportunidades",
-            "valor": 2
-          },
-          {
-            "rotulo": "Boas práticas",
-            "valor": 2
-          }
-        ],
-        "principais_pontos": [
-          "Quantidade reduzida de kits de CLP disponíveis no espaço. Observou-se limitação de espaço físico para acomodação de novos kits e expansão do laboratório. Já foram solicitados mais 4 kits de redes industriais.",
-          "Espaço compartilhado com três plantas didáticas, incluindo a planta Smart 4.0 Nível 1, além das plantas Smar e Exsto. As plantas encontram-se com sinais operacionais ativos."
-        ],
-        "boas_praticas": [
-          "Existência de diversos kits alternativos desenvolvidos pelos docentes, demonstrando iniciativa e criatividade para ampliação das práticas pedagógicas. Sugere-se formalizar os projetos e avaliar, junto à fábrica, a possibilidade de produção padronizada desses kits.",
-          "Disponibilidade de diferentes plantas industriais, possibilitando maior diversidade de práticas em automação industrial."
-        ],
-        "oportunidades": [
-          "Necessária a aquisição de pelo menos mais 2 kits de CLP. Também é necessária a reorganização do espaço físico para melhor acomodação dos novos kits e otimização das atividades práticas.",
-          "Necessário ampliar a utilização pedagógica da planta Smart 4.0, considerando que atualmente ela integra a infraestrutura prevista para o curso de Automação no SAEP."
-        ],
-        "recomendacoes": [],
-        "observacoes": [],
-        "responsaveis": [],
-        "prazos": [],
-        "status_itens": [
-          "C",
-          "A"
-        ],
-        "itens": [
-          {
-            "descricao": "Laboratório de Sistemas Lógicos",
-            "observado": "Quantidade reduzida de kits de CLP disponíveis no espaço. Observou-se limitação de espaço físico para acomodação de novos kits e expansão do laboratório. Já foram solicitados mais 4 kits de redes industriais.",
-            "boa_pratica": "Existência de diversos kits alternativos desenvolvidos pelos docentes, demonstrando iniciativa e criatividade para ampliação das práticas pedagógicas. Sugere-se formalizar os projetos e avaliar, junto à fábrica, a possibilidade de produção padronizada desses kits.",
-            "oportunidade": "Necessária a aquisição de pelo menos mais 2 kits de CLP. Também é necessária a reorganização do espaço físico para melhor acomodação dos novos kits e otimização das atividades práticas.",
-            "status": "C",
-            "acompanhado_por": "André"
-          },
-          {
-            "descricao": "Laboratório de Automação",
-            "observado": "Espaço compartilhado com três plantas didáticas, incluindo a planta Smart 4.0 Nível 1, além das plantas Smar e Exsto. As plantas encontram-se com sinais operacionais ativos.",
-            "boa_pratica": "Disponibilidade de diferentes plantas industriais, possibilitando maior diversidade de práticas em automação industrial.",
-            "oportunidade": "Necessário ampliar a utilização pedagógica da planta Smart 4.0, considerando que atualmente ela integra a infraestrutura prevista para o curso de Automação no SAEP.",
-            "status": "A",
-            "acompanhado_por": "André"
-          }
-        ],
-        "fontes": [
-          {
-            "arquivo": "AUTOMAÇÃO",
-            "aba": "AUTOMAÇÃO",
-            "linha": 10,
-            "data": "2026-05-19"
-          },
-          {
-            "arquivo": "AUTOMAÇÃO",
-            "aba": "AUTOMAÇÃO",
-            "linha": 11,
-            "data": "2026-05-19"
-          }
-        ]
-      },
-      "Estruturas Lógicas": {
-        "status": "Extraído do relatório Excel",
-        "resumo": "43 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB",
-        "indicadores": [
-          {
-            "rotulo": "Itens avaliados",
-            "valor": 1
-          },
-          {
-            "rotulo": "Oportunidades",
-            "valor": 1
-          },
-          {
-            "rotulo": "Boas práticas",
-            "valor": 1
-          }
-        ],
-        "principais_pontos": [
-          "43 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB"
-        ],
-        "boas_praticas": [
-          "PLACAS NA PORTA COM QRcode PARA UM FORMULARIO DE informações para checklist de ambiente didático."
-        ],
-        "oportunidades": [
-          "1 - Caixas de Som EXCLUSIVA para o laboratório                           2 - Aplicativo para controle de acesso de alunos nos computadores*(solicitação do professor)                   3 - Aumento da capacidade dos discos dos computadores para 16GB"
-        ],
-        "recomendacoes": [],
-        "observacoes": [],
-        "responsaveis": [],
-        "prazos": [],
-        "status_itens": [],
-        "itens": [
-          {
-            "descricao": "ESTRUTURA  DO LABORATÓRIO",
-            "observado": "43 COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB",
-            "boa_pratica": "PLACAS NA PORTA COM QRcode PARA UM FORMULARIO DE informações para checklist de ambiente didático.",
-            "oportunidade": "1 - Caixas de Som EXCLUSIVA para o laboratório                           2 - Aplicativo para controle de acesso de alunos nos computadores*(solicitação do professor)                   3 - Aumento da capacidade dos discos dos computadores para 16GB",
-            "acompanhado_por": "JORGE NTI"
-          }
-        ],
-        "fontes": [
-          {
-            "arquivo": "Relatório visita - Especialistas SENAI BA_UN ALAGOINHAS.xlsx",
-            "aba": "TECNOLOGIA DA INFORMAÇÃO",
-            "linha": 19,
-            "data": "2026-03-26"
-          }
-        ]
-      },
-      "Hidraulica  E Pneumática": {
-        "status": "Extraído do relatório Excel",
-        "resumo": "37* COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB",
-        "indicadores": [
-          {
-            "rotulo": "Itens avaliados",
-            "valor": 1
-          },
-          {
-            "rotulo": "Oportunidades",
-            "valor": 1
-          },
-          {
-            "rotulo": "Boas práticas",
-            "valor": 1
-          }
-        ],
-        "principais_pontos": [
-          "37* COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB"
-        ],
-        "boas_praticas": [
-          "PLACAS NA PORTA COM QRcode PARA UM FORMULARIO DE informações para checklist de ambiente didático."
-        ],
-        "oportunidades": [
-          "1 - Caixas de Som EXCLUSIVA para o laboratório                           2 - Aplicativo para controle de acesso de alunos nos computadores*(solicitação do professor)                   3 - Aumento da capacidade dos discos dos computadores para 16GB"
-        ],
-        "recomendacoes": [],
-        "observacoes": [],
-        "responsaveis": [],
-        "prazos": [],
-        "status_itens": [],
-        "itens": [
-          {
-            "descricao": "ESTRUTURA  DO LABORATÓRIO",
-            "observado": "37* COMPUTADORES (INCLUINDO O DO DOCENTE)  processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB",
-            "boa_pratica": "PLACAS NA PORTA COM QRcode PARA UM FORMULARIO DE informações para checklist de ambiente didático.",
-            "oportunidade": "1 - Caixas de Som EXCLUSIVA para o laboratório                           2 - Aplicativo para controle de acesso de alunos nos computadores*(solicitação do professor)                   3 - Aumento da capacidade dos discos dos computadores para 16GB",
-            "acompanhado_por": "JORGE NTI"
-          }
-        ],
-        "fontes": [
-          {
-            "arquivo": "Relatório visita - Especialistas SENAI BA_UN ALAGOINHAS.xlsx",
-            "aba": "TECNOLOGIA DA INFORMAÇÃO",
-            "linha": 21,
-            "data": "2026-03-26"
-          }
-        ]
-      },
-      "EMI": {
-        "status": "Extraído do relatório Excel",
-        "resumo": "Criar espaço exclusivo para a identidade da área de Segurança do Trabalho; adquirir acessórios para combate a incêndio (chave Storz, esguichos, derivações e reduções); adquirir equipamentos de primeiros socorros; substituir a estante de movimentação de cargas da área de EMI devido ao processo de oxidação.",
-        "indicadores": [
-          {
-            "rotulo": "Itens avaliados",
-            "valor": 1
-          },
-          {
-            "rotulo": "Oportunidades",
-            "valor": 1
-          },
-          {
-            "rotulo": "Boas práticas",
-            "valor": 1
-          }
-        ],
-        "principais_pontos": [
-          "Necessidade de substituição da estante de movimentação de cargas, devido a oxidação."
-        ],
-        "boas_praticas": [
-          "NA"
-        ],
-        "oportunidades": [
-          "Realizar a trocar da estante de movimentação de cargas localizada na área de prática do curso de Operação de Empilhadeira"
-        ],
-        "recomendacoes": [],
-        "observacoes": [],
-        "responsaveis": [],
-        "prazos": [],
-        "status_itens": [],
-        "itens": [
-          {
-            "descricao": "Equipamentos de aulas práticas - EMI - Estante de movimentação de cargas",
-            "observado": "Necessidade de substituição da estante de movimentação de cargas, devido a oxidação.",
-            "boa_pratica": "NA",
-            "oportunidade": "Realizar a trocar da estante de movimentação de cargas localizada na área de prática do curso de Operação de Empilhadeira",
-            "acompanhado_por": "João"
-          }
-        ],
-        "fontes": [
-          {
-            "arquivo": "SEG TRABALHO",
-            "aba": "SEG TRABALHO",
-            "linha": 11,
-            "data": "2026-05-19"
-          }
-        ],
-        "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
       }
     },
     "visitantes": [
@@ -13540,10 +13381,10 @@
           "Segurança do Trabalho / EMI",
           "Eletromecânica",
           "Eletrotécnica",
-          "Ds I",
-          "Tecnologia da Informação",
-          "Ds Ii",
-          "Informatica",
+          "Desenvolvimento de Sistemas I",
+          "Desenvolvimento de Sistemas / Informática",
+          "Desenvolvimento de Sistemas II",
+          "Informática para Internet",
           "Automação",
           "Estruturas Lógicas",
           "Hidraulica  E Pneumática"
@@ -13611,10 +13452,10 @@
         "nome": "JORGE (NTI)",
         "avatar": null,
         "areas": [
-          "Ds I",
-          "Tecnologia da Informação",
-          "Ds Ii",
-          "Informatica",
+          "Desenvolvimento de Sistemas I",
+          "Desenvolvimento de Sistemas / Informática",
+          "Desenvolvimento de Sistemas II",
+          "Informática para Internet",
           "Automação",
           "Estruturas Lógicas",
           "Hidraulica  E Pneumática"
@@ -13626,10 +13467,10 @@
         "nome": "PROFª. GISELE",
         "avatar": null,
         "areas": [
-          "Ds I",
-          "Tecnologia da Informação",
-          "Ds Ii",
-          "Informatica",
+          "Desenvolvimento de Sistemas I",
+          "Desenvolvimento de Sistemas / Informática",
+          "Desenvolvimento de Sistemas II",
+          "Informática para Internet",
           "Automação",
           "Estruturas Lógicas",
           "Hidraulica  E Pneumática"
@@ -13641,10 +13482,10 @@
         "nome": "Paulo Filho",
         "avatar": "assets/avatars/paulo-filho.jpeg",
         "areas": [
-          "Ds I",
-          "Tecnologia da Informação",
-          "Ds Ii",
-          "Informatica",
+          "Desenvolvimento de Sistemas I",
+          "Desenvolvimento de Sistemas / Informática",
+          "Desenvolvimento de Sistemas II",
+          "Informática para Internet",
           "Estruturas Lógicas"
         ],
         "modalidade": "remoto",
@@ -15309,7 +15150,7 @@
       "Construção Civil",
       "Eletromecânica",
       "Química e Alimentos",
-      "Tecnologia da Informação"
+      "Desenvolvimento de Sistemas / Informática"
     ],
     "especialistas": [
       "ESP006",
@@ -16098,7 +15939,7 @@
           }
         ]
       },
-      "Tecnologia da Informação": {
+      "Desenvolvimento de Sistemas / Informática": {
         "status": "Extraído do relatório Excel",
         "resumo": "10 LABORATÓRIOS DE INFORMÁTICA, 1 com 37 COMPUTADORES e 9 com 43 computadores (INCLUINDO O DO DOCENTE),  possuem processador Intel de 12ª geração, especificamente o Intel Core i5-12400. com 8GB de memória, SSD de 256GB, LAB Movimentação e Armazenagem com 10…",
         "indicadores": [
@@ -16196,7 +16037,7 @@
         "nome": "Paulo Filho",
         "avatar": "assets/avatars/paulo-filho.jpeg",
         "areas": [
-          "Tecnologia da Informação"
+          "Desenvolvimento de Sistemas / Informática"
         ],
         "modalidade": "remoto",
         "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
@@ -16269,7 +16110,7 @@
       "Eletromecânica",
       "Galpão de práticas",
       "Galpão de práticas/ Centro Casa dos Ventos",
-      "Tecnologia da Informação (TI)"
+      "Tecnologia da Informação"
     ],
     "especialistas": [
       "ESP003",
@@ -16540,7 +16381,7 @@
           }
         ]
       },
-      "Tecnologia da Informação (TI)": {
+      "Tecnologia da Informação": {
         "status": "Extraído do relatório Excel",
         "resumo": "Implantar laboratório de informática ou sala tecnológica para suporte às atividades dos cursos técnicos; dimensionar computadores, rede lógica, acesso à internet e softwares necessários; planejar infraestrutura de TI considerando futuras ofertas nas áreas de Automação Industrial, Eletromecânica, Energias Renováveis e demais tecnologias industriais.",
         "indicadores": [
@@ -16639,7 +16480,7 @@
         "nome": "Paulo Filho",
         "avatar": "assets/avatars/paulo-filho.jpeg",
         "areas": [
-          "Tecnologia da Informação (TI)"
+          "Tecnologia da Informação"
         ],
         "modalidade": "remoto",
         "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
@@ -16676,7 +16517,7 @@
     "lng": -40.5117,
     "areas": [
       "Eletromecânica",
-      "Ti",
+      "Tecnologia da Informação",
       "Galpão de prática",
       "Biblioteca",
       "Segurança do Trabalho"
@@ -16906,64 +16747,6 @@
         ],
         "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
       },
-      "Ti": {
-        "status": "Extraído do relatório Excel",
-        "resumo": "Revisar o layout para melhorar a ergonomia da sala; ampliar o número de computadores para aproximadamente 20 estações; integrar no laboratório práticas de CLP, Pneumática e demais competências de Automação Industrial.",
-        "indicadores": [
-          {
-            "rotulo": "Itens avaliados",
-            "valor": 1
-          },
-          {
-            "rotulo": "Oportunidades",
-            "valor": 3
-          },
-          {
-            "rotulo": "Boas práticas",
-            "valor": 0
-          }
-        ],
-        "principais_pontos": [
-          "• O laboratório de informática apresenta inadequação ergonômica no layout atual, uma vez que o quadro branco está posicionado na lateral da sala, obrigando os alunos a acompanharem as aulas com constante rotação do pescoço e postura inadequada.\n• O espaço possui potencial para ampliação das competências ofertadas na unidade.\n• Quantidade atual de computadores pode limitar o atendimento de turmas com maior número de alunos."
-        ],
-        "boas_praticas": [],
-        "oportunidades": [
-          "• Revisar o layout da sala visando melhorar a ergonomia e o posicionamento dos alunos em relação ao quadro e ao docente.\n• Avaliar a ampliação do número de computadores para aproximadamente 20 estações de trabalho, permitindo o atendimento de turmas maiores.\n• Implantar no laboratório as competências de Pneumática, CLP, aproveitando a infraestrutura computacional existente.",
-          "Revisar o layout para melhorar a ergonomia da sala; ampliar o número de computadores para aproximadamente 20 estações; integrar no laboratório práticas de CLP, Pneumática e demais competências de Automação Industrial.",
-          "Elaborar projeto de layout com apoio da Engenharia; definir áreas específicas para Eletromecânica, Instalações Elétricas Prediais, Comandos Elétricos, Acionamentos, Vestuário e área multifuncional; remover materiais sem utilização, caixas de papelão, automóvel, andaime e demais itens que descaracterizam o ambiente pedagógico; consolidar as máquinas de costura em espaço específico; solicitar retirada dos materiais da Neoenergia; implantar sinalização visual e setorização das áreas práticas."
-        ],
-        "recomendacoes": [],
-        "observacoes": [],
-        "responsaveis": [],
-        "prazos": [],
-        "status_itens": [],
-        "itens": [
-          {
-            "descricao": "Laboratório de Informática",
-            "observado": "• O laboratório de informática apresenta inadequação ergonômica no layout atual, uma vez que o quadro branco está posicionado na lateral da sala, obrigando os alunos a acompanharem as aulas com constante rotação do pescoço e postura inadequada.\n• O espaço possui potencial para ampliação das competências ofertadas na unidade.\n• Quantidade atual de computadores pode limitar o atendimento de turmas com maior número de alunos.",
-            "oportunidade": "• Revisar o layout da sala visando melhorar a ergonomia e o posicionamento dos alunos em relação ao quadro e ao docente.\n• Avaliar a ampliação do número de computadores para aproximadamente 20 estações de trabalho, permitindo o atendimento de turmas maiores.\n• Implantar no laboratório as competências de Pneumática, CLP, aproveitando a infraestrutura computacional existente.",
-            "acompanhado_por": "Susi e Jamile"
-          }
-        ],
-        "fontes": [
-          {
-            "arquivo": "RELATORIO VISITA - Jacobina.xlsx",
-            "aba": "ELETROMECANICA_REFRIGERAÇÃO",
-            "linha": 13,
-            "data": "2026-06-09"
-          },
-          {
-            "arquivo": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pptx",
-            "aba": "Slide consolidado - Jacobina"
-          },
-          {
-            "arquivo": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pptx",
-            "aba": "Slide consolidado - Jacobina"
-          }
-        ],
-        "resumo_executivo": "Elaborar projeto de layout com apoio da Engenharia; definir áreas específicas para Eletromecânica, Instalações Elétricas Prediais, Comandos Elétricos, Acionamentos, Vestuário e área multifuncional; remover materiais sem utilização, caixas de papelão, automóvel, andaime e demais itens que descaracterizam o ambiente pedagógico; consolidar as máquinas de costura em espaço específico; solicitar retirada dos materiais da Neoenergia; implantar sinalização visual e setorização das áreas práticas.",
-        "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
-      },
       "Galpão de prática": {
         "status": "Extraído do relatório Excel",
         "resumo": "Elaborar projeto de layout com apoio da Engenharia; definir áreas específicas para Eletromecânica, Instalações Elétricas Prediais, Comandos Elétricos, Acionamentos, Vestuário e área multifuncional; remover materiais sem utilização, caixas de papelão, automóvel, andaime e demais itens que descaracterizam o ambiente pedagógico; consolidar as máquinas de costura em espaço específico; solicitar retirada dos materiais da Neoenergia; implantar sinalização visual e setorização das áreas práticas.",
@@ -17185,6 +16968,64 @@
         ],
         "resumo_executivo": "Criar espaço exclusivo para as práticas do curso Técnico em Segurança do Trabalho; adquirir kit de Higiene Ocupacional, equipamentos de combate a incêndio (extintores, mangueiras e acessórios) e kit de bloqueio elétrico (LOTO), conforme planejamento das próximas ofertas e do SAEP.",
         "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
+      },
+      "Tecnologia da Informação": {
+        "status": "Extraído do relatório Excel",
+        "resumo": "Revisar o layout para melhorar a ergonomia da sala; ampliar o número de computadores para aproximadamente 20 estações; integrar no laboratório práticas de CLP, Pneumática e demais competências de Automação Industrial.",
+        "indicadores": [
+          {
+            "rotulo": "Itens avaliados",
+            "valor": 1
+          },
+          {
+            "rotulo": "Oportunidades",
+            "valor": 3
+          },
+          {
+            "rotulo": "Boas práticas",
+            "valor": 0
+          }
+        ],
+        "principais_pontos": [
+          "• O laboratório de informática apresenta inadequação ergonômica no layout atual, uma vez que o quadro branco está posicionado na lateral da sala, obrigando os alunos a acompanharem as aulas com constante rotação do pescoço e postura inadequada.\n• O espaço possui potencial para ampliação das competências ofertadas na unidade.\n• Quantidade atual de computadores pode limitar o atendimento de turmas com maior número de alunos."
+        ],
+        "boas_praticas": [],
+        "oportunidades": [
+          "• Revisar o layout da sala visando melhorar a ergonomia e o posicionamento dos alunos em relação ao quadro e ao docente.\n• Avaliar a ampliação do número de computadores para aproximadamente 20 estações de trabalho, permitindo o atendimento de turmas maiores.\n• Implantar no laboratório as competências de Pneumática, CLP, aproveitando a infraestrutura computacional existente.",
+          "Revisar o layout para melhorar a ergonomia da sala; ampliar o número de computadores para aproximadamente 20 estações; integrar no laboratório práticas de CLP, Pneumática e demais competências de Automação Industrial.",
+          "Elaborar projeto de layout com apoio da Engenharia; definir áreas específicas para Eletromecânica, Instalações Elétricas Prediais, Comandos Elétricos, Acionamentos, Vestuário e área multifuncional; remover materiais sem utilização, caixas de papelão, automóvel, andaime e demais itens que descaracterizam o ambiente pedagógico; consolidar as máquinas de costura em espaço específico; solicitar retirada dos materiais da Neoenergia; implantar sinalização visual e setorização das áreas práticas."
+        ],
+        "recomendacoes": [],
+        "observacoes": [],
+        "responsaveis": [],
+        "prazos": [],
+        "status_itens": [],
+        "itens": [
+          {
+            "descricao": "Laboratório de Informática",
+            "observado": "• O laboratório de informática apresenta inadequação ergonômica no layout atual, uma vez que o quadro branco está posicionado na lateral da sala, obrigando os alunos a acompanharem as aulas com constante rotação do pescoço e postura inadequada.\n• O espaço possui potencial para ampliação das competências ofertadas na unidade.\n• Quantidade atual de computadores pode limitar o atendimento de turmas com maior número de alunos.",
+            "oportunidade": "• Revisar o layout da sala visando melhorar a ergonomia e o posicionamento dos alunos em relação ao quadro e ao docente.\n• Avaliar a ampliação do número de computadores para aproximadamente 20 estações de trabalho, permitindo o atendimento de turmas maiores.\n• Implantar no laboratório as competências de Pneumática, CLP, aproveitando a infraestrutura computacional existente.",
+            "acompanhado_por": "Susi e Jamile"
+          }
+        ],
+        "fontes": [
+          {
+            "arquivo": "RELATORIO VISITA - Jacobina.xlsx",
+            "aba": "ELETROMECANICA_REFRIGERAÇÃO",
+            "linha": 13,
+            "data": "2026-06-09"
+          },
+          {
+            "arquivo": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pptx",
+            "aba": "Slide consolidado - Jacobina"
+          },
+          {
+            "arquivo": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pptx",
+            "aba": "Slide consolidado - Jacobina"
+          }
+        ],
+        "resumo_executivo": "Elaborar projeto de layout com apoio da Engenharia; definir áreas específicas para Eletromecânica, Instalações Elétricas Prediais, Comandos Elétricos, Acionamentos, Vestuário e área multifuncional; remover materiais sem utilização, caixas de papelão, automóvel, andaime e demais itens que descaracterizam o ambiente pedagógico; consolidar as máquinas de costura em espaço específico; solicitar retirada dos materiais da Neoenergia; implantar sinalização visual e setorização das áreas práticas.",
+        "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
       }
     },
     "visitantes": [
@@ -17194,7 +17035,7 @@
         "avatar": null,
         "areas": [
           "Eletromecânica",
-          "Ti",
+          "Tecnologia da Informação",
           "Galpão de prática",
           "Biblioteca"
         ],
@@ -17206,7 +17047,7 @@
         "avatar": null,
         "areas": [
           "Eletromecânica",
-          "Ti",
+          "Tecnologia da Informação",
           "Galpão de prática",
           "Biblioteca"
         ],
@@ -17217,7 +17058,7 @@
         "nome": "Paulo Filho",
         "avatar": "assets/avatars/paulo-filho.jpeg",
         "areas": [
-          "Ti"
+          "Tecnologia da Informação"
         ],
         "modalidade": "remoto",
         "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
@@ -17271,7 +17112,7 @@
       "Eletrotécnica",
       "Refrigeração e Climatização",
       "Galpão de prática",
-      "Tecnologia da Informação (TI)",
+      "Tecnologia da Informação",
       "Sistema Elétrico de Potência (SEP) e Fotovoltaica",
       "Biblioteca",
       "Infraestrutura do Galpão"
@@ -17579,43 +17420,6 @@
           }
         ]
       },
-      "Tecnologia da Informação (TI)": {
-        "status": "Extraído do relatório Excel",
-        "resumo": "Avaliar a infraestrutura computacional para verificar atendimento aos requisitos do AutoCAD e demais softwares técnicos; atualizar ou substituir gradualmente os computadores defasados; readequar o layout do laboratório; ampliar o número de computadores para atendimento das turmas futuras; integrar o ambiente às práticas de CLP e Pneumática.",
-        "indicadores": [
-          {
-            "rotulo": "Itens avaliados",
-            "valor": 0
-          },
-          {
-            "rotulo": "Oportunidades",
-            "valor": 1
-          },
-          {
-            "rotulo": "Boas práticas",
-            "valor": 0
-          }
-        ],
-        "principais_pontos": [],
-        "boas_praticas": [],
-        "oportunidades": [
-          "Avaliar a infraestrutura computacional para verificar atendimento aos requisitos do AutoCAD e demais softwares técnicos; atualizar ou substituir gradualmente os computadores defasados; readequar o layout do laboratório; ampliar o número de computadores para atendimento das turmas futuras; integrar o ambiente às práticas de CLP e Pneumática."
-        ],
-        "recomendacoes": [],
-        "observacoes": [],
-        "responsaveis": [],
-        "prazos": [],
-        "status_itens": [],
-        "itens": [],
-        "fontes": [
-          {
-            "arquivo": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pptx",
-            "aba": "Slide consolidado - Senhor do Bonfim"
-          }
-        ],
-        "resumo_executivo": "Avaliar a infraestrutura computacional para verificar atendimento aos requisitos do AutoCAD e demais softwares técnicos; atualizar ou substituir gradualmente os computadores defasados; readequar o layout do laboratório; ampliar o número de computadores para atendimento das turmas futuras; integrar o ambiente às práticas de CLP e Pneumática.",
-        "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
-      },
       "Sistema Elétrico de Potência (SEP) e Fotovoltaica": {
         "status": "Extraído do relatório Excel",
         "resumo": "Definir área específica para implantação da infraestrutura destinada às práticas de SEP e Sistemas Fotovoltaicos; implantar postes de baixa altura e infraestrutura didática para o Curso Técnico em Eletrotécnica; avaliar reaproveitamento de materiais existentes e integrar o espaço ao planejamento de expansão da unidade.",
@@ -17726,6 +17530,43 @@
         ],
         "resumo_executivo": "Desmontar o andaime atualmente sem utilização, liberando espaço para atividades pedagógicas e capacitações das áreas de Eletromecânica, Segurança do Trabalho e demais cursos.",
         "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
+      },
+      "Tecnologia da Informação": {
+        "status": "Extraído do relatório Excel",
+        "resumo": "Avaliar a infraestrutura computacional para verificar atendimento aos requisitos do AutoCAD e demais softwares técnicos; atualizar ou substituir gradualmente os computadores defasados; readequar o layout do laboratório; ampliar o número de computadores para atendimento das turmas futuras; integrar o ambiente às práticas de CLP e Pneumática.",
+        "indicadores": [
+          {
+            "rotulo": "Itens avaliados",
+            "valor": 0
+          },
+          {
+            "rotulo": "Oportunidades",
+            "valor": 1
+          },
+          {
+            "rotulo": "Boas práticas",
+            "valor": 0
+          }
+        ],
+        "principais_pontos": [],
+        "boas_praticas": [],
+        "oportunidades": [
+          "Avaliar a infraestrutura computacional para verificar atendimento aos requisitos do AutoCAD e demais softwares técnicos; atualizar ou substituir gradualmente os computadores defasados; readequar o layout do laboratório; ampliar o número de computadores para atendimento das turmas futuras; integrar o ambiente às práticas de CLP e Pneumática."
+        ],
+        "recomendacoes": [],
+        "observacoes": [],
+        "responsaveis": [],
+        "prazos": [],
+        "status_itens": [],
+        "itens": [],
+        "fontes": [
+          {
+            "arquivo": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pptx",
+            "aba": "Slide consolidado - Senhor do Bonfim"
+          }
+        ],
+        "resumo_executivo": "Avaliar a infraestrutura computacional para verificar atendimento aos requisitos do AutoCAD e demais softwares técnicos; atualizar ou substituir gradualmente os computadores defasados; readequar o layout do laboratório; ampliar o número de computadores para atendimento das turmas futuras; integrar o ambiente às práticas de CLP e Pneumática.",
+        "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
       }
     },
     "visitantes": [
@@ -17756,7 +17597,7 @@
         "nome": "Paulo Filho",
         "avatar": "assets/avatars/paulo-filho.jpeg",
         "areas": [
-          "Tecnologia da Informação (TI)"
+          "Tecnologia da Informação"
         ],
         "modalidade": "remoto",
         "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
@@ -17809,7 +17650,7 @@
       "Eletromecânica",
       "Refrigeração e Climatização",
       "Eletrotécnica",
-      "Tecnologia da Informação / Laboratórios de Informática"
+      "Tecnologia da Informação"
     ],
     "especialistas": [
       "ESP006",
@@ -18256,7 +18097,7 @@
         ],
         "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
       },
-      "Tecnologia da Informação / Laboratórios de Informática": {
+      "Tecnologia da Informação": {
         "status": "Extraído do relatório Excel",
         "resumo": "Realizar estudo de capacidade dos laboratórios considerando a expansão dos cursos; atualizar os computadores com 8 GB para configuração compatível com os softwares técnicos utilizados; padronizar gradualmente a configuração dos laboratórios; avaliar a necessidade futura de ampliação do número de computadores e/ou criação de novos ambientes computacionais para suportar o crescimento das matrículas e novas ofertas de cursos.",
         "indicadores": [
@@ -18345,7 +18186,7 @@
         "nome": "Paulo Filho",
         "avatar": "assets/avatars/paulo-filho.jpeg",
         "areas": [
-          "Tecnologia da Informação / Laboratórios de Informática"
+          "Tecnologia da Informação"
         ],
         "modalidade": "remoto",
         "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
@@ -18405,7 +18246,7 @@
       "Eletrotécnica",
       "Segurança do Trabalho",
       "Logística",
-      "Tecnologia da Informação",
+      "Desenvolvimento de Sistemas / Informática",
       "EMI"
     ],
     "especialistas": [
@@ -18761,7 +18602,57 @@
         ],
         "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
       },
-      "Tecnologia da Informação": {
+      "EMI": {
+        "status": "Extraído do relatório Excel",
+        "resumo": "Criar espaço específico para práticas de Segurança do Trabalho; centralizar e organizar os equipamentos da área; substituir cordas inadequadas por cordas certificadas; verificar validade e condições dos capacetes; adequar área de EMI com guard rail e materiais necessários caso haja oferta de turmas para comunidade.",
+        "indicadores": [
+          {
+            "rotulo": "Itens avaliados",
+            "valor": 1
+          },
+          {
+            "rotulo": "Oportunidades",
+            "valor": 1
+          },
+          {
+            "rotulo": "Boas práticas",
+            "valor": 1
+          }
+        ],
+        "principais_pontos": [
+          "Ausencia de guard rail e materiais para realização de práticas para realização de práticas (empilhadeira)"
+        ],
+        "boas_praticas": [
+          "NA"
+        ],
+        "oportunidades": [
+          "Caso a unidade tenha previsão de oferta de turmas para a comunidade, será necessário realizar as adequações para viabilizar essa oferta."
+        ],
+        "recomendacoes": [],
+        "observacoes": [],
+        "responsaveis": [],
+        "prazos": [],
+        "status_itens": [],
+        "itens": [
+          {
+            "descricao": "Área de EMI",
+            "observado": "Ausencia de guard rail e materiais para realização de práticas para realização de práticas (empilhadeira)",
+            "boa_pratica": "NA",
+            "oportunidade": "Caso a unidade tenha previsão de oferta de turmas para a comunidade, será necessário realizar as adequações para viabilizar essa oferta.",
+            "acompanhado_por": "Massai"
+          }
+        ],
+        "fontes": [
+          {
+            "arquivo": "SEG. TRAB",
+            "aba": "SEG. TRAB",
+            "linha": 13,
+            "data": "2026-04-07"
+          }
+        ],
+        "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
+      },
+      "Desenvolvimento de Sistemas / Informática": {
         "status": "Extraído do relatório Excel",
         "resumo": "04 LABORATÓRIOS DE INFORMÁTICA, com um total de 69 COMPUTADORES  (INCLUINDO O DO DOCENTE),  possuem COMPUTADORES DE 4 MODELOS (DATEN, LOGIN, LENOVO THINKCENTRE E ALL IN ONE 3GREEN), processadores variados em sua maioria Intel de 12ª geração, especificamente o…",
         "indicadores": [
@@ -18848,56 +18739,6 @@
             "data": "2026-04-07"
           }
         ]
-      },
-      "EMI": {
-        "status": "Extraído do relatório Excel",
-        "resumo": "Criar espaço específico para práticas de Segurança do Trabalho; centralizar e organizar os equipamentos da área; substituir cordas inadequadas por cordas certificadas; verificar validade e condições dos capacetes; adequar área de EMI com guard rail e materiais necessários caso haja oferta de turmas para comunidade.",
-        "indicadores": [
-          {
-            "rotulo": "Itens avaliados",
-            "valor": 1
-          },
-          {
-            "rotulo": "Oportunidades",
-            "valor": 1
-          },
-          {
-            "rotulo": "Boas práticas",
-            "valor": 1
-          }
-        ],
-        "principais_pontos": [
-          "Ausencia de guard rail e materiais para realização de práticas para realização de práticas (empilhadeira)"
-        ],
-        "boas_praticas": [
-          "NA"
-        ],
-        "oportunidades": [
-          "Caso a unidade tenha previsão de oferta de turmas para a comunidade, será necessário realizar as adequações para viabilizar essa oferta."
-        ],
-        "recomendacoes": [],
-        "observacoes": [],
-        "responsaveis": [],
-        "prazos": [],
-        "status_itens": [],
-        "itens": [
-          {
-            "descricao": "Área de EMI",
-            "observado": "Ausencia de guard rail e materiais para realização de práticas para realização de práticas (empilhadeira)",
-            "boa_pratica": "NA",
-            "oportunidade": "Caso a unidade tenha previsão de oferta de turmas para a comunidade, será necessário realizar as adequações para viabilizar essa oferta.",
-            "acompanhado_por": "Massai"
-          }
-        ],
-        "fontes": [
-          {
-            "arquivo": "SEG. TRAB",
-            "aba": "SEG. TRAB",
-            "linha": 13,
-            "data": "2026-04-07"
-          }
-        ],
-        "resumo_fonte": "Relatório de Visitas Técnicas às Unidades dos CFPs do SENAI Bahia.pdf (resumo consolidado oficial)"
       }
     },
     "visitantes": [
@@ -18958,7 +18799,7 @@
         "nome": "Paulo Filho",
         "avatar": "assets/avatars/paulo-filho.jpeg",
         "areas": [
-          "Tecnologia da Informação"
+          "Desenvolvimento de Sistemas / Informática"
         ],
         "modalidade": "remoto",
         "origem": "Atividade remota/automatizada (TI, DS, Redes) — validação manual do responsável pelo projeto"
