@@ -122,7 +122,9 @@ Clicar em uma unidade na "Linha do tempo" da barra lateral do dashboard abre, em
 
 ### Unidade de teste
 
-Existe uma visita fictícia em `data/visits.json` (id `VIS-TESTE-01`, unidade "SENAI Unidade Teste", ano 2099) só para testar o fluxo ponta a ponta sem misturar com dados reais — aparece com o selo "DADOS DE TESTE" na ficha da unidade. "Unidade Teste (não usar em produção)" também está disponível no dropdown do `registrar.html`, então dá pra testar o formulário real (login → banco → `npm run gerar-visits`) sem afetar nenhuma unidade de verdade. Quando não precisar mais, apague a visita com id `VIS-TESTE-01` de `data/visits.json`.
+"Unidade Teste (não usar em produção)" está disponível no dropdown do `registrar.html`, com o ano 2099 liberado só para isso — dá pra testar o formulário real (login → banco → dashboard) sem afetar nenhuma unidade de verdade nem esperar rodar `npm run gerar-visits`, porque o dashboard já lê o registro direto do banco via `api/visitas-live.js` (selo "AO VIVO"), assim que a página é recarregada.
+
+**Atenção:** não existe mais uma visita fictícia fixa em `data/visits.json` para essa unidade (havia uma, id `VIS-TESTE-01`, removida na versão 1.8.1). Ela fazia sentido só na fase inicial de validação do layout da ficha da unidade — depois que o registro ao vivo passou a funcionar, essa entrada estática **bloqueava** qualquer registro de teste novo de aparecer: como o merge em `js/app.js` (`loadLiveVisits`) descarta qualquer visita ao vivo cuja chave `unidade|ano` já exista nos dados estáticos, e "SENAI Unidade Teste|2099" já estava ocupado pela fixture, todo registro feito de verdade em `registrar.html` para 2099 ficava escondido — a ficha da unidade sempre abria os dados antigos da fixture em vez do registro novo. Se um dia quiser reintroduzir dados estáticos de exemplo para essa unidade, lembre de não usar a mesma combinação unidade+ano de algo que também vai ser testado ao vivo.
 
 ### Dados ao vivo no dashboard (`api/visitas-live.js`)
 
