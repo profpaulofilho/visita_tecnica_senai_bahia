@@ -1,0 +1,601 @@
+{
+  "fonte": "Relatório de Visitas Técnicas dos Especialistas às Unidades e CFPs do SENAI Bahia — ciclo 2026 (PDF enviado por Paulo Filho em 2026-07-20)",
+  "geradoEm": "2026-07-20",
+  "consideracoesGerais": [
+    {
+      "ordem": 1,
+      "texto": "Manter a padronização dos laboratórios por área tecnológica, definindo layouts, mobiliário e infraestrutura mínima para todas as Escolas Técnicas do SENAI Bahia.",
+      "ativo": true
+    },
+    {
+      "ordem": 2,
+      "texto": "Acompanhar e cobrar as adequações de segurança, contemplando NR-10, NR-12, NR-20, NR-35, EPIs vencidos e melhorias na infraestrutura laboratorial.",
+      "ativo": true
+    },
+    {
+      "ordem": 3,
+      "texto": "Implantar metodologia de organização, com padronização de armazenamento, identificação visual e gestão dos ambientes.",
+      "ativo": true
+    },
+    {
+      "ordem": 4,
+      "texto": "Acompanhar a implantação dos investimentos, garantindo instalação, utilização e acompanhamento dos equipamentos adquiridos.",
+      "ativo": true
+    },
+    {
+      "ordem": 5,
+      "texto": "Planejar os investimentos de 2027, considerando a expansão dos novos itinerários formativos e das demandas industriais.",
+      "ativo": true
+    },
+    {
+      "ordem": 6,
+      "texto": "Fortalecer o compartilhamento de recursos entre unidades, por meio de remanejamento estratégico de equipamentos e boas práticas.",
+      "ativo": true
+    },
+    {
+      "ordem": 7,
+      "texto": "Manter a programação contínua de monitoramento, com visitas técnicas periódicas para acompanhamento das ações e atualização da infraestrutura.",
+      "ativo": true
+    },
+    {
+      "ordem": 8,
+      "texto": "Ampliar o compartilhamento de boas práticas entre as unidades.",
+      "ativo": true
+    }
+  ],
+  "unidades": [
+    {
+      "unidadeChave": "Lauro de Freitas",
+      "apelido": null,
+      "regional": "Regional Metropolitana",
+      "dataVisita": "24 de Fevereiro",
+      "ordem": 1,
+      "pendente": false,
+      "areas": [
+        {
+          "area": "Eletrotécnica",
+          "resumo": "Instalação e melhor aproveitamento dos kits didáticos; reorganização das bancadas; localização de equipamentos patrimoniais; realizar capacitação e utilizar a Planta Smart; adequação da infraestrutura elétrica para utilização dos kits."
+        },
+        {
+          "area": "Automação",
+          "resumo": "Recuperação dos kits de pneutrônica; manutenção da planta de processos (vazamentos e limpeza); substituição de componentes danificados; ampliação da utilização pedagógica da planta didática."
+        },
+        {
+          "area": "Química",
+          "resumo": "Adquirir peneiras granulometricas; organizar o armazenamento de reagentes conforme compatibilidade química; melhorar a ventilação do almoxarifado; realizar manutenção do piso; definir área para descarte de frascos; elaborar tabela de reatividade química como apoio didático."
+        },
+        {
+          "area": "Microbiologia",
+          "resumo": "Destinação correta dos frascos de meios de cultura e materiais vencidos; fortalecimento da gestão de resíduos específicos da área."
+        },
+        {
+          "area": "Petroquímica",
+          "resumo": "Aquisição de kit de bombeamento; reorganização e limpeza das válvulas industriais; retirada de protótipos obsoletos; melhoria da organização das plantas de processo."
+        },
+        {
+          "area": "Desenvolvimento de Sistemas / Informática",
+          "resumo": "Padronização de todos os laboratórios para 16 GB de RAM e SSD de maior capacidade; eliminação definitiva de HD mecânico; adequação da quantidade de computadores à capacidade das salas; atualização tecnológica visando softwares mais robustos."
+        },
+        {
+          "area": "Redes de Computadores",
+          "resumo": "Instalação definitiva dos novos equipamentos; organização dos armários e bancadas; ampliação da utilização pedagógica dos recursos disponíveis; possibilidade de oferta do curso de Manutenção e Suporte em Informática (MSI)."
+        },
+        {
+          "area": "Refrigeração e Climatização",
+          "resumo": "Instalação dos equipamentos adquiridos nos últimos investimentos; definição dos espaços conforme Plano Diretor; maior divulgação dos equipamentos compartilhados entre áreas; utilização provisória dos novos equipamentos até conclusão das adequações físicas."
+        },
+        {
+          "area": "Eletromecânica",
+          "resumo": "Instalação urgente dos novos tornos; reposição das morsas das bancadas; demarcação das áreas de máquinas; adequação da exaustão da soldagem; organização dos equipamentos compartilhados; redistribuição de equipamentos entre áreas; descarte ou recuperação de kits incompletos."
+        },
+        {
+          "area": "Segurança do Trabalho (EMI)",
+          "resumo": "Instalação de guardrail para proteção das áreas de circulação e movimentação, reforçando a segurança operacional."
+        }
+      ]
+    },
+    {
+      "unidadeChave": "Candeias",
+      "apelido": null,
+      "regional": "Regional Metropolitana",
+      "dataVisita": "25 de Fevereiro",
+      "ordem": 2,
+      "pendente": false,
+      "areas": [
+        {
+          "area": "Eletrotécnica (Candeias)",
+          "resumo": "Concluir a estruturação do galpão para atendimento das práticas; ampliar a disponibilidade de kits de Instalações Prediais e Comandos Elétricos; implantar infraestrutura didática para Sistema Elétrico de Potência (SEP) e Sistemas Fotovoltaicos; realizar o remanejamento temporário de equipamentos entre unidades; otimizar a utilização dos ambientes e dos recursos didáticos disponíveis."
+        }
+      ]
+    },
+    {
+      "unidadeChave": "Camaçari",
+      "apelido": null,
+      "regional": "Regional Metropolitana",
+      "dataVisita": "26 de Fevereiro",
+      "ordem": 3,
+      "pendente": true,
+      "pendenteMotivo": "A tabela dessa página veio cortada na exportação do PDF de origem — só os nomes das áreas ficaram legíveis. Peça ao Paulo o conteúdo completo ou preencha pelo modo de edição.",
+      "areas": [
+        {
+          "area": "Segurança do Trabalho",
+          "resumo": ""
+        },
+        {
+          "area": "Eletromecânica",
+          "resumo": ""
+        },
+        {
+          "area": "Desenvolvimento de Sistemas / Informática",
+          "resumo": ""
+        },
+        {
+          "area": "Construção Civil",
+          "resumo": ""
+        }
+      ]
+    },
+    {
+      "unidadeChave": "Eunápolis",
+      "apelido": null,
+      "regional": "Regional Extremo Sul",
+      "dataVisita": "02 a 06 de Março",
+      "ordem": 4,
+      "pendente": true,
+      "pendenteMotivo": "A tabela dessa página veio cortada na exportação do PDF de origem — só os nomes das áreas ficaram legíveis. Peça ao Paulo o conteúdo completo ou preencha pelo modo de edição.",
+      "areas": [
+        {
+          "area": "Eletromecânica",
+          "resumo": ""
+        },
+        {
+          "area": "Celulose e Papel",
+          "resumo": ""
+        }
+      ]
+    },
+    {
+      "unidadeChave": "Teixeira de Freitas",
+      "apelido": null,
+      "regional": "Regional Extremo Sul",
+      "dataVisita": "02 a 06 de Março",
+      "ordem": 5,
+      "pendente": false,
+      "areas": [
+        {
+          "area": "Segurança do Trabalho",
+          "resumo": "Estruturar um espaço próprio para o laboratório de Segurança do Trabalho; organizar e recarregar os extintores de incêndio; organizar os kits de primeiros socorros; adquirir kit de higiene ocupacional; substituir cintos, talabartes e cordas vencidos; adequar o armazenamento dos produtos químicos e manter a documentação FDS/FISPQ atualizada e organizada."
+        },
+        {
+          "area": "Eletromecânica e Refrigeração",
+          "resumo": "Reorganizar o layout das áreas de Manutenção, Usinagem, Ajustagem, Hidráulica/Pneumática e Soldagem; instalar e colocar em operação os novos equipamentos dentro do período de garantia; reorganizar e descartar materiais obsoletos; redistribuir bancadas e equipamentos; definir áreas específicas para os kits didáticos e armazenar adequadamente os materiais rotativos de Refrigeração."
+        },
+        {
+          "area": "Eletrotécnica",
+          "resumo": "Implantar sistema de organização e controle das ferramentas; adequar os kits de Instalações Prediais; acompanhar a implantação dos kits de Comandos Elétricos previstos para investimento; reorganizar o layout das bancadas; realizar inventário e testes dos motores elétricos; disponibilizar recursos para desenho técnico; avaliar a necessidade de megômetros; organizar os kits didáticos, componentes e materiais armazenados; revisar o layout geral do galpão, promovendo a setorização por área técnica."
+        },
+        {
+          "area": "Desenvolvimento de Sistemas / Informática",
+          "resumo": "Adequar os laboratórios para atendimento aos cursos de Desenvolvimento de Sistemas, com atualização para Windows 11, padronização para 16 GB de RAM e SSD de 480 GB ou superior, implantação da imagem padrão institucional, instalação dos softwares necessários e aquisição de kits de Arduino para as atividades práticas."
+        }
+      ]
+    },
+    {
+      "unidadeChave": "Ilhéus",
+      "apelido": null,
+      "regional": "Regional Sul",
+      "dataVisita": "17 a 19 de Março",
+      "ordem": 6,
+      "pendente": false,
+      "areas": [
+        {
+          "area": "Segurança do Trabalho",
+          "resumo": "Estruturar um espaço exclusivo para as práticas da área; ampliar a quantidade de EPIs (cintos, capacetes e tripé para espaço confinado); adquirir extintores, caixa de bloqueio (LOTO) e kits de desenho técnico; reorganizar os kits de higiene ocupacional; incorporar o Fit Test às práticas do Programa de Proteção Respiratória; substituir EPIs vencidos ou identificá-los quando destinados exclusivamente para demonstração."
+        },
+        {
+          "area": "Eletrotécnica e Automação",
+          "resumo": "Reorganizar os laboratórios por áreas de competência; estruturar ambientes específicos para Automação Industrial, Instrumentação e Controle de Processos; ampliar a quantidade de kits de pneumática e CLP; implantar infraestrutura para Sistemas Fotovoltaicos e Sistema Elétrico de Potência (SEP); modernizar os laboratórios de automação; revisar e manter os kits existentes; disponibilizar materiais didáticos digitais e reorganizar armários, componentes e equipamentos."
+        },
+        {
+          "area": "Eletromecânica",
+          "resumo": "Implantar área de soldagem com sistema de exaustão; reorganizar o layout das áreas de manutenção, pneumática/hidráulica e usinagem; adequar equipamentos à NR-12 (especialmente o torno); instalar demarcações de segurança; reposicionar equipamentos conforme o fluxo das práticas; adequar o armazenamento de gases refrigerantes; instalar mantas nas bancadas; prever aquisição de forno para práticas térmicas e avaliar a necessidade de manutenção ou substituição de equipamentos antigos."
+        },
+        {
+          "area": "Logística",
+          "resumo": "Adquirir os equipamentos didáticos essenciais para o laboratório, incluindo kits de gerenciamento de estoques, paleteira hidráulica, quadro Kanban, cronômetro, escada trepadeira, aplicador de filme stretch, leitor de código de barras, balança plataforma, impressora térmica de etiquetas, sistema RFID e bancada para inspeção de produtos."
+        },
+        {
+          "area": "Desenvolvimento de Sistemas / Informática",
+          "resumo": "Padronizar os computadores com 16 GB de memória RAM e SSD de maior capacidade, substituindo definitivamente os equipamentos que ainda utilizam HDD para garantir melhor desempenho nas aplicações de desenvolvimento."
+        }
+      ]
+    },
+    {
+      "unidadeChave": "Dendezeiros",
+      "apelido": null,
+      "regional": null,
+      "dataVisita": "25 de Março",
+      "ordem": 7,
+      "pendente": false,
+      "areas": [
+        {
+          "area": "Eletromecânica / Mecânica",
+          "resumo": "Realizar manutenção urgente do forno mufla; adquirir morsa para a fresadora nova; localizar a máquina de corte a plasma; demarcar áreas de tornos, fresadoras e serra fita; revisar o sistema de ar comprimido da área de pneumática; adequar bancadas, prensa, durômetro, torno Romi, serra fita e armazenamento de gases; implantar condições adequadas para soldagem e práticas térmicas."
+        },
+        {
+          "area": "Refrigeração",
+          "resumo": "Instalar com urgência os equipamentos recebidos, como chiller, fan coil, torre de resfriamento, multi split, self contained e demais sistemas; corrigir pontos de alagamento no galpão; melhorar layout da área, separando climatização comercial e industrial; instalar manta de borracha nas mesas e preservar os equipamentos contra umidade."
+        },
+        {
+          "area": "Eletrotécnica",
+          "resumo": "Reorganizar laboratórios após as aulas; descartar motores e equipamentos obsoletos; capacitar docentes para uso dos kits novos de medidas; realizar manutenção dos kits de inversores; definir layout para renováveis e fotovoltaica; tratar umidade/mofo no laboratório de fotovoltaica; revisar kits de instalações prediais; validar projeto definitivo da Arena de RD e organizar materiais."
+        },
+        {
+          "area": "Automação",
+          "resumo": "Inserir a planta de processos D3 e a Smart 4.0 nas atividades pedagógicas; capacitar docentes para uso dos equipamentos; concluir adequações do ar comprimido; reorganizar a vocação dos laboratórios D3, D4 e D5; recuperar equipamentos danificados; implantar POPs, checklists de uso e inventário atualizado dos ativos."
+        },
+        {
+          "area": "Química / Biotecnologia",
+          "resumo": "Registrar calibração dos equipamentos de bancada; limpar e organizar bancadas e armários; atualizar FDS conforme NBR 14725:2023; disponibilizar POPs para alunos; melhorar vazão e teste periódico do lava-olhos; verificar funcionamento dos equipamentos de Biotecnologia; acompanhar implantação do laboratório e conferência dos equipamentos em compra."
+        },
+        {
+          "area": "Segurança do Trabalho / EMI",
+          "resumo": "Instalar suporte para extintores; adquirir armários para materiais sobressalentes; substituir DEA por modelo próprio para treinamento; separar EPIs vencidos em armário específico para demonstração; instalar guard rail na área prática de empilhadeira elétrica."
+        },
+        {
+          "area": "Logística",
+          "resumo": "Avaliar substituição ou reforma da maquete para simular todos os modais; disponibilizar software/licença para impressora térmica; capacitar docentes para uso do WMS Protheus."
+        },
+        {
+          "area": "Desenvolvimento de Sistemas / Informática",
+          "resumo": "Corrigir laboratórios com computadores fora do domínio ou sem internet; substituir periféricos danificados; revisar altura de tela de projeção no D4; atualizar licenças CCW e Elipse; monitorar espaço em disco; adotar racks fechados no laboratório de Redes para proteger equipamentos."
+        },
+        {
+          "area": "Redes de Computadores",
+          "resumo": "Manter rotina de organização dos espaços, armários e bancadas; verificar mensalmente uso dos discos; avaliar adoção de racks fechados para reduzir risco de danos aos equipamentos."
+        },
+        {
+          "area": "Construção Civil",
+          "resumo": "Adquirir bateria para equipamentos de topografia; retirar excesso de insumos do laboratório hidrossanitário e colocar sob gestão do almoxarifado; separar espaço da manutenção para não comprometer laboratórios didáticos; acompanhar implantação do laboratório de piso vinílico; tratar problemas no telhado do Bloco N que impactam aulas práticas."
+        }
+      ]
+    },
+    {
+      "unidadeChave": "Vitória da Conquista",
+      "apelido": "VCA",
+      "regional": "Regional Sudoeste",
+      "dataVisita": "06 a 10 de Abril",
+      "ordem": 8,
+      "pendente": false,
+      "areas": [
+        {
+          "area": "Segurança do Trabalho / EMI",
+          "resumo": "Reorganizar o laboratório de Segurança do Trabalho; recompor o kit de EPI; substituir ou identificar cintos e capacetes vencidos para demonstração; armazenar GLP em local adequado; adquirir chave Storz; localizar Fit Test; criar cobertura e instalar guard rail na área de práticas de empilhadeira."
+        },
+        {
+          "area": "Eletromecânica / Mecânica",
+          "resumo": "Adequar armazenamento de gases refrigerantes; implantar área de soldagem com exaustão e bancada apropriada; demarcar áreas de máquinas; reorganizar o galpão com metodologia 5S; retirar itens automotivos da área de mecânica; estruturar espaço para desenho técnico; implantar tratamento de ar para kits pneumáticos; reativar kit hidráulico e adquirir ferramentas de ajustagem."
+        },
+        {
+          "area": "Eletrotécnica",
+          "resumo": "Reorganizar laboratórios por competência; destinar laboratório específico para eletricidade industrial; separar armários por área; retirar materiais de soldagem, refrigeração e ajustagem dos espaços de eletrotécnica; estruturar laboratório de instalações prediais, medidas e eletrônica; organizar Arena de RD; criar espaço para desenho técnico; estruturar área de fotovoltaica; localizar analisador de energia do investimento."
+        },
+        {
+          "area": "Biotecnologia",
+          "resumo": "Conferir previamente os equipamentos necessários às aulas práticas; adquirir micropipetas, reagentes e meios de cultura; organizar e identificar vidrarias e reagentes por classe; providenciar descarte técnico de reagentes inadequados; criar repositório de segurança química com FDS, incompatibilidade química."
+        },
+        {
+          "area": "Alimentos",
+          "resumo": "Verificar instalação de ralos; substituir cubas das pias por modelos mais profundos; organizar o layout do laboratório de panificação conforme fluxo de produção; adequar armazenamento de GLP e instalar sistema de exaustão/coifa."
+        },
+        {
+          "area": "Construção Civil",
+          "resumo": "Criar espaço próprio para práticas de construção civil, garantindo identidade da área e segurança em relação às atividades elétricas; concluir acabamentos e instalações da prática existente na Arena Coelba; inspecionar periodicamente os kits didáticos e repor ferramentas danificadas ou obsoletas."
+        },
+        {
+          "area": "Desenvolvimento de Sistemas / Informática",
+          "resumo": "Ingressar todas as máquinas no domínio institucional; padronizar hostnames; priorizar conexão Ethernet; verificar mensalmente o uso dos discos; organizar kits Arduino em armários e bancadas próprias; avaliar aquisição de novos kits Arduino para ampliar a capacidade de práticas."
+        }
+      ]
+    },
+    {
+      "unidadeChave": "Jequié",
+      "apelido": null,
+      "regional": "Regional Sudoeste",
+      "dataVisita": "06 a 10 de Abril",
+      "ordem": 9,
+      "pendente": false,
+      "areas": [
+        {
+          "area": "Alimentos",
+          "resumo": "Setorizar o ambiente com sinalização para área limpa, produção, área quente, recebimento/armazenamento e produto acabado; instalar pia exclusiva para higienização das mãos com acionamento por pedal; disponibilizar dispenseres e POP de higienização; segregar armários e prateleiras; avaliar instalação de ralos ou protocolo de limpeza a seco."
+        },
+        {
+          "area": "Eletrotécnica",
+          "resumo": "Acompanhar rigorosamente a execução da nova Arena de RD; garantir armazenamento adequado dos materiais da arena antiga; reorganizar o galpão com layout definido e materiais segregados por área; substituir caixas de papelão por armários ou caixas organizadoras; regularizar quadros elétricos abertos conforme NR-10; retirar materiais da Coelba; realizar inventário dos kits; repor componentes faltantes; eliminar práticas improvisadas de energização e ampliar bancadas para comandos elétricos."
+        },
+        {
+          "area": "Segurança do Trabalho / EMI",
+          "resumo": "Criar espaço específico para práticas de Segurança do Trabalho; centralizar e organizar os equipamentos da área; substituir cordas inadequadas por cordas certificadas; verificar validade e condições dos capacetes; adequar área de EMI com guard rail e materiais necessários caso haja oferta de turmas para comunidade."
+        },
+        {
+          "area": "Logística",
+          "resumo": "Retirar materiais armazenados indevidamente sobre os kits de ressuprimento e acondicioná-los corretamente, garantindo preservação e disponibilidade para uso nas práticas da área."
+        }
+      ]
+    },
+    {
+      "unidadeChave": "Serrinha",
+      "apelido": null,
+      "regional": "Regional Central",
+      "dataVisita": "28 de Abril",
+      "ordem": 10,
+      "pendente": true,
+      "pendenteMotivo": "A tabela dessa página veio cortada na exportação do PDF de origem — só os nomes das áreas ficaram legíveis. Peça ao Paulo o conteúdo completo ou preencha pelo modo de edição.",
+      "areas": [
+        {
+          "area": "Segurança do Trabalho",
+          "resumo": ""
+        },
+        {
+          "area": "CAI Básico – Confeccionador de Calçados",
+          "resumo": ""
+        }
+      ]
+    },
+    {
+      "unidadeChave": "Barreiras",
+      "apelido": null,
+      "regional": "Regional Oeste",
+      "dataVisita": "12 a 16 de Maio",
+      "ordem": 11,
+      "pendente": false,
+      "areas": [
+        {
+          "area": "Segurança do Trabalho",
+          "resumo": "Reorganizar o laboratório de Segurança do Trabalho; acondicionar corretamente máscaras autônomas, extintores e prancha de resgate; orientar docentes quanto ao armazenamento correto dos equipamentos de higiene ocupacional (remoção de pilhas e baterias); substituir cintos de segurança e talabartes com validade expirada."
+        },
+        {
+          "area": "Eletrotécnica",
+          "resumo": "Readequar o layout dos laboratórios; instalar tomadas trifásicas e pontos de alimentação elétrica; substituir armários e estantes inadequados por mobiliário técnico; organizar ferramentas, componentes e kits; estruturar espaços específicos para CLP, Medidas Elétricas, Fotovoltaica e Acionamentos Elétricos; preparar infraestrutura para novos kits; reorganizar o galpão com alimentação fixa dos kits prediais, novas bancadas e reaproveitamento dos kits antigos; solicitar retirada dos materiais da Neoenergia; avaliar a segurança da Arena de RD, incluindo poda da vegetação, análise dos riscos decorrentes das obras e validação das condições operacionais."
+        },
+        {
+          "area": "Alimentos",
+          "resumo": "Adequar a instalação de GLP com abrigo externo e tubulação adequada; reorganizar o layout da área quente; adquirir armário em aço inox para armazenamento de utensílios; instalar pia exclusiva para higienização das mãos; adequar o armazenamento de alimentos; reorganizar o fluxo produtivo (amassadeira → divisora → modeladora → fermentação → forno); garantir espaçamento adequado entre equipamentos para facilitar higienização."
+        },
+        {
+          "area": "Desenvolvimento de Sistemas (DS) / Informática",
+          "resumo": "Padronizar os computadores com 16 GB de RAM e SSD de maior capacidade; implantar novo laboratório com aproximadamente 40 computadores para atender às turmas do IFTP; atualizar os aplicativos conforme orientações da GTI; realizar manutenção periódica dos discos; adquirir kits de Arduino, microcontroladores e materiais de eletrônica para apoiar as aulas práticas de Desenvolvimento de Sistemas e Eletroeletrônica."
+        },
+        {
+          "area": "Eletromecânica",
+          "resumo": "Recuperar bancadas de ajustagem e padronizar os postos de trabalho; criar área segregada para operações de corte e esmerilhamento; realizar manutenção preventiva da serra de fita, sistema pneumático (FRL), kit de alinhamento e durômetro; adquirir novos kits de esteira e bombeamento, torno, fresadora e furadeira de coluna; organizar bancadas hidráulicas, carrinhos de ferramentas e kit de eletropneumática; implantar área específica para soldagem com exaustão e infraestrutura adequada; estruturar laboratório de refrigeração com armazenamento seguro de compressores, ferramentas HVAC e gases refrigerantes; ampliar o uso pedagógico do equipamento de balanceamento dinâmico por meio de capacitação docente."
+        }
+      ]
+    },
+    {
+      "unidadeChave": "Luís Eduardo Magalhães",
+      "apelido": "LEM",
+      "regional": "Regional Oeste",
+      "dataVisita": "12 a 16 de Maio",
+      "ordem": 12,
+      "pendente": false,
+      "areas": [
+        {
+          "area": "Segurança do Trabalho",
+          "resumo": "Estruturar laboratório exclusivo para Segurança do Trabalho com armários e suportes adequados; higienizar e organizar EPIs; realizar limpeza e testes periódicos do chuveiro e lava-olhos; disponibilizar os equipamentos adquiridos no investimento de 2025; adquirir kit de Higiene Ocupacional para atendimento às futuras ofertas."
+        },
+        {
+          "area": "Eletrotécnica",
+          "resumo": "Reorganizar completamente o layout do laboratório; instalar tomadas e infraestrutura elétrica para bancadas; reorganizar kits e armários; realizar manutenção dos kits de Medidas Elétricas; regularizar a licença do TIA Portal; estruturar ambiente para CLPs, Redes Industriais e Indústria 4.0; organizar o galpão, requalificar os kits prediais, definir área para Fotovoltaica, montar Arena de Redes de Distribuição e dar continuidade ao projeto do Laboratório de Instrumentação em parceria com a Galvani."
+        },
+        {
+          "area": "Alimentos / Agroindústria",
+          "resumo": "Inexistência de laboratório para aulas práticas de processamento de produtos origem vegetal e animal. Organizar inventário de equipamentos; testar o funcionamento dos equipamentos novos para preservação da garantia; revisar o layout da sala-laboratório junto à Engenharia; estruturar laboratório de Ciências da Natureza - SESI com vidrarias, reagentes, meios de cultura e consumíveis para aulas práticas do curso técnico em Agroindústria."
+        },
+        {
+          "area": "Eletromecânica",
+          "resumo": "Reestruturar o layout da oficina conforme conceito Lean; reorganizar carrinhos de ferramentas e armários de usinagem; revisar kits hidráulicos e pneumáticos; adequar completamente o ambiente de soldagem (mesas, cortinas, exaustão e segurança); recuperar bancada de ajustagem; montar corretamente o kit de alinhamento; revisar conjuntos mecânicos desmontados; reorganizar o kit de bombeamento; avaliar tecnicamente o compressor de ar; realocar a serra policorte para bancada apropriada; ampliar a infraestrutura com aquisição de novo torno, fresadora, furadeira de coluna e segundo kit de esteira/bombeamento; testar e colocar em operação o kit de eletropneumática."
+        }
+      ]
+    },
+    {
+      "unidadeChave": "Alagoinhas",
+      "apelido": null,
+      "regional": "Regional Nordeste",
+      "dataVisita": "19 de Maio",
+      "ordem": 13,
+      "pendente": false,
+      "areas": [
+        {
+          "area": "Segurança do Trabalho / EMI",
+          "resumo": "Criar espaço exclusivo para a identidade da área de Segurança do Trabalho; adquirir acessórios para combate a incêndio (chave Storz, esguichos, derivações e reduções); adquirir equipamentos de primeiros socorros; substituir a estante de movimentação de cargas da área de EMI devido ao processo de oxidação."
+        },
+        {
+          "area": "Logística",
+          "resumo": "Integrar a impressora térmica a um software de gestão logística (WMS Protheus ou equivalente), permitindo sua utilização efetiva nas aulas práticas."
+        },
+        {
+          "area": "Eletromecânica",
+          "resumo": "Repor morsas e baú de ajustagem; substituir as lonas das esteiras; guardar equipamentos temporariamente sem uso; recompor o quadro didático de elementos de máquinas; revisar o sistema de ar comprimido para garantir ar limpo e seco; completar os componentes faltantes dos kits Festo de pneumática."
+        },
+        {
+          "area": "Química",
+          "resumo": "Aprimorar os registros de calibração; proteger suportes e mobiliários; reorganizar armários e armazenamento de reagentes; adequar segregação de inflamáveis; montar e testar o titulador semiautomático; aumentar a quantidade de pHmetros; instalar armários sob bancadas da microbiologia; melhorar o gerenciamento e contenção dos resíduos químicos."
+        },
+        {
+          "area": "Eletrotécnica",
+          "resumo": "Eliminar riscos de armazenamento na Arena de SEP; ampliar o acervo de componentes eletrônicos; reorganizar os laboratórios de Instalações Prediais e Comandos Elétricos; remontar kits de motores e reorganizar cabos e componentes; acompanhar a chegada dos novos kits de pneumática; readequar o layout do laboratório de acionamentos; ampliar o quantitativo de instrumentos de medição; corrigir não conformidades no quadro elétrico do laboratório de medidas; adquirir novos kits de CLP; reorganizar o Laboratório de Sistemas Lógicos; ampliar a utilização pedagógica da Planta Smart 4.0 nas atividades do curso e do SAEP."
+        }
+      ]
+    },
+    {
+      "unidadeChave": "Feira de Santana",
+      "apelido": null,
+      "regional": "Regional Central",
+      "dataVisita": "21 de Maio",
+      "ordem": 14,
+      "pendente": false,
+      "areas": [
+        {
+          "area": "Segurança do Trabalho",
+          "resumo": "Organizar o kit de EPI em caixa/case; readequar o layout do laboratório por temas, como combate a incêndio, trabalho em altura, espaço confinado, higiene ocupacional e LOTO; montar kit de primeiros socorros; adquirir equipamentos próprios para trabalho em altura; adquirir chaves Storz e acessórios de combate a incêndio."
+        },
+        {
+          "area": "Logística",
+          "resumo": "Instalar armários para guarda de materiais e equipamentos pequenos; garantir preservação das prateleiras durante a mudança de layout; manter os recursos visuais na nova estrutura."
+        },
+        {
+          "area": "Construção Civil",
+          "resumo": "Criar ambiente específico para análise de solos; ampliar a oferta de cursos CQP para melhor uso dos equipamentos de topografia; melhorar armazenamento de insumos no galpão, incluindo tubos em suporte suspenso; organizar equipamento de Casagrande em espaço próprio para mecânica dos solos; aproveitar espaço sob bancada da pia para guarda de ferramentas."
+        },
+        {
+          "area": "Eletromecânica / Refrigeração",
+          "resumo": "Realizar manutenção em forno, fresadora e kit de hidráulica; avaliar retrofit ou reposição dos kits Festo; ajustar layouts dos laboratórios nos ambientes definitivos previstos no Plano Diretor; organizar bombas, redutores e equipamentos no laboratório de manutenção; repor lonas das esteiras; planejar espaço específico para Refrigeração visando oferta técnica em 2026.2."
+        },
+        {
+          "area": "Eletrotécnica / Mecatrônica",
+          "resumo": "Integrar futuras aquisições aos novos layouts do Plano Diretor; ampliar kits de Pneumática; substituir kits antigos de Instalações Prediais; adquirir kits de comandos elétricos, motores, inversores, CLPs e redes industriais; substituir bancadas deterioradas; verificar entrega das bancadas definitivas do laboratório de Eletrônica; substituir cintos vencidos da área de Fotovoltaica; transferir laboratórios provisórios para ambientes definitivos."
+        },
+        {
+          "area": "Microbiologia / Química / Alimentos",
+          "resumo": "Reorganizar layout das bancadas e armazenamento de equipamentos; organizar vidrarias, micropipetas e materiais por categoria; adquirir caixas para perfurocortantes; organizar armários e suportes de vidrarias; substituir mangueiras e bicos de Bunsen danificados; concluir manutenção da estufa; higienizar laboratório de Alimentos, geladeira e armários, além de adotar medidas de controle de pragas."
+        }
+      ]
+    },
+    {
+      "unidadeChave": "Santo Antônio de Jesus",
+      "apelido": "SAJ",
+      "regional": "Regional Central",
+      "dataVisita": "26 de Maio",
+      "ordem": 15,
+      "pendente": false,
+      "areas": [
+        {
+          "area": "Infraestrutura Geral / Implantação da Unidade",
+          "resumo": "Definir o layout definitivo das áreas práticas e dos laboratórios, considerando as necessidades dos cursos previstos. Avaliar a ampliação da infraestrutura laboratorial, especialmente a quantidade de laboratórios de informática, para atendimento adequado às ofertas da área técnica. Planejar os investimentos para o ciclo de 2027. Para viabilizar a operação em 2026.2, elaborar um plano de remanejamento temporário de kits, equipamentos e mobiliários da unidade de Feira de Santana até a conclusão da infraestrutura definitiva."
+        }
+      ]
+    },
+    {
+      "unidadeChave": "Ourolândia",
+      "apelido": null,
+      "regional": "Regional Norte",
+      "dataVisita": "08 a 12 de Junho",
+      "ordem": 16,
+      "pendente": false,
+      "areas": [
+        {
+          "area": "Eletromecânica",
+          "resumo": "Avaliar a viabilidade técnica e pedagógica da instalação da Serra Fita Horizontal, considerando a demanda futura da unidade; estruturar laboratório de soldagem com sistema de exaustão, cortinas corta-chama, layout adequado e infraestrutura de segurança; analisar estrategicamente os investimentos ainda em aquisição, considerando utilização, compartilhamento entre unidades e previsão de novas turmas; implantar sistema de ar comprimido com rede de distribuição e tratamento de ar para atendimento aos kits de eletropneumática."
+        },
+        {
+          "area": "Manutenção Elétrica (Galpão de Práticas)",
+          "resumo": "Levantar as necessidades de infraestrutura para atendimento das competências de manutenção elétrica do Curso Técnico em Eletromecânica; avaliar remanejamento ou aquisição de kits de comandos elétricos, acionamentos, medições elétricas e CLPs; estruturar laboratório que permita a execução integral das práticas previstas na matriz curricular; revisar a estratégia atualmente utilizada para atendimento das competências práticas e mitigar riscos pedagógicos decorrentes da ausência dos recursos didáticos."
+        },
+        {
+          "area": "Tecnologia da Informação (TI)",
+          "resumo": "Implantar laboratório de informática ou sala tecnológica para suporte às atividades dos cursos técnicos; dimensionar computadores, rede lógica, acesso à internet e softwares necessários; planejar infraestrutura de TI considerando futuras ofertas nas áreas de Automação Industrial, Eletromecânica, Energias Renováveis e demais tecnologias industriais."
+        }
+      ]
+    },
+    {
+      "unidadeChave": "Jacobina",
+      "apelido": null,
+      "regional": "Regional Norte",
+      "dataVisita": "08 a 12 de Junho",
+      "ordem": 17,
+      "pendente": false,
+      "areas": [
+        {
+          "area": "Eletromecânica",
+          "resumo": "Definir layout completo do galpão contemplando as áreas de Usinagem, Ajustagem, Manutenção Mecânica, Comandos Elétricos, Acionamentos e Hidráulica/Pneumática; implantar sistema de ar comprimido completo (compressor, reservatório, secador, filtros, FRL, drenagem e rede de distribuição); estruturar laboratório de soldagem com baias, cortinas corta-fogo, sistema de exaustão, mesas apropriadas, pontos de energia e sinalização de segurança."
+        },
+        {
+          "area": "Tecnologia da Informação (TI)",
+          "resumo": "Revisar o layout para melhorar a ergonomia da sala; ampliar o número de computadores para aproximadamente 20 estações; integrar no laboratório práticas de CLP, Pneumática e demais competências de Automação Industrial."
+        },
+        {
+          "area": "Galpão de Práticas / Infraestrutura Geral",
+          "resumo": "Elaborar projeto de layout com apoio da Engenharia; definir áreas específicas para Eletromecânica, Instalações Elétricas Prediais, Comandos Elétricos, Acionamentos, Vestuário e área multifuncional; remover materiais sem utilização, caixas de papelão, automóvel, andaime e demais itens que descaracterizam o ambiente pedagógico; consolidar as máquinas de costura em espaço específico; solicitar retirada dos materiais da Neoenergia; implantar sinalização visual e setorização das áreas práticas."
+        },
+        {
+          "area": "Segurança do Trabalho",
+          "resumo": "Criar espaço exclusivo para as práticas do curso Técnico em Segurança do Trabalho; adquirir kit de Higiene Ocupacional, equipamentos de combate a incêndio (extintores, mangueiras e acessórios) e kit de bloqueio elétrico (LOTO), conforme planejamento das próximas ofertas e do SAEP."
+        },
+        {
+          "area": "Biblioteca",
+          "resumo": "Realizar diagnóstico do acervo e ampliar a literatura técnica alinhada aos cursos da unidade (Eletromecânica, Eletrotécnica, Automação, Vestuário, entre outros); revisar a política de acervo, remanejando obras sem aderência aos cursos ofertados para ampliar o espaço destinado às publicações técnicas e profissionais."
+        }
+      ]
+    },
+    {
+      "unidadeChave": "Senhor do Bonfim",
+      "apelido": null,
+      "regional": "Regional Norte",
+      "dataVisita": "08 a 12 de Junho",
+      "ordem": 18,
+      "pendente": false,
+      "areas": [
+        {
+          "area": "Eletrotécnica",
+          "resumo": "Reorganizar o galpão por áreas tecnológicas, com apoio da Engenharia; remover ou remanejar materiais sem utilização pedagógica (cadeiras danificadas, kit de mineração e outros equipamentos); organizar o armazenamento dos materiais fotovoltaicos; definir áreas para Instalações Prediais, Comandos Elétricos e futuras competências industriais; abrir chamados para avaliação das rachaduras e infiltrações identificadas; implantar sinalização e identificação visual dos ambientes de prática."
+        },
+        {
+          "area": "Tecnologia da Informação (TI)",
+          "resumo": "Avaliar a infraestrutura computacional para verificar atendimento aos requisitos do AutoCAD e demais softwares técnicos; atualizar ou substituir gradualmente os computadores defasados; readequar o layout do laboratório; ampliar o número de computadores para atendimento das turmas futuras; integrar o ambiente às práticas de CLP e Pneumática."
+        },
+        {
+          "area": "Sistema Elétrico de Potência (SEP) e Fotovoltaica",
+          "resumo": "Definir área específica para implantação da infraestrutura destinada às práticas de SEP e Sistemas Fotovoltaicos; implantar postes de baixa altura e infraestrutura didática para o Curso Técnico em Eletrotécnica; avaliar reaproveitamento de materiais existentes e integrar o espaço ao planejamento de expansão da unidade."
+        },
+        {
+          "area": "Biblioteca",
+          "resumo": "Realizar diagnóstico do acervo técnico; ampliar a disponibilidade de livros, normas, manuais e referências das áreas de Eletrotécnica, Automação e Energias Renováveis; remanejar materiais sem aderência aos cursos ofertados; implantar rotina periódica de atualização do acervo e integrá-lo ao planejamento pedagógico."
+        },
+        {
+          "area": "Refrigeração e Climatização",
+          "resumo": "Implantar local adequado para armazenamento de varetas de brasagem, protegido contra umidade e contaminação; estruturar área exclusiva para armazenamento de gases refrigerantes e inflamáveis, com ventilação, sinalização, segregação por classe de risco, fixação dos cilindros e atendimento às normas de segurança; elaborar procedimento formal para armazenamento e movimentação desses materiais."
+        },
+        {
+          "area": "Infraestrutura do Galpão",
+          "resumo": "Desmontar o andaime atualmente sem utilização, liberando espaço para atividades pedagógicas e capacitações das áreas de Eletromecânica, Segurança do Trabalho e demais cursos."
+        }
+      ]
+    },
+    {
+      "unidadeChave": "Juazeiro",
+      "apelido": null,
+      "regional": "Regional Norte",
+      "dataVisita": "08 a 12 de Junho",
+      "ordem": 19,
+      "pendente": false,
+      "areas": [
+        {
+          "area": "Segurança do Trabalho",
+          "resumo": "Adquirir maca tipo envelope para práticas de primeiros socorros e espaço confinado; descartar cintos, talabartes e acessórios vencidos, mantendo apenas exemplares devidamente identificados para demonstração; instalar o guincho no tripé destinado às práticas de espaço confinado, conforme investimento realizado em 2026."
+        },
+        {
+          "area": "Eletromecânica",
+          "resumo": "Implantar procedimentos para organização e armazenamento dos conjuntos mecânicos desmontados; realizar demarcação das áreas de segurança e circulação das máquinas de usinagem; substituir o pallet danificado utilizado para apoio da válvula industrial; avaliar recuperação ou descarte da furadeira de coluna; realocar o durômetro para ambiente adequado; adequar os tornos conforme requisitos da NR-12; revisar o layout dos laboratórios, removendo equipamentos sem aderência ao curso; integrar as bombas industriais adquiridas aos ambientes pedagógicos, elaborando roteiros de prática para sua utilização."
+        },
+        {
+          "area": "Refrigeração e Climatização",
+          "resumo": "Implantar área exclusiva para armazenamento de gases e fluidos refrigerantes, contemplando ventilação, sinalização, segregação por classe de risco, fixação dos cilindros e atendimento às normas de segurança, reduzindo riscos de incêndio, explosão e acidentes ocupacionais."
+        },
+        {
+          "area": "Eletrotécnica – Laboratório de Eletrotécnica",
+          "resumo": "Readequar completamente o layout do laboratório; substituir mesas de escritório por bancadas laboratoriais apropriadas; ampliar a quantidade de bancadas didáticas; concluir a substituição dos kits antigos de Medidas Elétricas pelo padrão SENAI; realizar segregação e destinação adequada dos produtos químicos vencidos; reorganizar o armário de insumos; retirar cadeiras e banquetas excedentes; estruturar áreas específicas para Eletrônica, Medidas Elétricas, Domótica e Automação."
+        },
+        {
+          "area": "Eletrotécnica – Galpão de Práticas",
+          "resumo": "Adequar a infraestrutura elétrica do galpão, eliminando improvisações; instalar novos pontos de alimentação e tomadas industriais; retirar a bancada da SOMA após adequação elétrica; solicitar à Neoenergia a retirada dos materiais armazenados; remover ou adequar definitivamente a bancada improvisada revestida com lona; substituir mesas de escritório por bancadas industriais; recompor os kits de comandos elétricos; estruturar os kits para atendimento simultâneo de duas turmas; avaliar, junto à Vestas, possibilidades de utilização pedagógica dos equipamentos; definir a destinação do kit de aquecimento solar atualmente armazenado no almoxarifado."
+        },
+        {
+          "area": "Tecnologia da Informação / Laboratórios de Informática",
+          "resumo": "Realizar estudo de capacidade dos laboratórios considerando a expansão dos cursos; atualizar os computadores com 8 GB para configuração compatível com os softwares técnicos utilizados; padronizar gradualmente a configuração dos laboratórios; avaliar a necessidade futura de ampliação do número de computadores e/ou criação de novos ambientes computacionais para suportar o crescimento das matrículas e novas ofertas de cursos."
+        }
+      ]
+    }
+  ]
+}

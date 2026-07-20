@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Apresentação gerencial interativa — visitas técnicas SENAI Bahia 2026">
+<title>Apresentação Gerencial — SENAI Bahia 2026</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="shortcut icon" href="assets/favicon.ico">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="css/app.css">
+<style>
+  html,body{height:100%}
+  body{background:#050b16}
+  #gApp{min-height:100vh;display:flex;flex-direction:column;background:radial-gradient(circle at 15% 0%,#0d2038 0%,#050b16 55%);color:#eaf2ff;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif}
+  .g-topbar{display:flex;align-items:center;justify-content:space-between;padding:14px 22px;border-bottom:1px solid rgba(255,255,255,.08);backdrop-filter:blur(6px)}
+  .g-brand{display:flex;align-items:center;gap:12px}
+  .g-brandmark{width:40px;height:40px;border-radius:12px;background:linear-gradient(135deg,#00e0c6,#0066b3);display:grid;place-items:center;font-weight:900;color:#001}
+  .g-brand h1{font-size:17px;margin:0}
+  .g-brand p{margin:2px 0 0;font-size:11.5px;color:#8ea3c2}
+  .g-top-actions{display:flex;align-items:center;gap:8px}
+  .g-btn{border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.06);color:#eaf2ff;border-radius:10px;padding:9px 13px;font-weight:700;font-size:12.5px;cursor:pointer;display:inline-flex;align-items:center;gap:6px;text-decoration:none}
+  .g-btn:hover{background:rgba(255,255,255,.12)}
+  .g-btn.g-active{background:#00e0c6;color:#04241f;border-color:#00e0c6}
+  .g-user-box{display:none;align-items:center;gap:8px;font-size:12.5px;color:#b9c9e3}
+
+  .g-kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;padding:16px 22px}
+  .g-kpi{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:14px 16px}
+  .g-kpi b{display:block;font-size:26px;color:#fff}
+  .g-kpi span{font-size:11.5px;color:#8ea3c2;text-transform:uppercase;letter-spacing:.06em}
+
+  .g-main{flex:1;display:grid;grid-template-columns:minmax(0,1.35fr) minmax(360px,1fr);gap:16px;padding:0 22px 22px;min-height:0}
+  .g-map-card{position:relative;border-radius:18px;overflow:hidden;border:1px solid rgba(255,255,255,.08);min-height:460px}
+  #gMap{height:100%;min-height:460px}
+  .g-nav-float{position:absolute;bottom:16px;left:50%;transform:translateX(-50%);display:flex;gap:10px;z-index:600}
+
+  .g-panel{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:20px;overflow:auto}
+  .g-empty{color:#8ea3c2;text-align:center;padding:60px 10px;font-size:13.5px}
+  .g-panel-head{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+  .g-panel-eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#00e0c6;font-weight:800}
+  .g-panel-head h2{margin:4px 0 2px;font-size:24px;color:#fff}
+  .g-panel-sub{color:#8ea3c2;font-size:12.5px}
+  .g-badge{font-size:11px;font-weight:800;padding:5px 10px;border-radius:999px;background:rgba(58,160,255,.18);color:#7fc0ff;white-space:nowrap}
+  .g-badge-pendente{background:rgba(255,152,0,.18);color:#ffb74d}
+  .g-pendente-note{margin:10px 0 0;font-size:12px;color:#ffb74d;background:rgba(255,152,0,.08);border:1px solid rgba(255,152,0,.25);border-radius:10px;padding:9px 11px}
+  .g-area-grid{display:grid;gap:12px;margin-top:16px}
+  .g-area-card{background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.07);border-radius:12px;padding:12px 14px}
+  .g-area-title{font-size:12.5px;font-weight:800;color:#00e0c6;text-transform:uppercase;letter-spacing:.03em;margin-bottom:6px}
+  .g-area-text{margin:0;font-size:13.5px;line-height:1.55;color:#dbe6f7}
+  .g-area-empty{color:#8ea3c2;font-style:italic}
+  .g-area-edit{width:100%;min-height:90px;background:rgba(0,0,0,.25);border:1px solid rgba(255,255,255,.14);border-radius:8px;color:#eaf2ff;padding:9px;font:inherit;font-size:13px;resize:vertical}
+  .g-save-btn{margin-top:8px;background:#00e0c6;color:#04241f;border:none;border-radius:8px;padding:7px 12px;font-weight:800;font-size:12px;cursor:pointer}
+  .g-remove-btn{margin-top:8px;margin-left:8px;background:transparent;border:1px solid #ff6b6b;color:#ff6b6b;border-radius:8px;padding:7px 12px;font-weight:700;font-size:12px;cursor:pointer}
+  .g-save-status{margin-left:8px;font-size:11.5px;color:#8ea3c2}
+
+  .g-marker{width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#04241f;font-weight:900;font-size:10.5px;box-shadow:0 0 0 3px rgba(0,0,0,.4),0 4px 10px rgba(0,0,0,.5);border:2px solid rgba(255,255,255,.7)}
+
+  .g-modal{position:fixed;inset:0;background:rgba(2,6,14,.72);display:none;align-items:center;justify-content:center;z-index:2000;padding:20px}
+  .g-modal.open{display:flex}
+  .g-modal-card{background:#0d1b30;border:1px solid rgba(255,255,255,.12);border-radius:18px;max-width:640px;width:100%;max-height:82vh;overflow:auto;padding:22px;position:relative}
+  .g-modal-close{position:absolute;top:14px;right:14px;background:transparent;border:none;color:#8ea3c2;font-size:20px;cursor:pointer}
+  .g-modal-card h3{margin-top:0;color:#fff}
+  .g-consid-static{margin:0;padding-left:20px;color:#dbe6f7;line-height:1.7;font-size:14px}
+  .g-consid-list{display:grid;gap:12px}
+  .g-consid-item{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:10px;padding:10px}
+  .g-consid-edit{width:100%;min-height:60px;background:rgba(0,0,0,.25);border:1px solid rgba(255,255,255,.14);border-radius:8px;color:#eaf2ff;padding:8px;font:inherit;font-size:13px;resize:vertical}
+  .g-consid-new{margin-top:16px;border-top:1px dashed rgba(255,255,255,.15);padding-top:14px}
+  .g-consid-new textarea{width:100%;min-height:60px;background:rgba(0,0,0,.25);border:1px solid rgba(255,255,255,.14);border-radius:8px;color:#eaf2ff;padding:8px;font:inherit;font-size:13px;resize:vertical;margin-bottom:8px}
+
+  .g-login-field{margin-bottom:12px}
+  .g-login-field label{display:block;font-size:12px;color:#8ea3c2;margin-bottom:4px}
+  .g-login-field input{width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,.14);background:rgba(0,0,0,.25);color:#eaf2ff}
+  .g-login-msg{display:none;background:rgba(255,107,107,.12);color:#ff9a9a;border:1px solid rgba(255,107,107,.3);padding:8px 10px;border-radius:8px;font-size:12.5px;margin-bottom:10px}
+
+  .g-presenting .g-topbar,.g-presenting .g-kpis{opacity:.25;transition:.2s}
+  .g-presenting .g-topbar:hover,.g-presenting .g-kpis:hover{opacity:1}
+
+  @media(max-width:980px){.g-main{grid-template-columns:1fr}.g-kpis{grid-template-columns:repeat(2,1fr)}.g-map-card{min-height:340px}#gMap{min-height:340px}}
+</style>
+</head>
+<body>
+<div id="gApp">
+  <header class="g-topbar">
+    <div class="g-brand">
+      <div class="g-brandmark">S</div>
+      <div><h1>Apresentação Gerencial</h1><p>Mapa interativo · Resumo executivo por unidade · Ciclo 2026</p></div>
+    </div>
+    <div class="g-top-actions">
+      <a class="g-btn" href="index.html">← Dashboard</a>
+      <button class="g-btn" id="gFullscreenBtn">⛶ Tela cheia</button>
+      <button class="g-btn" id="gEditToggle" style="display:none">✎ Modo edição</button>
+      <button class="g-btn" id="gLoginBtn">🔒 Entrar para editar</button>
+      <div class="g-user-box" id="gUserBox">
+        <span id="gUserName"></span>
+        <button class="g-btn" id="gLogoutBtn">Sair</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="g-kpis">
+    <div class="g-kpi"><b id="kpiUnidades">0</b><span>Unidades no ciclo</span></div>
+    <div class="g-kpi"><b id="kpiAreas">0</b><span>Áreas técnicas mapeadas</span></div>
+    <div class="g-kpi"><b id="kpiRegionais">0</b><span>Regionais</span></div>
+    <div class="g-kpi"><b id="kpiPendentes">0</b><span>Unidades com conteúdo pendente</span></div>
+  </div>
+
+  <main class="g-main">
+    <div class="g-map-card">
+      <div id="gMap"></div>
+      <div class="g-nav-float">
+        <button class="g-btn" id="gPrevBtn">← Anterior</button>
+        <button class="g-btn" id="gConsidBtn">📋 Considerações Gerais</button>
+        <button class="g-btn" id="gNextBtn">Próxima →</button>
+      </div>
+    </div>
+    <aside class="g-panel" id="gPanel"></aside>
+  </main>
+</div>
+
+<div class="g-modal" id="gConsidModal">
+  <div class="g-modal-card">
+    <button class="g-modal-close" id="gConsidClose">✕</button>
+    <h3>Considerações Gerais e Futuras Ações</h3>
+    <div id="gConsideracoesBody"></div>
+  </div>
+</div>
+
+<div class="g-modal" id="gLoginModal">
+  <div class="g-modal-card" style="max-width:380px">
+    <button class="g-modal-close" id="gLoginClose">✕</button>
+    <h3>Entrar</h3>
+    <div class="g-login-msg" id="gLoginMsg"></div>
+    <div class="g-login-field"><label>Email</label><input type="email" id="gLoginEmail" autocomplete="username"></div>
+    <div class="g-login-field"><label>Senha</label><input type="password" id="gLoginSenha" autocomplete="current-password"></div>
+    <button class="g-save-btn" id="gLoginSubmit" style="width:100%">Entrar</button>
+    <p style="font-size:11.5px;color:#8ea3c2;margin-top:10px">Mesmo login usado em <a href="registrar.html" style="color:#7fc0ff">Registrar visita</a> — um usuário por especialista.</p>
+  </div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="js/apresentacao-gerencial.js"></script>
+</body>
+</html>

@@ -57,3 +57,43 @@ drop trigger if exists trg_visita_itens_atualizado on visita_itens;
 create trigger trg_visita_itens_atualizado
   before update on visita_itens
   for each row execute function set_atualizado_em();
+
+-- Apresentação Gerencial: resumo condensado por unidade + área (mapa da Bahia,
+-- tela apresentacao-gerencial.html) e bloco de Considerações Gerais e Futuras
+-- Ações. Baseline transcrito do PDF vive em data/resumo-gerencial.json; estas
+-- tabelas guardam só as edições feitas pelos especialistas logados (mesmo
+-- padrão de "camada ao vivo" usado em visita_itens / api/visitas-live.js).
+create table if not exists resumo_gerencial_areas (
+  unidade_chave text not null,
+  area text not null,
+  resumo text not null,
+  atualizado_por text references especialistas(id),
+  atualizado_em timestamptz not null default now(),
+  primary key (unidade_chave, area)
+);
+
+create table if not exists consideracoes_gerais_itens (
+  ordem int primary key,
+  texto text not null,
+  ativo boolean not null default true,
+  atualizado_por text references especialistas(id),
+  atualizado_em timestamptz not null default now()
+);
+
+create or replace function set_atualizado_em_resumo()
+returns trigger as $$
+begin
+  new.atualizado_em = now();
+  return new;
+end;
+$$ language plpgsql;
+
+drop trigger if exists trg_resumo_gerencial_areas_atualizado on resumo_gerencial_areas;
+create trigger trg_resumo_gerencial_areas_atualizado
+before update on resumo_gerencial_areas
+for each row execute function set_atualizado_em_resumo();
+
+drop trigger if exists trg_consideracoes_gerais_atualizado on consideracoes_gerais_itens;
+create trigger trg_consideracoes_gerais_atualizado
+before update on consideracoes_gerais_itens
+for each row execute function set_atualizado_em_resumo();

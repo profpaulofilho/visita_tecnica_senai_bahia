@@ -139,3 +139,19 @@ DATABASE_URL="a mesma connection string do Neon/Vercel" npm run gerar-visits -- 
 ```
 
 Pode ser rodado quantas vezes quiser durante o ano — cada execução substitui as visitas daquele ano específico em `data/visits.json` pela versão mais atual do banco (sem duplicar e sem mexer em anos anteriores), então dá pra usar tanto para acompanhar o progresso ao longo do ciclo quanto para o fechamento final. Depois de rodar, é só commitar e dar `git push` no `data/visits.json` atualizado para o dashboard publicado refletir os dados novos.
+
+## Release 1.1 — Apresentação Gerencial
+
+Nova página `apresentacao-gerencial.html`, acessível pelo botão **"📊 Apresentação Gerencial"** no cabeçalho do dashboard (`index.html`). Pensada para levar a uma reunião de diretoria: mapa da Bahia em tela cheia (mesmo contorno oficial do IBGE do dashboard principal), navegação por unidade com "Anterior/Próxima" (ou setas do teclado), cards com o resumo condensado por área técnica e um painel fixo com as "Considerações Gerais e Futuras Ações" do ciclo. Botão "⛶ Tela cheia" usa a Fullscreen API do navegador para projeção.
+
+### Origem do conteúdo (`data/resumo-gerencial.json`)
+
+Texto transcrito diretamente do PDF "Relatório de Visitas Técnicas dos Especialistas às Unidades e CFPs do SENAI Bahia" (ciclo 2026), um resumo executivo diferente — e bem mais condensado — do que já existe em `data/visits.json` (que guarda os itens avaliados um a um). Três unidades ficaram com a tabela cortada na exportação do PDF de origem (**Camaçari, Eunápolis e Serrinha**): só os nomes das áreas foram capturados, sem o texto de oportunidades. Essas três aparecem marcadas com `"pendente": true` no JSON e com um selo laranja na tela — o conteúdo completo precisa ser colado manualmente ou preenchido pelo modo de edição.
+
+### Edição (login obrigatório, visualização livre)
+
+Qualquer pessoa acessa a apresentação sem login. Para editar, é o mesmo login individual por especialista já usado em `registrar.html` (botão "🔒 Entrar para editar" abre o mesmo formulário de email/senha). Logado, o botão "✎ Modo edição" transforma cada card de área e cada item de "Considerações Gerais" num campo editável com botão Salvar — grava direto no Postgres, sem precisar de deploy, e a página já reflete a mudança na hora (mesmo padrão "ao vivo" do resto do site).
+
+Duas tabelas novas (`resumo_gerencial_areas` e `consideracoes_gerais_itens`), descritas em `db/schema.sql` (instalações novas) e em `db/migration_resumo_gerencial.sql` (bancos já existentes — rode com `psql "SUA_CONNECTION_STRING" -f db/migration_resumo_gerencial.sql`). Sem controle de autoria além do registro técnico de quem editou por último (`atualizado_por`) — qualquer especialista logado pode editar qualquer unidade, sem aprovação.
+
+Duas rotas novas em `api/`: `resumo-gerencial-live.js` (GET, pública, devolve as edições já salvas no banco) e `salvar-resumo-gerencial.js` (POST, exige sessão, grava um resumo de área ou um item de Considerações Gerais — inclui adicionar novo item e "remover" via soft delete).
